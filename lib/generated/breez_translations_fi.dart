@@ -68,19 +68,19 @@ class BreezTranslationsFi extends BreezTranslations {
   String get home_broadcast_transaction => 'Tapahtumaa lähetetään';
 
   @override
-  String get home_config_error_title => 'Konfiguraatiovirhe';
+  String get home_config_error_title => 'Päällekkäinen asennus havaittu';
 
   @override
-  String get home_config_error_message => 'Breez havaitsi että, sama konfiguraatio on käytössä myös toisessa laitteessa, johtuen todennäköisesti varmuuskopion palautuksesta. Breez voi toimia samalla konfiguraatiolla vain yhdessä laitteessa kerrallaan. Asenna Breez uudelleen mikäli haluat sen käyttöön tässä laitteessa.';
+  String get home_config_error_message => 'Sovellus havaitsi että, sama kokoonpano on käytössä myös toisessa laitteessa. Todennäköisenä syynä on että, varmuuskopio on palautettu. Sovellus toimii palautettuna vain yhdessä laitteessa kerrallaan. Asenna sovellus uudelleen, jos haluat sen käyttöön tässä laitteessa.';
 
   @override
   String get home_config_error_action_exit => 'Peruuta';
 
   @override
-  String get home_background_synchronization_title => 'Taustasynkronointi';
+  String get home_background_synchronization_title => 'Synkronoidaan taustalla';
 
   @override
-  String get home_background_synchronization_message => 'Välittömästi tapahtuvien maksujen toteuttamiseksi Breez synkronoi tietoja taustalla. Sovellus vaatii sinulta luvan toimia myös silloin kun sovellus ei ole avattuna. Myönnä oikeus seuraavassa näkymässä.';
+  String get home_background_synchronization_message => 'Välittömien maksujen toteuttamiseksi sovellus synkronoi tietoja taustalla. Sovellus vaatii, seuraavassa näkymässä, luvan toimia myös silloin, kun sovellus ei ole avattuna.';
 
   @override
   String get home_payment_sent => 'Maksun lähetys onnistui.';
@@ -1578,6 +1578,24 @@ class BreezTranslationsFi extends BreezTranslations {
 
   @override
   String get beta_warning_action_continue => 'VAHVISTA';
+
+  @override
+  String get alpha_warning_title => 'Alpha-varoitus';
+
+  @override
+  String get alpha_warning_message => 'Breez-sovellus on alpha-kehitysvaiheessa. On mahdollista että sovellus saattaa aiheuttaa menetyksen osaan tai kaikkiin varoihisi, joita sovelluksella hallitset. Käytä sovellusta ainoastaan jos olet valmis ottamaan tämän riskin.';
+
+  @override
+  String get alpha_warning_understand => 'Ymmärrän ja hyväksyn riskin';
+
+  @override
+  String get alpha_warning_understand_confirmation => 'Vahvista että ymmärrät riskin ennen kuin jatkat eteenpäin.';
+
+  @override
+  String get alpha_warning_action_exit => 'Poistu';
+
+  @override
+  String get alpha_warning_action_continue => 'VAHVISTA';
 
   @override
   String get processing_payment_dialog_synchronizing => 'Sovellus synkronoi tietoja';

@@ -1580,6 +1580,24 @@ class BreezTranslationsEn extends BreezTranslations {
   String get beta_warning_action_continue => 'CONTINUE';
 
   @override
+  String get alpha_warning_title => 'Alpha Warning';
+
+  @override
+  String get alpha_warning_message => 'Since Breez is still in alpha, there is a chance your money will be lost. Use this app only if you are willing to take this risk.';
+
+  @override
+  String get alpha_warning_understand => 'I understand';
+
+  @override
+  String get alpha_warning_understand_confirmation => 'Please confirm that you understand before you continue.';
+
+  @override
+  String get alpha_warning_action_exit => 'EXIT';
+
+  @override
+  String get alpha_warning_action_continue => 'CONTINUE';
+
+  @override
   String get processing_payment_dialog_synchronizing => 'Synchronizing to the network';
 
   @override

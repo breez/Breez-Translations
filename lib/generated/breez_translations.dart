@@ -95,8 +95,8 @@ abstract class BreezTranslations {
 
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
-    Locale('de'),
     Locale('en'),
+    Locale('de'),
     Locale('es'),
     Locale('fi'),
     Locale('fr'),
@@ -2978,6 +2978,42 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'CONTINUE'**
   String get beta_warning_action_continue;
+
+  /// No description provided for @alpha_warning_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Alpha Warning'**
+  String get alpha_warning_title;
+
+  /// No description provided for @alpha_warning_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Since Breez is still in alpha, there is a chance your money will be lost. Use this app only if you are willing to take this risk.'**
+  String get alpha_warning_message;
+
+  /// No description provided for @alpha_warning_understand.
+  ///
+  /// In en, this message translates to:
+  /// **'I understand'**
+  String get alpha_warning_understand;
+
+  /// No description provided for @alpha_warning_understand_confirmation.
+  ///
+  /// In en, this message translates to:
+  /// **'Please confirm that you understand before you continue.'**
+  String get alpha_warning_understand_confirmation;
+
+  /// No description provided for @alpha_warning_action_exit.
+  ///
+  /// In en, this message translates to:
+  /// **'EXIT'**
+  String get alpha_warning_action_exit;
+
+  /// No description provided for @alpha_warning_action_continue.
+  ///
+  /// In en, this message translates to:
+  /// **'CONTINUE'**
+  String get alpha_warning_action_continue;
 
   /// No description provided for @processing_payment_dialog_synchronizing.
   ///
