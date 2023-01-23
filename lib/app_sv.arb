@@ -1775,7 +1775,7 @@
     }
   },
   "wallet_dashboard_payment_item_balance_pending_suffix": " (Väntar)",
-  "wallet_dashboard_payment_item_no_title": "No description",
+  "wallet_dashboard_payment_item_no_title": "Unknown",
   "status_text_loading_begin": "Breez ",
   "status_text_loading_middle": "öppnar en säker kanal",
   "status_text_loading_end": " med vår server. Detta kan ta ett tag, men oroa dig inte, vi meddelar dig när appen är redo att skicka och ta emot betalningar.",
@@ -2190,6 +2190,8 @@
       }
     }
   },
+  "payment_info_title_opened_channel": "Opened Channel",
+  "payment_info_title_pending_opened_channel": "Pending Opened Channel",
   "no_lsp_widget_message": "In order to activate Breez, please select a provider:",
   "no_lsp_widget_action_select": "SELECT…",
   "podcast_history_drawer": "Mina bästa poddar",

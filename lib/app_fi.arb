@@ -1775,7 +1775,7 @@
     }
   },
   "wallet_dashboard_payment_item_balance_pending_suffix": " (Odottaa)",
-  "wallet_dashboard_payment_item_no_title": "No description",
+  "wallet_dashboard_payment_item_no_title": "Unknown",
   "status_text_loading_begin": "Sovellus on ",
   "status_text_loading_middle": "avaamassa turvallista kanavaa",
   "status_text_loading_end": " palvelimeemme. Tämä saattaa kestää jonkin aikaa. Sovellus antaa ilmoituksen kun maksujen vastaanotto ja lähetys ovat jälleen mahdollisia.",
@@ -2190,6 +2190,8 @@
       }
     }
   },
+  "payment_info_title_opened_channel": "Opened Channel",
+  "payment_info_title_pending_opened_channel": "Pending Opened Channel",
   "no_lsp_widget_message": "In order to activate Breez, please select a provider:",
   "no_lsp_widget_action_select": "SELECT…",
   "podcast_history_drawer": "Suosituimmat Podcastit",

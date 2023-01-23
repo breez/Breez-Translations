@@ -2493,7 +2493,7 @@ class BreezTranslationsFi extends BreezTranslations {
   String get wallet_dashboard_payment_item_balance_pending_suffix => ' (Odottaa)';
 
   @override
-  String get wallet_dashboard_payment_item_no_title => 'No description';
+  String get wallet_dashboard_payment_item_no_title => 'Unknown';
 
   @override
   String get status_text_loading_begin => 'Sovellus on ';
@@ -3056,6 +3056,12 @@ class BreezTranslationsFi extends BreezTranslations {
   String payment_error_to_send(String error) {
     return 'Maksu lähetys epäonnistui: $error';
   }
+
+  @override
+  String get payment_info_title_opened_channel => 'Opened Channel';
+
+  @override
+  String get payment_info_title_pending_opened_channel => 'Pending Opened Channel';
 
   @override
   String get no_lsp_widget_message => 'In order to activate Breez, please select a provider:';

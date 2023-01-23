@@ -1775,7 +1775,7 @@
     }
   },
   "wallet_dashboard_payment_item_balance_pending_suffix": " (Pendiente)",
-  "wallet_dashboard_payment_item_no_title": "Sin descripción",
+  "wallet_dashboard_payment_item_no_title": "Desconocido",
   "status_text_loading_begin": "Breez está ",
   "status_text_loading_middle": "abriendo un canal seguro",
   "status_text_loading_end": " con nuestros servidores. Esto puede demorar un tiempo pero no se preocupe, le notificaremos cuando la aplicación esté lista para enviar y recibir pagos.",
@@ -2190,6 +2190,8 @@
       }
     }
   },
+  "payment_info_title_opened_channel": "Canal abierto",
+  "payment_info_title_pending_opened_channel": "Abiertura de canal en proceso",
   "no_lsp_widget_message": "In order to activate Breez, please select a provider:",
   "no_lsp_widget_action_select": "SELECT…",
   "podcast_history_drawer": "Mis Mejores Podcasts",

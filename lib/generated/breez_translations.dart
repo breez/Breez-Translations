@@ -4668,7 +4668,7 @@ abstract class BreezTranslations {
   /// No description provided for @wallet_dashboard_payment_item_no_title.
   ///
   /// In en, this message translates to:
-  /// **'No description'**
+  /// **'Unknown'**
   String get wallet_dashboard_payment_item_no_title;
 
   /// No description provided for @status_text_loading_begin.
@@ -5690,6 +5690,18 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'Failed to send payment: {error}'**
   String payment_error_to_send(String error);
+
+  /// No description provided for @payment_info_title_opened_channel.
+  ///
+  /// In en, this message translates to:
+  /// **'Opened Channel'**
+  String get payment_info_title_opened_channel;
+
+  /// No description provided for @payment_info_title_pending_opened_channel.
+  ///
+  /// In en, this message translates to:
+  /// **'Pending Opened Channel'**
+  String get payment_info_title_pending_opened_channel;
 
   /// No description provided for @no_lsp_widget_message.
   ///
