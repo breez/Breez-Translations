@@ -1,3 +1,5 @@
+import 'package:breez_translations/breez_translations_locales.dart';
+import 'package:breez_translations/generated/breez_translations.dart';
 import 'package:breez_translations/generated/breez_translations_de.dart';
 import 'package:breez_translations/generated/breez_translations_en.dart';
 import 'package:breez_translations/generated/breez_translations_es.dart';
@@ -24,6 +26,16 @@ void main() {
     for (final locale in locales.entries) {
       expect(locale.value.localeName, locale.key);
     }
+  });
+
+  group("First locale is english", () {
+    test("breez translation locales", () {
+      expect(supportedLocales().first.languageCode, "en");
+    });
+
+    test("breez translations", () {
+      expect(BreezTranslations.supportedLocales.first.languageCode, "en");
+    });
   });
 
   // a unwarned translator can accidentaly change the placeholder key of a text
