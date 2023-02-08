@@ -746,6 +746,31 @@ void main() {
         final text = locale.lnurl_payment_page_error_below_limit(amountInt);
         expect(text.contains(amount), true);
       });
+
+      test("invoice_payment_validator_error_payment_exceeded_limit", () {
+        final text = locale.invoice_payment_validator_error_payment_exceeded_limit(maxSats);
+        expect(text.contains(maxSats), true);
+      });
+
+      test("invoice_payment_validator_error_payment_below_invoice_limit", () {
+        final text = locale.invoice_payment_validator_error_payment_below_invoice_limit(minSats);
+        expect(text.contains(minSats), true);
+      });
+
+      test("invoice_payment_validator_error_payment_below_limit", () {
+        final text = locale.invoice_payment_validator_error_payment_below_limit(minSats);
+        expect(text.contains(minSats), true);
+      });
+
+      test("invoice_payment_validator_error_payment_below_setup_fees_error", () {
+        final text = locale.invoice_payment_validator_error_payment_below_setup_fees_error(setUpFee);
+        expect(text.contains(setUpFee), true);
+      });
+
+      test("invoice_payment_validator_error_unknown", () {
+        final text = locale.invoice_payment_validator_error_unknown(error);
+        expect(text.contains(error), true);
+      });
     }
   });
 }
