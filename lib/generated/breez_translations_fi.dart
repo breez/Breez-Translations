@@ -2498,7 +2498,7 @@ class BreezTranslationsFi extends BreezTranslations {
   String get wallet_dashboard_payment_item_balance_pending_suffix => ' (Odottaa)';
 
   @override
-  String get wallet_dashboard_payment_item_no_title => 'Unknown';
+  String get wallet_dashboard_payment_item_no_title => 'Määrittelemätön';
 
   @override
   String get status_text_loading_begin => 'Sovellus on ';
