@@ -224,6 +224,11 @@ class BreezTranslationsEn extends BreezTranslations {
   }
 
   @override
+  String invoice_payment_validator_error_payment_below_invoice_limit(String minSats) {
+    return 'Payment is below the limit ($minSats)';
+  }
+
+  @override
   String invoice_payment_validator_error_payment_below_limit(String minSats) {
     return 'Breez requires you to keep $minSats in your balance.';
   }
@@ -2008,7 +2013,7 @@ class BreezTranslationsEn extends BreezTranslations {
 
   @override
   String handler_lnurl_login_error_message(String message) {
-    return 'Failed to log in.\n${message}';
+    return 'Failed to log in.\n$message';
   }
 
   @override
@@ -2030,7 +2035,7 @@ class BreezTranslationsEn extends BreezTranslations {
 
   @override
   String handler_lnurl_open_channel_error_message(String message) {
-    return 'Failed to open channel.\n${message}';
+    return 'Failed to open channel.\n$message';
   }
 
   @override
@@ -2657,12 +2662,12 @@ class BreezTranslationsEn extends BreezTranslations {
 
   @override
   String podcast_boost_share_texts(String podcast, String episode, String link) {
-    return '$podcast\n${episode}\n${link}';
+    return '$podcast\n$episode\n$link';
   }
 
   @override
   String podcast_boost_share_texts_short(String podcast, String link) {
-    return '$podcast\n${link}';
+    return '$podcast\n$link';
   }
 
   @override
@@ -2761,7 +2766,7 @@ class BreezTranslationsEn extends BreezTranslations {
 
   @override
   String spontaneous_payment_send_payment_message(String amount, String nodeID) {
-    return 'Are you sure you want to $amount to this node?\n\n${nodeID}';
+    return 'Are you sure you want to $amount to this node?\n\n$nodeID';
   }
 
   @override

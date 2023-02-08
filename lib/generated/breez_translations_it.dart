@@ -107,7 +107,7 @@ class BreezTranslationsIt extends BreezTranslations {
 
   @override
   String invoice_btc_address_warning_without_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String liquidity) {
-    return 'Invia più di $minSats e fino a $maxSats a questo indirizzo. Una commissione di configurazione di $setUpFee% con un minimo di {minFee} verrà applicata per l\'invio di più di $liquidity.';
+    return 'Invia più di $minSats e fino a $maxSats a questo indirizzo. Una commissione di configurazione di $setUpFee% verrà applicata per l\'invio di più di $liquidity.';
   }
 
   @override
@@ -221,6 +221,11 @@ class BreezTranslationsIt extends BreezTranslations {
   @override
   String invoice_payment_validator_error_payment_exceeded_limit(String maxSats) {
     return 'Payment exceeds the limit ($maxSats)';
+  }
+
+  @override
+  String invoice_payment_validator_error_payment_below_invoice_limit(String minSats) {
+    return 'Payment is below the limit ($minSats)';
   }
 
   @override
@@ -2008,7 +2013,7 @@ class BreezTranslationsIt extends BreezTranslations {
 
   @override
   String handler_lnurl_login_error_message(String message) {
-    return 'Impossibile fare il login.\n${message} ';
+    return 'Impossibile fare il login.\n$message ';
   }
 
   @override
@@ -2030,7 +2035,7 @@ class BreezTranslationsIt extends BreezTranslations {
 
   @override
   String handler_lnurl_open_channel_error_message(String message) {
-    return 'Impossibile aprire il canale.\n${message}';
+    return 'Impossibile aprire il canale.\n$message';
   }
 
   @override
@@ -2657,12 +2662,12 @@ class BreezTranslationsIt extends BreezTranslations {
 
   @override
   String podcast_boost_share_texts(String podcast, String episode, String link) {
-    return '$podcast\n${episode}\n${link}';
+    return '$podcast\n$episode\n$link';
   }
 
   @override
   String podcast_boost_share_texts_short(String podcast, String link) {
-    return '$podcast\n${link}';
+    return '$podcast\n$link';
   }
 
   @override
@@ -2761,7 +2766,7 @@ class BreezTranslationsIt extends BreezTranslations {
 
   @override
   String spontaneous_payment_send_payment_message(String amount, String nodeID) {
-    return 'Sei sicuro di voler inviare $amount a questo nodo?\n\n${nodeID}';
+    return 'Sei sicuro di voler inviare $amount a questo nodo?\n\n$nodeID';
   }
 
   @override

@@ -495,6 +495,12 @@ abstract class BreezTranslations {
   /// **'Payment exceeds the limit ({maxSats})'**
   String invoice_payment_validator_error_payment_exceeded_limit(String maxSats);
 
+  /// No description provided for @invoice_payment_validator_error_payment_below_invoice_limit.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment is below the limit ({minSats})'**
+  String invoice_payment_validator_error_payment_below_invoice_limit(String minSats);
+
   /// No description provided for @invoice_payment_validator_error_payment_below_limit.
   ///
   /// In en, this message translates to:

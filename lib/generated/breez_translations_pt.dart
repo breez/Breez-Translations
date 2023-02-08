@@ -220,25 +220,30 @@ class BreezTranslationsPt extends BreezTranslations {
 
   @override
   String invoice_payment_validator_error_payment_exceeded_limit(String maxSats) {
-    return 'Payment exceeds the limit ($maxSats)';
+    return 'O pagamento excedeu o limite ($maxSats)';
+  }
+
+  @override
+  String invoice_payment_validator_error_payment_below_invoice_limit(String minSats) {
+    return 'O pagamento é menor que o limite ($minSats)';
   }
 
   @override
   String invoice_payment_validator_error_payment_below_limit(String minSats) {
-    return 'Breez requires you to keep $minSats in your balance.';
+    return 'Breez necessita manter um saldo de $minSats para operar';
   }
 
   @override
-  String get invoice_payment_validator_error_insufficient_local_balance => 'Insufficient local balance';
+  String get invoice_payment_validator_error_insufficient_local_balance => 'Saldo insuficiente';
 
   @override
   String invoice_payment_validator_error_payment_below_setup_fees_error(String setUpSats) {
-    return 'Insufficient amount to cover the setup fees of $setUpSats';
+    return 'O pagamento é menor que a taxa de configuração ($setUpSats)';
   }
 
   @override
   String invoice_payment_validator_error_unknown(String error) {
-    return 'Validation error $error';
+    return 'Erro: $error';
   }
 
   @override
@@ -2008,7 +2013,7 @@ class BreezTranslationsPt extends BreezTranslations {
 
   @override
   String handler_lnurl_login_error_message(String message) {
-    return 'Erro ao logar.\n${message}';
+    return 'Erro ao logar.\n$message';
   }
 
   @override
@@ -2030,7 +2035,7 @@ class BreezTranslationsPt extends BreezTranslations {
 
   @override
   String handler_lnurl_open_channel_error_message(String message) {
-    return 'Houve uma falha ao abrir o canal.\n${message}';
+    return 'Houve uma falha ao abrir o canal.\n$message';
   }
 
   @override
@@ -2657,12 +2662,12 @@ class BreezTranslationsPt extends BreezTranslations {
 
   @override
   String podcast_boost_share_texts(String podcast, String episode, String link) {
-    return '$podcast\n${episode}\n${link}';
+    return '$podcast\n$episode\n$link';
   }
 
   @override
   String podcast_boost_share_texts_short(String podcast, String link) {
-    return '$podcast\n${link}';
+    return '$podcast\n$link';
   }
 
   @override
@@ -2761,7 +2766,7 @@ class BreezTranslationsPt extends BreezTranslations {
 
   @override
   String spontaneous_payment_send_payment_message(String amount, String nodeID) {
-    return 'Você tem certeza que deseja enviar $amount para este servidor?\n\n${nodeID}';
+    return 'Você tem certeza que deseja enviar $amount para este servidor?\n\n$nodeID';
   }
 
   @override
