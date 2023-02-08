@@ -56,7 +56,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_without_min_fee_account_connected": "Invia più di {minSats} e fino a {maxSats} a questo indirizzo. Una commissione di configurazione di {setUpFee}% con un minimo di {minFee} verrà applicata per l'invio di più di {liquidity}.",
+  "invoice_btc_address_warning_without_min_fee_account_connected": "Invia più di {minSats} e fino a {maxSats} a questo indirizzo. Una commissione di configurazione di {setUpFee}% verrà applicata per l'invio di più di {liquidity}.",
   "@invoice_btc_address_warning_without_min_fee_account_connected": {
     "placeholders": {
       "minSats": {
