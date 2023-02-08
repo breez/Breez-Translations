@@ -224,6 +224,15 @@
       }
     }
   },
+  "invoice_payment_validator_error_payment_below_invoice_limit": "Payment is below the limit ({minSats})",
+  "@invoice_payment_validator_error_payment_below_invoice_limit": {
+    "placeholders": {
+      "minSats": {
+        "type": "String",
+        "example": "2 000 sats"
+      }
+    }
+  },
   "invoice_payment_validator_error_payment_below_limit": "Breez requires you to keep {minSats} in your balance.",
   "@invoice_payment_validator_error_payment_below_limit": {
     "placeholders": {
