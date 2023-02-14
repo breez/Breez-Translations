@@ -4845,6 +4845,24 @@ abstract class BreezTranslations {
   /// **'APPROVE'**
   String get make_invoice_request_action_approve;
 
+  /// No description provided for @mnemonics_confirmation_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Backup Phrase'**
+  String get mnemonics_confirmation_title;
+
+  /// No description provided for @mnemonics_confirmation_instructions.
+  ///
+  /// In en, this message translates to:
+  /// **'You will be shown a list of words. Write down the words and store them in a safe place. Without these words, you won\'t be able to restore from backup and your funds will be lost.'**
+  String get mnemonics_confirmation_instructions;
+
+  /// No description provided for @mnemonics_confirmation_action_verify.
+  ///
+  /// In en, this message translates to:
+  /// **'VERIFY'**
+  String get mnemonics_confirmation_action_verify;
+
   /// No description provided for @podcast_add_funds_title.
   ///
   /// In en, this message translates to:

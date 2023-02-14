@@ -2599,6 +2599,15 @@ class BreezTranslationsIt extends BreezTranslations {
   String get make_invoice_request_action_approve => 'APPROVA';
 
   @override
+  String get mnemonics_confirmation_title => 'Frase di backup';
+
+  @override
+  String get mnemonics_confirmation_instructions => 'Ti verrà mostrato un elenco di parole. Annota le parole e conservale in un luogo sicuro. Senza queste parole, non sarai in grado di ripristinare dal backup e i tuoi fondi andranno persi. Breez non sarà in grado di aiutare.';
+
+  @override
+  String get mnemonics_confirmation_action_verify => 'Verify';
+
+  @override
   String get podcast_add_funds_title => 'Aggiungi fondi al tuo bilancio per inviare pagamenti a questo podcast.';
 
   @override

@@ -2599,6 +2599,15 @@ class BreezTranslationsFi extends BreezTranslations {
   String get make_invoice_request_action_approve => 'HYVÄKSY';
 
   @override
+  String get mnemonics_confirmation_title => 'Varmuuskopion';
+
+  @override
+  String get mnemonics_confirmation_instructions => 'Seuraavassa näkymässä sinulle näytetään salauslause. Kirjaa numerojärjestyksessä sen sanat muistiin turvalliseen paikkaan. Mikäli joskus tulevaisuudessa joudut palauttamaan varmuuskopion, palautus ei onnistu ilman näitä sanoja. Siinä tapauksessa menetät kaikki sovelluksen hallinnoimat varasi. Tällöin ei Breez, eikä kukaan muukaan, voi auttaa sinua palautuksessa!';
+
+  @override
+  String get mnemonics_confirmation_action_verify => 'Verify';
+
+  @override
   String get podcast_add_funds_title => 'Sinulla tulee olla saldoa, jotta voit lähettää satosheja tälle podcast:ille.';
 
   @override

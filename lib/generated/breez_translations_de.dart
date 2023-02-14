@@ -2599,6 +2599,15 @@ class BreezTranslationsDe extends BreezTranslations {
   String get make_invoice_request_action_approve => 'BESTÄTIGEN';
 
   @override
+  String get mnemonics_confirmation_title => 'Sicherungsphrase';
+
+  @override
+  String get mnemonics_confirmation_instructions => 'Es wird dir eine Liste mit Wörtern gezeigt. Schreibe die Wörter auf und bewahre sie an einem sicheren Ort auf. Ohne diese Wörter kannst du das Backup nicht wiederherstellen und deine bitcoin sind verloren.';
+
+  @override
+  String get mnemonics_confirmation_action_verify => 'Verify';
+
+  @override
   String get podcast_add_funds_title => 'Zahle auf dein Konto ein, um Zahlungen an diesen Podcast zu senden';
 
   @override
