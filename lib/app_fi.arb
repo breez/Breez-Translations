@@ -796,8 +796,8 @@
   "connect_to_pay_error_wrong_amount": "Maksupyynnössä oleva summa on väärä",
   "connect_to_pay_error_status_tracking_already_started": "Tilanteen seuranta on jo käynnistetty. Se pitää pysäyttää ennen uudelleen aloitusta",
   "connect_to_pay_error_link_expired": "Tämä linkki on vanhentunut, eikä se ole kelvollinen maksun suorittamiseksi.",
-  "security_and_backup_title": "Turvallisuus",
-  "security_and_backup_title_and_backup": "Turvallisuus & varmuuskopiointi",
+  "security_title": "Turvallisuus",
+  "security_and_backup_title": "Turvallisuus & varmuuskopiointi",
   "security_and_backup_last_backup_no_account": "Varmuuskopioitu viimeksi {lastBackup}",
   "@security_and_backup_last_backup_no_account": {
     "placeholders": {
@@ -1878,6 +1878,8 @@
   "make_invoice_request_action_cancel": "Peruuta",
   "make_invoice_request_action_approve": "HYVÄKSY",
   "mnemonics_confirmation_title": "Varmuuskopion",
+  "mnemonics_confirmation_verify_backup_phrase": "Verify Backup Phrase",
+  "mnemonics_confirmation_display_backup_phrase": "Display Backup Phrase",
   "mnemonics_confirmation_instructions": "Seuraavassa näkymässä sinulle näytetään salauslause. Kirjaa numerojärjestyksessä sen sanat muistiin turvalliseen paikkaan. Mikäli joskus tulevaisuudessa joudut palauttamaan varmuuskopion, palautus ei onnistu ilman näitä sanoja. Siinä tapauksessa menetät kaikki sovelluksen hallinnoimat varasi. Tällöin ei Breez, eikä kukaan muukaan, voi auttaa sinua palautuksessa!",
   "mnemonics_confirmation_action_verify": "Verify",
   "podcast_add_funds_title": "Sinulla tulee olla saldoa, jotta voit lähettää satosheja tälle podcast:ille.",

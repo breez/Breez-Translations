@@ -796,8 +796,8 @@
   "connect_to_pay_error_wrong_amount": "Falscher Betrag in der Zahlungsaufforderung",
   "connect_to_pay_error_status_tracking_already_started": "Statusverfolgung bereits gestartet, muss vor erneutem Start gestoppt werden",
   "connect_to_pay_error_link_expired": "Dieser Link ist abgelaufen und nicht mehr gültig für die Zahlung.",
-  "security_and_backup_title": "Sicherheit",
-  "security_and_backup_title_and_backup": "Sicherheit & Backup",
+  "security_title": "Sicherheit",
+  "security_and_backup_title": "Sicherheit & Backup",
   "security_and_backup_last_backup_no_account": "Letztes Backup: {lastBackup}",
   "@security_and_backup_last_backup_no_account": {
     "placeholders": {
@@ -1878,6 +1878,8 @@
   "make_invoice_request_action_cancel": "ABBRECHEN",
   "make_invoice_request_action_approve": "BESTÄTIGEN",
   "mnemonics_confirmation_title": "Sicherungsphrase",
+  "mnemonics_confirmation_verify_backup_phrase": "Verify Backup Phrase",
+  "mnemonics_confirmation_display_backup_phrase": "Display Backup Phrase",
   "mnemonics_confirmation_instructions": "Es wird dir eine Liste mit Wörtern gezeigt. Schreibe die Wörter auf und bewahre sie an einem sicheren Ort auf. Ohne diese Wörter kannst du das Backup nicht wiederherstellen und deine bitcoin sind verloren.",
   "mnemonics_confirmation_action_verify": "Verify",
   "podcast_add_funds_title": "Zahle auf dein Konto ein, um Zahlungen an diesen Podcast zu senden",

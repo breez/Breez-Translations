@@ -796,8 +796,8 @@
   "connect_to_pay_error_wrong_amount": "Quantia incorreta na requisição de pagamento",
   "connect_to_pay_error_status_tracking_already_started": "Acompanhamento já iniciado, é necessário pará-lo antes de iniciar novamente",
   "connect_to_pay_error_link_expired": "Este link expirou e não pode mais ser usado para pagamentos.",
-  "security_and_backup_title": "Segurança",
-  "security_and_backup_title_and_backup": "Segurança & Backup",
+  "security_title": "Segurança",
+  "security_and_backup_title": "Segurança & Backup",
   "security_and_backup_last_backup_no_account": "Último backup: {lastBackup}",
   "@security_and_backup_last_backup_no_account": {
     "placeholders": {
@@ -1878,6 +1878,8 @@
   "make_invoice_request_action_cancel": "CANCELAR",
   "make_invoice_request_action_approve": "APROVAR",
   "mnemonics_confirmation_title": "Frase de backup",
+  "mnemonics_confirmation_verify_backup_phrase": "Verify Backup Phrase",
+  "mnemonics_confirmation_display_backup_phrase": "Display Backup Phrase",
   "mnemonics_confirmation_instructions": "Você verá uma lista de palavras. Anote as palavras e guarde-as em um lugar seguro. Sem essas palavras você não poderá restaurar os seus fundos a partir do backup e seus fundos serão perdidos e a Breez não poderá te ajudar.",
   "mnemonics_confirmation_action_verify": "Verify",
   "podcast_add_funds_title": "Adicione satoshis à sua carteira para enviar pagamentos para este podcast.",

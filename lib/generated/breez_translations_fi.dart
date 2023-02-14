@@ -994,10 +994,10 @@ class BreezTranslationsFi extends BreezTranslations {
   String get connect_to_pay_error_link_expired => 'Tämä linkki on vanhentunut, eikä se ole kelvollinen maksun suorittamiseksi.';
 
   @override
-  String get security_and_backup_title => 'Turvallisuus';
+  String get security_title => 'Turvallisuus';
 
   @override
-  String get security_and_backup_title_and_backup => 'Turvallisuus & varmuuskopiointi';
+  String get security_and_backup_title => 'Turvallisuus & varmuuskopiointi';
 
   @override
   String security_and_backup_last_backup_no_account(String lastBackup) {
@@ -2600,6 +2600,12 @@ class BreezTranslationsFi extends BreezTranslations {
 
   @override
   String get mnemonics_confirmation_title => 'Varmuuskopion';
+
+  @override
+  String get mnemonics_confirmation_verify_backup_phrase => 'Verify Backup Phrase';
+
+  @override
+  String get mnemonics_confirmation_display_backup_phrase => 'Display Backup Phrase';
 
   @override
   String get mnemonics_confirmation_instructions => 'Seuraavassa näkymässä sinulle näytetään salauslause. Kirjaa numerojärjestyksessä sen sanat muistiin turvalliseen paikkaan. Mikäli joskus tulevaisuudessa joudut palauttamaan varmuuskopion, palautus ei onnistu ilman näitä sanoja. Siinä tapauksessa menetät kaikki sovelluksen hallinnoimat varasi. Tällöin ei Breez, eikä kukaan muukaan, voi auttaa sinua palautuksessa!';

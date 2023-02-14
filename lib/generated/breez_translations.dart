@@ -1887,17 +1887,17 @@ abstract class BreezTranslations {
   /// **'This link had expired and is no longer valid for payment.'**
   String get connect_to_pay_error_link_expired;
 
-  /// No description provided for @security_and_backup_title.
+  /// No description provided for @security_title.
   ///
   /// In en, this message translates to:
   /// **'Security'**
-  String get security_and_backup_title;
+  String get security_title;
 
-  /// No description provided for @security_and_backup_title_and_backup.
+  /// No description provided for @security_and_backup_title.
   ///
   /// In en, this message translates to:
   /// **'Security & Backup'**
-  String get security_and_backup_title_and_backup;
+  String get security_and_backup_title;
 
   /// No description provided for @security_and_backup_last_backup_no_account.
   ///
@@ -4850,6 +4850,18 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'Backup Phrase'**
   String get mnemonics_confirmation_title;
+
+  /// No description provided for @mnemonics_confirmation_verify_backup_phrase.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify Backup Phrase'**
+  String get mnemonics_confirmation_verify_backup_phrase;
+
+  /// No description provided for @mnemonics_confirmation_display_backup_phrase.
+  ///
+  /// In en, this message translates to:
+  /// **'Display Backup Phrase'**
+  String get mnemonics_confirmation_display_backup_phrase;
 
   /// No description provided for @mnemonics_confirmation_instructions.
   ///

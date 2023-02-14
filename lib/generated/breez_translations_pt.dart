@@ -994,10 +994,10 @@ class BreezTranslationsPt extends BreezTranslations {
   String get connect_to_pay_error_link_expired => 'Este link expirou e não pode mais ser usado para pagamentos.';
 
   @override
-  String get security_and_backup_title => 'Segurança';
+  String get security_title => 'Segurança';
 
   @override
-  String get security_and_backup_title_and_backup => 'Segurança & Backup';
+  String get security_and_backup_title => 'Segurança & Backup';
 
   @override
   String security_and_backup_last_backup_no_account(String lastBackup) {
@@ -2600,6 +2600,12 @@ class BreezTranslationsPt extends BreezTranslations {
 
   @override
   String get mnemonics_confirmation_title => 'Frase de backup';
+
+  @override
+  String get mnemonics_confirmation_verify_backup_phrase => 'Verify Backup Phrase';
+
+  @override
+  String get mnemonics_confirmation_display_backup_phrase => 'Display Backup Phrase';
 
   @override
   String get mnemonics_confirmation_instructions => 'Você verá uma lista de palavras. Anote as palavras e guarde-as em um lugar seguro. Sem essas palavras você não poderá restaurar os seus fundos a partir do backup e seus fundos serão perdidos e a Breez não poderá te ajudar.';
