@@ -796,8 +796,8 @@
   "connect_to_pay_error_wrong_amount": "Monto incorrecto en la solicitud de pago",
   "connect_to_pay_error_status_tracking_already_started": "El seguimiento ya fue iniciado, es necesario detenerlo antes de comenzarlo de nuevo",
   "connect_to_pay_error_link_expired": "Este enlace ha vencido y ya no se puede usar para el pago.",
-  "security_and_backup_title": "Seguridad",
-  "security_and_backup_title_and_backup": "Seguridad y Respaldo",
+  "security_title": "Seguridad",
+  "security_and_backup_title": "Seguridad y Respaldo",
   "security_and_backup_last_backup_no_account": "Último respaldo: {lastBackup}",
   "@security_and_backup_last_backup_no_account": {
     "placeholders": {
@@ -1877,6 +1877,11 @@
   "make_invoice_request_title": "Este sitio quiere pagarte:",
   "make_invoice_request_action_cancel": "CANCELAR",
   "make_invoice_request_action_approve": "APROBAR",
+  "mnemonics_confirmation_title": "Frase de respaldo",
+  "mnemonics_confirmation_verify_backup_phrase": "Verify Backup Phrase",
+  "mnemonics_confirmation_display_backup_phrase": "Display Backup Phrase",
+  "mnemonics_confirmation_instructions": "Usted verá una lista de palabras. Escriba las palabras y guárdelas en un lugar seguro. Sin estas palabras, no podrá restaurar sus fondos desde la copia de seguridad y sus fondos se perderán y Breez no podrá ayudarlo.",
+  "mnemonics_confirmation_action_verify": "Verify",
   "podcast_add_funds_title": "Agregue satoshis a su billetera para enviar pagos para este podcast.",
   "podcast_add_funds_action_add": "AGREGAR",
   "podcast_boost_not_enough_founds": "No tienes suficientes satoshis para completar este pago.",

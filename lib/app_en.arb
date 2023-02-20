@@ -796,8 +796,8 @@
   "connect_to_pay_error_wrong_amount": "Wrong amount in payment request",
   "connect_to_pay_error_status_tracking_already_started": "Status tracking already started, must be stopped before start again",
   "connect_to_pay_error_link_expired": "This link had expired and is no longer valid for payment.",
-  "security_and_backup_title": "Security",
-  "security_and_backup_title_and_backup": "Security & Backup",
+  "security_title": "Security",
+  "security_and_backup_title": "Security & Backup",
   "security_and_backup_last_backup_no_account": "Last backup: {lastBackup}",
   "@security_and_backup_last_backup_no_account": {
     "placeholders": {
@@ -1877,6 +1877,11 @@
   "make_invoice_request_title": "This site wants to pay you:",
   "make_invoice_request_action_cancel": "CANCEL",
   "make_invoice_request_action_approve": "APPROVE",
+  "mnemonics_confirmation_title": "Backup Phrase",
+  "mnemonics_confirmation_verify_backup_phrase": "Verify Backup Phrase",
+  "mnemonics_confirmation_display_backup_phrase": "Display Backup Phrase",
+  "mnemonics_confirmation_instructions": "You will be shown a list of words. Write down the words and store them in a safe place. Without these words, you won't be able to restore from backup and your funds will be lost.",
+  "mnemonics_confirmation_action_verify": "VERIFY",
   "podcast_add_funds_title": "Add funds to your balance to send payments to this podcast.",
   "podcast_add_funds_action_add": "ADD FUNDS",
   "podcast_boost_not_enough_founds": "You don't have enough funds to complete this payment.",

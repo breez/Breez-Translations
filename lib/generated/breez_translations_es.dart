@@ -994,10 +994,10 @@ class BreezTranslationsEs extends BreezTranslations {
   String get connect_to_pay_error_link_expired => 'Este enlace ha vencido y ya no se puede usar para el pago.';
 
   @override
-  String get security_and_backup_title => 'Seguridad';
+  String get security_title => 'Seguridad';
 
   @override
-  String get security_and_backup_title_and_backup => 'Seguridad y Respaldo';
+  String get security_and_backup_title => 'Seguridad y Respaldo';
 
   @override
   String security_and_backup_last_backup_no_account(String lastBackup) {
@@ -2597,6 +2597,21 @@ class BreezTranslationsEs extends BreezTranslations {
 
   @override
   String get make_invoice_request_action_approve => 'APROBAR';
+
+  @override
+  String get mnemonics_confirmation_title => 'Frase de respaldo';
+
+  @override
+  String get mnemonics_confirmation_verify_backup_phrase => 'Verify Backup Phrase';
+
+  @override
+  String get mnemonics_confirmation_display_backup_phrase => 'Display Backup Phrase';
+
+  @override
+  String get mnemonics_confirmation_instructions => 'Usted verá una lista de palabras. Escriba las palabras y guárdelas en un lugar seguro. Sin estas palabras, no podrá restaurar sus fondos desde la copia de seguridad y sus fondos se perderán y Breez no podrá ayudarlo.';
+
+  @override
+  String get mnemonics_confirmation_action_verify => 'Verify';
 
   @override
   String get podcast_add_funds_title => 'Agregue satoshis a su billetera para enviar pagos para este podcast.';

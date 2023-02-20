@@ -994,10 +994,10 @@ class BreezTranslationsDe extends BreezTranslations {
   String get connect_to_pay_error_link_expired => 'Dieser Link ist abgelaufen und nicht mehr gültig für die Zahlung.';
 
   @override
-  String get security_and_backup_title => 'Sicherheit';
+  String get security_title => 'Sicherheit';
 
   @override
-  String get security_and_backup_title_and_backup => 'Sicherheit & Backup';
+  String get security_and_backup_title => 'Sicherheit & Backup';
 
   @override
   String security_and_backup_last_backup_no_account(String lastBackup) {
@@ -2597,6 +2597,21 @@ class BreezTranslationsDe extends BreezTranslations {
 
   @override
   String get make_invoice_request_action_approve => 'BESTÄTIGEN';
+
+  @override
+  String get mnemonics_confirmation_title => 'Sicherungsphrase';
+
+  @override
+  String get mnemonics_confirmation_verify_backup_phrase => 'Verify Backup Phrase';
+
+  @override
+  String get mnemonics_confirmation_display_backup_phrase => 'Display Backup Phrase';
+
+  @override
+  String get mnemonics_confirmation_instructions => 'Es wird dir eine Liste mit Wörtern gezeigt. Schreibe die Wörter auf und bewahre sie an einem sicheren Ort auf. Ohne diese Wörter kannst du das Backup nicht wiederherstellen und deine bitcoin sind verloren.';
+
+  @override
+  String get mnemonics_confirmation_action_verify => 'Verify';
 
   @override
   String get podcast_add_funds_title => 'Zahle auf dein Konto ein, um Zahlungen an diesen Podcast zu senden';

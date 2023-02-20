@@ -994,10 +994,10 @@ class BreezTranslationsEn extends BreezTranslations {
   String get connect_to_pay_error_link_expired => 'This link had expired and is no longer valid for payment.';
 
   @override
-  String get security_and_backup_title => 'Security';
+  String get security_title => 'Security';
 
   @override
-  String get security_and_backup_title_and_backup => 'Security & Backup';
+  String get security_and_backup_title => 'Security & Backup';
 
   @override
   String security_and_backup_last_backup_no_account(String lastBackup) {
@@ -2597,6 +2597,21 @@ class BreezTranslationsEn extends BreezTranslations {
 
   @override
   String get make_invoice_request_action_approve => 'APPROVE';
+
+  @override
+  String get mnemonics_confirmation_title => 'Backup Phrase';
+
+  @override
+  String get mnemonics_confirmation_verify_backup_phrase => 'Verify Backup Phrase';
+
+  @override
+  String get mnemonics_confirmation_display_backup_phrase => 'Display Backup Phrase';
+
+  @override
+  String get mnemonics_confirmation_instructions => 'You will be shown a list of words. Write down the words and store them in a safe place. Without these words, you won\'t be able to restore from backup and your funds will be lost.';
+
+  @override
+  String get mnemonics_confirmation_action_verify => 'VERIFY';
 
   @override
   String get podcast_add_funds_title => 'Add funds to your balance to send payments to this podcast.';
