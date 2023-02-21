@@ -3213,6 +3213,9 @@ class BreezTranslationsEs extends BreezTranslations {
   String get node_state_error => 'Hubo un error al conectarse al nodo';
 
   @override
+  String get generic_network_error => 'Hubo un error en la comunicación con la Breez. Por favor, comprueba tu conexión y inténtalo de nuevo.';
+
+  @override
   String get locale => 'es';
 
   @override

@@ -5985,6 +5985,12 @@ abstract class BreezTranslations {
   /// **'Failed to get node state'**
   String get node_state_error;
 
+  /// No description provided for @generic_network_error.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to communicate with Breez. Please check your internet connection and try again.'**
+  String get generic_network_error;
+
   /// No description provided for @locale.
   ///
   /// In en, this message translates to:
