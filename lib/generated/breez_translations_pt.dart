@@ -3213,7 +3213,7 @@ class BreezTranslationsPt extends BreezTranslations {
   String get node_state_error => 'Houve uma falha ao conectar ao servidor';
 
   @override
-  String get generic_network_error => 'Houve uma falha na comunicação com a Breez, Por favor, verifique sua conexão e tente novamente.';
+  String get generic_network_error => 'Houve uma falha na comunicação com a Breez. Por favor, verifique sua conexão e tente novamente.';
 
   @override
   String get locale => 'pt';

@@ -5988,7 +5988,7 @@ abstract class BreezTranslations {
   /// No description provided for @generic_network_error.
   ///
   /// In en, this message translates to:
-  /// **'Failed to communicate with Breez. Please check your internet connection and try again.'**
+  /// **'Failed to connect to Breez. Please check your internet connection and try again.'**
   String get generic_network_error;
 
   /// No description provided for @locale.

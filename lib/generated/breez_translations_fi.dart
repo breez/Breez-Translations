@@ -3213,7 +3213,7 @@ class BreezTranslationsFi extends BreezTranslations {
   String get node_state_error => 'Failed to get node state';
 
   @override
-  String get generic_network_error => 'Failed to communicate with Breez. Please check your internet connection and try again.';
+  String get generic_network_error => 'Failed to connect to Breez. Please check your internet connection and try again.';
 
   @override
   String get locale => 'fi';

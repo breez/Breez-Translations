@@ -2275,7 +2275,7 @@
   },
   "lnurl_payment_page_unknown_error": "Unknown error",
   "node_state_error": "Failed to get node state",
-  "generic_network_error": "Failed to communicate with Breez. Please check your internet connection and try again.",
+  "generic_network_error": "Failed to connect to Breez. Please check your internet connection and try again.",
   "locale": "fi",
   "app_name": "Breez"
 }
