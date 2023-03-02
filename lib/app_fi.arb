@@ -215,7 +215,7 @@
   "invoice_bottom_sheet_action_pay": "MAKSA",
   "invoice_bottom_sheet_action_receive": "VASTAANOTA",
   "invoice_bottom_sheet_error_qrcode": "QR-koodia ei tunnistettu.",
-  "invoice_payment_validator_error_payment_exceeded_limit": "Payment exceeds the limit ({maxSats})",
+  "invoice_payment_validator_error_payment_exceeded_limit": "Maksu on enimmäismäärää ({maxSats}) suurempi.",
   "@invoice_payment_validator_error_payment_exceeded_limit": {
     "placeholders": {
       "maxSats": {
@@ -224,7 +224,7 @@
       }
     }
   },
-  "invoice_payment_validator_error_payment_below_invoice_limit": "Payment is below the limit ({minSats})",
+  "invoice_payment_validator_error_payment_below_invoice_limit": "Maksu on vähimmäismäärää ({minSats}) pienempi.",
   "@invoice_payment_validator_error_payment_below_invoice_limit": {
     "placeholders": {
       "minSats": {
@@ -233,7 +233,7 @@
       }
     }
   },
-  "invoice_payment_validator_error_payment_below_limit": "Breez requires you to keep {minSats} in your balance.",
+  "invoice_payment_validator_error_payment_below_limit": "Sinun on pidettävä sovelluksen saldona vähintään {minSats}.",
   "@invoice_payment_validator_error_payment_below_limit": {
     "placeholders": {
       "minSats": {
@@ -1040,8 +1040,8 @@
   "funds_over_limit_dialog_refund_begin": "Sinä voit ",
   "funds_over_limit_dialog_refund_link": "lunastaa",
   "funds_over_limit_dialog_refund_end": " varat nyt.",
-  "get_refund_title": "Alota lunastus",
-  "get_refund_amount": "Amount: {amount}",
+  "get_refund_title": "Aloita lunastus",
+  "get_refund_amount": "Määrä: {amount}",
   "@get_refund_amount": {
     "placeholders": {
       "amount": {
@@ -1167,7 +1167,7 @@
   "beta_warning_understand_confirmation": "Vahvista että ymmärrät riskin ennen kuin jatkat eteenpäin.",
   "beta_warning_action_exit": "Poistu",
   "beta_warning_action_continue": "VAHVISTA",
-  "alpha_warning_title": "Alpha-varoitus",
+  "alpha_warning_title": "Käyttöehdot",
   "alpha_warning_message": "Breez-sovellus on alpha-kehitysvaiheessa. On mahdollista että sovellus saattaa aiheuttaa menetyksen osaan tai kaikkiin varoihisi, joita sovelluksella hallitset. Käytä sovellusta ainoastaan jos olet valmis ottamaan tämän riskin.",
   "alpha_warning_understand": "Ymmärrän ja hyväksyn riskin",
   "alpha_warning_understand_confirmation": "Vahvista että ymmärrät riskin ennen kuin jatkat eteenpäin.",
@@ -1294,7 +1294,7 @@
   "order_card_full_name_error": "Syötä täydellinen nimesi",
   "link_launcher_title": "Tapahtumatunnus: (Avaa selaimessa)",
   "link_launcher_link_name": "",
-  "link_launcher_failed_to_launch": "Could not launch {url}",
+  "link_launcher_failed_to_launch": "{url} -sivusto ei auennut",
   "@link_launcher_failed_to_launch": {
     "placeholders": {
       "url": {
@@ -1679,7 +1679,7 @@
   "lnurl_withdraw_dialog_title": "Vastaanota varoja",
   "lnurl_withdraw_dialog_wait": "Odota kunnes tapahtuma on käsitelty",
   "lnurl_withdraw_dialog_action_close": "SULJE",
-  "lnurl_withdraw_dialog_error_unknown": "Failed to receive funds",
+  "lnurl_withdraw_dialog_error_unknown": "Varojen vastaaottaminen epäonnistui",
   "lnurl_withdraw_dialog_error": "Varojen vastaanotossa tapahtui virhe: {error}",
   "@lnurl_withdraw_dialog_error": {
     "placeholders": {
@@ -1689,7 +1689,7 @@
       }
     }
   },
-  "lnurl_withdraw_dialog_error_amount_exceeds": "Exceeds maximum withdrawable amount: {maxSats}",
+  "lnurl_withdraw_dialog_error_amount_exceeds": "Nostettavissa oleva enimmäismäärä {maxSats} ylittyy.",
   "@lnurl_withdraw_dialog_error_amount_exceeds": {
     "placeholders": {
       "maxSats": {
@@ -1698,7 +1698,7 @@
       }
     }
   },
-  "lnurl_withdraw_dialog_error_amount_below": "Below minimum withdrawable amount: {minSats}",
+  "lnurl_withdraw_dialog_error_amount_below": "Nostettavissa oleva vähimmäismäärä {minSats} alittuu.",
   "@lnurl_withdraw_dialog_error_amount_below": {
     "placeholders": {
       "minSats": {
@@ -1789,7 +1789,7 @@
   "status_text_loading_middle": "avaamassa turvallista kanavaa",
   "status_text_loading_end": " palvelimeemme. Tämä saattaa kestää jonkin aikaa. Sovellus antaa ilmoituksen kun maksujen vastaanotto ja lähetys ovat jälleen mahdollisia.",
   "status_text_ready": "Breez on valmis lähettämään maksuja.",
-  "status_opening_secure_connection": "Breez is opening a secure connection",
+  "status_opening_secure_connection": "Sovellus avaa salattua yhteyttä",
   "qr_action_button_open_link": "Avaa linkki",
   "qr_action_button_open_link_confirmation": "Haluatko varmasti avata tämän linkin`?",
   "qr_action_button_open_link_confirmation_no": "En",
@@ -1877,11 +1877,11 @@
   "make_invoice_request_title": "Sivusto haluaa maksaa sinulle:",
   "make_invoice_request_action_cancel": "Peruuta",
   "make_invoice_request_action_approve": "HYVÄKSY",
-  "mnemonics_confirmation_title": "Varmuuskopion",
-  "mnemonics_confirmation_verify_backup_phrase": "Verify Backup Phrase",
-  "mnemonics_confirmation_display_backup_phrase": "Display Backup Phrase",
+  "mnemonics_confirmation_title": "Varmuuskopion salauslause",
+  "mnemonics_confirmation_verify_backup_phrase": "Varmista varmuuskopion salauslause",
+  "mnemonics_confirmation_display_backup_phrase": "Näytä varmuuskopion salauslause",
   "mnemonics_confirmation_instructions": "Seuraavassa näkymässä sinulle näytetään salauslause. Kirjaa numerojärjestyksessä sen sanat muistiin turvalliseen paikkaan. Mikäli joskus tulevaisuudessa joudut palauttamaan varmuuskopion, palautus ei onnistu ilman näitä sanoja. Siinä tapauksessa menetät kaikki sovelluksen hallinnoimat varasi. Tällöin ei Breez, eikä kukaan muukaan, voi auttaa sinua palautuksessa!",
-  "mnemonics_confirmation_action_verify": "Verify",
+  "mnemonics_confirmation_action_verify": "Varmista",
   "podcast_add_funds_title": "Sinulla tulee olla saldoa, jotta voit lähettää satosheja tälle podcast:ille.",
   "podcast_add_funds_action_add": "LISÄÄ VAROJA",
   "podcast_boost_not_enough_founds": "Sinulla ei ole tarpeeksi varoja maksun suorittamiseksi.",
@@ -1950,8 +1950,8 @@
     }
   },
   "lock_screen_enter_pin": "Syötä PIN-koodisi",
-  "lock_screen_pin_incorrect": "Incorrect PIN",
-  "lock_screen_pin_match_exception": "There was an error confirming your PIN, please try again. If this error persists, please contact Breez support.",
+  "lock_screen_pin_incorrect": "Virheellinen PIN",
+  "lock_screen_pin_match_exception": "PIN-koodisi vahvistaminen ei onnistunut. Yritä uudelleen. Ota yhteyttä sovellustoimittajan tukeen, mikäli tämä toistuu.",
   "backup_phrase_generate": "Luo varmuuskopion salauslause",
   "backup_phrase_instructions": "Seuraavassa näkymässä sinulle näytetään salauslause. Kirjaa numerojärjestyksessä sen sanat muistiin turvalliseen paikkaan. Mikäli joskus tulevaisuudessa joudut palauttamaan varmuuskopion, palautus ei onnistu ilman näitä sanoja. Siinä tapauksessa menetät kaikki sovelluksen hallinnoimat varasi. Tällöin ei Breez, eikä kukaan muukaan, voi auttaa sinua palautuksessa!",
   "backup_phrase_action_confirm": "YMMÄRRÄN",
@@ -2124,7 +2124,7 @@
   "fast_bitcoin_dot_com_voucher": "Fastbitcoins.com Voucher-lipuke",
   "fast_bitcoin_dot_com_error_service_unavailable": "Palvelu ei ole käytettävissä. Yritä myöhemmin uudelleen.",
   "payment_error_insufficient_balance": "Maksuvirhe",
-  "payment_error_insufficient_balance_amount": "Käytösaldosi tai vastaanottajan enimmäismäärä on {amount}",
+  "payment_error_insufficient_balance_amount": "Käyttösaldosi tai vastaanottajan enimmäismäärä on {amount}",
   "@payment_error_insufficient_balance_amount": {
     "placeholders": {
       "amount": {
@@ -2194,8 +2194,8 @@
   "payment_info_title_send_to_node": "Lähetä solmulle",
   "payment_info_title_unknown": "Tuntematon",
   "payment_info_title_pending_closed_channel": "Odotetaan suljettua kanavaa",
-  "payment_error_to_send_unknown_reason": "Failed to send payment",
-  "payment_error_to_send": "Maksu lähetys epäonnistui: {error}",
+  "payment_error_to_send_unknown_reason": "Maksun lähetys epäonnistui",
+  "payment_error_to_send": "Maksun lähetys epäonnistui: {error}",
   "@payment_error_to_send": {
     "placeholders": {
       "error": {
@@ -2204,10 +2204,10 @@
       }
     }
   },
-  "payment_info_title_opened_channel": "Opened Channel",
-  "payment_info_title_pending_opened_channel": "Pending Opened Channel",
-  "no_lsp_widget_message": "In order to activate Breez, please select a provider:",
-  "no_lsp_widget_action_select": "SELECT…",
+  "payment_info_title_opened_channel": "Avattu kanava",
+  "payment_info_title_pending_opened_channel": "Odotetaan avattua kanavaa",
+  "no_lsp_widget_message": "Sovelluksen aktivointi edellyttää palvelutoimittajan valintaa:",
+  "no_lsp_widget_action_select": "VALITSE…",
   "podcast_history_drawer": "Suosituimmat Podcastit",
   "podcast_history_share_message": "Suosituimmat podcastit kuuntelivat Breez",
   "podcast_history_share_text": "JAA",
@@ -2235,11 +2235,11 @@
   "share_log_text": "Jaa loki",
   "share_file_title": "Jaa tiedosto",
   "mempool_settings_custom_url": "Mempool API URL",
-  "mempool_settings_custom_url_error": "Invalid Mempool API URL",
-  "mempool_settings_action_reset": "Reset",
-  "mempool_settings_action_save": "Save",
-  "lnurl_payment_page_title": "LNURL Invoice",
-  "lnurl_payment_page_domain_pay": "{domain} is requesting you to pay {amount} sats.",
+  "mempool_settings_custom_url_error": "Virheellinen Mempool API URL",
+  "mempool_settings_action_reset": "Palauta",
+  "mempool_settings_action_save": "TALLENNA",
+  "lnurl_payment_page_title": "LNURL-lasku",
+  "lnurl_payment_page_domain_pay": "{domain} pyytää sinua maksamaan {amount} sat.",
   "@lnurl_payment_page_domain_pay": {
     "placeholders": {
       "domain": {
@@ -2252,10 +2252,10 @@
       }
     }
   },
-  "lnurl_payment_page_comment": "Comment (optional)",
-  "lnurl_payment_page_enter_k1": "Please enter a k1",
-  "lnurl_payment_page_action_pay": "PAY",
-  "lnurl_payment_page_error_exceeds_limit": "Exceeds maximum sendable amount: {amount}",
+  "lnurl_payment_page_comment": "Viesti (vapaaehtoinen)",
+  "lnurl_payment_page_enter_k1": "Syötä k1",
+  "lnurl_payment_page_action_pay": "MAKSA",
+  "lnurl_payment_page_error_exceeds_limit": "Lähetettävissä oleva enimmäismäärä {amount} ylittyy.",
   "@lnurl_payment_page_error_exceeds_limit": {
     "placeholders": {
       "amount": {
@@ -2264,7 +2264,7 @@
       }
     }
   },
-  "lnurl_payment_page_error_below_limit": "Below minimum accepted amount: {amount}",
+  "lnurl_payment_page_error_below_limit": "Hyväksyttävissä oleva vähimmäismäärä {amount} alittuu.",
   "@lnurl_payment_page_error_below_limit": {
     "placeholders": {
       "amount": {
@@ -2273,9 +2273,9 @@
       }
     }
   },
-  "lnurl_payment_page_unknown_error": "Unknown error",
-  "node_state_error": "Failed to get node state",
-  "generic_network_error": "Failed to connect to Breez. Please check your internet connection and try again.",
+  "lnurl_payment_page_unknown_error": "Tunnistamaton virhe",
+  "node_state_error": "Solmun tilan haku epäonnistui",
+  "generic_network_error": "Tietoliikenneyhteydessä on häiriö. Varmista internet-yhteytesi toiminta ja yritä uudelleen.",
   "locale": "fi",
   "app_name": "Breez"
 }
