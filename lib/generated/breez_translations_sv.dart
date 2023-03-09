@@ -102,22 +102,22 @@ class BreezTranslationsSv extends BreezTranslations {
 
   @override
   String invoice_btc_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String minFee, String liquidity) {
-    return 'Skicka mer än $minSats och upp till $maxSats till den här adressen. En installationsavgift på $setUpFee% med ett minimum av $minFee kommer att tas ut för att skicka mer än $liquidity.';
+    return 'Skicka mer än $minSats och upp till $maxSats till den här adressen. En installationsavgift på $setUpFee% med ett minimum av $minFee kommer att tas ut för att skicka mer än $liquidity. This address can be used only once.';
   }
 
   @override
   String invoice_btc_address_warning_without_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String liquidity) {
-    return 'Skicka mer än $minSats och upp till $maxSats till den här adressen. En installationsavgift på $setUpFee % kommer att tas ut för att skicka mer än $liquidity.';
+    return 'Skicka mer än $minSats och upp till $maxSats till den här adressen. En installationsavgift på $setUpFee % kommer att tas ut för att skicka mer än $liquidity. This address can be used only once.';
   }
 
   @override
   String invoice_btc_address_warning_with_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee, String minFee) {
-    return 'Skicka mer än $minSats och upp till $maxSats till den här adressen. En installationsavgift på $setUpFee % med ett minimum av $minFee kommer att debiteras på det mottagna beloppet.';
+    return 'Skicka mer än $minSats och upp till $maxSats till den här adressen. En installationsavgift på $setUpFee % med ett minimum av $minFee kommer att debiteras på det mottagna beloppet. This address can be used only once.';
   }
 
   @override
   String invoice_btc_address_warning_without_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee) {
-    return 'Skicka mer än $minSats och upp till $maxSats till den här adressen. En installationsavgift på $setUpFee % kommer att tas ut på det mottagna beloppet.';
+    return 'Skicka mer än $minSats och upp till $maxSats till den här adressen. En installationsavgift på $setUpFee % kommer att tas ut på det mottagna beloppet. This address can be used only once.';
   }
 
   @override

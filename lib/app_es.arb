@@ -31,7 +31,7 @@
   "invoice_btc_address_network_error": "No se pudo recuperar una dirección del servidor Breez\nPor favor, verifique su conexión a Internet.",
   "invoice_btc_address_action_retry": "REINTENTAR",
   "invoice_btc_address_action_close": "CERRAR",
-  "invoice_btc_address_warning_with_min_fee_account_connected": "Envíe más de {minSats} y un máximo de {maxSats} a esta dirección. Se aplicará una tarifa de instalación de {setUpFee}% con un mínimo de {minFee} si el envío es superior a {liquidity}.",
+  "invoice_btc_address_warning_with_min_fee_account_connected": "Envíe más de {minSats} y un máximo de {maxSats} a esta dirección. Se aplicará una tarifa de instalación de {setUpFee}% con un mínimo de {minFee} si el envío es superior a {liquidity}. Esta dirección solo se puede utilizar una vez.",
   "@invoice_btc_address_warning_with_min_fee_account_connected": {
     "placeholders": {
       "minSats": {
@@ -56,7 +56,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_without_min_fee_account_connected": "Envíe más de {minSats} y un máximo de {maxSats} a esta dirección. Se aplicará una tarifa de instalación de {setUpFee}% si el envío es superior a {liquidity}.",
+  "invoice_btc_address_warning_without_min_fee_account_connected": "Envíe más de {minSats} y un máximo de {maxSats} a esta dirección. Se aplicará una tarifa de instalación de {setUpFee}% si el envío es superior a {liquidity}. Esta dirección solo se puede utilizar una vez.",
   "@invoice_btc_address_warning_without_min_fee_account_connected": {
     "placeholders": {
       "minSats": {
@@ -77,7 +77,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_with_min_fee_account_not_connected": "Envíe más de {minSats} y un máximo de {maxSats} a esta dirección. Se aplicará una tarifa de instalación de {setUpFee}% con un mínimo de {minFee} sobre el monto recibido.",
+  "invoice_btc_address_warning_with_min_fee_account_not_connected": "Envíe más de {minSats} y un máximo de {maxSats} a esta dirección. Se aplicará una tarifa de instalación de {setUpFee}% con un mínimo de {minFee} sobre el monto recibido. Esta dirección solo se puede utilizar una vez.",
   "@invoice_btc_address_warning_with_min_fee_account_not_connected": {
     "placeholders": {
       "minSats": {
@@ -98,7 +98,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_without_min_fee_account_not_connected": "Envíe más de {minSats} y un máximo de {maxSats} a esta dirección. Se aplicará una tarifa de instalación de {setUpFee}% sobre el monto recibido.",
+  "invoice_btc_address_warning_without_min_fee_account_not_connected": "Envíe más de {minSats} y un máximo de {maxSats} a esta dirección. Se aplicará una tarifa de instalación de {setUpFee}% sobre el monto recibido. Esta dirección solo se puede utilizar una vez.",
   "@invoice_btc_address_warning_without_min_fee_account_not_connected": {
     "placeholders": {
       "minSats": {

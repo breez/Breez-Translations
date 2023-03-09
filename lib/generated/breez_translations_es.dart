@@ -102,22 +102,22 @@ class BreezTranslationsEs extends BreezTranslations {
 
   @override
   String invoice_btc_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String minFee, String liquidity) {
-    return 'Envíe más de $minSats y un máximo de $maxSats a esta dirección. Se aplicará una tarifa de instalación de $setUpFee% con un mínimo de $minFee si el envío es superior a $liquidity.';
+    return 'Envíe más de $minSats y un máximo de $maxSats a esta dirección. Se aplicará una tarifa de instalación de $setUpFee% con un mínimo de $minFee si el envío es superior a $liquidity. Esta dirección solo se puede utilizar una vez.';
   }
 
   @override
   String invoice_btc_address_warning_without_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String liquidity) {
-    return 'Envíe más de $minSats y un máximo de $maxSats a esta dirección. Se aplicará una tarifa de instalación de $setUpFee% si el envío es superior a $liquidity.';
+    return 'Envíe más de $minSats y un máximo de $maxSats a esta dirección. Se aplicará una tarifa de instalación de $setUpFee% si el envío es superior a $liquidity. Esta dirección solo se puede utilizar una vez.';
   }
 
   @override
   String invoice_btc_address_warning_with_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee, String minFee) {
-    return 'Envíe más de $minSats y un máximo de $maxSats a esta dirección. Se aplicará una tarifa de instalación de $setUpFee% con un mínimo de $minFee sobre el monto recibido.';
+    return 'Envíe más de $minSats y un máximo de $maxSats a esta dirección. Se aplicará una tarifa de instalación de $setUpFee% con un mínimo de $minFee sobre el monto recibido. Esta dirección solo se puede utilizar una vez.';
   }
 
   @override
   String invoice_btc_address_warning_without_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee) {
-    return 'Envíe más de $minSats y un máximo de $maxSats a esta dirección. Se aplicará una tarifa de instalación de $setUpFee% sobre el monto recibido.';
+    return 'Envíe más de $minSats y un máximo de $maxSats a esta dirección. Se aplicará una tarifa de instalación de $setUpFee% sobre el monto recibido. Esta dirección solo se puede utilizar una vez.';
   }
 
   @override

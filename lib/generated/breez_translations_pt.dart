@@ -102,22 +102,22 @@ class BreezTranslationsPt extends BreezTranslations {
 
   @override
   String invoice_btc_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String minFee, String liquidity) {
-    return 'Envie mais de $minSats e no máximo $maxSats para este endereço. Uma taxa de configuração de $setUpFee% com um mínimo de $minFee será aplicada caso o envio seja maior do que $liquidity.';
+    return 'Envie mais de $minSats e no máximo $maxSats para este endereço. Uma taxa de configuração de $setUpFee% com um mínimo de $minFee será aplicada caso o envio seja maior do que $liquidity. Este endereço poderá ser utilizado uma única vez.';
   }
 
   @override
   String invoice_btc_address_warning_without_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String liquidity) {
-    return 'Envie mais de $minSats e no máximo $maxSats para este endereço. Uma taxa de configuração de $setUpFee% será aplicada caso o envio seja maior do que $liquidity.';
+    return 'Envie mais de $minSats e no máximo $maxSats para este endereço. Uma taxa de configuração de $setUpFee% será aplicada caso o envio seja maior do que $liquidity. Este endereço poderá ser utilizado uma única vez.';
   }
 
   @override
   String invoice_btc_address_warning_with_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee, String minFee) {
-    return 'Envie mais de $minSats e no máximo $maxSats para este endereço. Uma taxa de configuração de $setUpFee% com um mínimo de $minFee será aplicada no montante recebido.';
+    return 'Envie mais de $minSats e no máximo $maxSats para este endereço. Uma taxa de configuração de $setUpFee% com um mínimo de $minFee será aplicada no montante recebido. Este endereço poderá ser utilizado uma única vez.';
   }
 
   @override
   String invoice_btc_address_warning_without_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee) {
-    return 'Envie mais de $minSats e no máximo $maxSats para este endereço. Uma taxa de configuração de $setUpFee% será aplicada no montante recebido.';
+    return 'Envie mais de $minSats e no máximo $maxSats para este endereço. Uma taxa de configuração de $setUpFee% será aplicada no montante recebido. Este endereço poderá ser utilizado uma única vez.';
   }
 
   @override

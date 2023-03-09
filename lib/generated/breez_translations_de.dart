@@ -102,22 +102,22 @@ class BreezTranslationsDe extends BreezTranslations {
 
   @override
   String invoice_btc_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String minFee, String liquidity) {
-    return 'Sende mehr als $minSats und bis zu $maxSats an diese Adresse. Eine Einrichtungsgebühr von $setUpFee% mit einem Minimum von $minFee wird für den Versand von mehr als $liquidity erhoben.';
+    return 'Sende mehr als $minSats und bis zu $maxSats an diese Adresse. Eine Einrichtungsgebühr von $setUpFee% mit einem Minimum von $minFee wird für den Versand von mehr als $liquidity erhoben. This address can be used only once.';
   }
 
   @override
   String invoice_btc_address_warning_without_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String liquidity) {
-    return 'Sende mehr als $minSats und bis zu $maxSats an diese Adresse. Eine Einrichtungsgebühr von $setUpFee% wird für den Versand von mehr als $liquidity erhoben.';
+    return 'Sende mehr als $minSats und bis zu $maxSats an diese Adresse. Eine Einrichtungsgebühr von $setUpFee% wird für den Versand von mehr als $liquidity erhoben. This address can be used only once.';
   }
 
   @override
   String invoice_btc_address_warning_with_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee, String minFee) {
-    return 'Sende mehr als $minSats und bis zu $maxSats an diese Adresse. Eine Einrichtungsgebühr von $setUpFee% mit einem Minimum von $minFee wird auf den empfangenen Betrag angewendet.';
+    return 'Sende mehr als $minSats und bis zu $maxSats an diese Adresse. Eine Einrichtungsgebühr von $setUpFee% mit einem Minimum von $minFee wird auf den empfangenen Betrag angewendet. This address can be used only once.';
   }
 
   @override
   String invoice_btc_address_warning_without_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee) {
-    return 'Sende mehr als $minSats und bis zu $maxSats an diese Adresse. Es wird eine Einrichtungsgebühr von $setUpFee% auf den empfangenen Betrag erhoben.';
+    return 'Sende mehr als $minSats und bis zu $maxSats an diese Adresse. Es wird eine Einrichtungsgebühr von $setUpFee% auf den empfangenen Betrag erhoben. This address can be used only once.';
   }
 
   @override

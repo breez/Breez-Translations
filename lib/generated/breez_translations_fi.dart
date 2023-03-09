@@ -102,22 +102,22 @@ class BreezTranslationsFi extends BreezTranslations {
 
   @override
   String invoice_btc_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String minFee, String liquidity) {
-    return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Yli $liquidity talletuksista veloitetaan $setUpFee% avauskulu ja kuitenkin vähintään $minFee.';
+    return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Yli $liquidity talletuksista veloitetaan $setUpFee% avauskulu ja kuitenkin vähintään $minFee. This address can be used only once.';
   }
 
   @override
   String invoice_btc_address_warning_without_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String liquidity) {
-    return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Yli $liquidity talletuksesta veloitetaan $setUpFee% avauskulu.';
+    return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Yli $liquidity talletuksesta veloitetaan $setUpFee% avauskulu. This address can be used only once.';
   }
 
   @override
   String invoice_btc_address_warning_with_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee, String minFee) {
-    return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Talletuksesta veloitetaan $setUpFee% avauskulu ja vähintään $minFee.';
+    return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Talletuksesta veloitetaan $setUpFee% avauskulu ja vähintään $minFee. This address can be used only once.';
   }
 
   @override
   String invoice_btc_address_warning_without_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee) {
-    return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Talletuksesta veloitetaan $setUpFee% avauskulu.';
+    return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Talletuksesta veloitetaan $setUpFee% avauskulu. This address can be used only once.';
   }
 
   @override

@@ -102,22 +102,22 @@ class BreezTranslationsFr extends BreezTranslations {
 
   @override
   String invoice_btc_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String minFee, String liquidity) {
-    return 'Envoyez plus de $minSats et jusqu\'à $maxSats à cette adresse. Des frais de mise en place de $setUpFee% avec un minimum de $minFee seront appliqués pour l\'envoi de plus de $liquidity.';
+    return 'Envoyez plus de $minSats et jusqu\'à $maxSats à cette adresse. Des frais de mise en place de $setUpFee% avec un minimum de $minFee seront appliqués pour l\'envoi de plus de $liquidity. This address can be used only once.';
   }
 
   @override
   String invoice_btc_address_warning_without_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String liquidity) {
-    return 'Envoyez plus de $minSats et jusqu\'à $maxSats à cette adresse. Des frais de mise en place de $setUpFee% seront appliqués pour l\'envoi de plus de $liquidity.';
+    return 'Envoyez plus de $minSats et jusqu\'à $maxSats à cette adresse. Des frais de mise en place de $setUpFee% seront appliqués pour l\'envoi de plus de $liquidity. This address can be used only once.';
   }
 
   @override
   String invoice_btc_address_warning_with_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee, String minFee) {
-    return 'Envoyez plus de $minSats et jusqu\'à $maxSats à cette adresse. Des frais de mise en place de $setUpFee% avec un minimum de $minFee seront appliqués sur le montant reçu.';
+    return 'Envoyez plus de $minSats et jusqu\'à $maxSats à cette adresse. Des frais de mise en place de $setUpFee% avec un minimum de $minFee seront appliqués sur le montant reçu. This address can be used only once.';
   }
 
   @override
   String invoice_btc_address_warning_without_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee) {
-    return 'Envoyez plus de $minSats et jusqu\'à $maxSats à cette adresse. Des frais de mise en place de $setUpFee% seront appliqués sur le montant reçu.';
+    return 'Envoyez plus de $minSats et jusqu\'à $maxSats à cette adresse. Des frais de mise en place de $setUpFee% seront appliqués sur le montant reçu. This address can be used only once.';
   }
 
   @override
