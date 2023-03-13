@@ -31,7 +31,7 @@
   "invoice_btc_address_network_error": "Bitcoin-osoitteen haku palvelimelta epäonnistui.\nTarkista Internet-yhteyden toiminta.",
   "invoice_btc_address_action_retry": "YRITÄ UUDELLEEN",
   "invoice_btc_address_action_close": "SULJE",
-  "invoice_btc_address_warning_with_min_fee_account_connected": "Osoitteeseen voi tallettaa vähintään {minSats} ja enintään {maxSats} maksuja. Yli {liquidity} talletuksista veloitetaan {setUpFee}% avauskulu ja kuitenkin vähintään {minFee}. This address can be used only once.",
+  "invoice_btc_address_warning_with_min_fee_account_connected": "Osoitteeseen voi tallettaa vähintään {minSats} ja enintään {maxSats} maksuja. Yli {liquidity} talletuksista veloitetaan {setUpFee}% avauskulu ja kuitenkin vähintään {minFee}. Tätä Bitcoin-osoitetta voi käyttää vain yhden kerran!",
   "@invoice_btc_address_warning_with_min_fee_account_connected": {
     "placeholders": {
       "minSats": {
@@ -56,7 +56,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_without_min_fee_account_connected": "Osoitteeseen voi tallettaa vähintään {minSats} ja enintään {maxSats} maksuja. Yli {liquidity} talletuksesta veloitetaan {setUpFee}% avauskulu. This address can be used only once.",
+  "invoice_btc_address_warning_without_min_fee_account_connected": "Osoitteeseen voi tallettaa vähintään {minSats} ja enintään {maxSats} maksuja. Yli {liquidity} talletuksesta veloitetaan {setUpFee}% avauskulu. Tätä Bitcoin-osoitetta voi käyttää vain yhden kerran!",
   "@invoice_btc_address_warning_without_min_fee_account_connected": {
     "placeholders": {
       "minSats": {
@@ -77,7 +77,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_with_min_fee_account_not_connected": "Osoitteeseen voi tallettaa vähintään {minSats} ja enintään {maxSats} maksuja. Talletuksesta veloitetaan {setUpFee}% avauskulu ja vähintään {minFee}. This address can be used only once.",
+  "invoice_btc_address_warning_with_min_fee_account_not_connected": "Osoitteeseen voi tallettaa vähintään {minSats} ja enintään {maxSats} maksuja. Talletuksesta veloitetaan {setUpFee}% avauskulu ja vähintään {minFee}. Tätä Bitcoin-osoitetta voi käyttää vain yhden kerran!",
   "@invoice_btc_address_warning_with_min_fee_account_not_connected": {
     "placeholders": {
       "minSats": {
@@ -98,7 +98,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_without_min_fee_account_not_connected": "Osoitteeseen voi tallettaa vähintään {minSats} ja enintään {maxSats} maksuja. Talletuksesta veloitetaan {setUpFee}% avauskulu. This address can be used only once.",
+  "invoice_btc_address_warning_without_min_fee_account_not_connected": "Osoitteeseen voi tallettaa vähintään {minSats} ja enintään {maxSats} maksuja. Talletuksesta veloitetaan {setUpFee}% avauskulu. Tätä Bitcoin-osoitetta voi käyttää vain yhden kerran!",
   "@invoice_btc_address_warning_without_min_fee_account_not_connected": {
     "placeholders": {
       "minSats": {
