@@ -2154,7 +2154,8 @@
     }
   },
   "on_chain_payment_error_not_enough_funds": "Guthaben nicht ausreichend.",
-  "valid_payment_error_exceeds_the_limit": "Die Zahlung übersteigt das Limit {amount}",
+  "valid_payment_error_exceeds_limit":"Die Zahlung übersteigt das Limit.",
+  "valid_payment_error_exceeds_the_limit": "Die Zahlung übersteigt das Limit {amount}.",
   "@valid_payment_error_exceeds_the_limit": {
     "placeholders": {
       "amount": {

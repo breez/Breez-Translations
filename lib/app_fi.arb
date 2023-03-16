@@ -2154,7 +2154,8 @@
     }
   },
   "on_chain_payment_error_not_enough_funds": "Varat eivät riitä.",
-  "valid_payment_error_exceeds_the_limit": "Maksu ylittään rajan {amount}",
+  "valid_payment_error_exceeds_limit":"Maksu ylittää rajan.",
+  "valid_payment_error_exceeds_the_limit": "Maksu ylittään rajan {amount}.",
   "@valid_payment_error_exceeds_the_limit": {
     "placeholders": {
       "amount": {

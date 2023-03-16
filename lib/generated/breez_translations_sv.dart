@@ -3016,8 +3016,11 @@ class BreezTranslationsSv extends BreezTranslations {
   String get on_chain_payment_error_not_enough_funds => 'Inte tillräckligt med pengar.';
 
   @override
+  String get valid_payment_error_exceeds_limit => 'Betalningen överskrider gränsen.';
+
+  @override
   String valid_payment_error_exceeds_the_limit(String amount) {
-    return 'Betalningen överskrider gränsen $amount';
+    return 'Betalningen överskrider gränsen $amount.';
   }
 
   @override

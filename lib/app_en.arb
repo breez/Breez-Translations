@@ -2154,7 +2154,8 @@
     }
   },
   "on_chain_payment_error_not_enough_funds": "Not enough funds.",
-  "valid_payment_error_exceeds_the_limit": "Payment exceeds the limit {amount}",
+  "valid_payment_error_exceeds_limit": "Payment exceeds the limit.",
+  "valid_payment_error_exceeds_the_limit": "Payment exceeds the limit {amount}.",
   "@valid_payment_error_exceeds_the_limit": {
     "placeholders": {
       "amount": {

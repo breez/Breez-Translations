@@ -3016,8 +3016,11 @@ class BreezTranslationsFi extends BreezTranslations {
   String get on_chain_payment_error_not_enough_funds => 'Varat eivät riitä.';
 
   @override
+  String get valid_payment_error_exceeds_limit => 'Maksu ylittää rajan.';
+
+  @override
   String valid_payment_error_exceeds_the_limit(String amount) {
-    return 'Maksu ylittään rajan $amount';
+    return 'Maksu ylittään rajan $amount.';
   }
 
   @override
