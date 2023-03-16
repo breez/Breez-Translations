@@ -3016,8 +3016,11 @@ class BreezTranslationsPt extends BreezTranslations {
   String get on_chain_payment_error_not_enough_funds => 'Fundos insuficientes.';
 
   @override
+  String get valid_payment_error_exceeds_limit => 'O pagamento excede o limite.';
+
+  @override
   String valid_payment_error_exceeds_the_limit(String amount) {
-    return 'O pagamento excede o limite de $amount';
+    return 'O pagamento excede o limite de $amount.';
   }
 
   @override

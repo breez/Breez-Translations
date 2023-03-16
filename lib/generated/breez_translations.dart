@@ -5619,10 +5619,16 @@ abstract class BreezTranslations {
   /// **'Not enough funds.'**
   String get on_chain_payment_error_not_enough_funds;
 
+  /// No description provided for @valid_payment_error_exceeds_limit.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment exceeds the limit.'**
+  String get valid_payment_error_exceeds_limit;
+
   /// No description provided for @valid_payment_error_exceeds_the_limit.
   ///
   /// In en, this message translates to:
-  /// **'Payment exceeds the limit {amount}'**
+  /// **'Payment exceeds the limit {amount}.'**
   String valid_payment_error_exceeds_the_limit(String amount);
 
   /// No description provided for @valid_payment_error_keep_balance.
