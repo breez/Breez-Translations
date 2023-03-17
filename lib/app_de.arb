@@ -30,7 +30,7 @@
   "invoice_btc_address_title": "Empfange mit BTC Adresse",
   "invoice_btc_address_network_error": "Es konnte keine Adresse vom Breez-Server abgerufen werden\nBitte überprüfe deine Internetverbindung.",
   "invoice_btc_address_action_retry": "ERNEUT VERSUCHEN",
-  "invoice_btc_address_action_close": "SCHLIEßEN",
+  "invoice_btc_address_action_close": "SCHLIESSEN",
   "invoice_btc_address_warning_with_min_fee_account_connected": "Sende mehr als {minSats} und bis zu {maxSats} an diese Adresse. Eine Einrichtungsgebühr von {setUpFee}% mit einem Minimum von {minFee} wird für den Versand von mehr als {liquidity} erhoben. This address can be used only once.",
   "@invoice_btc_address_warning_with_min_fee_account_connected": {
     "placeholders": {
@@ -56,7 +56,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_without_min_fee_account_connected": "Sende mehr als {minSats} und bis zu {maxSats} an diese Adresse. Eine Einrichtungsgebühr von {setUpFee}% wird für den Versand von mehr als {liquidity} erhoben. This address can be used only once.",
+  "invoice_btc_address_warning_without_min_fee_account_connected": "Sende mehr als {minSats} und bis zu {maxSats} an diese Adresse. Eine Einrichtungsgebühr von {setUpFee}% wird für den Versand von mehr als {liquidity} erhoben. Diese Adresse kann nur einmal verwendet werden.",
   "@invoice_btc_address_warning_without_min_fee_account_connected": {
     "placeholders": {
       "minSats": {
@@ -77,7 +77,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_with_min_fee_account_not_connected": "Sende mehr als {minSats} und bis zu {maxSats} an diese Adresse. Eine Einrichtungsgebühr von {setUpFee}% mit einem Minimum von {minFee} wird auf den empfangenen Betrag angewendet. This address can be used only once.",
+  "invoice_btc_address_warning_with_min_fee_account_not_connected": "Sende mehr als {minSats} und bis zu {maxSats} an diese Adresse. Eine Einrichtungsgebühr von {setUpFee}% mit einem Minimum von {minFee} wird auf den empfangenen Betrag angewendet. Diese Adresse kann nur einmal verwendet werden.",
   "@invoice_btc_address_warning_with_min_fee_account_not_connected": {
     "placeholders": {
       "minSats": {
@@ -98,7 +98,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_without_min_fee_account_not_connected": "Sende mehr als {minSats} und bis zu {maxSats} an diese Adresse. Es wird eine Einrichtungsgebühr von {setUpFee}% auf den empfangenen Betrag erhoben. This address can be used only once.",
+  "invoice_btc_address_warning_without_min_fee_account_not_connected": "Sende mehr als {minSats} und bis zu {maxSats} an diese Adresse. Es wird eine Einrichtungsgebühr von {setUpFee}% auf den empfangenen Betrag erhoben. Diese Adresse kann nur einmal verwendet werden.",
   "@invoice_btc_address_warning_without_min_fee_account_not_connected": {
     "placeholders": {
       "minSats": {
@@ -116,12 +116,12 @@
     }
   },
   "invoice_btc_address_deposit_address": "Empfangsadresse",
-  "invoice_btc_address_deposit_address_copied": "Empfangsadresse wurde in Ihre Zwischenablage kopiert.",
+  "invoice_btc_address_deposit_address_copied": "Empfangsadresse wurde in die Zwischenablage kopiert.",
   "invoice_btc_address_on_chain_begin": "Breez nutzt Submarine Swaps zur Durchführung von On-Chain-Transaktionen. Klicke ",
   "invoice_btc_address_on_chain_here": "hier",
   "invoice_btc_address_on_chain_end": " um das mit dieser Adresse verbundene Skript anzuzeigen",
   "invoice_btc_address_on_chain_action_ok": "OK",
-  "invoice_title": "Empfange als Rechnung",
+  "invoice_title": "Empfange via Rechnung",
   "invoice_action_create": "ERSTELLEN",
   "invoice_action_redeem": "EINLÖSEN",
   "invoice_action_scan_barcode": "Barcode scannen",
@@ -215,7 +215,7 @@
   "invoice_bottom_sheet_action_pay": "ZAHLEN",
   "invoice_bottom_sheet_action_receive": "EMPFANGEN",
   "invoice_bottom_sheet_error_qrcode": "QR-Code wurde nicht erkannt.",
-  "invoice_payment_validator_error_payment_exceeded_limit": "Payment exceeds the limit ({maxSats})",
+  "invoice_payment_validator_error_payment_exceeded_limit": "Die Zahlung übersteigt das Limit ({maxSats})",
   "@invoice_payment_validator_error_payment_exceeded_limit": {
     "placeholders": {
       "maxSats": {
@@ -224,7 +224,7 @@
       }
     }
   },
-  "invoice_payment_validator_error_payment_below_invoice_limit": "Payment is below the limit ({minSats})",
+  "invoice_payment_validator_error_payment_below_invoice_limit": "Die Zahlung ist unter dem Limit ({minSats})",
   "@invoice_payment_validator_error_payment_below_invoice_limit": {
     "placeholders": {
       "minSats": {
@@ -233,7 +233,7 @@
       }
     }
   },
-  "invoice_payment_validator_error_payment_below_limit": "Breez requires you to keep {minSats} in your balance.",
+  "invoice_payment_validator_error_payment_below_limit": "Breez verlangt, dass {minSats} auf deinem Konto bleiben.",
   "@invoice_payment_validator_error_payment_below_limit": {
     "placeholders": {
       "minSats": {
@@ -242,8 +242,8 @@
       }
     }
   },
-  "invoice_payment_validator_error_insufficient_local_balance": "Insufficient local balance",
-  "invoice_payment_validator_error_payment_below_setup_fees_error": "Insufficient amount to cover the setup fees of {setUpSats}",
+  "invoice_payment_validator_error_insufficient_local_balance": "Unzureichendes lokales Guthaben",
+  "invoice_payment_validator_error_payment_below_setup_fees_error": "Unzureichender Betrag zur Deckung der Einrichtungsgebühren von {setUpSats}",
   "@invoice_payment_validator_error_payment_below_setup_fees_error": {
     "placeholders": {
       "setUpSats": {
@@ -252,7 +252,7 @@
       }
     }
   },
-  "invoice_payment_validator_error_unknown": "Validation error {error}",
+  "invoice_payment_validator_error_unknown": "Validierungsfehler {error}",
   "@invoice_payment_validator_error_unknown": {
     "placeholders": {
       "error": {
@@ -262,14 +262,14 @@
     }
   },
   "backup_dialog_title": "Backup",
-  "backup_dialog_message_remote_server": "Die Sicherungsdateien konnten nicht auf dem Remote Server gespeichert werden. Bitte überprüfe deine Einstellungen und versuche es erneut",
-  "backup_dialog_message_default": "Wenn du dein Guthaben wiederherzustellen möchtest, falls dieses Mobilgerät oder diese App nicht mehr verfügbar sind (z. B. bei Verlust oder Diebstahl des Geräts oder Deinstallation der App), musst du eine Sicherungskopie deiner Daten erstellen.",
-  "backup_dialog_do_not_prompt_again": "Nicht erneut zeigen",
+  "backup_dialog_message_remote_server": "Die Sicherungsdateien konnten nicht auf dem Remote-Server gespeichert werden. Bitte überprüfe deine Einstellungen und versuche es erneut",
+  "backup_dialog_message_default": "Wenn du dein Guthaben wiederherstellen möchtest (z. B. bei Verlust oder Diebstahl des Geräts oder Deinstallation der App), musst du eine Sicherungskopie deiner Daten erstellen.",
+  "backup_dialog_do_not_prompt_again": "Nicht erneut anzeigen",
   "backup_dialog_option_cancel": "SPÄTER",
   "backup_dialog_option_ok_remote_server": "EINSTELLUNGEN",
   "backup_dialog_option_ok_default": "BACKUP ERSTELLEN",
   "backup_dialog_icloud_error_title": "Bei iCloud anmelden",
-  "backup_dialog_icloud_error_message": "Melde dich bei deinem iCloud-Konto an. Starte die Einstellungen App, tippe auf iCloud und gebe deine Apple ID ein. Schalte iCloud Drive ein. Wenn du kein iCloud-Konto hast, tippe auf Neue Apple ID erstellen",
+  "backup_dialog_icloud_error_message": "Melde dich in deinem iCloud-Konto an. Gehe in die Einstellungen, tippe auf iCloud und gib deine Apple ID ein. Schalte iCloud Drive ein. Wenn du kein iCloud-Konto hast, tippe auf Neue Apple ID erstellen",
   "backup_provider_dialog_title": "Backup Speicherort",
   "backup_provider_dialog_message_restore": "Wiederherstellung von:",
   "backup_provider_dialog_message_store": "Backup speichern in:",
@@ -282,10 +282,10 @@
   "bottom_action_bar_connect_to_pay": "Zum Zahlen verbinden",
   "bottom_action_bar_send_btc_address": "An BTC Adresse senden",
   "bottom_action_bar_escher": "Cash-Out via Escher",
-  "bottom_action_bar_receive_invoice": "Als Rechnung empfangen",
+  "bottom_action_bar_receive_invoice": "Lightning-Rechnung erstellen",
   "bottom_action_bar_receive_btc_address": "Via BTC Adresse empfangen",
   "bottom_action_bar_buy_bitcoin": "Bitcoin kaufen",
-  "bottom_action_bar_warning_balance_title": "Breez benötigt {balance} auf ihrem Konto.",
+  "bottom_action_bar_warning_balance_title": "Breez benötigt {balance} auf deinem Konto.",
   "@bottom_action_bar_warning_balance_title": {
     "placeholders": {
       "balance": {
@@ -328,7 +328,7 @@
       }
     }
   },
-  "payment_details_dialog_transaction_id_copied": "Transaktions-ID wurde in deine Zwischenablage kopiert.",
+  "payment_details_dialog_transaction_id_copied": "Transaktions-ID wurde in die Zwischenablage kopiert.",
   "payment_details_dialog_restart_text": "Bitte starte Breez neu, um die Blockchain-Informationen für diesen Channel zurückzusetzen.",
   "payment_details_dialog_restart_cancel": "ABBRECHEN",
   "payment_details_dialog_restart_exit_breez": "BREEZ BEENDEN",
@@ -336,27 +336,27 @@
   "payment_details_dialog_internal_error": "Interner Fehler",
   "payment_details_dialog_refresh_information": "Informationen aktualisieren",
   "payment_details_dialog_share_transaction": "Transaktions-Hash teilen",
-  "payment_details_dialog_share_lightning_address": "Lightning Adresse",
+  "payment_details_dialog_share_lightning_address": "Lightning-Adresse",
   "payment_details_dialog_share_comment": "Kommentar",
   "payment_details_dialog_copy_action": "Kopieren {title}",
   "@payment_details_dialog_copy_action": {
     "placeholders": {
       "title": {
         "type": "String",
-        "example": "Zahlung Vorabbild"
+        "example": "Zahlungs-Preimage"
       }
     }
   },
-  "payment_details_dialog_copied": "{title} wurde in Ihre Zwischenablage kopiert.",
+  "payment_details_dialog_copied": "{title} wurde in die Zwischenablage kopiert.",
   "@payment_details_dialog_copied": {
     "placeholders": {
       "title": {
         "type": "String",
-        "example": "Zahlung Vorabbild"
+        "example": "Zahlungs-Preimage"
       }
     }
   },
-  "payment_details_dialog_single_info_pre_image": "Zahlung Vorabbild",
+  "payment_details_dialog_single_info_pre_image": "Zahlungs-Preimage",
   "payment_details_dialog_single_info_node_id": "Node-ID",
   "payment_details_dialog_single_info_on_chain": "On-chain Transaktion",
   "payment_details_dialog_action_for_payment_description": "Beschreibung",
@@ -453,7 +453,7 @@
       }
     }
   },
-  "pos_invoice_close": "SCHLIEßEN",
+  "pos_invoice_close": "SCHLIESSEN",
   "pos_invoice_clear_sale_header": "Verkauf löschen?",
   "pos_invoice_clear_sale_message": "Damit wird die aktuelle Transaktion gelöscht.",
   "pos_invoice_clear_sale_cancel": "ABBRECHEN",
@@ -667,7 +667,7 @@
     }
   },
   "connect_to_pay_payee_waiting_sync": "Bitte warte während Breez synchronisiert",
-  "connect_to_pay_payee_waiting_sync_action_close": "SCHLIEßEN",
+  "connect_to_pay_payee_waiting_sync_action_close": "SCHLIESSEN",
   "connect_to_pay_payee_message_no_fiat": "{name} möchte dir {amount} senden",
   "@connect_to_pay_payee_message_no_fiat": {
     "placeholders": {
@@ -698,7 +698,7 @@
       }
     }
   },
-  "connect_to_pay_payee_error_limit_exceeds": "Diese Zahlung überzieht dein Limit {amount}",
+  "connect_to_pay_payee_error_limit_exceeds": "Diese Zahlung überschreitet dein Limit {amount}",
   "@connect_to_pay_payee_error_limit_exceeds": {
     "placeholders": {
       "amount": {
@@ -750,8 +750,8 @@
     }
   },
   "connect_to_pay_payer_share_link": "Tippe auf die Schaltfläche Freigeben, um einen Link mit einer Person zu teilen, die du bezahlen möchte. Warte dann bitte, während diese Person auf den Link klickt und der Sitzung beitritt.",
-  "connect_to_pay_payer_waiting_join_no_name": "Warte auf Teilnehmer an dieser Sitzung",
-  "connect_to_pay_payer_waiting_join_with_name": "Warte auf {name} an dieser Sitzung teilzunehmen",
+  "connect_to_pay_payer_waiting_join_no_name": "Es wird darauf gewartet, dass jemand der Sitzung beitritt",
+  "connect_to_pay_payer_waiting_join_with_name": "Es wird darauf gewartet, dass {name} der Sitzung beitritt",
   "@connect_to_pay_payer_waiting_join_with_name": {
     "placeholders": {
       "name": {
@@ -761,7 +761,7 @@
     }
   },
   "connect_to_pay_payer_waiting_approve_no_name": "Warte auf Freigabe der Zahlung",
-  "connect_to_pay_payer_waiting_approve_with_name": "Warte auf {name} die Zahlung freizugeben",
+  "connect_to_pay_payer_waiting_approve_with_name": "Warte auf Freigabe der Zahlung durch {name}",
   "@connect_to_pay_payer_waiting_approve_with_name": {
     "placeholders": {
       "name": {
@@ -773,10 +773,10 @@
   "connect_to_pay_payer_sending": "Sende Zahlung…",
   "connect_to_pay_payer_wait_sync": "Bitte warte während Breez synchronisiert",
   "connect_to_pay_payer_synchronizing": "Synchronisiere das Netzwerk",
-  "connect_to_pay_payer_action_close": "SCHLIEßEN",
+  "connect_to_pay_payer_action_close": "SCHLIESSEN",
   "connect_to_pay_payment_detail_note": "Notiz (optional)",
   "connect_to_pay_payment_available": "Verfügbar:",
-  "connect_to_pay_payment_action_close": "SCHLIEßEN",
+  "connect_to_pay_payment_action_close": "SCHLIESSEN",
   "connect_to_pay_payment_action_pay": "ZAHLEN",
   "connect_to_pay_peer_unknown": "Unbekannt",
   "connect_to_pay_share_text": "{name} möchte über Breez bezahlen...\nFolge diesem Link, um die Zahlung zu erhalten: {address}",
@@ -820,32 +820,32 @@
       }
     }
   },
-  "security_and_backup_encrypt": "Cloud Backup verschlüsseln",
-  "security_and_backup_store_location": "Backup Daten speichern in",
+  "security_and_backup_encrypt": "Cloud-Backup verschlüsseln",
+  "security_and_backup_store_location": "Backup-Daten speichern in",
   "security_and_backup_lock_automatically": "Automatisch sperren",
   "security_and_backup_lock_automatically_option_immediate": "Sofort",
   "security_and_backup_change_pin": "PIN ändern",
-  "security_and_backup_enable_biometric_option_face": "Gesichtserkennung aktivieren",
-  "security_and_backup_enable_biometric_option_face_id": "Gesichtserkennung aktivieren",
+  "security_and_backup_enable_biometric_option_face": "Biometrik aktivieren",
+  "security_and_backup_enable_biometric_option_face_id": "Biometrik aktivieren",
   "security_and_backup_enable_biometric_option_fingerprint": "Touch ID aktivieren",
   "security_and_backup_enable_biometric_option_touch_id": "Touch ID aktivieren",
-  "security_and_backup_enable_biometric_option_other": "Enable Biometric",
+  "security_and_backup_enable_biometric_option_other": "Biometrik aktivieren",
   "security_and_backup_enable_biometric_option_none": "",
   "security_and_backup_validate_biometrics_reason": "Melde dich an, um diese Einstellung zu aktivieren",
   "security_and_backup_pin_option_create": "PIN erstellen",
   "security_and_backup_pin_option_deactivate": "PIN deaktivieren",
   "security_and_backup_internal_error": "Interner Fehler",
-  "security_and_backup_new_pin": "Gib einen neuen PIN ein",
-  "security_and_backup_new_pin_second_time": "Gib deinen PIN erneut ein",
+  "security_and_backup_new_pin": "Gib eine neue PIN ein",
+  "security_and_backup_new_pin_second_time": "Gib deine PIN erneut ein",
   "security_and_backup_new_pin_do_not_match": "PIN stimmt nicht überein",
-  "backup_in_progress": "Backup wird druchgeführt",
+  "backup_in_progress": "Backup wird durchgeführt",
   "backup_in_progress_action_confirm": "OK",
   "backup_model_name_apple_icloud": "Apple iCloud",
   "backup_model_name_google_drive": "Google Drive",
-  "backup_model_name_remote_server": "Remote Server",
+  "backup_model_name_remote_server": "Remote-Server",
   "backup_model_error_failed": "Backup fehlgeschlagen",
   "network_title": "Netzwerk",
-  "network_restart_message": "Bitte starte Breez neu, um auf die neue Bitcoin-Knotenkonfiguration zu ändern.",
+  "network_restart_message": "Bitte starte Breez neu, um die neue Bitcoin-Knotenkonfiguration anzuwenden.",
   "network_restart_action_cancel": "ABBRECHEN",
   "network_restart_action_confirm": "BREEZ BEENDEN",
   "network_restart_action_reset": "Zurücksetzen",
@@ -857,12 +857,12 @@
   "network_default_node_error": "Breez kann die Standard-Node nicht verwenden.",
   "network_custom_node_error": "Breez kann keine Verbindung zur angegebenen Node herstellen. Bitte stelle sicher, dass die Node BIP 157 unterstützt.",
   "network_testing_node": "Test Node",
-  "network_tor_enable": "Enable Tor",
-  "network_tor_disable": "Disable Tor",
-  "network_tor_enabling": "Enabling Tor",
-  "network_tor_disabling": "Disabling Tor",
-  "network_tor_enable_error": "Breez is unable to enable Tor. Please restart Breez and try again.",
-  "network_tor_disable_error": "Breez is unable to disable Tor. Please restart Breez and try again.",
+  "network_tor_enable": "Tor aktivieren",
+  "network_tor_disable": "Tor deaktivieren",
+  "network_tor_enabling": "Aktiviere Tor",
+  "network_tor_disabling": "Deaktiviere Tor",
+  "network_tor_enable_error": "Breez kann Tor nicht aktivieren. Bitte starte Breez neu und versuche es erneut.",
+  "network_tor_disable_error": "Breez kann Tor nicht deaktivieren. Bitte starte Breez neu und versuche es erneut.",
   "amount_form_denomination": "Betrag in {denomination}",
   "@amount_form_denomination": {
     "placeholders": {
@@ -901,7 +901,7 @@
   },
   "reverse_swap_title": "An BTC-Adresse senden",
   "reverse_swap_funding_transaction": "Funding-Transaktion:",
-  "reverse_swap_waiting_channels": "Sobald alle Kanäle bestätigt sind, kannst du deine bitcoin an eine BTC-Adresse senden",
+  "reverse_swap_waiting_channels": "Sobald alle Kanäle bestätigt sind, kannst du deine Bitcoin an eine BTC-Adresse senden",
   "reverse_swap_confirmation_speed": "Wähle Verarbeitungsgeschwindigkeit",
   "reverse_swap_confirmation_action_confirm": "BESTÄTIGEN",
   "reverse_swap_confirmation_you_send": "Du sendest:",
@@ -948,8 +948,8 @@
       }
     }
   },
-  "reverse_swap_confirmation_error_fetch_fee": "Die Gebühren konnten nicht abgerufen werden. Bitte versuche es später noch einmal.",
-  "reverse_swap_confirmation_error_funds_fee": "Du hast nicht genug bitcoin für die Netzwerkgebühr.",
+  "reverse_swap_confirmation_error_fetch_fee": "Die Gebühren konnten nicht ermittelt werden. Bitte versuche es später noch einmal.",
+  "reverse_swap_confirmation_error_funds_fee": "Du hast nicht genug Bitcoin für die Netzwerkgebühr.",
   "reverse_swap_notification_title": "Aktion erforderlich",
   "reverse_swap_notification_body": "Bitte öffne Breez, um die gewünschte Transaktion abzuschließen.",
   "reverse_swap_upstream_generic_error_message": "{errorMessage}. Bitte versuche es später erneut.",
@@ -957,7 +957,7 @@
     "placeholders": {
       "errorMessage": {
         "type": "String",
-        "example": "Abruf der Gebühren fehlgeschlagen"
+        "example": "Ermittlung der Gebühren fehlgeschlagen"
       }
     }
   },
@@ -982,30 +982,30 @@
     }
   },
   "withdraw_funds_use_all_funds": "Maximale Summe verwenden",
-  "withdraw_funds_btc_address": "BTC Adresse",
+  "withdraw_funds_btc_address": "BTC-Adresse",
   "withdraw_funds_scan_barcode": "Barcode scannen",
-  "withdraw_funds_error_invalid_address": "Bitte gib eine gültige BTC Address an",
+  "withdraw_funds_error_invalid_address": "Bitte gib eine gültige BTC-Adresse an",
   "withdraw_funds_balance": "Kontostand:",
   "withdraw_funds_error_qr_code_not_detected": "QR-Code wurde nicht erkannt.",
   "withdraw_funds_action_next": "WEITER",
-  "swap_in_progress_title": "An BTC Adresse senden",
-  "swap_in_progress_transaction_id_copied": "Transaktions-ID wurde in Ihre Zwischenablage kopiert.",
-  "swap_in_progress_message_waiting_confirmation": "Breez wartet auf die Bestätigung der folgenden Transaktion, bevor deine bitcoin an die angegebene Adresse gesendet werden",
-  "swap_in_progress_message_processing_previous_request": "Breez bearbeitet derzeit deine vorherige Anfrage. Du wirst benachrichtigt, sobald die Bearbeitung abgeschlossen ist, um deine bitcoin an die von dir angegebene Adresse zu senden",
+  "swap_in_progress_title": "An BTC-Adresse senden",
+  "swap_in_progress_transaction_id_copied": "Transaktions-ID wurde in die Zwischenablage kopiert.",
+  "swap_in_progress_message_waiting_confirmation": "Breez wartet auf die Bestätigung der folgenden Transaktion, bevor deine Bitcoin an die angegebene Adresse gesendet werden",
+  "swap_in_progress_message_processing_previous_request": "Breez bearbeitet derzeit deine vorherige Anfrage. Du wirst benachrichtigt, sobald die Bearbeitung abgeschlossen ist, um deine Bitcoin an die von dir angegebene Adresse zu senden",
   "market_place_no_vendors": "Zurzeit sind keine Anbieter verfügbar.",
   "account_required_actions_backup": "Backup",
   "account_page_activation_provider": "Um Breez zu aktivieren, wähle bitte einen Anbieter:",
   "account_page_activation_provider_action_select": "AUSWÄHLEN…",
   "account_page_activation_provider_label": "Wähle einen Lightning-Anbieter",
   "account_page_activation_provider_hint": "Bitte wähle einen der folgenden Anbieter, um Breez zu aktivieren und sich mit dem Lightning-Netzwerk zu verbinden.",
-  "account_page_activation_provider_unavailable": "There are no available LSP's.\nPlease check your configuration and restart Breez.",
+  "account_page_activation_provider_unavailable": "Keine LSPs verfügbar.\nBitte überprüfe deine Konfiguration und starte Breez neu.",
   "account_page_activation_error": "Es ist ein Fehler beim Abrufen der Lightning-Anbieter aufgetreten. Bitte überprüfe deine Internetverbindung und versuche es erneut",
   "account_page_activation_action_retry": "ERNEUT VERSUCHEN",
   "account_page_activation_action_select": "AUSWÄHLEN",
   "funds_over_limit_dialog_on_chain_transaction": "On-chain Transaktion",
   "funds_over_limit_dialog_action_ok": "OK",
-  "funds_over_limit_dialog_transfer_fail_no_reason_know": "Breez war nicht in der Lage, den Transfer auf dein Guthaben gutzuschreiben\n",
-  "funds_over_limit_dialog_transfer_fail_with_reason": "Breez war nicht in der Lage, den Transfer auf dein Guthaben gutzuschreiben {reason}\n",
+  "funds_over_limit_dialog_transfer_fail_no_reason_know": "Breez war nicht in der Lage, das Guthaben auf dein Konto gutzuschreiben\n",
+  "funds_over_limit_dialog_transfer_fail_with_reason": "Breez war nicht in der Lage, das Guthaben auf dein Konto gutzuschreiben, weil {reason}\n",
   "@funds_over_limit_dialog_transfer_fail_with_reason": {
     "placeholders": {
       "reason": {
@@ -1054,18 +1054,18 @@
   "get_refund_action_continue": "WEITER",
   "get_refund_transaction": "Transaktion erstatten",
   "get_refund_failed": "fehlgeschlagen",
-  "get_refund_no_refundable_items": "No refundable items left.",
-  "get_refund_transaction_id_copied": "The transaction id was copied to your clipboard.",
+  "get_refund_no_refundable_items": "Keine erstattungsfähigen Positionen mehr.",
+  "get_refund_transaction_id_copied": "Die Transaktions-ID wurde in die Zwischenablage kopiert.",
   "send_on_chain_broadcast": "BROADCAST",
-  "send_on_chain_btc_address": "BTC Adresse",
+  "send_on_chain_btc_address": "BTC-Adresse",
   "send_on_chain_scan_barcode": "Barcode scannen",
-  "send_on_chain_invalid_btc_address": "Bitte gib eine gültige BTC Adresse an",
-  "send_on_chain_sat_per_byte_fee_rate": "Sat Per Byte (Gebührensatz)",
+  "send_on_chain_invalid_btc_address": "Bitte gib eine gültige BTC-Adresse an",
+  "send_on_chain_sat_per_byte_fee_rate": "Sats pro vByte (Gebührensatz)",
   "send_on_chain_invalid_fee_rate": "Bitte gib einen gültigen Gebührensatz an",
   "send_on_chain_original_transaction": "Ursprüngliche Transaktion",
   "send_on_chain_amount": "Betrag:",
   "send_on_chain_qr_code_not_detected": "QR-Code wurde nicht erkannt.",
-  "remote_server_title": "Remote Server",
+  "remote_server_title": "Remote-Server",
   "remote_server_server_url_hint": "https://example.nextcloud.com",
   "remote_server_server_url_label": "Server URL (Nextcloud, WebDav)",
   "remote_server_server_username_hint": "Benutzername",
@@ -1076,33 +1076,33 @@
   "remote_server_action_save": "SPEICHERN",
   "remote_server_warning_connection_title": "Warnung",
   "remote_server_warning_connection_message": "Deine Verbindung zu diesem Remote-Server ist möglicherweise nicht sicher. Bist du sicher, dass du fortfahren möchtest?",
-  "remote_server_warning_onion_message": "This URL has an onion domain. You probably need to first enable Tor in the Network settings.",
-  "remote_server_onion_warning_dialog_default_action_cancel": "CANCEL",
-  "remote_server_onion_warning_dialog_settings": "SETTINGS",
+  "remote_server_warning_onion_message": "Diese URL hat eine Onion-Domain. Du musst wahrscheinlich erst Tor in den Netzwerkeinstellungen aktivieren.",
+  "remote_server_onion_warning_dialog_default_action_cancel": "ABBRECHEN",
+  "remote_server_onion_warning_dialog_settings": "EINSTELLUNGEN",
   "remote_server_testing_connection": "Teste Verbindung",
   "remote_server_error_invalid_username_or_password": "Ungültiger Benutzername oder Passwort",
   "remote_server_error_invalid_url": "Ungültige URL",
-  "remote_server_error_remote_server_title": "Remote Server",
+  "remote_server_error_remote_server_title": "Remote-Server",
   "remote_server_error_remote_server_message": "Die Verbindung mit dem Remote-Server konnte nicht hergestellt werden, bitte überprüfe die Einstellungen",
   "error_dialog_default_action_ok": "OK",
   "error_dialog_default_action_yes": "JA",
   "error_dialog_default_action_no": "NEIN",
-  "error_dialog_default_action_close": "SCHLIEßEN",
+  "error_dialog_default_action_close": "SCHLIESSEN",
   "ln_url_success_action_title": "Informationen zum Kauf",
-  "ln_url_success_action_link_copied": "Link wurde in deine Zwischenablage kopiert.",
+  "ln_url_success_action_link_copied": "Link wurde in die Zwischenablage kopiert.",
   "avatar_picker_action_set_photo": "Bild auswählen",
   "avatar_picker_action_change_photo": "Bild wechseln",
   "avatar_picker_error_select_image": "Bildauswahl fehlgeschlagen",
-  "initial_walk_through_welcome_message": "Der einfachste, schnellste und sicherste Weg\ndeine bitcoin auszugeben",
+  "initial_walk_through_welcome_message": "Der einfachste, schnellste und sicherste Weg\ndeine Bitcoin auszugeben",
   "initial_walk_through_lets_breeze": "LET'S BREEZ!",
   "initial_walk_through_restore_from_backup": "Wiederherstellen vom Backup",
-  "initial_walk_through_restoring": "Stelle Daten her…",
+  "initial_walk_through_restoring": "Daten werden wiederhergestellt…",
   "initial_walk_through_sign_in_icloud_title": "Bei iCloud anmelden",
-  "initial_walk_through_sign_in_icloud_message": "Melde dich bei deinem iCloud-Konto an. Öffne die Einstellungen App, tippe auf iCloud und gib deine Apple ID ein. Schalte iCloud Drive ein. Wenn du kein iCloud-Konto hast, tippe auf Neue Apple ID erstellen.",
+  "initial_walk_through_sign_in_icloud_message": "Melde dich in deinem iCloud-Konto an. Gehe in die Einstellungen, tippe auf iCloud und gib deine Apple ID ein. Schalte iCloud Drive ein. Wenn du kein iCloud-Konto hast, tippe auf Neue Apple ID erstellen.",
   "initial_walk_through_error_backup_location": "Backup für dieses Konto konnte nicht gefunden werden",
   "initial_walk_through_error_internal": "Interner Fehler",
   "restore_pin_title": "Backup-PIN eingeben",
-  "enter_backup_phrase": "Gib deine Sicherungsphrase ein {number}/{total}",
+  "enter_backup_phrase": "Gib deine Backup-Phrase ein {number}/{total}",
   "@enter_backup_phrase": {
     "placeholders": {
       "number": {
@@ -1115,7 +1115,7 @@
       }
     }
   },
-  "enter_backup_phrase_error": "Backup Wiederherstellung fehlgeschlagen. Bitte vergewissere dich, dass die Backup-Phrase korrekt eingegeben wurde und versuche es erneut.",
+  "enter_backup_phrase_error": "Backup-Wiederherstellung fehlgeschlagen. Bitte vergewissere dich, dass die Backup-Phrase korrekt eingegeben wurde und versuche es erneut.",
   "enter_backup_phrase_missing_word": "Fehlendes Wort",
   "enter_backup_phrase_invalid_word": "Ungültiges Wort",
   "enter_backup_phrase_action_restore": "WIEDERHERSTELLEN",
@@ -1162,22 +1162,22 @@
   "restore_dialog_action_ok": "OK",
   "restore_dialog_download_backup_error": "Download-Fehler",
   "beta_warning_title": "Beta Warnung",
-  "beta_warning_message": "Da sich Breez noch im Beta-Stadium befindet, besteht die Möglichkeit, dass deine bitcoin verloren gehen. Verwende diese App nur, wenn de bereit bist, dieses Risiko einzugehen",
+  "beta_warning_message": "Da sich Breez noch im Beta-Stadium befindet, besteht die Möglichkeit, dass deine Bitcoin verloren gehen. Verwende diese App nur, wenn de bereit bist, dieses Risiko einzugehen",
   "beta_warning_understand": "Ich verstehe",
   "beta_warning_understand_confirmation": "Bitte bestätige, dass du verstanden hast, bevor du fortfährst",
   "beta_warning_action_exit": "BEENDEN",
   "beta_warning_action_continue": "WEITER",
   "alpha_warning_title": "Alpha Warnung",
-  "alpha_warning_message": "Da sich Breez noch im Alpha-Stadium befindet, besteht die Möglichkeit, dass deine bitcoin verloren gehen. Verwende diese App nur, wenn de bereit bist, dieses Risiko einzugehen",
+  "alpha_warning_message": "Da sich Breez noch im Alpha-Stadium befindet, besteht die Möglichkeit, dass deine Bitcoin verloren gehen. Verwende diese App nur, wenn de bereit bist, dieses Risiko einzugehen",
   "alpha_warning_understand": "Ich verstehe",
   "alpha_warning_understand_confirmation": "Bitte bestätige, dass du verstanden hast, bevor du fortfährst",
   "alpha_warning_action_exit": "BEENDEN",
   "alpha_warning_action_continue": "WEITER",
   "processing_payment_dialog_synchronizing": "Synchronisierung mit dem Netzwerk",
   "processing_payment_dialog_synchronizing_channels": "Breez synchronisiert deine Kanäle",
-  "processing_payment_dialog_action_close": "SCHLIEßEN",
+  "processing_payment_dialog_action_close": "SCHLIESSEN",
   "processing_payment_dialog_processing_payment": "Zahlung wird abgewickelt",
-  "processing_payment_dialog_wait": "Bitte warte während die Zahlung abgewickelt wird",
+  "processing_payment_dialog_wait": "Bitte warte, während die Zahlung abgewickelt wird",
   "payment_request_dialog_requested": "Du wirst gebeten zu zahlen:",
   "payment_request_dialog_requesting": "fordert dich auf zu zahlen:",
   "payment_request_dialog_action_cancel": "ABBRECHEN",
@@ -1192,9 +1192,9 @@
   "payment_confirmation_dialog_confirmation_end": " ?",
   "payment_confirmation_dialog_action_no": "NEIN",
   "payment_confirmation_dialog_action_yes": "JA",
-  "no_connection_flushbar_title": "No internet connection",
-  "no_connection_flushbar_action_retry": "RETRY",
-  "no_connection_dialog_title": "Keine Internet Verbindung",
+  "no_connection_flushbar_title": "Keine Internet-Verbindung",
+  "no_connection_flushbar_action_retry": "ERNEUT VERSUCHEN",
+  "no_connection_dialog_title": "Keine Internet-Verbindung",
   "no_connection_dialog_tip_begin": "Du kannst versuchen:\n",
   "no_connection_dialog_tip_airplane": "• den Flugmodus auszuschalten\n",
   "no_connection_dialog_tip_wifi": "• mobile Daten oder WLAN einzuschalten\n",
@@ -1206,7 +1206,7 @@
   "lsp_fee_warning_title": "Einrichtungsgebühr",
   "lsp_fee_warning_action_cancel": "ABBRECHEN",
   "lsp_fee_warning_action_ok": "OK",
-  "lsp_fee_warning_with_min_fee_account_connected": "Eine Einrichtungsgebühr von {setUpFee}% (Minimum: {minFee}) wird für den Kauf von mehr als {liquidity} angewendet.",
+  "lsp_fee_warning_with_min_fee_account_connected": "Eine Einrichtungsgebühr von {setUpFee}% (Minimum: {minFee}) wird für den Kauf von mehr als {liquidity} erhoben.",
   "@lsp_fee_warning_with_min_fee_account_connected": {
     "placeholders": {
       "setUpFee": {
@@ -1223,7 +1223,7 @@
       }
     }
   },
-  "lsp_fee_warning_without_min_fee_account_connected": "Eine Einrichtungsgebühr von {setUpFee}% wird für den Kauf von mehr als {liquidity} angewendet.",
+  "lsp_fee_warning_without_min_fee_account_connected": "Eine Einrichtungsgebühr von {setUpFee}% wird für den Kauf von mehr als {liquidity} erhoben.",
   "@lsp_fee_warning_without_min_fee_account_connected": {
     "placeholders": {
       "setUpFee": {
@@ -1236,7 +1236,7 @@
       }
     }
   },
-  "lsp_fee_warning_with_min_fee_account_not_connected": "Eine Einrichtungsgebühr von {setUpFee}% (Minimum: {minFee}) wird auf den empfangenen Betrag angewendet.",
+  "lsp_fee_warning_with_min_fee_account_not_connected": "Eine Einrichtungsgebühr von {setUpFee}% (Minimum: {minFee}) wird auf den empfangenen Betrag erhoben.",
   "@lsp_fee_warning_with_min_fee_account_not_connected": {
     "placeholders": {
       "setUpFee": {
@@ -1249,7 +1249,7 @@
       }
     }
   },
-  "lsp_fee_warning_without_min_fee_account_not_connected": "Eine Einrichtungsgebühr von {setUpFee}% wird auf den empfangenen Betrag angewendet.",
+  "lsp_fee_warning_without_min_fee_account_not_connected": "Eine Einrichtungsgebühr von {setUpFee}% wird auf den empfangenen Betrag erhoben.",
   "@lsp_fee_warning_without_min_fee_account_not_connected": {
     "placeholders": {
       "setUpFee": {
@@ -1259,9 +1259,9 @@
     }
   },
   "lsp_error_provider_do_not_exists": "LSP existiert nicht",
-  "lsp_error_not_selected": "lsp wurde nicht ausgewählt",
+  "lsp_error_not_selected": "LSP wurde nicht ausgewählt",
   "lost_card_dialog_title": "Verlorene oder gestohlene Karte",
-  "lost_card_dialog_message": "Wenn deine Karte verloren gegangen ist oder gestohlen wurde, solltest du sie jetzt deaktivieren, um zu verhindern, dass sie von anderen verwendet wird. Deaktivieren bedeutet, dass du keine deiner vorhandenen Karten mehr verwenden kanst, bis du sie wieder aktivierst",
+  "lost_card_dialog_message": "Wenn deine Karte verloren gegangen ist oder gestohlen wurde, solltest du sie jetzt deaktivieren, um zu verhindern, dass sie von anderen verwendet wird. Deaktivieren bedeutet, dass du keine deiner vorhandenen Karten mehr verwenden kannst, bis du sie wieder aktivierst",
   "lost_card_dialog_action_cancel": "ABBRECHEN",
   "lost_card_dialog_action_deactivate": "DEAKTIVIEREN",
   "lost_card_dialog_flush_title": "",
@@ -1270,10 +1270,10 @@
   "order_card_action_skip": "ÜBERSPRINGEN",
   "order_card_action_ok": "OK",
   "order_card_action_order": "BESTELLEN",
-  "order_card_action_error_name_address_missing": "Name und Adresse sind erforderlich, um dir eine Breez-Karte zu schicken. Alle angegebenen Informationen werden nach dem Versand der Karte aus unserem System gelöscht. Du Kannst diesen Schritt überspringen und Breez auch ohne Karte nutzen.",
-  "order_card_action_order_breez_card": "Breez Karte bestellen",
+  "order_card_action_error_name_address_missing": "Name und Adresse sind erforderlich, um dir eine Breez-Karte zu schicken. Alle angegebenen Informationen werden nach dem Versand der Karte aus unserem System gelöscht. Du kannst diesen Schritt überspringen und Breez auch ohne Karte nutzen.",
+  "order_card_action_order_breez_card": "Breez-Karte bestellen",
   "order_card_action_order_card": "Karte bestellen",
-  "order_card_success": "Deine Breez Karte wird in Kürze an die genannte Adresse gesendet.",
+  "order_card_success": "Deine Breez-Karte wird in Kürze an die genannte Adresse gesendet.",
   "order_card_info_disclaimer": "Warum muss ich diese\nInformationen zur Verfügung stellen?",
   "order_card_zip_code_label": "PLZ",
   "order_card_zip_code_error": "Ungültige PLZ",
@@ -1294,7 +1294,7 @@
   "order_card_full_name_error": "Bitte gib deinen vollständigen Namen an",
   "link_launcher_title": "Transaktions-ID:",
   "link_launcher_link_name": "",
-  "link_launcher_failed_to_launch": "Could not launch {url}",
+  "link_launcher_failed_to_launch": "Konnte {url} nicht aufrufen",
   "@link_launcher_failed_to_launch": {
     "placeholders": {
       "url": {
@@ -1361,7 +1361,7 @@
     }
   },
   "close_popup_title": "Breez beenden",
-  "close_popup_message": "Willst du Breez wirklich verlassen?",
+  "close_popup_message": "Willst du Breez wirklich beenden?",
   "breez_date_picker_day_and_date": "{day} {date}",
   "@breez_date_picker_day_and_date": {
     "placeholders": {
@@ -1401,11 +1401,11 @@
       }
     }
   },
-  "breez_date_picker_error_initial_date_after": "Das Anfangsdatum muss am oder nach dem ersten Datum liegen",
-  "breez_date_picker_error_initial_date_before": "Das Anfangsdatum muss am oder vor dem letzten Datum liegen",
+  "breez_date_picker_error_initial_date_after": "Das Anfangsdatum darf nicht vor dem ersten Datum liegen",
+  "breez_date_picker_error_initial_date_before": "Das Anfangsdatum darf nicht hinter dem letzten Datum liegen",
   "breez_date_picker_error_initial_date_predicate": "Das Anfangsdatum muss der auswählbaren Zeitspanne entsprechen",
   "breez_date_picker_error_initial_date_null": "Das Anfangsdatum darf nicht leer bleiben",
-  "breez_date_picker_error_last_date_after": "Das Enddatum muss am oder nach dem ersten Datum liegen",
+  "breez_date_picker_error_last_date_after": "Das Enddatum darf nicht vor dem ersten Datum liegen",
   "breez_avatar_dialog_random": "ZUFÄLLIG",
   "breez_avatar_dialog_gallery": "GALLERIE",
   "breez_avatar_dialog_your_name": "Namen eingeben",
@@ -1422,11 +1422,11 @@
   "utils_print_pdf_header_amount": "Betrag",
   "utils_print_pdf_header_total": "Gesamt",
   "utils_print_pdf_header_description": "Beschreibung:",
-  "utils_print_pdf_header_payment_preimage": "Zahlungsvorschau:",
+  "utils_print_pdf_header_payment_preimage": "Zahlungs-Preimage:",
   "handler_check_version_action_update": "AKTUALISIEREN",
   "handler_check_version_message": "Bitte aktualisiere Breez auf die neueste Version.",
   "handler_channel_connection_message": "Breez ist offline",
-  "handler_channel_connection_close": "SCHLIEßEN",
+  "handler_channel_connection_close": "SCHLIESSEN",
   "handler_lnurl_error_link": "Link-Fehler",
   "handler_lnurl_error_process": "Link konnte nicht verarbeitet werden: {message}",
   "@handler_lnurl_error_process": {
@@ -1451,7 +1451,7 @@
   },
   "handler_lnurl_login_error_unsupported": "Nicht unterstützte LNURL",
   "handler_lnurl_open_channel_title": "Channel öffnen",
-  "handler_lnurl_open_channel_message": "Bust du sicher, dass di einen Channel mit {host} öffnen möchtest?",
+  "handler_lnurl_open_channel_message": "Bist du sicher, dass du einen Channel mit {host} öffnen möchtest?",
   "@handler_lnurl_open_channel_message": {
     "placeholders": {
       "host": {
@@ -1476,8 +1476,8 @@
   "handler_sync_ui_message": "Breez synchronisiert sich mit dem Bitcoin-Netzwerk",
   "add_funds_error_deposit": "Breez bearbeitet gerade deine vorherige Einzahlung. Sobald dieser Vorgang abgeschlossen ist, kannst du weitere Gelder einzahlen.",
   "add_funds_error_withdraw": "Breez bearbeitet deine vorherige Abhebung. Sobald dieser Vorgang abgeschlossen ist, kannst du weitere Gelder hinzufügen.",
-  "add_funds_transaction_id_copied": "Die Transaktions-ID wurde in Ihre Zwischenablage kopiert.",
-  "add_funds_item_voucher_title": "Gutschein Wert",
+  "add_funds_transaction_id_copied": "Die Transaktions-ID wurde in die Zwischenablage kopiert.",
+  "add_funds_item_voucher_title": "Gutschein-Wert",
   "add_funds_item_voucher_message": "{value} {currency}",
   "@add_funds_item_voucher_message": {
     "placeholders": {
@@ -1529,7 +1529,7 @@
       }
     }
   },
-  "add_funds_item_bitcoins_received_title": "bitcoin erhalten",
+  "add_funds_item_bitcoins_received_title": "Bitcoin erhalten",
   "add_funds_moonpay_title": "MoonPay",
   "add_funds_moonpay_error_address": "Es konnte keine Adresse vom Breez-Server abgerufen werden\nBitte überprüfe deine Internetverbindung.",
   "add_funds_moonpay_loading": "Lade…",
@@ -1539,7 +1539,7 @@
   "csv_exporter_description": "Beschreibung",
   "csv_exporter_node_id": "Node-ID",
   "csv_exporter_amount": "Betrag",
-  "csv_exporter_preimage": "Vorabbild",
+  "csv_exporter_preimage": "Preimage",
   "csv_exporter_tx_hash": "TX Hash",
   "csv_exporter_fee": "Gebühr",
   "pos_custom_item_name": "Artikel {index}",
@@ -1560,20 +1560,20 @@
   "pos_settings_import_dialog_message": "Wenn du diese Liste importierest, wird die bestehende Liste überschrieben. Bist du sicher, dass du fortfahren möchtest?",
   "pos_settings_import_action_yes": "JA",
   "pos_settings_import_action_no": "NEIN",
-  "pos_settings_import_select_message": "Bite wähle eine .csv Datei.",
+  "pos_settings_import_select_message": "Bite wähle eine CSV-Datei.",
   "pos_settings_import_success_message": "Artikel erfolgreich importiert.",
   "pos_settings_import_error_generic": "Import von Artikeln fehlgeschlagen.",
   "pos_settings_import_error_invalid_file": "Die ausgewählte Datei ist keine gültige CSV-Datei.",
   "pos_settings_import_error_invalid_data": "Ausgewählte Datei enthält ungültige Daten.",
   "pos_settings_export_error_generic": "Export von Artikeln fehlgeschlagen.",
-  "pos_settings_export_error_no_items": "Es gibt keine Artikel zu exportieren.",
+  "pos_settings_export_error_no_items": "Es gibt keine Artikel, die exportiert werden können.",
   "pos_settings_create_manager_password": "Manager-Passwort erstellen",
   "pos_settings_activate_manager_password": "Manager-Passwort aktivieren",
   "pos_settings_change_manager_password": "Manager-Passwort ändern",
   "pos_settings_manager_password_error_title": "Manager-Passwort",
   "pos_settings_manager_password_error_message": "Das Manager-Passwort kann nur konfiguriert werden, wenn du ein aktives Backup hast. Um den Backup-Prozess zu starten, gehe zu Empfangen > Empfange mit BTC-Adresse.",
   "pos_settings_manager_password_title": "Manager-Passwort",
-  "pos_settings_manager_password_message": "Wenn das Manager-Passwort aktiviert ist, musst du beim Senden von Bitcoin von Breez aus ein Kennwort eingeben.\nBist du sicher, dass du das Manager-Passwort aktivieren möchtest?",
+  "pos_settings_manager_password_message": "Wenn das Manager-Passwort aktiviert ist, musst du beim Senden von Bitcoin aus Breez ein Kennwort eingeben.\nBist du sicher, dass du das Manager-Passwort aktivieren möchtest?",
   "pos_settings_manager_password_action_create": "ERSTELLEN",
   "pos_settings_manager_password_action_change": "ÄNDERN",
   "pos_settings_business_address": "Firmenadresse",
@@ -1638,7 +1638,7 @@
       }
     }
   },
-  "pos_payment_nfc_error_action_close": "SCHLIEßEN",
+  "pos_payment_nfc_error_action_close": "SCHLIESSEN",
   "successful_payment_print": "Drucken",
   "successful_payment_received": "Zahlung erhalten!",
   "payment_options_title": "Lightning Gebühren",
@@ -1667,19 +1667,19 @@
   "pos_report_dialog_title_weekly": "Wöchentliche Übersicht",
   "pos_report_dialog_title_monthly": "Monatliche Übersicht",
   "pos_report_dialog_title_custom": "Benutzerdefinierte Übersicht",
-  "pos_report_dialog_action_close": "SCHLIEßEN",
+  "pos_report_dialog_action_close": "SCHLIESSEN",
   "pos_report_dialog_dropdown_item_daily": "Heute",
   "pos_report_dialog_dropdown_item_weekly": "Diese Woche",
   "pos_report_dialog_dropdown_item_monthly": "Dieser Monat",
-  "pos_report_dialog_dropdown_item_custom": "Benutzerdefinierte Zeitraum",
+  "pos_report_dialog_dropdown_item_custom": "Benutzerdefinierter Zeitraum",
   "pos_report_dialog_content_sales_label": "Anzahl der Verkäufe:",
   "pos_report_dialog_content_amount_label": "Gesamtbetrag:",
   "pos_report_dialog_content_start_date_label": "Anfangsdatum:",
   "pos_report_dialog_content_end_date_label": "Enddatum:",
   "lnurl_withdraw_dialog_title": "Bitcoin erhalten",
   "lnurl_withdraw_dialog_wait": "Bitte warte, während deine Zahlung bearbeitet wird",
-  "lnurl_withdraw_dialog_action_close": "SCHLIEßEN",
-  "lnurl_withdraw_dialog_error_unknown": "Failed to receive funds",
+  "lnurl_withdraw_dialog_action_close": "SCHLIESSEN",
+  "lnurl_withdraw_dialog_error_unknown": "Zahlungseingang fehlgeschlagen",
   "lnurl_withdraw_dialog_error": "Bitcoin nicht erhalten: {error}",
   "@lnurl_withdraw_dialog_error": {
     "placeholders": {
@@ -1689,7 +1689,7 @@
       }
     }
   },
-  "lnurl_withdraw_dialog_error_amount_exceeds": "Exceeds maximum withdrawable amount: {maxSats}",
+  "lnurl_withdraw_dialog_error_amount_exceeds": "Übersteigt den maximal abhebbaren Betrag: {maxSats}",
   "@lnurl_withdraw_dialog_error_amount_exceeds": {
     "placeholders": {
       "maxSats": {
@@ -1698,7 +1698,7 @@
       }
     }
   },
-  "lnurl_withdraw_dialog_error_amount_below": "Below minimum withdrawable amount: {minSats}",
+  "lnurl_withdraw_dialog_error_amount_below": "Unter dem Mindestbetrag für Abhebungen: {minSats}",
   "@lnurl_withdraw_dialog_error_amount_below": {
     "placeholders": {
       "minSats": {
@@ -1709,7 +1709,7 @@
   },
   "qr_code_dialog_synchronizing": "Synchronisierung mit dem Netzwerk",
   "qr_code_dialog_invoice": "Rechnung",
-  "qr_code_dialog_action_close": "SCHLIEßEN",
+  "qr_code_dialog_action_close": "SCHLIESSEN",
   "qr_code_dialog_share": "Rechnungsdaten teilen",
   "qr_code_dialog_copy": "Rechnungsdaten kopieren",
   "qr_code_dialog_copied": "Rechnungsdaten wurden in die Zwischenablage kopiert.",
@@ -1743,8 +1743,8 @@
   "waiting_broadcast_dialog_action_copy": "Transaktions-Hash kopieren",
   "waiting_broadcast_dialog_action_share": "Transaktions-Hash teilen",
   "waiting_broadcast_dialog_transaction_id": "Transaktions-ID:",
-  "waiting_broadcast_dialog_content_success": "Die bitcoin wurden erfolgreich an die angegebene Adresse gesendet.",
-  "waiting_broadcast_dialog_content_warning": "Bitte warte, während Breez die bitcoin an die angegebene Adresse sendet.",
+  "waiting_broadcast_dialog_content_success": "Die Bitcoin wurden erfolgreich an die angegebene Adresse gesendet.",
+  "waiting_broadcast_dialog_content_warning": "Bitte warte, während Breez die Bitcoin an die angegebene Adresse sendet.",
   "waiting_broadcast_dialog_content_error": "Fehler beim Senden der Transaktion: {error}",
   "@waiting_broadcast_dialog_content_error": {
     "placeholders": {
@@ -1788,7 +1788,7 @@
   "status_text_loading_begin": "Breez öffnet ",
   "status_text_loading_middle": "einen sicheren Channel",
   "status_text_loading_end": " mit dem Server. Das kann eine Weile dauern, aber keine Sorge, wir benachrichtigen dich, sobald die App bereit ist, Zahlungen zu senden und zu empfangen.",
-  "status_text_ready": "Breez ist bereit, bitcoin zu erhalten.",
+  "status_text_ready": "Breez ist bereit, Bitcoin zu erhalten.",
   "status_opening_secure_connection": "Breez is opening a secure connection",
   "qr_action_button_open_link": "Link öffnen",
   "qr_action_button_open_link_confirmation": "Bist du sicher, dass du diesen Link öffnen möchtest?",
@@ -1860,7 +1860,7 @@
     }
   },
   "lnurl_fetch_invoice_error_title": "LNURL-Zahlungsfehler",
-  "lnurl_fetch_invoice_error_message": "Beim Versuch, eine Rechnung von {host} abzurufen, ist ein Fehler aufgetreten!\nMotiv {reason}",
+  "lnurl_fetch_invoice_error_message": "Beim Versuch, eine Rechnung von {host} abzurufen, ist ein Fehler aufgetreten!\nGrund: {reason}",
   "@lnurl_fetch_invoice_error_message": {
     "placeholders": {
       "host": {
@@ -1873,15 +1873,15 @@
       }
     }
   },
-  "lnurl_error_unsupported": "Nicht unterstützte LNUrl",
-  "make_invoice_request_title": "Diese Website möchte Sie bezahlen:",
+  "lnurl_error_unsupported": "Nicht unterstützte LNURL",
+  "make_invoice_request_title": "Diese Website möchte dich bezahlen:",
   "make_invoice_request_action_cancel": "ABBRECHEN",
   "make_invoice_request_action_approve": "BESTÄTIGEN",
-  "mnemonics_confirmation_title": "Sicherungsphrase",
-  "mnemonics_confirmation_verify_backup_phrase": "Verify Backup Phrase",
-  "mnemonics_confirmation_display_backup_phrase": "Display Backup Phrase",
-  "mnemonics_confirmation_instructions": "Es wird dir eine Liste mit Wörtern gezeigt. Schreibe die Wörter auf und bewahre sie an einem sicheren Ort auf. Ohne diese Wörter kannst du das Backup nicht wiederherstellen und deine bitcoin sind verloren.",
-  "mnemonics_confirmation_action_verify": "Verify",
+  "mnemonics_confirmation_title": "Backup-Phrase",
+  "mnemonics_confirmation_verify_backup_phrase": "Backup Phrase verifizieren",
+  "mnemonics_confirmation_display_backup_phrase": "Backup Phrase anzeigen",
+  "mnemonics_confirmation_instructions": "Es wird dir eine Liste mit Wörtern gezeigt. Schreibe die Wörter auf und bewahre sie an einem sicheren Ort auf. Ohne diese Wörter kannst du das Backup nicht wiederherstellen und deine Bitcoin sind verloren.",
+  "mnemonics_confirmation_action_verify": "Verifizieren",
   "podcast_add_funds_title": "Zahle auf dein Konto ein, um Zahlungen an diesen Podcast zu senden",
   "podcast_add_funds_action_add": "BITCOINS EINZAHLEN",
   "podcast_boost_not_enough_founds": "Du verfügest nicht über genügend Mittel, um diese Zahlung auszuführen",
@@ -1893,7 +1893,7 @@
   "podcast_boost_symbol_circa": "~",
   "podcast_boost_send_title": "Boostagram senden",
   "podcast_boost_send_optional": "Boostagram (optional)",
-  "podcast_boost_send_amount": "Boost Betrag (in Sats)",
+  "podcast_boost_send_amount": "Boost-Betrag (in Sats)",
   "podcast_boost_custom_amount": "Eingabe eines benutzerdefinierten Betrags:",
   "podcast_boost_custom_amount_error_empty": "Bitte gib einen Betrag ein",
   "podcast_boost_custom_amount_error_too_few": "Bitte gib mindestens {amount} Sats ein.",
@@ -1908,7 +1908,7 @@
   "podcast_boost_adjustment_boost": "Boost",
   "podcast_boost_adjustment_boost_message": "Sende ein einmaliges Trinkgeld an die Macher einer Sendung. Drücke lange, um eine persönliche Nachricht hinzuzufügen.",
   "podcast_boost_adjustment_stream_sats": "Streame Sats",
-  "podcast_boost_adjustment_stream_sats_message": "Streame Sats an die Macher, während du deren Sendung hörest. Die Zahl gibt die Anzahl der Sats an, die pro Minute gesendet werden. Um kostenlos zuzuhören, setze diesen Wert auf 0.",
+  "podcast_boost_adjustment_stream_sats_message": "Streame Sats an die Macher, während du deren Sendung hörst. Die Zahl gibt die Anzahl der Sats an, die pro Minute gesendet werden. Um kostenlos zuzuhören, setze diesen Wert auf 0.",
   "podcast_boost_action_share": "Teilen",
   "podcast_boost_share_texts": "{podcast}\n{episode}\n{link}",
   "@podcast_boost_share_texts": {
@@ -1950,13 +1950,13 @@
     }
   },
   "lock_screen_enter_pin": "Gib deine PIN ein",
-  "lock_screen_pin_incorrect": "Incorrect PIN",
-  "lock_screen_pin_match_exception": "There was an error confirming your PIN, please try again. If this error persists, please contact Breez support.",
+  "lock_screen_pin_incorrect": "Falsche PIN",
+  "lock_screen_pin_match_exception": "Bei der Überprüfung deiner PIN ist ein Fehler aufgetreten. Bitte versuche es noch einmal. Wenn dieser Fehler weiterhin besteht, wende dich bitte an den Breez-Support.",
   "backup_phrase_generate": "Cloud-Backup verschlüsseln",
-  "backup_phrase_instructions": "Es wird dir eine Liste mit Wörtern gezeigt. Schreibe die Wörter auf und bewahre sie an einem sicheren Ort auf. Ohne diese Wörter kannst du das Backup nicht wiederherstellen und deine bitcoin sind verloren. Breez wird dir nicht helfen können. Beachte, dass diese Wörter kein Wallet-Seed sind. Sie werden verwendet, um die in der Cloud gespeicherten Backup-Daten zu verschlüsseln.",
+  "backup_phrase_instructions": "Es wird dir eine Liste mit Wörtern gezeigt. Schreibe die Wörter auf und bewahre sie an einem sicheren Ort auf. Ohne diese Wörter kannst du das Backup nicht wiederherstellen und deine Bitcoin sind verloren. Breez wird dir nicht helfen können. Beachte, dass diese Wörter kein Wallet-Seed sind. Sie werden verwendet, um die in der Cloud gespeicherten Backup-Daten zu verschlüsseln.",
   "backup_phrase_action_confirm": "ICH VERSTEHE",
   "backup_phrase_action_next": "WEITER",
-  "backup_phrase_warning_disclaimer": "Deine bestehende Sicherungsphrase ist dann nicht mehr gültig und es wird eine neue generiert, wenn du das nächste Mal eine Sicherungsphrase verwenden möchtest. Bist du sicher, dass du keine Sicherungsphrase verwenden möchtest?",
+  "backup_phrase_warning_disclaimer": "Deine bestehende Backup-Phrase ist dann nicht mehr gültig und es wird eine neue generiert, wenn du die Backup-Phrase wieder aktivierst. Bist du sicher, dass du keine Backup-Phrase verwenden möchtest?",
   "backup_phrase_warning_action_yes": "JA",
   "backup_phrase_warning_action_no": "NEIN",
   "backup_phrase_warning_action_next": "WEITER",
@@ -1972,7 +1972,7 @@
     }
   },
   "backup_phrase_generation_verify": "Wörter prüfen",
-  "backup_phrase_generation_type_words": "Bitte gib die Wörter Nummer {numberA}, {numberB} und {numberC} des generierten Sicherungsschlüssels ein.",
+  "backup_phrase_generation_type_words": "Bitte gib die Wörter Nummer {numberA}, {numberB} und {numberC} der generierten Backup-Phrase ein.",
   "@backup_phrase_generation_type_words": {
     "placeholders": {
       "numberA": {
@@ -2016,7 +2016,7 @@
   },
   "spontaneous_payment_node_id": "Node-ID",
   "spontaneous_payment_send_payment_title": "Zahlung senden",
-  "spontaneous_payment_send_payment_message": "Bist du sicher, dass du dieser Node {amount} zuweisen möchten?\n\n{nodeID}",
+  "spontaneous_payment_send_payment_message": "Bist du sicher, dass du dieser Node {amount} senden möchtest?\n\n{nodeID}",
   "@spontaneous_payment_send_payment_message": {
     "placeholders": {
       "amount": {
@@ -2031,7 +2031,7 @@
   },
   "spontaneous_payment_error_title": "Zahlungsfehler",
   "sweep_all_coins_speed": "Wähle Verarbeitungsgeschwindigkeit",
-  "sweep_all_coins_action_retry": "RETRY",
+  "sweep_all_coins_action_retry": "ERNEUT VERSUCHEN",
   "sweep_all_coins_action_confirm": "BESTÄTIGEN",
   "sweep_all_coins_label_send": "Du sendest:",
   "sweep_all_coins_label_receive": "Du erhältst:",
@@ -2067,10 +2067,10 @@
       }
     }
   },
-  "sweep_all_coins_error_retrieve_fees": "Die Gebühren konnten nicht abgerufen werden. Bitte versuche es später erneut.",
+  "sweep_all_coins_error_retrieve_fees": "Die Gebühren konnten nicht ermittelt werden. Bitte versuche es später erneut.",
   "sweep_all_coins_error_amount_small": "Der Betrag ist zu klein für die Zahlung. Bitte versuche es später noch einmal.",
-  "unexpected_funds_title": "Unerwartete Gelder",
-  "unexpected_funds_message": "Breez hat unerwartete Gelder in der zugrunde liegenden Wallet gefunden (wahrscheinlich aufgrund eines geschlossenen Channels). Es wird dringend empfohlen, diese Gelder so schnell wie möglich an eine BTC-Adresse zu senden",
+  "unexpected_funds_title": "Unerwartetes Guthaben",
+  "unexpected_funds_message": "Breez hat unerwartetes Guthaben in der zugrunde liegenden Wallet gefunden (wahrscheinlich aufgrund eines geschlossenen Channels). Es wird dringend empfohlen, dieses Guthaben so schnell wie möglich an eine BTC-Adresse zu senden",
   "unexpected_error_restoring_chain_message": "Das Wiederherstellen der Blockchain-Informationen kann einige Minuten dauern",
   "unexpected_error_action_cancel": "ABBRECHEN",
   "unexpected_error_action_exit": "BREEZ BEENDEN",
@@ -2089,7 +2089,7 @@
   "unexpected_error_airplane": "• Deaktiviere den Flugzeugmodus\n",
   "unexpected_error_suggestions": "Versuche:\n",
   "unexpected_error_title": "Unerwarteter Fehler",
-  "unexpected_error_deactivate_tor": "Deactivate",
+  "unexpected_error_deactivate_tor": "Deaktivieren",
   "transferring_funds_title": "Überweisung",
   "select_provider_error_dialog_title": "Verbindungsfehler",
   "select_provider_error_dialog_select_provider_begin": "auswählen ",
@@ -2097,12 +2097,12 @@
   "select_provider_error_dialog_message": "Um Breez zu aktivieren, bitte ",
   "select_provider_error_dialog_message_error": "Es ist ein Fehler bei der Verbindung mit dem ausgewählten Anbieter aufgetreten. Um Breez zu aktivieren, wähle bitte ",
   "qr_scan_action_cancel": "ABBRECHEN",
-  "qr_scan_gallery_failed": "No QR Code found in the image",
+  "qr_scan_gallery_failed": "Kein QR-Code im Bild gefunden",
   "pending_closed_channel_title": "Ausstehende Channel-Schließung ",
   "pending_closed_channel_action_ok": "OK",
   "close_warning_dialog_title": "Inaktive Channels",
   "close_warning_dialog_action_ok": "OK",
-  "close_warning_dialog_message_begin": "Du hast seit {duration} Tagen keine Zahlungen mehr an Breez geleistet, so dass dein LSP seine Channels möglicherweise schließen muss. Sollte dies der Fall sein, wird Breez eine On-Chain-Adresse generieren und deine bitcoin dorthin transferieren. Du behältst die vollständige Kontrolle über deine bitcoin, abzüglich der Mining-Gebühr, die durch die Sweep-Transaktion anfällt. Um mehr darüber zu erfahren, warum dies geschieht, lese unseren Beitrag über ",
+  "close_warning_dialog_message_begin": "Du hast seit {duration} Tagen keine Zahlungen mehr mit Breez durchgeführt, so dass dein LSP seine Channels möglicherweise schließen muss. Sollte dies der Fall sein, wird Breez eine On-Chain-Adresse generieren und deine Bitcoin dorthin transferieren. Du behältst die vollständige Kontrolle über deine Bitcoin, abzüglich der Mining-Gebühr, die durch die Sweep-Transaktion anfällt. Um mehr darüber zu erfahren, warum dies geschieht, lies unseren Beitrag über ",
   "@close_warning_dialog_message_begin": {
     "placeholders": {
       "duration": {
@@ -2174,7 +2174,7 @@
     }
   },
   "valid_payment_error_insufficient_balance": "Unzureichender Kontostand",
-  "description_waiting_broadcast": "Warte auf das Sendend er Transaktion",
+  "description_waiting_broadcast": "Warte auf das Senden der Transaktion",
   "description_broadcast_done": "Transaktion wurde gesendet",
   "description_type_deposit": "Bitcoin Transfer",
   "payment_info_title_bitrefill": "Bitrefill",
@@ -2191,11 +2191,11 @@
   "payment_info_title_ln_pizza": "ln.pizza",
   "payment_info_title_zebedee": "Zebedee",
   "payment_info_title_bitcoin_transfer": "Bitcoin Transfer",
-  "payment_info_title_closed_channel": "Geschlpssener Channel",
+  "payment_info_title_closed_channel": "Geschlossener Channel",
   "payment_info_title_send_to_node": "An Node senden",
   "payment_info_title_unknown": "Unbekannt",
   "payment_info_title_pending_closed_channel": "Ausstehende Channel-Schließung",
-  "payment_error_to_send_unknown_reason": "Failed to send payment",
+  "payment_error_to_send_unknown_reason": "Zahlung konnte nicht gesendet werden",
   "payment_error_to_send": "Zahlung konnte nicht gesendet werden: {error}",
   "@payment_error_to_send": {
     "placeholders": {
@@ -2205,15 +2205,15 @@
       }
     }
   },
-  "payment_info_title_opened_channel": "Opened Channel",
-  "payment_info_title_pending_opened_channel": "Pending Opened Channel",
-  "no_lsp_widget_message": "In order to activate Breez, please select a provider:",
-  "no_lsp_widget_action_select": "SELECT…",
+  "payment_info_title_opened_channel": "Channel geöffnet",
+  "payment_info_title_pending_opened_channel": "Ausstehende Channel-Öffnung",
+  "no_lsp_widget_message": "Um Breez zu aktivieren, wählen Sie bitte einen Anbieter aus:",
+  "no_lsp_widget_action_select": "AUSWÄHLEN…",
   "podcast_history_drawer": "Meine Top Podcasts",
   "podcast_history_share_message": "Meine meistgehörten Podcasts auf Breez",
   "podcast_history_share_text": "TEILEN",
   "podcast_history_sats_streamed": "Sats gestreamt",
-  "podcast_history_boostagrams_sent": "boosts gesendet",
+  "podcast_history_boostagrams_sent": "Boosts gesendet",
   "podcast_history_open_podcast_button": "PODCASTS ÖFFNEN",
   "podcast_history_appbar_top_weekly": "Wöchentliche Top-Podcasts",
   "podcast_history_appbar_top_monthly": "Monatliche Top-Podcasts",
@@ -2232,15 +2232,15 @@
   "podcast_clips_dialog_title": "Clip Dauer (in Sekunden)",
   "podcast_clips_dialog_done": "FERTIG",
   "podcast_clips_error": "Beim Ausschneiden der Folge ist ein Fehler aufgetreten. Bitte versuche es erneut",
-  "localized_error_message_invalid_pair_hash": "Fee estimations have expired. Please retry.",
-  "share_log_text": "Share Log",
-  "share_file_title": "Share File",
+  "localized_error_message_invalid_pair_hash": "Die Gebührenschätzungen sind veraltet. Bitte versuche es erneut.",
+  "share_log_text": "Log teilen",
+  "share_file_title": "Datei teilen",
   "mempool_settings_custom_url": "Mempool API URL",
-  "mempool_settings_custom_url_error": "Invalid Mempool API URL",
+  "mempool_settings_custom_url_error": "Ungültige Mempool API URL",
   "mempool_settings_action_reset": "Reset",
-  "mempool_settings_action_save": "Save",
-  "lnurl_payment_page_title": "LNURL Invoice",
-  "lnurl_payment_page_domain_pay": "{domain} is requesting you to pay {amount} sats.",
+  "mempool_settings_action_save": "Speichern",
+  "lnurl_payment_page_title": "LNURL Rechnung",
+  "lnurl_payment_page_domain_pay": "{domain} fordert dich auf, {amount} sats zu zahlen.",
   "@lnurl_payment_page_domain_pay": {
     "placeholders": {
       "domain": {
@@ -2253,10 +2253,10 @@
       }
     }
   },
-  "lnurl_payment_page_comment": "Comment (optional)",
-  "lnurl_payment_page_enter_k1": "Please enter a k1",
-  "lnurl_payment_page_action_pay": "PAY",
-  "lnurl_payment_page_error_exceeds_limit": "Exceeds maximum sendable amount: {amount}",
+  "lnurl_payment_page_comment": "Kommentar (optional)",
+  "lnurl_payment_page_enter_k1": "Bitte einen k1 eingeben",
+  "lnurl_payment_page_action_pay": "ZAHLEN",
+  "lnurl_payment_page_error_exceeds_limit": "Überschreitet den maximal versendbaren Betrag: {amount}",
   "@lnurl_payment_page_error_exceeds_limit": {
     "placeholders": {
       "amount": {
@@ -2265,7 +2265,7 @@
       }
     }
   },
-  "lnurl_payment_page_error_below_limit": "Below minimum accepted amount: {amount}",
+  "lnurl_payment_page_error_below_limit": "Unter dem akzeptierten Mindestbetrag: {amount}",
   "@lnurl_payment_page_error_below_limit": {
     "placeholders": {
       "amount": {
@@ -2274,9 +2274,9 @@
       }
     }
   },
-  "lnurl_payment_page_unknown_error": "Unknown error",
-  "node_state_error": "Failed to get node state",
-  "generic_network_error": "Failed to connect to Breez. Please check your internet connection and try again.",
+  "lnurl_payment_page_unknown_error": "Unbekannter Fehler",
+  "node_state_error": "Node-Status konnte nicht abgerufen werden",
+  "generic_network_error": "Die Verbindung zu Breez konnte nicht hergestellt werden. Bitte überprüfe deine Internetverbindung und versuche es erneut.",
   "locale": "de",
   "app_name": "Breez"
 }
