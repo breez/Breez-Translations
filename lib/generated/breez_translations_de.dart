@@ -98,7 +98,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get invoice_btc_address_action_retry => 'ERNEUT VERSUCHEN';
 
   @override
-  String get invoice_btc_address_action_close => 'SCHLIEßEN';
+  String get invoice_btc_address_action_close => 'SCHLIESSEN';
 
   @override
   String invoice_btc_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String minFee, String liquidity) {
@@ -107,24 +107,24 @@ class BreezTranslationsDe extends BreezTranslations {
 
   @override
   String invoice_btc_address_warning_without_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String liquidity) {
-    return 'Sende mehr als $minSats und bis zu $maxSats an diese Adresse. Eine Einrichtungsgebühr von $setUpFee% wird für den Versand von mehr als $liquidity erhoben. This address can be used only once.';
+    return 'Sende mehr als $minSats und bis zu $maxSats an diese Adresse. Eine Einrichtungsgebühr von $setUpFee% wird für den Versand von mehr als $liquidity erhoben. Diese Adresse kann nur einmal verwendet werden.';
   }
 
   @override
   String invoice_btc_address_warning_with_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee, String minFee) {
-    return 'Sende mehr als $minSats und bis zu $maxSats an diese Adresse. Eine Einrichtungsgebühr von $setUpFee% mit einem Minimum von $minFee wird auf den empfangenen Betrag angewendet. This address can be used only once.';
+    return 'Sende mehr als $minSats und bis zu $maxSats an diese Adresse. Eine Einrichtungsgebühr von $setUpFee% mit einem Minimum von $minFee wird auf den empfangenen Betrag angewendet. Diese Adresse kann nur einmal verwendet werden.';
   }
 
   @override
   String invoice_btc_address_warning_without_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee) {
-    return 'Sende mehr als $minSats und bis zu $maxSats an diese Adresse. Es wird eine Einrichtungsgebühr von $setUpFee% auf den empfangenen Betrag erhoben. This address can be used only once.';
+    return 'Sende mehr als $minSats und bis zu $maxSats an diese Adresse. Es wird eine Einrichtungsgebühr von $setUpFee% auf den empfangenen Betrag erhoben. Diese Adresse kann nur einmal verwendet werden.';
   }
 
   @override
   String get invoice_btc_address_deposit_address => 'Empfangsadresse';
 
   @override
-  String get invoice_btc_address_deposit_address_copied => 'Empfangsadresse wurde in Ihre Zwischenablage kopiert.';
+  String get invoice_btc_address_deposit_address_copied => 'Empfangsadresse wurde in die Zwischenablage kopiert.';
 
   @override
   String get invoice_btc_address_on_chain_begin => 'Breez nutzt Submarine Swaps zur Durchführung von On-Chain-Transaktionen. Klicke ';
@@ -139,7 +139,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get invoice_btc_address_on_chain_action_ok => 'OK';
 
   @override
-  String get invoice_title => 'Empfange als Rechnung';
+  String get invoice_title => 'Empfange via Rechnung';
 
   @override
   String get invoice_action_create => 'ERSTELLEN';
@@ -220,43 +220,43 @@ class BreezTranslationsDe extends BreezTranslations {
 
   @override
   String invoice_payment_validator_error_payment_exceeded_limit(String maxSats) {
-    return 'Payment exceeds the limit ($maxSats)';
+    return 'Die Zahlung übersteigt das Limit ($maxSats)';
   }
 
   @override
   String invoice_payment_validator_error_payment_below_invoice_limit(String minSats) {
-    return 'Payment is below the limit ($minSats)';
+    return 'Die Zahlung ist unter dem Limit ($minSats)';
   }
 
   @override
   String invoice_payment_validator_error_payment_below_limit(String minSats) {
-    return 'Breez requires you to keep $minSats in your balance.';
+    return 'Breez verlangt, dass $minSats auf deinem Konto bleiben.';
   }
 
   @override
-  String get invoice_payment_validator_error_insufficient_local_balance => 'Insufficient local balance';
+  String get invoice_payment_validator_error_insufficient_local_balance => 'Unzureichendes lokales Guthaben';
 
   @override
   String invoice_payment_validator_error_payment_below_setup_fees_error(String setUpSats) {
-    return 'Insufficient amount to cover the setup fees of $setUpSats';
+    return 'Unzureichender Betrag zur Deckung der Einrichtungsgebühren von $setUpSats';
   }
 
   @override
   String invoice_payment_validator_error_unknown(String error) {
-    return 'Validation error $error';
+    return 'Validierungsfehler $error';
   }
 
   @override
   String get backup_dialog_title => 'Backup';
 
   @override
-  String get backup_dialog_message_remote_server => 'Die Sicherungsdateien konnten nicht auf dem Remote Server gespeichert werden. Bitte überprüfe deine Einstellungen und versuche es erneut';
+  String get backup_dialog_message_remote_server => 'Die Sicherungsdateien konnten nicht auf dem Remote-Server gespeichert werden. Bitte überprüfe deine Einstellungen und versuche es erneut';
 
   @override
-  String get backup_dialog_message_default => 'Wenn du dein Guthaben wiederherzustellen möchtest, falls dieses Mobilgerät oder diese App nicht mehr verfügbar sind (z. B. bei Verlust oder Diebstahl des Geräts oder Deinstallation der App), musst du eine Sicherungskopie deiner Daten erstellen.';
+  String get backup_dialog_message_default => 'Wenn du dein Guthaben wiederherstellen möchtest (z. B. bei Verlust oder Diebstahl des Geräts oder Deinstallation der App), musst du eine Sicherungskopie deiner Daten erstellen.';
 
   @override
-  String get backup_dialog_do_not_prompt_again => 'Nicht erneut zeigen';
+  String get backup_dialog_do_not_prompt_again => 'Nicht erneut anzeigen';
 
   @override
   String get backup_dialog_option_cancel => 'SPÄTER';
@@ -271,7 +271,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get backup_dialog_icloud_error_title => 'Bei iCloud anmelden';
 
   @override
-  String get backup_dialog_icloud_error_message => 'Melde dich bei deinem iCloud-Konto an. Starte die Einstellungen App, tippe auf iCloud und gebe deine Apple ID ein. Schalte iCloud Drive ein. Wenn du kein iCloud-Konto hast, tippe auf Neue Apple ID erstellen';
+  String get backup_dialog_icloud_error_message => 'Melde dich in deinem iCloud-Konto an. Gehe in die Einstellungen, tippe auf iCloud und gib deine Apple ID ein. Schalte iCloud Drive ein. Wenn du kein iCloud-Konto hast, tippe auf Neue Apple ID erstellen';
 
   @override
   String get backup_provider_dialog_title => 'Backup Speicherort';
@@ -310,7 +310,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get bottom_action_bar_escher => 'Cash-Out via Escher';
 
   @override
-  String get bottom_action_bar_receive_invoice => 'Als Rechnung empfangen';
+  String get bottom_action_bar_receive_invoice => 'Lightning-Rechnung erstellen';
 
   @override
   String get bottom_action_bar_receive_btc_address => 'Via BTC Adresse empfangen';
@@ -320,7 +320,7 @@ class BreezTranslationsDe extends BreezTranslations {
 
   @override
   String bottom_action_bar_warning_balance_title(String balance) {
-    return 'Breez benötigt $balance auf ihrem Konto.';
+    return 'Breez benötigt $balance auf deinem Konto.';
   }
 
   @override
@@ -370,7 +370,7 @@ class BreezTranslationsDe extends BreezTranslations {
   }
 
   @override
-  String get payment_details_dialog_transaction_id_copied => 'Transaktions-ID wurde in deine Zwischenablage kopiert.';
+  String get payment_details_dialog_transaction_id_copied => 'Transaktions-ID wurde in die Zwischenablage kopiert.';
 
   @override
   String get payment_details_dialog_restart_text => 'Bitte starte Breez neu, um die Blockchain-Informationen für diesen Channel zurückzusetzen.';
@@ -394,7 +394,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get payment_details_dialog_share_transaction => 'Transaktions-Hash teilen';
 
   @override
-  String get payment_details_dialog_share_lightning_address => 'Lightning Adresse';
+  String get payment_details_dialog_share_lightning_address => 'Lightning-Adresse';
 
   @override
   String get payment_details_dialog_share_comment => 'Kommentar';
@@ -406,11 +406,11 @@ class BreezTranslationsDe extends BreezTranslations {
 
   @override
   String payment_details_dialog_copied(String title) {
-    return '$title wurde in Ihre Zwischenablage kopiert.';
+    return '$title wurde in die Zwischenablage kopiert.';
   }
 
   @override
-  String get payment_details_dialog_single_info_pre_image => 'Zahlung Vorabbild';
+  String get payment_details_dialog_single_info_pre_image => 'Zahlungs-Preimage';
 
   @override
   String get payment_details_dialog_single_info_node_id => 'Node-ID';
@@ -579,7 +579,7 @@ class BreezTranslationsDe extends BreezTranslations {
   }
 
   @override
-  String get pos_invoice_close => 'SCHLIEßEN';
+  String get pos_invoice_close => 'SCHLIESSEN';
 
   @override
   String get pos_invoice_clear_sale_header => 'Verkauf löschen?';
@@ -887,7 +887,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get connect_to_pay_payee_waiting_sync => 'Bitte warte während Breez synchronisiert';
 
   @override
-  String get connect_to_pay_payee_waiting_sync_action_close => 'SCHLIEßEN';
+  String get connect_to_pay_payee_waiting_sync_action_close => 'SCHLIESSEN';
 
   @override
   String connect_to_pay_payee_message_no_fiat(String name, String amount) {
@@ -901,7 +901,7 @@ class BreezTranslationsDe extends BreezTranslations {
 
   @override
   String connect_to_pay_payee_error_limit_exceeds(String amount) {
-    return 'Diese Zahlung überzieht dein Limit $amount';
+    return 'Diese Zahlung überschreitet dein Limit $amount';
   }
 
   @override
@@ -934,11 +934,11 @@ class BreezTranslationsDe extends BreezTranslations {
   String get connect_to_pay_payer_share_link => 'Tippe auf die Schaltfläche Freigeben, um einen Link mit einer Person zu teilen, die du bezahlen möchte. Warte dann bitte, während diese Person auf den Link klickt und der Sitzung beitritt.';
 
   @override
-  String get connect_to_pay_payer_waiting_join_no_name => 'Warte auf Teilnehmer an dieser Sitzung';
+  String get connect_to_pay_payer_waiting_join_no_name => 'Es wird darauf gewartet, dass jemand der Sitzung beitritt';
 
   @override
   String connect_to_pay_payer_waiting_join_with_name(String name) {
-    return 'Warte auf $name an dieser Sitzung teilzunehmen';
+    return 'Es wird darauf gewartet, dass $name der Sitzung beitritt';
   }
 
   @override
@@ -946,7 +946,7 @@ class BreezTranslationsDe extends BreezTranslations {
 
   @override
   String connect_to_pay_payer_waiting_approve_with_name(String name) {
-    return 'Warte auf $name die Zahlung freizugeben';
+    return 'Warte auf Freigabe der Zahlung durch $name';
   }
 
   @override
@@ -959,7 +959,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get connect_to_pay_payer_synchronizing => 'Synchronisiere das Netzwerk';
 
   @override
-  String get connect_to_pay_payer_action_close => 'SCHLIEßEN';
+  String get connect_to_pay_payer_action_close => 'SCHLIESSEN';
 
   @override
   String get connect_to_pay_payment_detail_note => 'Notiz (optional)';
@@ -968,7 +968,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get connect_to_pay_payment_available => 'Verfügbar:';
 
   @override
-  String get connect_to_pay_payment_action_close => 'SCHLIEßEN';
+  String get connect_to_pay_payment_action_close => 'SCHLIESSEN';
 
   @override
   String get connect_to_pay_payment_action_pay => 'ZAHLEN';
@@ -1010,10 +1010,10 @@ class BreezTranslationsDe extends BreezTranslations {
   }
 
   @override
-  String get security_and_backup_encrypt => 'Cloud Backup verschlüsseln';
+  String get security_and_backup_encrypt => 'Cloud-Backup verschlüsseln';
 
   @override
-  String get security_and_backup_store_location => 'Backup Daten speichern in';
+  String get security_and_backup_store_location => 'Backup-Daten speichern in';
 
   @override
   String get security_and_backup_lock_automatically => 'Automatisch sperren';
@@ -1025,10 +1025,10 @@ class BreezTranslationsDe extends BreezTranslations {
   String get security_and_backup_change_pin => 'PIN ändern';
 
   @override
-  String get security_and_backup_enable_biometric_option_face => 'Gesichtserkennung aktivieren';
+  String get security_and_backup_enable_biometric_option_face => 'Biometrik aktivieren';
 
   @override
-  String get security_and_backup_enable_biometric_option_face_id => 'Gesichtserkennung aktivieren';
+  String get security_and_backup_enable_biometric_option_face_id => 'Biometrik aktivieren';
 
   @override
   String get security_and_backup_enable_biometric_option_fingerprint => 'Touch ID aktivieren';
@@ -1037,7 +1037,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get security_and_backup_enable_biometric_option_touch_id => 'Touch ID aktivieren';
 
   @override
-  String get security_and_backup_enable_biometric_option_other => 'Enable Biometric';
+  String get security_and_backup_enable_biometric_option_other => 'Biometrik aktivieren';
 
   @override
   String get security_and_backup_enable_biometric_option_none => '';
@@ -1055,16 +1055,16 @@ class BreezTranslationsDe extends BreezTranslations {
   String get security_and_backup_internal_error => 'Interner Fehler';
 
   @override
-  String get security_and_backup_new_pin => 'Gib einen neuen PIN ein';
+  String get security_and_backup_new_pin => 'Gib eine neue PIN ein';
 
   @override
-  String get security_and_backup_new_pin_second_time => 'Gib deinen PIN erneut ein';
+  String get security_and_backup_new_pin_second_time => 'Gib deine PIN erneut ein';
 
   @override
   String get security_and_backup_new_pin_do_not_match => 'PIN stimmt nicht überein';
 
   @override
-  String get backup_in_progress => 'Backup wird druchgeführt';
+  String get backup_in_progress => 'Backup wird durchgeführt';
 
   @override
   String get backup_in_progress_action_confirm => 'OK';
@@ -1076,7 +1076,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get backup_model_name_google_drive => 'Google Drive';
 
   @override
-  String get backup_model_name_remote_server => 'Remote Server';
+  String get backup_model_name_remote_server => 'Remote-Server';
 
   @override
   String get backup_model_error_failed => 'Backup fehlgeschlagen';
@@ -1085,7 +1085,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get network_title => 'Netzwerk';
 
   @override
-  String get network_restart_message => 'Bitte starte Breez neu, um auf die neue Bitcoin-Knotenkonfiguration zu ändern.';
+  String get network_restart_message => 'Bitte starte Breez neu, um die neue Bitcoin-Knotenkonfiguration anzuwenden.';
 
   @override
   String get network_restart_action_cancel => 'ABBRECHEN';
@@ -1121,22 +1121,22 @@ class BreezTranslationsDe extends BreezTranslations {
   String get network_testing_node => 'Test Node';
 
   @override
-  String get network_tor_enable => 'Enable Tor';
+  String get network_tor_enable => 'Tor aktivieren';
 
   @override
-  String get network_tor_disable => 'Disable Tor';
+  String get network_tor_disable => 'Tor deaktivieren';
 
   @override
-  String get network_tor_enabling => 'Enabling Tor';
+  String get network_tor_enabling => 'Aktiviere Tor';
 
   @override
-  String get network_tor_disabling => 'Disabling Tor';
+  String get network_tor_disabling => 'Deaktiviere Tor';
 
   @override
-  String get network_tor_enable_error => 'Breez is unable to enable Tor. Please restart Breez and try again.';
+  String get network_tor_enable_error => 'Breez kann Tor nicht aktivieren. Bitte starte Breez neu und versuche es erneut.';
 
   @override
-  String get network_tor_disable_error => 'Breez is unable to disable Tor. Please restart Breez and try again.';
+  String get network_tor_disable_error => 'Breez kann Tor nicht deaktivieren. Bitte starte Breez neu und versuche es erneut.';
 
   @override
   String amount_form_denomination(String denomination) {
@@ -1175,7 +1175,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get reverse_swap_funding_transaction => 'Funding-Transaktion:';
 
   @override
-  String get reverse_swap_waiting_channels => 'Sobald alle Kanäle bestätigt sind, kannst du deine bitcoin an eine BTC-Adresse senden';
+  String get reverse_swap_waiting_channels => 'Sobald alle Kanäle bestätigt sind, kannst du deine Bitcoin an eine BTC-Adresse senden';
 
   @override
   String get reverse_swap_confirmation_speed => 'Wähle Verarbeitungsgeschwindigkeit';
@@ -1216,10 +1216,10 @@ class BreezTranslationsDe extends BreezTranslations {
   }
 
   @override
-  String get reverse_swap_confirmation_error_fetch_fee => 'Die Gebühren konnten nicht abgerufen werden. Bitte versuche es später noch einmal.';
+  String get reverse_swap_confirmation_error_fetch_fee => 'Die Gebühren konnten nicht ermittelt werden. Bitte versuche es später noch einmal.';
 
   @override
-  String get reverse_swap_confirmation_error_funds_fee => 'Du hast nicht genug bitcoin für die Netzwerkgebühr.';
+  String get reverse_swap_confirmation_error_funds_fee => 'Du hast nicht genug Bitcoin für die Netzwerkgebühr.';
 
   @override
   String get reverse_swap_notification_title => 'Aktion erforderlich';
@@ -1252,13 +1252,13 @@ class BreezTranslationsDe extends BreezTranslations {
   String get withdraw_funds_use_all_funds => 'Maximale Summe verwenden';
 
   @override
-  String get withdraw_funds_btc_address => 'BTC Adresse';
+  String get withdraw_funds_btc_address => 'BTC-Adresse';
 
   @override
   String get withdraw_funds_scan_barcode => 'Barcode scannen';
 
   @override
-  String get withdraw_funds_error_invalid_address => 'Bitte gib eine gültige BTC Address an';
+  String get withdraw_funds_error_invalid_address => 'Bitte gib eine gültige BTC-Adresse an';
 
   @override
   String get withdraw_funds_balance => 'Kontostand:';
@@ -1270,16 +1270,16 @@ class BreezTranslationsDe extends BreezTranslations {
   String get withdraw_funds_action_next => 'WEITER';
 
   @override
-  String get swap_in_progress_title => 'An BTC Adresse senden';
+  String get swap_in_progress_title => 'An BTC-Adresse senden';
 
   @override
-  String get swap_in_progress_transaction_id_copied => 'Transaktions-ID wurde in Ihre Zwischenablage kopiert.';
+  String get swap_in_progress_transaction_id_copied => 'Transaktions-ID wurde in die Zwischenablage kopiert.';
 
   @override
-  String get swap_in_progress_message_waiting_confirmation => 'Breez wartet auf die Bestätigung der folgenden Transaktion, bevor deine bitcoin an die angegebene Adresse gesendet werden';
+  String get swap_in_progress_message_waiting_confirmation => 'Breez wartet auf die Bestätigung der folgenden Transaktion, bevor deine Bitcoin an die angegebene Adresse gesendet werden';
 
   @override
-  String get swap_in_progress_message_processing_previous_request => 'Breez bearbeitet derzeit deine vorherige Anfrage. Du wirst benachrichtigt, sobald die Bearbeitung abgeschlossen ist, um deine bitcoin an die von dir angegebene Adresse zu senden';
+  String get swap_in_progress_message_processing_previous_request => 'Breez bearbeitet derzeit deine vorherige Anfrage. Du wirst benachrichtigt, sobald die Bearbeitung abgeschlossen ist, um deine Bitcoin an die von dir angegebene Adresse zu senden';
 
   @override
   String get market_place_no_vendors => 'Zurzeit sind keine Anbieter verfügbar.';
@@ -1300,7 +1300,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get account_page_activation_provider_hint => 'Bitte wähle einen der folgenden Anbieter, um Breez zu aktivieren und sich mit dem Lightning-Netzwerk zu verbinden.';
 
   @override
-  String get account_page_activation_provider_unavailable => 'There are no available LSP\'s.\nPlease check your configuration and restart Breez.';
+  String get account_page_activation_provider_unavailable => 'Keine LSPs verfügbar.\nBitte überprüfe deine Konfiguration und starte Breez neu.';
 
   @override
   String get account_page_activation_error => 'Es ist ein Fehler beim Abrufen der Lightning-Anbieter aufgetreten. Bitte überprüfe deine Internetverbindung und versuche es erneut';
@@ -1318,11 +1318,11 @@ class BreezTranslationsDe extends BreezTranslations {
   String get funds_over_limit_dialog_action_ok => 'OK';
 
   @override
-  String get funds_over_limit_dialog_transfer_fail_no_reason_know => 'Breez war nicht in der Lage, den Transfer auf dein Guthaben gutzuschreiben\n';
+  String get funds_over_limit_dialog_transfer_fail_no_reason_know => 'Breez war nicht in der Lage, das Guthaben auf dein Konto gutzuschreiben\n';
 
   @override
   String funds_over_limit_dialog_transfer_fail_with_reason(String reason) {
-    return 'Breez war nicht in der Lage, den Transfer auf dein Guthaben gutzuschreiben $reason\n';
+    return 'Breez war nicht in der Lage, das Guthaben auf dein Konto gutzuschreiben, weil $reason\n';
   }
 
   @override
@@ -1368,25 +1368,25 @@ class BreezTranslationsDe extends BreezTranslations {
   String get get_refund_failed => 'fehlgeschlagen';
 
   @override
-  String get get_refund_no_refundable_items => 'No refundable items left.';
+  String get get_refund_no_refundable_items => 'Keine erstattungsfähigen Positionen mehr.';
 
   @override
-  String get get_refund_transaction_id_copied => 'The transaction id was copied to your clipboard.';
+  String get get_refund_transaction_id_copied => 'Die Transaktions-ID wurde in die Zwischenablage kopiert.';
 
   @override
   String get send_on_chain_broadcast => 'BROADCAST';
 
   @override
-  String get send_on_chain_btc_address => 'BTC Adresse';
+  String get send_on_chain_btc_address => 'BTC-Adresse';
 
   @override
   String get send_on_chain_scan_barcode => 'Barcode scannen';
 
   @override
-  String get send_on_chain_invalid_btc_address => 'Bitte gib eine gültige BTC Adresse an';
+  String get send_on_chain_invalid_btc_address => 'Bitte gib eine gültige BTC-Adresse an';
 
   @override
-  String get send_on_chain_sat_per_byte_fee_rate => 'Sat Per Byte (Gebührensatz)';
+  String get send_on_chain_sat_per_byte_fee_rate => 'Sats pro vByte (Gebührensatz)';
 
   @override
   String get send_on_chain_invalid_fee_rate => 'Bitte gib einen gültigen Gebührensatz an';
@@ -1401,7 +1401,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get send_on_chain_qr_code_not_detected => 'QR-Code wurde nicht erkannt.';
 
   @override
-  String get remote_server_title => 'Remote Server';
+  String get remote_server_title => 'Remote-Server';
 
   @override
   String get remote_server_server_url_hint => 'https://example.nextcloud.com';
@@ -1434,13 +1434,13 @@ class BreezTranslationsDe extends BreezTranslations {
   String get remote_server_warning_connection_message => 'Deine Verbindung zu diesem Remote-Server ist möglicherweise nicht sicher. Bist du sicher, dass du fortfahren möchtest?';
 
   @override
-  String get remote_server_warning_onion_message => 'This URL has an onion domain. You probably need to first enable Tor in the Network settings.';
+  String get remote_server_warning_onion_message => 'Diese URL hat eine Onion-Domain. Du musst wahrscheinlich erst Tor in den Netzwerkeinstellungen aktivieren.';
 
   @override
-  String get remote_server_onion_warning_dialog_default_action_cancel => 'CANCEL';
+  String get remote_server_onion_warning_dialog_default_action_cancel => 'ABBRECHEN';
 
   @override
-  String get remote_server_onion_warning_dialog_settings => 'SETTINGS';
+  String get remote_server_onion_warning_dialog_settings => 'EINSTELLUNGEN';
 
   @override
   String get remote_server_testing_connection => 'Teste Verbindung';
@@ -1452,7 +1452,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get remote_server_error_invalid_url => 'Ungültige URL';
 
   @override
-  String get remote_server_error_remote_server_title => 'Remote Server';
+  String get remote_server_error_remote_server_title => 'Remote-Server';
 
   @override
   String get remote_server_error_remote_server_message => 'Die Verbindung mit dem Remote-Server konnte nicht hergestellt werden, bitte überprüfe die Einstellungen';
@@ -1467,13 +1467,13 @@ class BreezTranslationsDe extends BreezTranslations {
   String get error_dialog_default_action_no => 'NEIN';
 
   @override
-  String get error_dialog_default_action_close => 'SCHLIEßEN';
+  String get error_dialog_default_action_close => 'SCHLIESSEN';
 
   @override
   String get ln_url_success_action_title => 'Informationen zum Kauf';
 
   @override
-  String get ln_url_success_action_link_copied => 'Link wurde in deine Zwischenablage kopiert.';
+  String get ln_url_success_action_link_copied => 'Link wurde in die Zwischenablage kopiert.';
 
   @override
   String get avatar_picker_action_set_photo => 'Bild auswählen';
@@ -1485,7 +1485,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get avatar_picker_error_select_image => 'Bildauswahl fehlgeschlagen';
 
   @override
-  String get initial_walk_through_welcome_message => 'Der einfachste, schnellste und sicherste Weg\ndeine bitcoin auszugeben';
+  String get initial_walk_through_welcome_message => 'Der einfachste, schnellste und sicherste Weg\ndeine Bitcoin auszugeben';
 
   @override
   String get initial_walk_through_lets_breeze => 'LET\'S BREEZ!';
@@ -1494,13 +1494,13 @@ class BreezTranslationsDe extends BreezTranslations {
   String get initial_walk_through_restore_from_backup => 'Wiederherstellen vom Backup';
 
   @override
-  String get initial_walk_through_restoring => 'Stelle Daten her…';
+  String get initial_walk_through_restoring => 'Daten werden wiederhergestellt…';
 
   @override
   String get initial_walk_through_sign_in_icloud_title => 'Bei iCloud anmelden';
 
   @override
-  String get initial_walk_through_sign_in_icloud_message => 'Melde dich bei deinem iCloud-Konto an. Öffne die Einstellungen App, tippe auf iCloud und gib deine Apple ID ein. Schalte iCloud Drive ein. Wenn du kein iCloud-Konto hast, tippe auf Neue Apple ID erstellen.';
+  String get initial_walk_through_sign_in_icloud_message => 'Melde dich in deinem iCloud-Konto an. Gehe in die Einstellungen, tippe auf iCloud und gib deine Apple ID ein. Schalte iCloud Drive ein. Wenn du kein iCloud-Konto hast, tippe auf Neue Apple ID erstellen.';
 
   @override
   String get initial_walk_through_error_backup_location => 'Backup für dieses Konto konnte nicht gefunden werden';
@@ -1513,11 +1513,11 @@ class BreezTranslationsDe extends BreezTranslations {
 
   @override
   String enter_backup_phrase(String number, String total) {
-    return 'Gib deine Sicherungsphrase ein $number/$total';
+    return 'Gib deine Backup-Phrase ein $number/$total';
   }
 
   @override
-  String get enter_backup_phrase_error => 'Backup Wiederherstellung fehlgeschlagen. Bitte vergewissere dich, dass die Backup-Phrase korrekt eingegeben wurde und versuche es erneut.';
+  String get enter_backup_phrase_error => 'Backup-Wiederherstellung fehlgeschlagen. Bitte vergewissere dich, dass die Backup-Phrase korrekt eingegeben wurde und versuche es erneut.';
 
   @override
   String get enter_backup_phrase_missing_word => 'Fehlendes Wort';
@@ -1570,7 +1570,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get beta_warning_title => 'Beta Warnung';
 
   @override
-  String get beta_warning_message => 'Da sich Breez noch im Beta-Stadium befindet, besteht die Möglichkeit, dass deine bitcoin verloren gehen. Verwende diese App nur, wenn de bereit bist, dieses Risiko einzugehen';
+  String get beta_warning_message => 'Da sich Breez noch im Beta-Stadium befindet, besteht die Möglichkeit, dass deine Bitcoin verloren gehen. Verwende diese App nur, wenn de bereit bist, dieses Risiko einzugehen';
 
   @override
   String get beta_warning_understand => 'Ich verstehe';
@@ -1588,7 +1588,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get alpha_warning_title => 'Alpha Warnung';
 
   @override
-  String get alpha_warning_message => 'Da sich Breez noch im Alpha-Stadium befindet, besteht die Möglichkeit, dass deine bitcoin verloren gehen. Verwende diese App nur, wenn de bereit bist, dieses Risiko einzugehen';
+  String get alpha_warning_message => 'Da sich Breez noch im Alpha-Stadium befindet, besteht die Möglichkeit, dass deine Bitcoin verloren gehen. Verwende diese App nur, wenn de bereit bist, dieses Risiko einzugehen';
 
   @override
   String get alpha_warning_understand => 'Ich verstehe';
@@ -1609,13 +1609,13 @@ class BreezTranslationsDe extends BreezTranslations {
   String get processing_payment_dialog_synchronizing_channels => 'Breez synchronisiert deine Kanäle';
 
   @override
-  String get processing_payment_dialog_action_close => 'SCHLIEßEN';
+  String get processing_payment_dialog_action_close => 'SCHLIESSEN';
 
   @override
   String get processing_payment_dialog_processing_payment => 'Zahlung wird abgewickelt';
 
   @override
-  String get processing_payment_dialog_wait => 'Bitte warte während die Zahlung abgewickelt wird';
+  String get processing_payment_dialog_wait => 'Bitte warte, während die Zahlung abgewickelt wird';
 
   @override
   String get payment_request_dialog_requested => 'Du wirst gebeten zu zahlen:';
@@ -1660,13 +1660,13 @@ class BreezTranslationsDe extends BreezTranslations {
   String get payment_confirmation_dialog_action_yes => 'JA';
 
   @override
-  String get no_connection_flushbar_title => 'No internet connection';
+  String get no_connection_flushbar_title => 'Keine Internet-Verbindung';
 
   @override
-  String get no_connection_flushbar_action_retry => 'RETRY';
+  String get no_connection_flushbar_action_retry => 'ERNEUT VERSUCHEN';
 
   @override
-  String get no_connection_dialog_title => 'Keine Internet Verbindung';
+  String get no_connection_dialog_title => 'Keine Internet-Verbindung';
 
   @override
   String get no_connection_dialog_tip_begin => 'Du kannst versuchen:\n';
@@ -1703,35 +1703,35 @@ class BreezTranslationsDe extends BreezTranslations {
 
   @override
   String lsp_fee_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity) {
-    return 'Eine Einrichtungsgebühr von $setUpFee% (Minimum: $minFee) wird für den Kauf von mehr als $liquidity angewendet.';
+    return 'Eine Einrichtungsgebühr von $setUpFee% (Minimum: $minFee) wird für den Kauf von mehr als $liquidity erhoben.';
   }
 
   @override
   String lsp_fee_warning_without_min_fee_account_connected(String setUpFee, String liquidity) {
-    return 'Eine Einrichtungsgebühr von $setUpFee% wird für den Kauf von mehr als $liquidity angewendet.';
+    return 'Eine Einrichtungsgebühr von $setUpFee% wird für den Kauf von mehr als $liquidity erhoben.';
   }
 
   @override
   String lsp_fee_warning_with_min_fee_account_not_connected(String setUpFee, String minFee) {
-    return 'Eine Einrichtungsgebühr von $setUpFee% (Minimum: $minFee) wird auf den empfangenen Betrag angewendet.';
+    return 'Eine Einrichtungsgebühr von $setUpFee% (Minimum: $minFee) wird auf den empfangenen Betrag erhoben.';
   }
 
   @override
   String lsp_fee_warning_without_min_fee_account_not_connected(String setUpFee) {
-    return 'Eine Einrichtungsgebühr von $setUpFee% wird auf den empfangenen Betrag angewendet.';
+    return 'Eine Einrichtungsgebühr von $setUpFee% wird auf den empfangenen Betrag erhoben.';
   }
 
   @override
   String get lsp_error_provider_do_not_exists => 'LSP existiert nicht';
 
   @override
-  String get lsp_error_not_selected => 'lsp wurde nicht ausgewählt';
+  String get lsp_error_not_selected => 'LSP wurde nicht ausgewählt';
 
   @override
   String get lost_card_dialog_title => 'Verlorene oder gestohlene Karte';
 
   @override
-  String get lost_card_dialog_message => 'Wenn deine Karte verloren gegangen ist oder gestohlen wurde, solltest du sie jetzt deaktivieren, um zu verhindern, dass sie von anderen verwendet wird. Deaktivieren bedeutet, dass du keine deiner vorhandenen Karten mehr verwenden kanst, bis du sie wieder aktivierst';
+  String get lost_card_dialog_message => 'Wenn deine Karte verloren gegangen ist oder gestohlen wurde, solltest du sie jetzt deaktivieren, um zu verhindern, dass sie von anderen verwendet wird. Deaktivieren bedeutet, dass du keine deiner vorhandenen Karten mehr verwenden kannst, bis du sie wieder aktivierst';
 
   @override
   String get lost_card_dialog_action_cancel => 'ABBRECHEN';
@@ -1758,16 +1758,16 @@ class BreezTranslationsDe extends BreezTranslations {
   String get order_card_action_order => 'BESTELLEN';
 
   @override
-  String get order_card_action_error_name_address_missing => 'Name und Adresse sind erforderlich, um dir eine Breez-Karte zu schicken. Alle angegebenen Informationen werden nach dem Versand der Karte aus unserem System gelöscht. Du Kannst diesen Schritt überspringen und Breez auch ohne Karte nutzen.';
+  String get order_card_action_error_name_address_missing => 'Name und Adresse sind erforderlich, um dir eine Breez-Karte zu schicken. Alle angegebenen Informationen werden nach dem Versand der Karte aus unserem System gelöscht. Du kannst diesen Schritt überspringen und Breez auch ohne Karte nutzen.';
 
   @override
-  String get order_card_action_order_breez_card => 'Breez Karte bestellen';
+  String get order_card_action_order_breez_card => 'Breez-Karte bestellen';
 
   @override
   String get order_card_action_order_card => 'Karte bestellen';
 
   @override
-  String get order_card_success => 'Deine Breez Karte wird in Kürze an die genannte Adresse gesendet.';
+  String get order_card_success => 'Deine Breez-Karte wird in Kürze an die genannte Adresse gesendet.';
 
   @override
   String get order_card_info_disclaimer => 'Warum muss ich diese\nInformationen zur Verfügung stellen?';
@@ -1831,7 +1831,7 @@ class BreezTranslationsDe extends BreezTranslations {
 
   @override
   String link_launcher_failed_to_launch(String url) {
-    return 'Could not launch $url';
+    return 'Konnte $url nicht aufrufen';
   }
 
   @override
@@ -1899,7 +1899,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get close_popup_title => 'Breez beenden';
 
   @override
-  String get close_popup_message => 'Willst du Breez wirklich verlassen?';
+  String get close_popup_message => 'Willst du Breez wirklich beenden?';
 
   @override
   String breez_date_picker_day_and_date(String day, String date) {
@@ -1917,10 +1917,10 @@ class BreezTranslationsDe extends BreezTranslations {
   }
 
   @override
-  String get breez_date_picker_error_initial_date_after => 'Das Anfangsdatum muss am oder nach dem ersten Datum liegen';
+  String get breez_date_picker_error_initial_date_after => 'Das Anfangsdatum darf nicht vor dem ersten Datum liegen';
 
   @override
-  String get breez_date_picker_error_initial_date_before => 'Das Anfangsdatum muss am oder vor dem letzten Datum liegen';
+  String get breez_date_picker_error_initial_date_before => 'Das Anfangsdatum darf nicht hinter dem letzten Datum liegen';
 
   @override
   String get breez_date_picker_error_initial_date_predicate => 'Das Anfangsdatum muss der auswählbaren Zeitspanne entsprechen';
@@ -1929,7 +1929,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get breez_date_picker_error_initial_date_null => 'Das Anfangsdatum darf nicht leer bleiben';
 
   @override
-  String get breez_date_picker_error_last_date_after => 'Das Enddatum muss am oder nach dem ersten Datum liegen';
+  String get breez_date_picker_error_last_date_after => 'Das Enddatum darf nicht vor dem ersten Datum liegen';
 
   @override
   String get breez_avatar_dialog_random => 'ZUFÄLLIG';
@@ -1980,7 +1980,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get utils_print_pdf_header_description => 'Beschreibung:';
 
   @override
-  String get utils_print_pdf_header_payment_preimage => 'Zahlungsvorschau:';
+  String get utils_print_pdf_header_payment_preimage => 'Zahlungs-Preimage:';
 
   @override
   String get handler_check_version_action_update => 'AKTUALISIEREN';
@@ -1992,7 +1992,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get handler_channel_connection_message => 'Breez ist offline';
 
   @override
-  String get handler_channel_connection_close => 'SCHLIEßEN';
+  String get handler_channel_connection_close => 'SCHLIESSEN';
 
   @override
   String get handler_lnurl_error_link => 'Link-Fehler';
@@ -2024,7 +2024,7 @@ class BreezTranslationsDe extends BreezTranslations {
 
   @override
   String handler_lnurl_open_channel_message(String host) {
-    return 'Bust du sicher, dass di einen Channel mit $host öffnen möchtest?';
+    return 'Bist du sicher, dass du einen Channel mit $host öffnen möchtest?';
   }
 
   @override
@@ -2054,10 +2054,10 @@ class BreezTranslationsDe extends BreezTranslations {
   String get add_funds_error_withdraw => 'Breez bearbeitet deine vorherige Abhebung. Sobald dieser Vorgang abgeschlossen ist, kannst du weitere Gelder hinzufügen.';
 
   @override
-  String get add_funds_transaction_id_copied => 'Die Transaktions-ID wurde in Ihre Zwischenablage kopiert.';
+  String get add_funds_transaction_id_copied => 'Die Transaktions-ID wurde in die Zwischenablage kopiert.';
 
   @override
-  String get add_funds_item_voucher_title => 'Gutschein Wert';
+  String get add_funds_item_voucher_title => 'Gutschein-Wert';
 
   @override
   String add_funds_item_voucher_message(String value, String currency) {
@@ -2089,7 +2089,7 @@ class BreezTranslationsDe extends BreezTranslations {
   }
 
   @override
-  String get add_funds_item_bitcoins_received_title => 'bitcoin erhalten';
+  String get add_funds_item_bitcoins_received_title => 'Bitcoin erhalten';
 
   @override
   String get add_funds_moonpay_title => 'MoonPay';
@@ -2119,7 +2119,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get csv_exporter_amount => 'Betrag';
 
   @override
-  String get csv_exporter_preimage => 'Vorabbild';
+  String get csv_exporter_preimage => 'Preimage';
 
   @override
   String get csv_exporter_tx_hash => 'TX Hash';
@@ -2160,7 +2160,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get pos_settings_import_action_no => 'NEIN';
 
   @override
-  String get pos_settings_import_select_message => 'Bite wähle eine .csv Datei.';
+  String get pos_settings_import_select_message => 'Bite wähle eine CSV-Datei.';
 
   @override
   String get pos_settings_import_success_message => 'Artikel erfolgreich importiert.';
@@ -2178,7 +2178,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get pos_settings_export_error_generic => 'Export von Artikeln fehlgeschlagen.';
 
   @override
-  String get pos_settings_export_error_no_items => 'Es gibt keine Artikel zu exportieren.';
+  String get pos_settings_export_error_no_items => 'Es gibt keine Artikel, die exportiert werden können.';
 
   @override
   String get pos_settings_create_manager_password => 'Manager-Passwort erstellen';
@@ -2199,7 +2199,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get pos_settings_manager_password_title => 'Manager-Passwort';
 
   @override
-  String get pos_settings_manager_password_message => 'Wenn das Manager-Passwort aktiviert ist, musst du beim Senden von Bitcoin von Breez aus ein Kennwort eingeben.\nBist du sicher, dass du das Manager-Passwort aktivieren möchtest?';
+  String get pos_settings_manager_password_message => 'Wenn das Manager-Passwort aktiviert ist, musst du beim Senden von Bitcoin aus Breez ein Kennwort eingeben.\nBist du sicher, dass du das Manager-Passwort aktivieren möchtest?';
 
   @override
   String get pos_settings_manager_password_action_create => 'ERSTELLEN';
@@ -2292,7 +2292,7 @@ class BreezTranslationsDe extends BreezTranslations {
   }
 
   @override
-  String get pos_payment_nfc_error_action_close => 'SCHLIEßEN';
+  String get pos_payment_nfc_error_action_close => 'SCHLIESSEN';
 
   @override
   String get successful_payment_print => 'Drucken';
@@ -2357,7 +2357,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get pos_report_dialog_title_custom => 'Benutzerdefinierte Übersicht';
 
   @override
-  String get pos_report_dialog_action_close => 'SCHLIEßEN';
+  String get pos_report_dialog_action_close => 'SCHLIESSEN';
 
   @override
   String get pos_report_dialog_dropdown_item_daily => 'Heute';
@@ -2369,7 +2369,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get pos_report_dialog_dropdown_item_monthly => 'Dieser Monat';
 
   @override
-  String get pos_report_dialog_dropdown_item_custom => 'Benutzerdefinierte Zeitraum';
+  String get pos_report_dialog_dropdown_item_custom => 'Benutzerdefinierter Zeitraum';
 
   @override
   String get pos_report_dialog_content_sales_label => 'Anzahl der Verkäufe:';
@@ -2390,10 +2390,10 @@ class BreezTranslationsDe extends BreezTranslations {
   String get lnurl_withdraw_dialog_wait => 'Bitte warte, während deine Zahlung bearbeitet wird';
 
   @override
-  String get lnurl_withdraw_dialog_action_close => 'SCHLIEßEN';
+  String get lnurl_withdraw_dialog_action_close => 'SCHLIESSEN';
 
   @override
-  String get lnurl_withdraw_dialog_error_unknown => 'Failed to receive funds';
+  String get lnurl_withdraw_dialog_error_unknown => 'Zahlungseingang fehlgeschlagen';
 
   @override
   String lnurl_withdraw_dialog_error(String error) {
@@ -2402,12 +2402,12 @@ class BreezTranslationsDe extends BreezTranslations {
 
   @override
   String lnurl_withdraw_dialog_error_amount_exceeds(int maxSats) {
-    return 'Exceeds maximum withdrawable amount: $maxSats';
+    return 'Übersteigt den maximal abhebbaren Betrag: $maxSats';
   }
 
   @override
   String lnurl_withdraw_dialog_error_amount_below(int minSats) {
-    return 'Below minimum withdrawable amount: $minSats';
+    return 'Unter dem Mindestbetrag für Abhebungen: $minSats';
   }
 
   @override
@@ -2417,7 +2417,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get qr_code_dialog_invoice => 'Rechnung';
 
   @override
-  String get qr_code_dialog_action_close => 'SCHLIEßEN';
+  String get qr_code_dialog_action_close => 'SCHLIESSEN';
 
   @override
   String get qr_code_dialog_share => 'Rechnungsdaten teilen';
@@ -2463,10 +2463,10 @@ class BreezTranslationsDe extends BreezTranslations {
   String get waiting_broadcast_dialog_transaction_id => 'Transaktions-ID:';
 
   @override
-  String get waiting_broadcast_dialog_content_success => 'Die bitcoin wurden erfolgreich an die angegebene Adresse gesendet.';
+  String get waiting_broadcast_dialog_content_success => 'Die Bitcoin wurden erfolgreich an die angegebene Adresse gesendet.';
 
   @override
-  String get waiting_broadcast_dialog_content_warning => 'Bitte warte, während Breez die bitcoin an die angegebene Adresse sendet.';
+  String get waiting_broadcast_dialog_content_warning => 'Bitte warte, während Breez die Bitcoin an die angegebene Adresse sendet.';
 
   @override
   String waiting_broadcast_dialog_content_error(String error) {
@@ -2510,7 +2510,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get status_text_loading_end => ' mit dem Server. Das kann eine Weile dauern, aber keine Sorge, wir benachrichtigen dich, sobald die App bereit ist, Zahlungen zu senden und zu empfangen.';
 
   @override
-  String get status_text_ready => 'Breez ist bereit, bitcoin zu erhalten.';
+  String get status_text_ready => 'Breez ist bereit, Bitcoin zu erhalten.';
 
   @override
   String get status_opening_secure_connection => 'Breez is opening a secure connection';
@@ -2583,14 +2583,14 @@ class BreezTranslationsDe extends BreezTranslations {
 
   @override
   String lnurl_fetch_invoice_error_message(String host, String reason) {
-    return 'Beim Versuch, eine Rechnung von $host abzurufen, ist ein Fehler aufgetreten!\nMotiv $reason';
+    return 'Beim Versuch, eine Rechnung von $host abzurufen, ist ein Fehler aufgetreten!\nGrund: $reason';
   }
 
   @override
-  String get lnurl_error_unsupported => 'Nicht unterstützte LNUrl';
+  String get lnurl_error_unsupported => 'Nicht unterstützte LNURL';
 
   @override
-  String get make_invoice_request_title => 'Diese Website möchte Sie bezahlen:';
+  String get make_invoice_request_title => 'Diese Website möchte dich bezahlen:';
 
   @override
   String get make_invoice_request_action_cancel => 'ABBRECHEN';
@@ -2599,19 +2599,19 @@ class BreezTranslationsDe extends BreezTranslations {
   String get make_invoice_request_action_approve => 'BESTÄTIGEN';
 
   @override
-  String get mnemonics_confirmation_title => 'Sicherungsphrase';
+  String get mnemonics_confirmation_title => 'Backup-Phrase';
 
   @override
-  String get mnemonics_confirmation_verify_backup_phrase => 'Verify Backup Phrase';
+  String get mnemonics_confirmation_verify_backup_phrase => 'Backup Phrase verifizieren';
 
   @override
-  String get mnemonics_confirmation_display_backup_phrase => 'Display Backup Phrase';
+  String get mnemonics_confirmation_display_backup_phrase => 'Backup Phrase anzeigen';
 
   @override
-  String get mnemonics_confirmation_instructions => 'Es wird dir eine Liste mit Wörtern gezeigt. Schreibe die Wörter auf und bewahre sie an einem sicheren Ort auf. Ohne diese Wörter kannst du das Backup nicht wiederherstellen und deine bitcoin sind verloren.';
+  String get mnemonics_confirmation_instructions => 'Es wird dir eine Liste mit Wörtern gezeigt. Schreibe die Wörter auf und bewahre sie an einem sicheren Ort auf. Ohne diese Wörter kannst du das Backup nicht wiederherstellen und deine Bitcoin sind verloren.';
 
   @override
-  String get mnemonics_confirmation_action_verify => 'Verify';
+  String get mnemonics_confirmation_action_verify => 'Verifizieren';
 
   @override
   String get podcast_add_funds_title => 'Zahle auf dein Konto ein, um Zahlungen an diesen Podcast zu senden';
@@ -2647,7 +2647,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get podcast_boost_send_optional => 'Boostagram (optional)';
 
   @override
-  String get podcast_boost_send_amount => 'Boost Betrag (in Sats)';
+  String get podcast_boost_send_amount => 'Boost-Betrag (in Sats)';
 
   @override
   String get podcast_boost_custom_amount => 'Eingabe eines benutzerdefinierten Betrags:';
@@ -2670,7 +2670,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get podcast_boost_adjustment_stream_sats => 'Streame Sats';
 
   @override
-  String get podcast_boost_adjustment_stream_sats_message => 'Streame Sats an die Macher, während du deren Sendung hörest. Die Zahl gibt die Anzahl der Sats an, die pro Minute gesendet werden. Um kostenlos zuzuhören, setze diesen Wert auf 0.';
+  String get podcast_boost_adjustment_stream_sats_message => 'Streame Sats an die Macher, während du deren Sendung hörst. Die Zahl gibt die Anzahl der Sats an, die pro Minute gesendet werden. Um kostenlos zuzuhören, setze diesen Wert auf 0.';
 
   @override
   String get podcast_boost_action_share => 'Teilen';
@@ -2694,16 +2694,16 @@ class BreezTranslationsDe extends BreezTranslations {
   String get lock_screen_enter_pin => 'Gib deine PIN ein';
 
   @override
-  String get lock_screen_pin_incorrect => 'Incorrect PIN';
+  String get lock_screen_pin_incorrect => 'Falsche PIN';
 
   @override
-  String get lock_screen_pin_match_exception => 'There was an error confirming your PIN, please try again. If this error persists, please contact Breez support.';
+  String get lock_screen_pin_match_exception => 'Bei der Überprüfung deiner PIN ist ein Fehler aufgetreten. Bitte versuche es noch einmal. Wenn dieser Fehler weiterhin besteht, wende dich bitte an den Breez-Support.';
 
   @override
   String get backup_phrase_generate => 'Cloud-Backup verschlüsseln';
 
   @override
-  String get backup_phrase_instructions => 'Es wird dir eine Liste mit Wörtern gezeigt. Schreibe die Wörter auf und bewahre sie an einem sicheren Ort auf. Ohne diese Wörter kannst du das Backup nicht wiederherstellen und deine bitcoin sind verloren. Breez wird dir nicht helfen können. Beachte, dass diese Wörter kein Wallet-Seed sind. Sie werden verwendet, um die in der Cloud gespeicherten Backup-Daten zu verschlüsseln.';
+  String get backup_phrase_instructions => 'Es wird dir eine Liste mit Wörtern gezeigt. Schreibe die Wörter auf und bewahre sie an einem sicheren Ort auf. Ohne diese Wörter kannst du das Backup nicht wiederherstellen und deine Bitcoin sind verloren. Breez wird dir nicht helfen können. Beachte, dass diese Wörter kein Wallet-Seed sind. Sie werden verwendet, um die in der Cloud gespeicherten Backup-Daten zu verschlüsseln.';
 
   @override
   String get backup_phrase_action_confirm => 'ICH VERSTEHE';
@@ -2712,7 +2712,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get backup_phrase_action_next => 'WEITER';
 
   @override
-  String get backup_phrase_warning_disclaimer => 'Deine bestehende Sicherungsphrase ist dann nicht mehr gültig und es wird eine neue generiert, wenn du das nächste Mal eine Sicherungsphrase verwenden möchtest. Bist du sicher, dass du keine Sicherungsphrase verwenden möchtest?';
+  String get backup_phrase_warning_disclaimer => 'Deine bestehende Backup-Phrase ist dann nicht mehr gültig und es wird eine neue generiert, wenn du die Backup-Phrase wieder aktivierst. Bist du sicher, dass du keine Backup-Phrase verwenden möchtest?';
 
   @override
   String get backup_phrase_warning_action_yes => 'JA';
@@ -2739,7 +2739,7 @@ class BreezTranslationsDe extends BreezTranslations {
 
   @override
   String backup_phrase_generation_type_words(int numberA, int numberB, int numberC) {
-    return 'Bitte gib die Wörter Nummer $numberA, $numberB und $numberC des generierten Sicherungsschlüssels ein.';
+    return 'Bitte gib die Wörter Nummer $numberA, $numberB und $numberC der generierten Backup-Phrase ein.';
   }
 
   @override
@@ -2781,7 +2781,7 @@ class BreezTranslationsDe extends BreezTranslations {
 
   @override
   String spontaneous_payment_send_payment_message(String amount, String nodeID) {
-    return 'Bist du sicher, dass du dieser Node $amount zuweisen möchten?\n\n$nodeID';
+    return 'Bist du sicher, dass du dieser Node $amount senden möchtest?\n\n$nodeID';
   }
 
   @override
@@ -2791,7 +2791,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get sweep_all_coins_speed => 'Wähle Verarbeitungsgeschwindigkeit';
 
   @override
-  String get sweep_all_coins_action_retry => 'RETRY';
+  String get sweep_all_coins_action_retry => 'ERNEUT VERSUCHEN';
 
   @override
   String get sweep_all_coins_action_confirm => 'BESTÄTIGEN';
@@ -2821,16 +2821,16 @@ class BreezTranslationsDe extends BreezTranslations {
   }
 
   @override
-  String get sweep_all_coins_error_retrieve_fees => 'Die Gebühren konnten nicht abgerufen werden. Bitte versuche es später erneut.';
+  String get sweep_all_coins_error_retrieve_fees => 'Die Gebühren konnten nicht ermittelt werden. Bitte versuche es später erneut.';
 
   @override
   String get sweep_all_coins_error_amount_small => 'Der Betrag ist zu klein für die Zahlung. Bitte versuche es später noch einmal.';
 
   @override
-  String get unexpected_funds_title => 'Unerwartete Gelder';
+  String get unexpected_funds_title => 'Unerwartetes Guthaben';
 
   @override
-  String get unexpected_funds_message => 'Breez hat unerwartete Gelder in der zugrunde liegenden Wallet gefunden (wahrscheinlich aufgrund eines geschlossenen Channels). Es wird dringend empfohlen, diese Gelder so schnell wie möglich an eine BTC-Adresse zu senden';
+  String get unexpected_funds_message => 'Breez hat unerwartetes Guthaben in der zugrunde liegenden Wallet gefunden (wahrscheinlich aufgrund eines geschlossenen Channels). Es wird dringend empfohlen, dieses Guthaben so schnell wie möglich an eine BTC-Adresse zu senden';
 
   @override
   String get unexpected_error_restoring_chain_message => 'Das Wiederherstellen der Blockchain-Informationen kann einige Minuten dauern';
@@ -2887,7 +2887,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get unexpected_error_title => 'Unerwarteter Fehler';
 
   @override
-  String get unexpected_error_deactivate_tor => 'Deactivate';
+  String get unexpected_error_deactivate_tor => 'Deaktivieren';
 
   @override
   String get transferring_funds_title => 'Überweisung';
@@ -2911,7 +2911,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get qr_scan_action_cancel => 'ABBRECHEN';
 
   @override
-  String get qr_scan_gallery_failed => 'No QR Code found in the image';
+  String get qr_scan_gallery_failed => 'Kein QR-Code im Bild gefunden';
 
   @override
   String get pending_closed_channel_title => 'Ausstehende Channel-Schließung ';
@@ -2927,7 +2927,7 @@ class BreezTranslationsDe extends BreezTranslations {
 
   @override
   String close_warning_dialog_message_begin(int duration) {
-    return 'Du hast seit $duration Tagen keine Zahlungen mehr an Breez geleistet, so dass dein LSP seine Channels möglicherweise schließen muss. Sollte dies der Fall sein, wird Breez eine On-Chain-Adresse generieren und deine bitcoin dorthin transferieren. Du behältst die vollständige Kontrolle über deine bitcoin, abzüglich der Mining-Gebühr, die durch die Sweep-Transaktion anfällt. Um mehr darüber zu erfahren, warum dies geschieht, lese unseren Beitrag über ';
+    return 'Du hast seit $duration Tagen keine Zahlungen mehr mit Breez durchgeführt, so dass dein LSP seine Channels möglicherweise schließen muss. Sollte dies der Fall sein, wird Breez eine On-Chain-Adresse generieren und deine Bitcoin dorthin transferieren. Du behältst die vollständige Kontrolle über deine Bitcoin, abzüglich der Mining-Gebühr, die durch die Sweep-Transaktion anfällt. Um mehr darüber zu erfahren, warum dies geschieht, lies unseren Beitrag über ';
   }
 
   @override
@@ -3032,7 +3032,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get valid_payment_error_insufficient_balance => 'Unzureichender Kontostand';
 
   @override
-  String get description_waiting_broadcast => 'Warte auf das Sendend er Transaktion';
+  String get description_waiting_broadcast => 'Warte auf das Senden der Transaktion';
 
   @override
   String get description_broadcast_done => 'Transaktion wurde gesendet';
@@ -3061,7 +3061,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get payment_info_title_bitcoin_transfer => 'Bitcoin Transfer';
 
   @override
-  String get payment_info_title_closed_channel => 'Geschlpssener Channel';
+  String get payment_info_title_closed_channel => 'Geschlossener Channel';
 
   @override
   String get payment_info_title_send_to_node => 'An Node senden';
@@ -3073,7 +3073,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get payment_info_title_pending_closed_channel => 'Ausstehende Channel-Schließung';
 
   @override
-  String get payment_error_to_send_unknown_reason => 'Failed to send payment';
+  String get payment_error_to_send_unknown_reason => 'Zahlung konnte nicht gesendet werden';
 
   @override
   String payment_error_to_send(String error) {
@@ -3081,16 +3081,16 @@ class BreezTranslationsDe extends BreezTranslations {
   }
 
   @override
-  String get payment_info_title_opened_channel => 'Opened Channel';
+  String get payment_info_title_opened_channel => 'Channel geöffnet';
 
   @override
-  String get payment_info_title_pending_opened_channel => 'Pending Opened Channel';
+  String get payment_info_title_pending_opened_channel => 'Ausstehende Channel-Öffnung';
 
   @override
-  String get no_lsp_widget_message => 'In order to activate Breez, please select a provider:';
+  String get no_lsp_widget_message => 'Um Breez zu aktivieren, wählen Sie bitte einen Anbieter aus:';
 
   @override
-  String get no_lsp_widget_action_select => 'SELECT…';
+  String get no_lsp_widget_action_select => 'AUSWÄHLEN…';
 
   @override
   String get podcast_history_drawer => 'Meine Top Podcasts';
@@ -3105,7 +3105,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get podcast_history_sats_streamed => 'Sats gestreamt';
 
   @override
-  String get podcast_history_boostagrams_sent => 'boosts gesendet';
+  String get podcast_history_boostagrams_sent => 'Boosts gesendet';
 
   @override
   String get podcast_history_open_podcast_button => 'PODCASTS ÖFFNEN';
@@ -3162,61 +3162,61 @@ class BreezTranslationsDe extends BreezTranslations {
   String get podcast_clips_error => 'Beim Ausschneiden der Folge ist ein Fehler aufgetreten. Bitte versuche es erneut';
 
   @override
-  String get localized_error_message_invalid_pair_hash => 'Fee estimations have expired. Please retry.';
+  String get localized_error_message_invalid_pair_hash => 'Die Gebührenschätzungen sind veraltet. Bitte versuche es erneut.';
 
   @override
-  String get share_log_text => 'Share Log';
+  String get share_log_text => 'Log teilen';
 
   @override
-  String get share_file_title => 'Share File';
+  String get share_file_title => 'Datei teilen';
 
   @override
   String get mempool_settings_custom_url => 'Mempool API URL';
 
   @override
-  String get mempool_settings_custom_url_error => 'Invalid Mempool API URL';
+  String get mempool_settings_custom_url_error => 'Ungültige Mempool API URL';
 
   @override
   String get mempool_settings_action_reset => 'Reset';
 
   @override
-  String get mempool_settings_action_save => 'Save';
+  String get mempool_settings_action_save => 'Speichern';
 
   @override
-  String get lnurl_payment_page_title => 'LNURL Invoice';
+  String get lnurl_payment_page_title => 'LNURL Rechnung';
 
   @override
   String lnurl_payment_page_domain_pay(String domain, int amount) {
-    return '$domain is requesting you to pay $amount sats.';
+    return '$domain fordert dich auf, $amount sats zu zahlen.';
   }
 
   @override
-  String get lnurl_payment_page_comment => 'Comment (optional)';
+  String get lnurl_payment_page_comment => 'Kommentar (optional)';
 
   @override
-  String get lnurl_payment_page_enter_k1 => 'Please enter a k1';
+  String get lnurl_payment_page_enter_k1 => 'Bitte einen k1 eingeben';
 
   @override
-  String get lnurl_payment_page_action_pay => 'PAY';
+  String get lnurl_payment_page_action_pay => 'ZAHLEN';
 
   @override
   String lnurl_payment_page_error_exceeds_limit(int amount) {
-    return 'Exceeds maximum sendable amount: $amount';
+    return 'Überschreitet den maximal versendbaren Betrag: $amount';
   }
 
   @override
   String lnurl_payment_page_error_below_limit(int amount) {
-    return 'Below minimum accepted amount: $amount';
+    return 'Unter dem akzeptierten Mindestbetrag: $amount';
   }
 
   @override
-  String get lnurl_payment_page_unknown_error => 'Unknown error';
+  String get lnurl_payment_page_unknown_error => 'Unbekannter Fehler';
 
   @override
-  String get node_state_error => 'Failed to get node state';
+  String get node_state_error => 'Node-Status konnte nicht abgerufen werden';
 
   @override
-  String get generic_network_error => 'Failed to connect to Breez. Please check your internet connection and try again.';
+  String get generic_network_error => 'Die Verbindung zu Breez konnte nicht hergestellt werden. Bitte überprüfe deine Internetverbindung und versuche es erneut.';
 
   @override
   String get locale => 'de';

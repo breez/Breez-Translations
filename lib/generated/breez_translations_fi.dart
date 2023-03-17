@@ -102,22 +102,22 @@ class BreezTranslationsFi extends BreezTranslations {
 
   @override
   String invoice_btc_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String minFee, String liquidity) {
-    return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Yli $liquidity talletuksista veloitetaan $setUpFee% avauskulu ja kuitenkin vähintään $minFee. This address can be used only once.';
+    return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Yli $liquidity talletuksista veloitetaan $setUpFee% avauskulu ja kuitenkin vähintään $minFee. Tätä Bitcoin-osoitetta voi käyttää vain yhden kerran!';
   }
 
   @override
   String invoice_btc_address_warning_without_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String liquidity) {
-    return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Yli $liquidity talletuksesta veloitetaan $setUpFee% avauskulu. This address can be used only once.';
+    return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Yli $liquidity talletuksesta veloitetaan $setUpFee% avauskulu. Tätä Bitcoin-osoitetta voi käyttää vain yhden kerran!';
   }
 
   @override
   String invoice_btc_address_warning_with_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee, String minFee) {
-    return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Talletuksesta veloitetaan $setUpFee% avauskulu ja vähintään $minFee. This address can be used only once.';
+    return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Talletuksesta veloitetaan $setUpFee% avauskulu ja vähintään $minFee. Tätä Bitcoin-osoitetta voi käyttää vain yhden kerran!';
   }
 
   @override
   String invoice_btc_address_warning_without_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee) {
-    return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Talletuksesta veloitetaan $setUpFee% avauskulu. This address can be used only once.';
+    return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Talletuksesta veloitetaan $setUpFee% avauskulu. Tätä Bitcoin-osoitetta voi käyttää vain yhden kerran!';
   }
 
   @override
@@ -220,17 +220,17 @@ class BreezTranslationsFi extends BreezTranslations {
 
   @override
   String invoice_payment_validator_error_payment_exceeded_limit(String maxSats) {
-    return 'Payment exceeds the limit ($maxSats)';
+    return 'Maksu on enimmäismäärää ($maxSats) suurempi.';
   }
 
   @override
   String invoice_payment_validator_error_payment_below_invoice_limit(String minSats) {
-    return 'Payment is below the limit ($minSats)';
+    return 'Maksu on vähimmäismäärää ($minSats) pienempi.';
   }
 
   @override
   String invoice_payment_validator_error_payment_below_limit(String minSats) {
-    return 'Breez requires you to keep $minSats in your balance.';
+    return 'Sinun on pidettävä sovelluksen saldona vähintään $minSats.';
   }
 
   @override
@@ -1348,11 +1348,11 @@ class BreezTranslationsFi extends BreezTranslations {
   String get funds_over_limit_dialog_refund_end => ' varat nyt.';
 
   @override
-  String get get_refund_title => 'Alota lunastus';
+  String get get_refund_title => 'Aloita lunastus';
 
   @override
   String get_refund_amount(String amount) {
-    return 'Amount: $amount';
+    return 'Määrä: $amount';
   }
 
   @override
@@ -1585,7 +1585,7 @@ class BreezTranslationsFi extends BreezTranslations {
   String get beta_warning_action_continue => 'VAHVISTA';
 
   @override
-  String get alpha_warning_title => 'Alpha-varoitus';
+  String get alpha_warning_title => 'Käyttöehdot';
 
   @override
   String get alpha_warning_message => 'Breez-sovellus on alpha-kehitysvaiheessa. On mahdollista että sovellus saattaa aiheuttaa menetyksen osaan tai kaikkiin varoihisi, joita sovelluksella hallitset. Käytä sovellusta ainoastaan jos olet valmis ottamaan tämän riskin.';
@@ -1831,7 +1831,7 @@ class BreezTranslationsFi extends BreezTranslations {
 
   @override
   String link_launcher_failed_to_launch(String url) {
-    return 'Could not launch $url';
+    return '$url -sivusto ei auennut';
   }
 
   @override
@@ -2393,7 +2393,7 @@ class BreezTranslationsFi extends BreezTranslations {
   String get lnurl_withdraw_dialog_action_close => 'SULJE';
 
   @override
-  String get lnurl_withdraw_dialog_error_unknown => 'Failed to receive funds';
+  String get lnurl_withdraw_dialog_error_unknown => 'Varojen vastaaottaminen epäonnistui';
 
   @override
   String lnurl_withdraw_dialog_error(String error) {
@@ -2402,12 +2402,12 @@ class BreezTranslationsFi extends BreezTranslations {
 
   @override
   String lnurl_withdraw_dialog_error_amount_exceeds(int maxSats) {
-    return 'Exceeds maximum withdrawable amount: $maxSats';
+    return 'Nostettavissa oleva enimmäismäärä $maxSats ylittyy.';
   }
 
   @override
   String lnurl_withdraw_dialog_error_amount_below(int minSats) {
-    return 'Below minimum withdrawable amount: $minSats';
+    return 'Nostettavissa oleva vähimmäismäärä $minSats alittuu.';
   }
 
   @override
@@ -2513,7 +2513,7 @@ class BreezTranslationsFi extends BreezTranslations {
   String get status_text_ready => 'Breez on valmis lähettämään maksuja.';
 
   @override
-  String get status_opening_secure_connection => 'Breez is opening a secure connection';
+  String get status_opening_secure_connection => 'Sovellus avaa salattua yhteyttä';
 
   @override
   String get qr_action_button_open_link => 'Avaa linkki';
@@ -2599,19 +2599,19 @@ class BreezTranslationsFi extends BreezTranslations {
   String get make_invoice_request_action_approve => 'HYVÄKSY';
 
   @override
-  String get mnemonics_confirmation_title => 'Varmuuskopion';
+  String get mnemonics_confirmation_title => 'Varmuuskopion salauslause';
 
   @override
-  String get mnemonics_confirmation_verify_backup_phrase => 'Verify Backup Phrase';
+  String get mnemonics_confirmation_verify_backup_phrase => 'Varmista varmuuskopion salauslause';
 
   @override
-  String get mnemonics_confirmation_display_backup_phrase => 'Display Backup Phrase';
+  String get mnemonics_confirmation_display_backup_phrase => 'Näytä varmuuskopion salauslause';
 
   @override
   String get mnemonics_confirmation_instructions => 'Seuraavassa näkymässä sinulle näytetään salauslause. Kirjaa numerojärjestyksessä sen sanat muistiin turvalliseen paikkaan. Mikäli joskus tulevaisuudessa joudut palauttamaan varmuuskopion, palautus ei onnistu ilman näitä sanoja. Siinä tapauksessa menetät kaikki sovelluksen hallinnoimat varasi. Tällöin ei Breez, eikä kukaan muukaan, voi auttaa sinua palautuksessa!';
 
   @override
-  String get mnemonics_confirmation_action_verify => 'Verify';
+  String get mnemonics_confirmation_action_verify => 'Varmista';
 
   @override
   String get podcast_add_funds_title => 'Sinulla tulee olla saldoa, jotta voit lähettää satosheja tälle podcast:ille.';
@@ -2694,10 +2694,10 @@ class BreezTranslationsFi extends BreezTranslations {
   String get lock_screen_enter_pin => 'Syötä PIN-koodisi';
 
   @override
-  String get lock_screen_pin_incorrect => 'Incorrect PIN';
+  String get lock_screen_pin_incorrect => 'Virheellinen PIN';
 
   @override
-  String get lock_screen_pin_match_exception => 'There was an error confirming your PIN, please try again. If this error persists, please contact Breez support.';
+  String get lock_screen_pin_match_exception => 'PIN-koodisi vahvistaminen ei onnistunut. Yritä uudelleen. Ota yhteyttä sovellustoimittajan tukeen, mikäli tämä toistuu.';
 
   @override
   String get backup_phrase_generate => 'Luo varmuuskopion salauslause';
@@ -2971,7 +2971,7 @@ class BreezTranslationsFi extends BreezTranslations {
 
   @override
   String payment_error_insufficient_balance_amount(String amount) {
-    return 'Käytösaldosi tai vastaanottajan enimmäismäärä on $amount';
+    return 'Käyttösaldosi tai vastaanottajan enimmäismäärä on $amount';
   }
 
   @override
@@ -3073,24 +3073,24 @@ class BreezTranslationsFi extends BreezTranslations {
   String get payment_info_title_pending_closed_channel => 'Odotetaan suljettua kanavaa';
 
   @override
-  String get payment_error_to_send_unknown_reason => 'Failed to send payment';
+  String get payment_error_to_send_unknown_reason => 'Maksun lähetys epäonnistui';
 
   @override
   String payment_error_to_send(String error) {
-    return 'Maksu lähetys epäonnistui: $error';
+    return 'Maksun lähetys epäonnistui: $error';
   }
 
   @override
-  String get payment_info_title_opened_channel => 'Opened Channel';
+  String get payment_info_title_opened_channel => 'Avattu kanava';
 
   @override
-  String get payment_info_title_pending_opened_channel => 'Pending Opened Channel';
+  String get payment_info_title_pending_opened_channel => 'Odotetaan avattua kanavaa';
 
   @override
-  String get no_lsp_widget_message => 'In order to activate Breez, please select a provider:';
+  String get no_lsp_widget_message => 'Sovelluksen aktivointi edellyttää palvelutoimittajan valintaa:';
 
   @override
-  String get no_lsp_widget_action_select => 'SELECT…';
+  String get no_lsp_widget_action_select => 'VALITSE…';
 
   @override
   String get podcast_history_drawer => 'Suosituimmat Podcastit';
@@ -3174,49 +3174,49 @@ class BreezTranslationsFi extends BreezTranslations {
   String get mempool_settings_custom_url => 'Mempool API URL';
 
   @override
-  String get mempool_settings_custom_url_error => 'Invalid Mempool API URL';
+  String get mempool_settings_custom_url_error => 'Virheellinen Mempool API URL';
 
   @override
-  String get mempool_settings_action_reset => 'Reset';
+  String get mempool_settings_action_reset => 'Palauta';
 
   @override
-  String get mempool_settings_action_save => 'Save';
+  String get mempool_settings_action_save => 'TALLENNA';
 
   @override
-  String get lnurl_payment_page_title => 'LNURL Invoice';
+  String get lnurl_payment_page_title => 'LNURL-lasku';
 
   @override
   String lnurl_payment_page_domain_pay(String domain, int amount) {
-    return '$domain is requesting you to pay $amount sats.';
+    return '$domain pyytää sinua maksamaan $amount sat.';
   }
 
   @override
-  String get lnurl_payment_page_comment => 'Comment (optional)';
+  String get lnurl_payment_page_comment => 'Viesti (vapaaehtoinen)';
 
   @override
-  String get lnurl_payment_page_enter_k1 => 'Please enter a k1';
+  String get lnurl_payment_page_enter_k1 => 'Syötä k1';
 
   @override
-  String get lnurl_payment_page_action_pay => 'PAY';
+  String get lnurl_payment_page_action_pay => 'MAKSA';
 
   @override
   String lnurl_payment_page_error_exceeds_limit(int amount) {
-    return 'Exceeds maximum sendable amount: $amount';
+    return 'Lähetettävissä oleva enimmäismäärä $amount ylittyy.';
   }
 
   @override
   String lnurl_payment_page_error_below_limit(int amount) {
-    return 'Below minimum accepted amount: $amount';
+    return 'Hyväksyttävissä oleva vähimmäismäärä $amount alittuu.';
   }
 
   @override
-  String get lnurl_payment_page_unknown_error => 'Unknown error';
+  String get lnurl_payment_page_unknown_error => 'Tunnistamaton virhe';
 
   @override
-  String get node_state_error => 'Failed to get node state';
+  String get node_state_error => 'Solmun tilan haku epäonnistui';
 
   @override
-  String get generic_network_error => 'Failed to connect to Breez. Please check your internet connection and try again.';
+  String get generic_network_error => 'Tietoliikenneyhteydessä on häiriö. Varmista internet-yhteytesi toiminta ja yritä uudelleen.';
 
   @override
   String get locale => 'fi';
