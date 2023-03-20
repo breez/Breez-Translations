@@ -3165,6 +3165,9 @@ class BreezTranslationsFi extends BreezTranslations {
   String get localized_error_message_invalid_pair_hash => 'Kulujen määräarvio on vanhentunut. Yritä uudelleen.';
 
   @override
+  String get localized_error_message_fee_too_high => 'fees are too high for the given amount';
+
+  @override
   String get share_log_text => 'Jaa loki';
 
   @override

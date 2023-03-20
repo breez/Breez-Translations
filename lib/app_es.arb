@@ -2233,6 +2233,7 @@
   "podcast_clips_dialog_done": "Hecho",
   "podcast_clips_error": "Se ha producido un error al recortar el episodio. Por favor, inténtalo de nuevo.",
   "localized_error_message_invalid_pair_hash": "Las tasas expiraron. Por favor, inténtalo de nuevo.",
+  "localized_error_message_fee_too_high": "la tasa es demasiado alta para el monto de la transacción",
   "share_log_text": "Compartir Log",
   "share_file_title": "Compartir Archivo",
   "mempool_settings_custom_url": "URL de la API Mempool",

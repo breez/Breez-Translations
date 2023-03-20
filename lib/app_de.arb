@@ -2233,6 +2233,7 @@
   "podcast_clips_dialog_done": "FERTIG",
   "podcast_clips_error": "Beim Ausschneiden der Folge ist ein Fehler aufgetreten. Bitte versuche es erneut",
   "localized_error_message_invalid_pair_hash": "Die Gebührenschätzungen sind veraltet. Bitte versuche es erneut.",
+  "localized_error_message_fee_too_high": "fees are too high for the given amount",
   "share_log_text": "Log teilen",
   "share_file_title": "Datei teilen",
   "mempool_settings_custom_url": "Mempool API URL",

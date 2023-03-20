@@ -2233,6 +2233,7 @@
   "podcast_clips_dialog_done": "DONE",
   "podcast_clips_error": "An error has occurred while clipping the episode. Please try again.",
   "localized_error_message_invalid_pair_hash": "Fee estimations have expired. Please retry.",
+  "localized_error_message_fee_too_high": "fees are too high for the given amount",
   "share_log_text": "Share Log",
   "share_file_title": "Share File",
   "mempool_settings_custom_url": "Mempool API URL",

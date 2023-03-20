@@ -3165,6 +3165,9 @@ class BreezTranslationsEn extends BreezTranslations {
   String get localized_error_message_invalid_pair_hash => 'Fee estimations have expired. Please retry.';
 
   @override
+  String get localized_error_message_fee_too_high => 'fees are too high for the given amount';
+
+  @override
   String get share_log_text => 'Share Log';
 
   @override

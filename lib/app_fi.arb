@@ -2233,6 +2233,7 @@
   "podcast_clips_dialog_done": "VALMIS",
   "podcast_clips_error": "Jakson leikkaamisessa tapahtui virhe. Yritä uudelleen.",
   "localized_error_message_invalid_pair_hash": "Kulujen määräarvio on vanhentunut. Yritä uudelleen.",
+  "localized_error_message_fee_too_high": "fees are too high for the given amount",
   "share_log_text": "Jaa loki",
   "share_file_title": "Jaa tiedosto",
   "mempool_settings_custom_url": "Mempool API URL",
