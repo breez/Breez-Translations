@@ -2016,7 +2016,7 @@
   },
   "spontaneous_payment_node_id": "ID nody",
   "spontaneous_payment_send_payment_title": "Odoslať platbu",
-  "spontaneous_payment_send_payment_message": "Naozaj chcete poslať {amount} tejto node?\n\n{nodeID}",
+  "spontaneous_payment_send_payment_message": "Naozaj chceš poslať {amount} tejto node?\n\n{nodeID}",
   "@spontaneous_payment_send_payment_message": {
     "placeholders": {
       "amount": {
