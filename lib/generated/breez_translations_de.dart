@@ -3165,9 +3165,6 @@ class BreezTranslationsDe extends BreezTranslations {
   String get localized_error_message_invalid_pair_hash => 'Die Gebührenschätzungen sind veraltet. Bitte versuche es erneut.';
 
   @override
-  String get localized_error_message_fee_too_high => 'fees are too high for the given amount';
-
-  @override
   String get share_log_text => 'Log teilen';
 
   @override

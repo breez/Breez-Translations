@@ -5901,12 +5901,6 @@ abstract class BreezTranslations {
   /// **'Fee estimations have expired. Please retry.'**
   String get localized_error_message_invalid_pair_hash;
 
-  /// No description provided for @localized_error_message_fee_too_high.
-  ///
-  /// In en, this message translates to:
-  /// **'fees are too high for the given amount'**
-  String get localized_error_message_fee_too_high;
-
   /// No description provided for @share_log_text.
   ///
   /// In en, this message translates to:

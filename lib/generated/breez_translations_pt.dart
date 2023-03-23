@@ -3165,9 +3165,6 @@ class BreezTranslationsPt extends BreezTranslations {
   String get localized_error_message_invalid_pair_hash => 'As taxas expiraram, por favor tente novamente.';
 
   @override
-  String get localized_error_message_fee_too_high => 'a taxa é muito alta para o valor da transação';
-
-  @override
   String get share_log_text => 'Compartilhar Log';
 
   @override
