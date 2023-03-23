@@ -2016,7 +2016,7 @@
   },
   "spontaneous_payment_node_id": "Node ID",
   "spontaneous_payment_send_payment_title": "Send Payment",
-  "spontaneous_payment_send_payment_message": "Are you sure you want to {amount} to this node?\n\n{nodeID}",
+  "spontaneous_payment_send_payment_message": "Are you sure you want to send {amount} to this node?\n\n{nodeID}",
   "@spontaneous_payment_send_payment_message": {
     "placeholders": {
       "amount": {
