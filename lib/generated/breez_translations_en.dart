@@ -2781,7 +2781,7 @@ class BreezTranslationsEn extends BreezTranslations {
 
   @override
   String spontaneous_payment_send_payment_message(String amount, String nodeID) {
-    return 'Are you sure you want to $amount to this node?\n\n$nodeID';
+    return 'Are you sure you want to send $amount to this node?\n\n$nodeID';
   }
 
   @override

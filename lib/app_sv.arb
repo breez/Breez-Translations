@@ -283,7 +283,7 @@
   "bottom_action_bar_send_btc_address": "Skicka till BTC Adress",
   "bottom_action_bar_escher": "Cash-Out via Escher",
   "bottom_action_bar_receive_invoice": "Ta emot via Invoice",
-  "bottom_action_bar_receive_btc_address": "Receive via BTC Address",
+  "bottom_action_bar_receive_btc_address": "Ta emot via BTC Adress",
   "bottom_action_bar_buy_bitcoin": "Köp Bitcoin",
   "bottom_action_bar_warning_balance_title": "Breez kräver att du har {balance} i ditt saldo.",
   "@bottom_action_bar_warning_balance_title": {
@@ -338,7 +338,7 @@
   "payment_details_dialog_share_transaction": "Dela transaktions hash",
   "payment_details_dialog_share_lightning_address": "Lightning Adress",
   "payment_details_dialog_share_comment": "Kommentera",
-  "payment_details_dialog_copy_action": "Kpiera {title}",
+  "payment_details_dialog_copy_action": "Kopiera {title}",
   "@payment_details_dialog_copy_action": {
     "placeholders": {
       "title": {
@@ -384,10 +384,10 @@
     }
   },
   "payment_info_dialog_title": "Mottagarinformation",
-  "payment_info_dialog_hint": "Invoice el ID",
+  "payment_info_dialog_hint": "Invoice eller ID",
   "payment_info_dialog_hint_expanded": "Ange en Invoice, Nod-ID eller en Lightning-adress.",
   "payment_info_dialog_barcode": "Scanna Barcode",
-  "payment_info_dialog_error": "Ogiltig invoice, ID el Address",
+  "payment_info_dialog_error": "Ogiltig invoice, ID eller Adress",
   "payment_info_dialog_error_qrcode": "QR-kod upptäcktes inte.",
   "payment_info_dialog_action_cancel": "AVBRYT",
   "payment_info_dialog_action_approve": "GODKÄNN",
@@ -599,7 +599,7 @@
   "fiat_currencies_title": "Valutor",
   "fiat_currencies_save_fail": "Det gick inte att spara ändringarna.",
   "connect_to_pay_title_payer": "Anslut för att betala",
-  "connect_to_pay_title_payee": "Taemot betalning",
+  "connect_to_pay_title_payee": "Ta emot betalning",
   "connect_to_pay_canceled_payer": "Betalaren har avbrutit betalningssessionen",
   "connect_to_pay_canceled_payee": "Betalningsmottagaren har avbrutit betalningssessionen",
   "connect_to_pay_canceled_remote_user": "{name} har avbrutit betalningssessionen",
@@ -950,9 +950,9 @@
   },
   "reverse_swap_confirmation_error_fetch_fee": "Det gick inte att hämta avgifter. Vänligen försök igen senare.",
   "reverse_swap_confirmation_error_funds_fee": "Du har inte tillräckligt med pengar för denna nätverksavgift.",
-  "reverse_swap_notification_title": "Ååtgärd krävs",
+  "reverse_swap_notification_title": "Åtgärd krävs",
   "reverse_swap_notification_body": "Öppna Breez för att slutföra din begärda transaktion.",
-  "reverse_swap_upstream_generic_error_message": "{errorMessage}. Please try again later.",
+  "reverse_swap_upstream_generic_error_message": "{errorMessage}. Var god försök igen.",
   "@reverse_swap_upstream_generic_error_message": {
     "placeholders": {
       "errorMessage": {
@@ -1066,7 +1066,7 @@
   "send_on_chain_amount": "Belopp:",
   "send_on_chain_qr_code_not_detected": "QR-koden upptäcktes inte.",
   "remote_server_title": "Remote Server",
-  "remote_server_server_url_hint": "https://example.nextcloud.com/remote.php/dav/files/username/",
+  "remote_server_server_url_hint": "https://example.nextcloud.com",
   "remote_server_server_url_label": "Server URL (Nextcloud, WebDav)",
   "remote_server_server_username_hint": "Användarnamn",
   "remote_server_server_username_label": "Användarnamn",
@@ -1439,7 +1439,7 @@
   },
   "handler_lnurl_error_gift": "Denna gåva har lösts in!",
   "handler_lnurl_login_anonymously": "Vill du logga in anonymt på ",
-  "handler_lnurl_login_error_title": "Login Fel",
+  "handler_lnurl_login_error_title": "Inloggningsfel",
   "handler_lnurl_login_error_message": "Kunde inte logga in.\n{message}",
   "@handler_lnurl_login_error_message": {
     "placeholders": {

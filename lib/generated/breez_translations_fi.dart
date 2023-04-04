@@ -1404,7 +1404,7 @@ class BreezTranslationsFi extends BreezTranslations {
   String get remote_server_title => 'Verkkolevy-palvelin';
 
   @override
-  String get remote_server_server_url_hint => 'https://example.nextcloud.com/remote.php/dav/files/username/';
+  String get remote_server_server_url_hint => 'https://example.nextcloud.com';
 
   @override
   String get remote_server_server_url_label => 'Palvelimen URL (Nextcloud, WebDav)';

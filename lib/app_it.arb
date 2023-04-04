@@ -1066,7 +1066,7 @@
   "send_on_chain_amount": "Importo:",
   "send_on_chain_qr_code_not_detected": "Nessun QR code rilevato.",
   "remote_server_title": "Server remoto",
-  "remote_server_server_url_hint": "https://example.nextcloud.com/remote.php/dav/files/username/",
+  "remote_server_server_url_hint": "https://example.nextcloud.com",
   "remote_server_server_url_label": "Server URL (Nextcloud, WebDav)",
   "remote_server_server_username_hint": "Nome utente",
   "remote_server_server_username_label": "Nome utente",
