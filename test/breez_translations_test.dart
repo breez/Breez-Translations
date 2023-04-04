@@ -8,6 +8,7 @@ import 'package:breez_translations/generated/breez_translations_fr.dart';
 import 'package:breez_translations/generated/breez_translations_it.dart';
 import 'package:breez_translations/generated/breez_translations_pt.dart';
 import 'package:breez_translations/generated/breez_translations_sv.dart';
+import 'package:breez_translations/generated/breez_translations_sk.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
@@ -19,6 +20,7 @@ void main() {
     "fr": BreezTranslationsFr(),
     "it": BreezTranslationsIt(),
     "pt": BreezTranslationsPt(),
+    "sk": BreezTranslationsSk(),
     "sv": BreezTranslationsSv(),
   };
 
