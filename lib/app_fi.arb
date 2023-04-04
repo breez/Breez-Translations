@@ -1066,7 +1066,7 @@
   "send_on_chain_amount": "Määrä:",
   "send_on_chain_qr_code_not_detected": "QR-koodia ei tunnistettu.",
   "remote_server_title": "Verkkolevy-palvelin",
-  "remote_server_server_url_hint": "https://example.nextcloud.com/remote.php/dav/files/username/",
+  "remote_server_server_url_hint": "https://example.nextcloud.com",
   "remote_server_server_url_label": "Palvelimen URL (Nextcloud, WebDav)",
   "remote_server_server_username_hint": "käyttäjätunnus",
   "remote_server_server_username_label": "Käyttäjätunnus",

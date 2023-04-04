@@ -12,6 +12,7 @@ import 'breez_translations_fi.dart';
 import 'breez_translations_fr.dart';
 import 'breez_translations_it.dart';
 import 'breez_translations_pt.dart';
+import 'breez_translations_sk.dart';
 import 'breez_translations_sv.dart';
 
 /// Callers can lookup localized strings with an instance of BreezTranslations
@@ -102,6 +103,7 @@ abstract class BreezTranslations {
     Locale('fr'),
     Locale('it'),
     Locale('pt'),
+    Locale('sk'),
     Locale('sv')
   ];
 
@@ -5178,7 +5180,7 @@ abstract class BreezTranslations {
   /// No description provided for @spontaneous_payment_send_payment_message.
   ///
   /// In en, this message translates to:
-  /// **'Are you sure you want to {amount} to this node?\n\n{nodeID}'**
+  /// **'Are you sure you want to send {amount} to this node?\n\n{nodeID}'**
   String spontaneous_payment_send_payment_message(String amount, String nodeID);
 
   /// No description provided for @spontaneous_payment_error_title.
@@ -6019,7 +6021,7 @@ class _BreezTranslationsDelegate extends LocalizationsDelegate<BreezTranslations
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['de', 'en', 'es', 'fi', 'fr', 'it', 'pt', 'sv'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['de', 'en', 'es', 'fi', 'fr', 'it', 'pt', 'sk', 'sv'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_BreezTranslationsDelegate old) => false;
@@ -6037,6 +6039,7 @@ BreezTranslations lookupBreezTranslations(Locale locale) {
     case 'fr': return BreezTranslationsFr();
     case 'it': return BreezTranslationsIt();
     case 'pt': return BreezTranslationsPt();
+    case 'sk': return BreezTranslationsSk();
     case 'sv': return BreezTranslationsSv();
   }
 

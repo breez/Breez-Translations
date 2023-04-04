@@ -313,7 +313,7 @@ class BreezTranslationsSv extends BreezTranslations {
   String get bottom_action_bar_receive_invoice => 'Ta emot via Invoice';
 
   @override
-  String get bottom_action_bar_receive_btc_address => 'Receive via BTC Address';
+  String get bottom_action_bar_receive_btc_address => 'Ta emot via BTC Adress';
 
   @override
   String get bottom_action_bar_buy_bitcoin => 'Köp Bitcoin';
@@ -401,7 +401,7 @@ class BreezTranslationsSv extends BreezTranslations {
 
   @override
   String payment_details_dialog_copy_action(String title) {
-    return 'Kpiera $title';
+    return 'Kopiera $title';
   }
 
   @override
@@ -450,7 +450,7 @@ class BreezTranslationsSv extends BreezTranslations {
   String get payment_info_dialog_title => 'Mottagarinformation';
 
   @override
-  String get payment_info_dialog_hint => 'Invoice el ID';
+  String get payment_info_dialog_hint => 'Invoice eller ID';
 
   @override
   String get payment_info_dialog_hint_expanded => 'Ange en Invoice, Nod-ID eller en Lightning-adress.';
@@ -459,7 +459,7 @@ class BreezTranslationsSv extends BreezTranslations {
   String get payment_info_dialog_barcode => 'Scanna Barcode';
 
   @override
-  String get payment_info_dialog_error => 'Ogiltig invoice, ID el Address';
+  String get payment_info_dialog_error => 'Ogiltig invoice, ID eller Adress';
 
   @override
   String get payment_info_dialog_error_qrcode => 'QR-kod upptäcktes inte.';
@@ -839,7 +839,7 @@ class BreezTranslationsSv extends BreezTranslations {
   String get connect_to_pay_title_payer => 'Anslut för att betala';
 
   @override
-  String get connect_to_pay_title_payee => 'Taemot betalning';
+  String get connect_to_pay_title_payee => 'Ta emot betalning';
 
   @override
   String get connect_to_pay_canceled_payer => 'Betalaren har avbrutit betalningssessionen';
@@ -1222,14 +1222,14 @@ class BreezTranslationsSv extends BreezTranslations {
   String get reverse_swap_confirmation_error_funds_fee => 'Du har inte tillräckligt med pengar för denna nätverksavgift.';
 
   @override
-  String get reverse_swap_notification_title => 'Ååtgärd krävs';
+  String get reverse_swap_notification_title => 'Åtgärd krävs';
 
   @override
   String get reverse_swap_notification_body => 'Öppna Breez för att slutföra din begärda transaktion.';
 
   @override
   String reverse_swap_upstream_generic_error_message(String errorMessage) {
-    return '$errorMessage. Please try again later.';
+    return '$errorMessage. Var god försök igen.';
   }
 
   @override
@@ -1404,7 +1404,7 @@ class BreezTranslationsSv extends BreezTranslations {
   String get remote_server_title => 'Remote Server';
 
   @override
-  String get remote_server_server_url_hint => 'https://example.nextcloud.com/remote.php/dav/files/username/';
+  String get remote_server_server_url_hint => 'https://example.nextcloud.com';
 
   @override
   String get remote_server_server_url_label => 'Server URL (Nextcloud, WebDav)';
@@ -2009,7 +2009,7 @@ class BreezTranslationsSv extends BreezTranslations {
   String get handler_lnurl_login_anonymously => 'Vill du logga in anonymt på ';
 
   @override
-  String get handler_lnurl_login_error_title => 'Login Fel';
+  String get handler_lnurl_login_error_title => 'Inloggningsfel';
 
   @override
   String handler_lnurl_login_error_message(String message) {
