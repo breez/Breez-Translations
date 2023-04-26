@@ -74,6 +74,16 @@ class BreezTranslationsSk extends BreezTranslations {
   String get home_config_error_message => 'Breez zistil, že iné zariadenie beží s rovnakou konfiguráciou (pravdepodobne kvôli obnove). Breez nemôže spustiť rovnakú konfiguráciu na viac ako jednom zariadení. Ak chceš Breez naďalej používať na tomto zariadení, preinštaluj ho.';
 
   @override
+  String home_config_backup_error(Object provider) {
+    return 'Breez has detected that the app is using an old backup. Please reinstall and restore from the latest backup available in $provider.';
+  }
+
+  @override
+  String home_config_backup_error_encrypted(Object provider) {
+    return 'Breez has detected that the app is using an old backup. Please reinstall and restore from the latest backup available in $provider. Note that you won\'t be able to restore Breez without your encryption key.';
+  }
+
+  @override
   String get home_config_error_action_exit => 'ZRUŠIŤ';
 
   @override

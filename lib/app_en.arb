@@ -22,6 +22,8 @@
   "home_broadcast_transaction": "Broadcasting your transaction",
   "home_config_error_title": "Configuration Error",
   "home_config_error_message": "Breez detected another device is running with the same configuration (probably due to restore). Breez cannot run the same configuration on more than one device. Please reinstall Breez if you wish to continue using Breez on this device.",
+  "home_config_backup_error": "Breez has detected that the app is using an old backup. Please reinstall and restore from the latest backup available in {provider}.",
+  "home_config_backup_error_encrypted": "Breez has detected that the app is using an old backup. Please reinstall and restore from the latest backup available in {provider}. Note that you won't be able to restore Breez without your encryption key.",
   "home_config_error_action_exit": "CANCEL",
   "home_background_synchronization_title": "Background Synchronization",
   "home_background_synchronization_message": "In order to support instantaneous payments, Breez needs your permission in order to synchronize the information while the app is not active. Please approve the app in the next dialog.",

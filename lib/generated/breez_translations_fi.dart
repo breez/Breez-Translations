@@ -74,6 +74,16 @@ class BreezTranslationsFi extends BreezTranslations {
   String get home_config_error_message => 'Sovellus havaitsi että, sama kokoonpano on käytössä myös toisessa laitteessa. Todennäköisenä syynä on että, varmuuskopio on palautettu. Sovellus toimii palautettuna vain yhdessä laitteessa kerrallaan. Asenna sovellus uudelleen, jos haluat sen käyttöön tässä laitteessa.';
 
   @override
+  String home_config_backup_error(Object provider) {
+    return 'Breez has detected that the app is using an old backup. Please reinstall and restore from the latest backup available in $provider.';
+  }
+
+  @override
+  String home_config_backup_error_encrypted(Object provider) {
+    return 'Breez has detected that the app is using an old backup. Please reinstall and restore from the latest backup available in $provider. Note that you won\'t be able to restore Breez without your encryption key.';
+  }
+
+  @override
   String get home_config_error_action_exit => 'Peruuta';
 
   @override
