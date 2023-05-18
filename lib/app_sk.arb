@@ -2277,6 +2277,8 @@
   "lnurl_payment_page_unknown_error": "Neznáma chyba",
   "node_state_error": "Nepodarilo sa získať stav nody",
   "generic_network_error": "Nepodarilo sa pripojiť k Breez. Skontroluj internetové pripojenie a skús to znova.",
+  "moonpay_network_error": "Failed to connect to MoonPay. Please check your internet connection and try again.",
+  "moonpay_retry_button": "RETRY",
   "locale": "sk",
   "app_name": "Breez"
 }

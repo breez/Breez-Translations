@@ -5999,6 +5999,18 @@ abstract class BreezTranslations {
   /// **'Failed to connect to Breez. Please check your internet connection and try again.'**
   String get generic_network_error;
 
+  /// No description provided for @moonpay_network_error.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to connect to MoonPay. Please check your internet connection and try again.'**
+  String get moonpay_network_error;
+
+  /// No description provided for @moonpay_retry_button.
+  ///
+  /// In en, this message translates to:
+  /// **'RETRY'**
+  String get moonpay_retry_button;
+
   /// No description provided for @locale.
   ///
   /// In en, this message translates to:

@@ -3219,6 +3219,12 @@ class BreezTranslationsFi extends BreezTranslations {
   String get generic_network_error => 'Tietoliikenneyhteydessä on häiriö. Varmista internet-yhteytesi toiminta ja yritä uudelleen.';
 
   @override
+  String get moonpay_network_error => 'Failed to connect to MoonPay. Please check your internet connection and try again.';
+
+  @override
+  String get moonpay_retry_button => 'RETRY';
+
+  @override
   String get locale => 'fi';
 
   @override

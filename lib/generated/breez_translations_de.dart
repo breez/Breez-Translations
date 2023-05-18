@@ -3219,6 +3219,12 @@ class BreezTranslationsDe extends BreezTranslations {
   String get generic_network_error => 'Die Verbindung zu Breez konnte nicht hergestellt werden. Bitte überprüfe deine Internetverbindung und versuche es erneut.';
 
   @override
+  String get moonpay_network_error => 'Failed to connect to MoonPay. Please check your internet connection and try again.';
+
+  @override
+  String get moonpay_retry_button => 'RETRY';
+
+  @override
   String get locale => 'de';
 
   @override

@@ -2277,6 +2277,8 @@
   "lnurl_payment_page_unknown_error": "Hubo un error desconocido",
   "node_state_error": "Hubo un error al conectarse al nodo",
   "generic_network_error": "Hubo un error en la comunicación con la Breez. Por favor, comprueba tu conexión y inténtalo de nuevo.",
+  "moonpay_network_error": "Hubo un error en la comunicación con Moonpay. Por favor, comprueba tu conexión y inténtalo de nuevo.",
+  "moonpay_retry_button": "REINTENTAR",
   "locale": "es",
   "app_name": "Breez"
 }

@@ -3219,6 +3219,12 @@ class BreezTranslationsPt extends BreezTranslations {
   String get generic_network_error => 'Houve uma falha na comunicação com a Breez. Por favor, verifique sua conexão e tente novamente.';
 
   @override
+  String get moonpay_network_error => 'Houve uma falha na comunicação com o MoonPay. Por favor, verifique sua conexão e tente novamente.';
+
+  @override
+  String get moonpay_retry_button => 'TENTAR NOVAMENTE';
+
+  @override
   String get locale => 'pt';
 
   @override
