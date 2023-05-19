@@ -3225,6 +3225,20 @@ class BreezTranslationsSv extends BreezTranslations {
   String get moonpay_retry_button => 'RETRY';
 
   @override
+  String moonpay_swap_in_progress(String address) {
+    return 'Swap in progress was detected for address $address. Please wait for it to complete.';
+  }
+
+  @override
+  String get moonpay_swap_in_progress_action => 'See the transaction in Mempool';
+
+  @override
+  String get moonpay_swap_expired => 'A swap was in progress, but it has expired; Breez is generating a refund for you.';
+
+  @override
+  String get moonpay_swap_expired_action => 'Back to home';
+
+  @override
   String get locale => 'sv';
 
   @override

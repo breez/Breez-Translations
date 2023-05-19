@@ -6011,6 +6011,30 @@ abstract class BreezTranslations {
   /// **'RETRY'**
   String get moonpay_retry_button;
 
+  /// No description provided for @moonpay_swap_in_progress.
+  ///
+  /// In en, this message translates to:
+  /// **'Swap in progress was detected for address {address}. Please wait for it to complete.'**
+  String moonpay_swap_in_progress(String address);
+
+  /// No description provided for @moonpay_swap_in_progress_action.
+  ///
+  /// In en, this message translates to:
+  /// **'See the transaction in Mempool'**
+  String get moonpay_swap_in_progress_action;
+
+  /// No description provided for @moonpay_swap_expired.
+  ///
+  /// In en, this message translates to:
+  /// **'A swap was in progress, but it has expired; Breez is generating a refund for you.'**
+  String get moonpay_swap_expired;
+
+  /// No description provided for @moonpay_swap_expired_action.
+  ///
+  /// In en, this message translates to:
+  /// **'Back to home'**
+  String get moonpay_swap_expired_action;
+
   /// No description provided for @locale.
   ///
   /// In en, this message translates to:

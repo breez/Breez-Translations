@@ -7,8 +7,8 @@ import 'package:breez_translations/generated/breez_translations_fi.dart';
 import 'package:breez_translations/generated/breez_translations_fr.dart';
 import 'package:breez_translations/generated/breez_translations_it.dart';
 import 'package:breez_translations/generated/breez_translations_pt.dart';
-import 'package:breez_translations/generated/breez_translations_sv.dart';
 import 'package:breez_translations/generated/breez_translations_sk.dart';
+import 'package:breez_translations/generated/breez_translations_sv.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
@@ -55,8 +55,8 @@ void main() {
       });
 
       test("invoice_btc_address_warning_without_min_fee_account_connected for ${locale.locale}", () {
-        final text =
-            locale.invoice_btc_address_warning_without_min_fee_account_connected(minSats, maxSats, setUpFee, liquidity);
+        final text = locale.invoice_btc_address_warning_without_min_fee_account_connected(
+            minSats, maxSats, setUpFee, liquidity);
         expect(text.contains(minSats), true);
         expect(text.contains(maxSats), true);
         expect(text.contains(setUpFee), true);
@@ -64,8 +64,8 @@ void main() {
       });
 
       test("invoice_btc_address_warning_with_min_fee_account_not_connected for ${locale.locale}", () {
-        final text =
-            locale.invoice_btc_address_warning_with_min_fee_account_not_connected(minSats, maxSats, setUpFee, minFee);
+        final text = locale.invoice_btc_address_warning_with_min_fee_account_not_connected(
+            minSats, maxSats, setUpFee, minFee);
         expect(text.contains(minSats), true);
         expect(text.contains(maxSats), true);
         expect(text.contains(setUpFee), true);
@@ -73,8 +73,8 @@ void main() {
       });
 
       test("invoice_btc_address_warning_without_min_fee_account_not_connected for ${locale.locale}", () {
-        final text =
-            locale.invoice_btc_address_warning_without_min_fee_account_not_connected(minSats, maxSats, setUpFee);
+        final text = locale.invoice_btc_address_warning_without_min_fee_account_not_connected(
+            minSats, maxSats, setUpFee);
         expect(text.contains(minSats), true);
         expect(text.contains(maxSats), true);
         expect(text.contains(setUpFee), true);
@@ -96,7 +96,8 @@ void main() {
       });
 
       test("invoice_ln_address_warning_with_min_fee_account_connected for ${locale.locale}", () {
-        final text = locale.invoice_ln_address_warning_with_min_fee_account_connected(setUpFee, minFee, liquidity);
+        final text =
+            locale.invoice_ln_address_warning_with_min_fee_account_connected(setUpFee, minFee, liquidity);
         expect(text.contains(setUpFee), true);
         expect(text.contains(minFee), true);
         expect(text.contains(liquidity), true);
@@ -130,7 +131,8 @@ void main() {
       });
 
       test("payment_details_dialog_closed_channel_transfer_estimation for ${locale.locale}", () {
-        final text = locale.payment_details_dialog_closed_channel_transfer_estimation(lockHeightInt, hoursToUnlock);
+        final text =
+            locale.payment_details_dialog_closed_channel_transfer_estimation(lockHeightInt, hoursToUnlock);
         expect(text.contains(lockHeight), true);
         expect(text.contains(hoursToUnlock), true);
       });
@@ -772,6 +774,11 @@ void main() {
       test("invoice_payment_validator_error_unknown", () {
         final text = locale.invoice_payment_validator_error_unknown(error);
         expect(text.contains(error), true);
+      });
+
+      test("moonpay_swap_in_progress", () {
+        final text = locale.moonpay_swap_in_progress(address);
+        expect(text.contains(address), true);
       });
     }
   });

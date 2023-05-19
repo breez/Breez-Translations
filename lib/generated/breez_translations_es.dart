@@ -3225,6 +3225,20 @@ class BreezTranslationsEs extends BreezTranslations {
   String get moonpay_retry_button => 'REINTENTAR';
 
   @override
+  String moonpay_swap_in_progress(String address) {
+    return 'Se ha detectado un intercambio en curso en la dirección $address. Espere hasta que se complete el intercambio.';
+  }
+
+  @override
+  String get moonpay_swap_in_progress_action => 'Comprobar la transacción en el Mempool';
+
+  @override
+  String get moonpay_swap_expired => 'Se estaba realizando un intercambio, sin embargo, expiró, Breez está generando un reembolso para usted.';
+
+  @override
+  String get moonpay_swap_expired_action => 'Volver a la cartera';
+
+  @override
   String get locale => 'es';
 
   @override

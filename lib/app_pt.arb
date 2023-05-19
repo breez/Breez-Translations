@@ -2279,6 +2279,18 @@
   "generic_network_error": "Houve uma falha na comunicação com a Breez. Por favor, verifique sua conexão e tente novamente.",
   "moonpay_network_error": "Houve uma falha na comunicação com o MoonPay. Por favor, verifique sua conexão e tente novamente.",
   "moonpay_retry_button": "TENTAR NOVAMENTE",
+  "moonpay_swap_in_progress": "Foi detectada uma troca em andamento no endereço {address}. Por favor, aguarde até que a troca seja concluída.",
+  "@moonpay_swap_in_progress": {
+    "placeholders": {
+      "address": {
+        "type": "String",
+        "example": "bc1q..."
+      }
+    }
+  },
+  "moonpay_swap_in_progress_action": "Conferir a transação no Mempool",
+  "moonpay_swap_expired": "Uma troca estava em andamento, porém ela expirou, A Breez está gerando um reembolso para você.",
+  "moonpay_swap_expired_action": "Voltar para a carteira",
   "locale": "pt",
   "app_name": "Breez"
 }

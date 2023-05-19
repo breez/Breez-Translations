@@ -2279,6 +2279,18 @@
   "generic_network_error": "Failed to connect to Breez. Please check your internet connection and try again.",
   "moonpay_network_error": "Failed to connect to MoonPay. Please check your internet connection and try again.",
   "moonpay_retry_button": "RETRY",
+  "moonpay_swap_in_progress": "Swap in progress was detected for address {address}. Please wait for it to complete.",
+  "@moonpay_swap_in_progress": {
+    "placeholders": {
+      "address": {
+        "type": "String",
+        "example": "bc1q..."
+      }
+    }
+  },
+  "moonpay_swap_in_progress_action": "See the transaction in Mempool",
+  "moonpay_swap_expired": "A swap was in progress, but it has expired; Breez is generating a refund for you.",
+  "moonpay_swap_expired_action": "Back to home",
   "locale": "sv",
   "app_name": "Breez"
 }

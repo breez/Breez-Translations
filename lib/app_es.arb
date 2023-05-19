@@ -2279,6 +2279,18 @@
   "generic_network_error": "Hubo un error en la comunicación con la Breez. Por favor, comprueba tu conexión y inténtalo de nuevo.",
   "moonpay_network_error": "Hubo un error en la comunicación con Moonpay. Por favor, comprueba tu conexión y inténtalo de nuevo.",
   "moonpay_retry_button": "REINTENTAR",
+  "moonpay_swap_in_progress": "Se ha detectado un intercambio en curso en la dirección {address}. Espere hasta que se complete el intercambio.",
+  "@moonpay_swap_in_progress": {
+    "placeholders": {
+      "address": {
+        "type": "String",
+        "example": "bc1q..."
+      }
+    }
+  },
+  "moonpay_swap_in_progress_action": "Comprobar la transacción en el Mempool",
+  "moonpay_swap_expired": "Se estaba realizando un intercambio, sin embargo, expiró, Breez está generando un reembolso para usted.",
+  "moonpay_swap_expired_action": "Volver a la cartera",
   "locale": "es",
   "app_name": "Breez"
 }
