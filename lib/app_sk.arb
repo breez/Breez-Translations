@@ -2291,6 +2291,8 @@
   "moonpay_swap_in_progress_action": "See the transaction in Mempool",
   "moonpay_swap_expired": "A swap was in progress, but it has expired; Breez is generating a refund for you.",
   "moonpay_swap_expired_action": "Back to home",
+  "setup_fees_dialog_title": "Setup Fees",
+  "setup_fees_dialog_message": "Please notice the updated setup fees under the QR code before receiving a payment.",
   "locale": "sk",
   "app_name": "Breez"
 }

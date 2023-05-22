@@ -6035,6 +6035,18 @@ abstract class BreezTranslations {
   /// **'Back to home'**
   String get moonpay_swap_expired_action;
 
+  /// No description provided for @setup_fees_dialog_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Setup Fees'**
+  String get setup_fees_dialog_title;
+
+  /// No description provided for @setup_fees_dialog_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Please notice the updated setup fees under the QR code before receiving a payment.'**
+  String get setup_fees_dialog_message;
+
   /// No description provided for @locale.
   ///
   /// In en, this message translates to:

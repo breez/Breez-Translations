@@ -3239,6 +3239,12 @@ class BreezTranslationsPt extends BreezTranslations {
   String get moonpay_swap_expired_action => 'Voltar para a carteira';
 
   @override
+  String get setup_fees_dialog_title => 'Setup Fees';
+
+  @override
+  String get setup_fees_dialog_message => 'Please notice the updated setup fees under the QR code before receiving a payment.';
+
+  @override
   String get locale => 'pt';
 
   @override
