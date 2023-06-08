@@ -53,10 +53,10 @@ Locale getSystemLocale() {
 /// an AppLocalizations object without a BuildContext object
 BreezTranslations getSystemAppLocalizations() {
   switch (getSystemLocale().languageCode) {
-    case "de":
-      return BreezTranslationsDe();
     case "en":
       return BreezTranslationsEn();
+    case "de":
+      return BreezTranslationsDe();
     case "es":
       return BreezTranslationsEs();
     case "fi":
