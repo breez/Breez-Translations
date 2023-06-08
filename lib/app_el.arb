@@ -2293,6 +2293,6 @@
   "moonpay_swap_expired_action": "Back to home",
   "setup_fees_dialog_title": "Setup Fees",
   "setup_fees_dialog_message": "Please notice the updated setup fees under the QR code before receiving a payment.",
-  "locale": "en",
+  "locale": "el",
   "app_name": "Breez"
 }
