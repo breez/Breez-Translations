@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:breez_translations/generated/breez_translations.dart';
 import 'package:breez_translations/generated/breez_translations_de.dart';
 import 'package:breez_translations/generated/breez_translations_en.dart';
+import 'package:breez_translations/generated/breez_translations_el.dart';
 import 'package:breez_translations/generated/breez_translations_es.dart';
 import 'package:breez_translations/generated/breez_translations_fi.dart';
 import 'package:breez_translations/generated/breez_translations_fr.dart';
@@ -29,6 +30,7 @@ Iterable<Locale> supportedLocales() {
   return [
     const Locale("en", ""),
     const Locale("de", ""),
+    const Locale("el", ""),
     const Locale("es", ""),
     const Locale("fi", ""),
     const Locale("fr", ""),
@@ -57,6 +59,8 @@ BreezTranslations getSystemAppLocalizations() {
       return BreezTranslationsEn();
     case "de":
       return BreezTranslationsDe();
+    case "el":
+      return BreezTranslationsEl();
     case "es":
       return BreezTranslationsEs();
     case "fi":
