@@ -74,13 +74,13 @@ class BreezTranslationsEs extends BreezTranslations {
   String get home_config_error_message => 'Breez detectó que otro dispositivo tiene la misma configuración (probablemente debido a recuperación). Breez no puede procesar la misma configuración en más de un dispositivo. Por favor reinstale Breez para continuar usando Breez en este dispositivo.';
 
   @override
-  String home_config_backup_error(Object provider) {
-    return 'Breez has detected that the app is using an old backup. Please reinstall and restore from the latest backup available in $provider.';
+  String home_config_backup_error(String provider) {
+    return 'Breez ha detectado que la aplicación está utilizando una copia de seguridad antigua. Reinstale y restaure desde la copia de seguridad más reciente disponible en $provider.';
   }
 
   @override
-  String home_config_backup_error_encrypted(Object provider) {
-    return 'Breez has detected that the app is using an old backup. Please reinstall and restore from the latest backup available in $provider. Note that you won\'t be able to restore Breez without your encryption key.';
+  String home_config_backup_error_encrypted(String provider) {
+    return 'Breez ha detectado que la aplicación está utilizando una copia de seguridad antigua. Reinstale y restaure desde la copia de seguridad más reciente disponible en $provider. Tenga en cuenta que no podrá restaurar Breez sin su clave de cifrado.';
   }
 
   @override

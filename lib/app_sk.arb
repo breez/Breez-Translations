@@ -22,6 +22,24 @@
   "home_broadcast_transaction": "Vysielam tvoju transakciu",
   "home_config_error_title": "Chyba nastavenia",
   "home_config_error_message": "Breez zistil, že iné zariadenie beží s rovnakou konfiguráciou (pravdepodobne kvôli obnove). Breez nemôže spustiť rovnakú konfiguráciu na viac ako jednom zariadení. Ak chceš Breez naďalej používať na tomto zariadení, preinštaluj ho.",
+  "home_config_backup_error": "Breez has detected that the app is using an old backup. Please reinstall and restore from the latest backup available in {provider}.",
+  "@home_config_backup_error": {
+    "placeholders": {
+      "provider": {
+        "type": "String",
+        "example": "Google Drive"
+      }
+    }
+  },
+  "home_config_backup_error_encrypted": "Breez has detected that the app is using an old backup. Please reinstall and restore from the latest backup available in {provider}. Note that you won't be able to restore Breez without your encryption key.",
+  "@home_config_backup_error_encrypted": {
+    "placeholders": {
+      "provider": {
+        "type": "String",
+        "example": "Apple iCloud"
+      }
+    }
+  },
   "home_config_error_action_exit": "ZRUŠIŤ",
   "home_background_synchronization_title": "Synchronizácia na pozadí",
   "home_background_synchronization_message": "Na podporu okamžitých platieb, Breez potrebuje tvoje povolenie na synchronizáciu informácií, keď aplikácia nie je aktívna. V nasledujúcom dialógovom okne prosím povol aplikáciu.",

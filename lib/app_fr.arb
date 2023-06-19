@@ -22,6 +22,24 @@
   "home_broadcast_transaction": "Diffusion de votre transaction",
   "home_config_error_title": "Erreur de configuration",
   "home_config_error_message": "Breez a détecté qu'un autre appareil fonctionne avec la même configuration (probablement en raison de la restauration). Breez ne peut pas exécuter la même configuration sur plus d'un appareil. Veuillez réinstaller Breez si vous souhaitez continuer à utiliser Breez sur ce périphérique.",
+  "home_config_backup_error": "Breez has detected that the app is using an old backup. Please reinstall and restore from the latest backup available in {provider}.",
+  "@home_config_backup_error": {
+    "placeholders": {
+      "provider": {
+        "type": "String",
+        "example": "Google Drive"
+      }
+    }
+  },
+  "home_config_backup_error_encrypted": "Breez has detected that the app is using an old backup. Please reinstall and restore from the latest backup available in {provider}. Note that you won't be able to restore Breez without your encryption key.",
+  "@home_config_backup_error_encrypted": {
+    "placeholders": {
+      "provider": {
+        "type": "String",
+        "example": "Apple iCloud"
+      }
+    }
+  },
   "home_config_error_action_exit": "ANNULER",
   "home_background_synchronization_title": "Synchronisation en arrière-plan",
   "home_background_synchronization_message": "Afin de prendre en charge les paiements instantanés, Breez a besoin de votre permission pour synchroniser les informations lorsque l'application n'est pas active. Veuillez approuver l'application dans le fenêtre suivante.",
@@ -2154,7 +2172,7 @@
     }
   },
   "on_chain_payment_error_not_enough_funds": "Pas assez de fonds.",
-  "valid_payment_error_exceeds_limit":"Le paiement dépasse la limite.",
+  "valid_payment_error_exceeds_limit": "Le paiement dépasse la limite.",
   "valid_payment_error_exceeds_the_limit": "Le paiement dépasse la limite {amount}.",
   "@valid_payment_error_exceeds_the_limit": {
     "placeholders": {

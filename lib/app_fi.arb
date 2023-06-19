@@ -22,6 +22,24 @@
   "home_broadcast_transaction": "Tapahtumaa lähetetään",
   "home_config_error_title": "Päällekkäinen asennus havaittu",
   "home_config_error_message": "Sovellus havaitsi että, sama kokoonpano on käytössä myös toisessa laitteessa. Todennäköisenä syynä on että, varmuuskopio on palautettu. Sovellus toimii palautettuna vain yhdessä laitteessa kerrallaan. Asenna sovellus uudelleen, jos haluat sen käyttöön tässä laitteessa.",
+  "home_config_backup_error": "Breez has detected that the app is using an old backup. Please reinstall and restore from the latest backup available in {provider}.",
+  "@home_config_backup_error": {
+    "placeholders": {
+      "provider": {
+        "type": "String",
+        "example": "Google Drive"
+      }
+    }
+  },
+  "home_config_backup_error_encrypted": "Breez has detected that the app is using an old backup. Please reinstall and restore from the latest backup available in {provider}. Note that you won't be able to restore Breez without your encryption key.",
+  "@home_config_backup_error_encrypted": {
+    "placeholders": {
+      "provider": {
+        "type": "String",
+        "example": "Apple iCloud"
+      }
+    }
+  },
   "home_config_error_action_exit": "Peruuta",
   "home_background_synchronization_title": "Synkronoidaan taustalla",
   "home_background_synchronization_message": "Välittömien maksujen toteuttamiseksi sovellus synkronoi tietoja taustalla. Sovellus vaatii, seuraavassa näkymässä, luvan toimia myös silloin, kun sovellus ei ole avattuna.",
@@ -2154,7 +2172,7 @@
     }
   },
   "on_chain_payment_error_not_enough_funds": "Varat eivät riitä.",
-  "valid_payment_error_exceeds_limit":"Maksu ylittää rajan.",
+  "valid_payment_error_exceeds_limit": "Maksu ylittää rajan.",
   "valid_payment_error_exceeds_the_limit": "Maksu ylittään rajan {amount}.",
   "@valid_payment_error_exceeds_the_limit": {
     "placeholders": {
