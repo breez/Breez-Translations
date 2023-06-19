@@ -40,10 +40,20 @@ void main() {
     });
   });
 
-  // a unwarned translator can accidentaly change the placeholder key of a text
+  // a unwarned translator can accidentally change the placeholder key of a text
   // this test will fail if that happens
   group("placeholders should be present on texts", () {
     for (final locale in locales.values) {
+      test("home_config_backup_error for ${locale.locale}", () {
+        final text = locale.home_config_backup_error(provider);
+        expect(text.contains(provider), true);
+      });
+
+      test("home_config_backup_error_encrypted for ${locale.locale}", () {
+        final text = locale.home_config_backup_error_encrypted(provider);
+        expect(text.contains(provider), true);
+      });
+
       test("invoice_btc_address_warning_with_min_fee_account_connected for ${locale.locale}", () {
         final text = locale.invoice_btc_address_warning_with_min_fee_account_connected(
             minSats, maxSats, setUpFee, minFee, liquidity);
@@ -823,8 +833,8 @@ const message = "aLongMessageToAvoidFalsePositive";
 const min = "aLongMinToAvoidFalsePositive";
 const minFee = "aLongMinFeeToAvoidFalsePositive";
 const minSats = "aLongMinSatsToAvoidFalsePositive";
-const minutes = "aLongMinutesToAvoidFalsePositive";
 const minValue = "aLongMinValueToAvoidFalsePositive";
+const minutes = "aLongMinutesToAvoidFalsePositive";
 const name = "aLongNameToAvoidFalsePositive";
 const nodeId = "aLongNodeIdToAvoidFalsePositive";
 const number = "7654";
@@ -837,6 +847,7 @@ const numberCInt = 77;
 const numberInt = 7654;
 const payee = "aLongPayeeToAvoidFalsePositive";
 const podcast = "aLongPodcastToAvoidFalsePositive";
+const provider = "aLongProviderToAvoidFalsePositive";
 const rate = "aLongRateToAvoidFalsePositive";
 const reason = "aLongReasonToAvoidFalsePositive";
 const received = "aLongReceivedToAvoidFalsePositive";
