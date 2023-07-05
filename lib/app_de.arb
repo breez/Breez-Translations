@@ -406,6 +406,7 @@
   "payment_info_dialog_hint_expanded": "Gib eine Rechnung, eine Node-ID oder eine Lightning-Adresse ein.",
   "payment_info_dialog_barcode": "Barcode scannen",
   "payment_info_dialog_error": "Ungültige Rechnung, ID oder Adresse",
+  "payment_info_dialog_error_unsupported_input": "Unsupported input",
   "payment_info_dialog_error_qrcode": "QR-Code wurde nicht erkannt.",
   "payment_info_dialog_action_cancel": "ABBRECHEN",
   "payment_info_dialog_action_approve": "BESTÄTIGEN",

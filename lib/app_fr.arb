@@ -406,6 +406,7 @@
   "payment_info_dialog_hint_expanded": "Entrez une facture, un ID de noeud ou une adresse Lightning.",
   "payment_info_dialog_barcode": "Scanner le code-barres",
   "payment_info_dialog_error": "Facture, ID ou adresse non valide",
+  "payment_info_dialog_error_unsupported_input": "Unsupported input",
   "payment_info_dialog_error_qrcode": "Le code QR n'a pas été détecté.",
   "payment_info_dialog_action_cancel": "ANNULER",
   "payment_info_dialog_action_approve": "APPROUVER",

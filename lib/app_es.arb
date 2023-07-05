@@ -406,6 +406,7 @@
   "payment_info_dialog_hint_expanded": "Ingrese una factura, ID de nodo o dirección Lightning.",
   "payment_info_dialog_barcode": "Escanear código de barras",
   "payment_info_dialog_error": "Factura, ID o dirección incorrecta.",
+  "payment_info_dialog_error_unsupported_input": "Unsupported input",
   "payment_info_dialog_error_qrcode": "No se detectó el código QR.",
   "payment_info_dialog_action_cancel": "CANCELAR",
   "payment_info_dialog_action_approve": "APROBAR",

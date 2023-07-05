@@ -406,6 +406,7 @@
   "payment_info_dialog_hint_expanded": "Enter an invoice, a node ID or a Lightning address.",
   "payment_info_dialog_barcode": "Scan Barcode",
   "payment_info_dialog_error": "Invalid invoice, ID or Address",
+  "payment_info_dialog_error_unsupported_input": "Unsupported input",
   "payment_info_dialog_error_qrcode": "QR code wasn't detected.",
   "payment_info_dialog_action_cancel": "CANCEL",
   "payment_info_dialog_action_approve": "APPROVE",

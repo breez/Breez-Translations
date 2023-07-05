@@ -406,6 +406,7 @@
   "payment_info_dialog_hint_expanded": "Ange en Invoice, Nod-ID eller en Lightning-adress.",
   "payment_info_dialog_barcode": "Scanna Barcode",
   "payment_info_dialog_error": "Ogiltig invoice, ID eller Adress",
+  "payment_info_dialog_error_unsupported_input": "Unsupported input",
   "payment_info_dialog_error_qrcode": "QR-kod upptäcktes inte.",
   "payment_info_dialog_action_cancel": "AVBRYT",
   "payment_info_dialog_action_approve": "GODKÄNN",

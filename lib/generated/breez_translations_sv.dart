@@ -472,6 +472,9 @@ class BreezTranslationsSv extends BreezTranslations {
   String get payment_info_dialog_error => 'Ogiltig invoice, ID eller Adress';
 
   @override
+  String get payment_info_dialog_error_unsupported_input => 'Unsupported input';
+
+  @override
   String get payment_info_dialog_error_qrcode => 'QR-kod upptäcktes inte.';
 
   @override
