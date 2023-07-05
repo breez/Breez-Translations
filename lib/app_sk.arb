@@ -1892,7 +1892,7 @@
       }
     }
   },
-  "lnurl_error_unsupported": "Nepodporovaná LNUrl",
+  "lnurl_error_unsupported": "Nepodporovaná LNURL",
   "make_invoice_request_title": "Táto stránka ti chce zaplatiť:",
   "make_invoice_request_action_cancel": "ZRUŠIŤ",
   "make_invoice_request_action_approve": "SCHVÁLIŤ",

@@ -2600,7 +2600,7 @@ class BreezTranslationsFi extends BreezTranslations {
   }
 
   @override
-  String get lnurl_error_unsupported => 'LNUrl muoto ei ole tuettu';
+  String get lnurl_error_unsupported => 'LNURL muoto ei ole tuettu';
 
   @override
   String get make_invoice_request_title => 'Sivusto haluaa maksaa sinulle:';

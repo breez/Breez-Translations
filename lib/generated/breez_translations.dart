@@ -4846,7 +4846,7 @@ abstract class BreezTranslations {
   /// No description provided for @lnurl_error_unsupported.
   ///
   /// In en, this message translates to:
-  /// **'Unsupported LNUrl'**
+  /// **'Unsupported LNURL'**
   String get lnurl_error_unsupported;
 
   /// No description provided for @make_invoice_request_title.

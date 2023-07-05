@@ -2600,7 +2600,7 @@ class BreezTranslationsSv extends BreezTranslations {
   }
 
   @override
-  String get lnurl_error_unsupported => 'Osupporterad LNUrl';
+  String get lnurl_error_unsupported => 'Osupporterad LNURL';
 
   @override
   String get make_invoice_request_title => 'Den här sidan vill betala dig:';

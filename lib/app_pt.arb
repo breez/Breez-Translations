@@ -1892,7 +1892,7 @@
       }
     }
   },
-  "lnurl_error_unsupported": "LNUrl não suportada",
+  "lnurl_error_unsupported": "LNURL não suportada",
   "make_invoice_request_title": "Este site deseja lhe pagar:",
   "make_invoice_request_action_cancel": "CANCELAR",
   "make_invoice_request_action_approve": "APROVAR",

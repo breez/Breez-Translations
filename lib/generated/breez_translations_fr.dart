@@ -2600,7 +2600,7 @@ class BreezTranslationsFr extends BreezTranslations {
   }
 
   @override
-  String get lnurl_error_unsupported => 'LNUrl non supporté';
+  String get lnurl_error_unsupported => 'LNURL non supporté';
 
   @override
   String get make_invoice_request_title => 'Ce site veut vous payer :';

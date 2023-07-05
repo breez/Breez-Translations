@@ -1892,7 +1892,7 @@
       }
     }
   },
-  "lnurl_error_unsupported": "LNUrl muoto ei ole tuettu",
+  "lnurl_error_unsupported": "LNURL muoto ei ole tuettu",
   "make_invoice_request_title": "Sivusto haluaa maksaa sinulle:",
   "make_invoice_request_action_cancel": "Peruuta",
   "make_invoice_request_action_approve": "HYVÄKSY",

@@ -2600,7 +2600,7 @@ class BreezTranslationsSk extends BreezTranslations {
   }
 
   @override
-  String get lnurl_error_unsupported => 'Nepodporovaná LNUrl';
+  String get lnurl_error_unsupported => 'Nepodporovaná LNURL';
 
   @override
   String get make_invoice_request_title => 'Táto stránka ti chce zaplatiť:';

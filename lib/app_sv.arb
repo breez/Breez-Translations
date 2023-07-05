@@ -1892,7 +1892,7 @@
       }
     }
   },
-  "lnurl_error_unsupported": "Osupporterad LNUrl",
+  "lnurl_error_unsupported": "Osupporterad LNURL",
   "make_invoice_request_title": "Den här sidan vill betala dig:",
   "make_invoice_request_action_cancel": "AVBRYT",
   "make_invoice_request_action_approve": "GODKÄNN",
