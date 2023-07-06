@@ -472,6 +472,9 @@ class BreezTranslationsEs extends BreezTranslations {
   String get payment_info_dialog_error => 'Factura, ID o dirección incorrecta.';
 
   @override
+  String get payment_info_dialog_error_unsupported_input => 'Unsupported input';
+
+  @override
   String get payment_info_dialog_error_qrcode => 'No se detectó el código QR.';
 
   @override
@@ -2597,7 +2600,7 @@ class BreezTranslationsEs extends BreezTranslations {
   }
 
   @override
-  String get lnurl_error_unsupported => 'LNUrl no compatible';
+  String get lnurl_error_unsupported => 'LNURL no compatible';
 
   @override
   String get make_invoice_request_title => 'Este sitio quiere pagarte:';

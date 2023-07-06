@@ -943,6 +943,12 @@ abstract class BreezTranslations {
   /// **'Invalid invoice, ID or Address'**
   String get payment_info_dialog_error;
 
+  /// No description provided for @payment_info_dialog_error_unsupported_input.
+  ///
+  /// In en, this message translates to:
+  /// **'Unsupported input'**
+  String get payment_info_dialog_error_unsupported_input;
+
   /// No description provided for @payment_info_dialog_error_qrcode.
   ///
   /// In en, this message translates to:
@@ -4840,7 +4846,7 @@ abstract class BreezTranslations {
   /// No description provided for @lnurl_error_unsupported.
   ///
   /// In en, this message translates to:
-  /// **'Unsupported LNUrl'**
+  /// **'Unsupported LNURL'**
   String get lnurl_error_unsupported;
 
   /// No description provided for @make_invoice_request_title.

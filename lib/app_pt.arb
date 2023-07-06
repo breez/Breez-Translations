@@ -406,6 +406,7 @@
   "payment_info_dialog_hint_expanded": "Insira uma fatura, ID de servidor ou endereço Relâmpago.",
   "payment_info_dialog_barcode": "Ler código de barras",
   "payment_info_dialog_error": "A fatura, o ID ou o endereço é inválido",
+  "payment_info_dialog_error_unsupported_input": "Unsupported input",
   "payment_info_dialog_error_qrcode": "O código QR não foi detectado.",
   "payment_info_dialog_action_cancel": "CANCELAR",
   "payment_info_dialog_action_approve": "APROVAR",
@@ -1891,7 +1892,7 @@
       }
     }
   },
-  "lnurl_error_unsupported": "LNUrl não suportada",
+  "lnurl_error_unsupported": "LNURL não suportada",
   "make_invoice_request_title": "Este site deseja lhe pagar:",
   "make_invoice_request_action_cancel": "CANCELAR",
   "make_invoice_request_action_approve": "APROVAR",

@@ -406,6 +406,7 @@
   "payment_info_dialog_hint_expanded": "Zadaj faktúru, ID nody alebo Lightning adresu.",
   "payment_info_dialog_barcode": "Naskenuj čiarový kód",
   "payment_info_dialog_error": "Neplatná faktúra, ID alebo adresa",
+  "payment_info_dialog_error_unsupported_input": "Unsupported input",
   "payment_info_dialog_error_qrcode": "QR kód nebol rozpoznaný.",
   "payment_info_dialog_action_cancel": "ZRUŠIŤ",
   "payment_info_dialog_action_approve": "SCHVÁLIŤ",
@@ -1891,7 +1892,7 @@
       }
     }
   },
-  "lnurl_error_unsupported": "Nepodporovaná LNUrl",
+  "lnurl_error_unsupported": "Nepodporovaná LNURL",
   "make_invoice_request_title": "Táto stránka ti chce zaplatiť:",
   "make_invoice_request_action_cancel": "ZRUŠIŤ",
   "make_invoice_request_action_approve": "SCHVÁLIŤ",

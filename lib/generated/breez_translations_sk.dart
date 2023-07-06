@@ -472,6 +472,9 @@ class BreezTranslationsSk extends BreezTranslations {
   String get payment_info_dialog_error => 'Neplatná faktúra, ID alebo adresa';
 
   @override
+  String get payment_info_dialog_error_unsupported_input => 'Unsupported input';
+
+  @override
   String get payment_info_dialog_error_qrcode => 'QR kód nebol rozpoznaný.';
 
   @override
@@ -2597,7 +2600,7 @@ class BreezTranslationsSk extends BreezTranslations {
   }
 
   @override
-  String get lnurl_error_unsupported => 'Nepodporovaná LNUrl';
+  String get lnurl_error_unsupported => 'Nepodporovaná LNURL';
 
   @override
   String get make_invoice_request_title => 'Táto stránka ti chce zaplatiť:';
