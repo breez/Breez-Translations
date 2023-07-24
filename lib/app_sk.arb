@@ -31,7 +31,7 @@
       }
     }
   },
-  "home_config_backup_error_encrypted": "Breez has detected that the app is using an old backup. Please reinstall and restore from the latest backup available in {provider}. Note that you won't be able to restore Breez without your encryption key.",
+  "home_config_backup_error_encrypted": "Breez zistil, že aplikácia používa starú zálohu. Preinštaluj a obnov z najnovšej zálohy dostupnej u {provider}. Pozor, že bez šifrovacieho kľúča nebudeš môcť obnoviť Breez.",
   "@home_config_backup_error_encrypted": {
     "placeholders": {
       "provider": {
