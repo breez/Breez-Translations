@@ -40,16 +40,16 @@
       }
     }
   },
-  "home_config_error_action_exit": "CANCEL",
-  "home_background_synchronization_title": "Background Synchronization",
-  "home_background_synchronization_message": "In order to support instantaneous payments, Breez needs your permission in order to synchronize the information while the app is not active. Please approve the app in the next dialog.",
-  "home_payment_sent": "Payment was successfully sent!",
-  "home_report_sending": "Sending Report…",
-  "invoice_btc_address_title": "Receive via BTC Address",
-  "invoice_btc_address_network_error": "Failed to retrieve an address from Breez server\nPlease check your internet connection.",
-  "invoice_btc_address_action_retry": "RETRY",
-  "invoice_btc_address_action_close": "CLOSE",
-  "invoice_btc_address_warning_with_min_fee_account_connected": "Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% with a minimum of {minFee} will be applied for sending more than {liquidity}. This address can be used only once.",
+  "home_config_error_action_exit": "ZRUŠIT",
+  "home_background_synchronization_title": "Synchronizace na pozadí",
+  "home_background_synchronization_message": "Aby mohla být podporována okamžitá platba, Breez potřebuje vaše povolení k synchronizaci informací, když aplikace není aktivní. Schvalte prosím aplikaci v dalším dialogu.",
+  "home_payment_sent": "Platba byla úspěšně odeslána!",
+  "home_report_sending": "Odesílání hlášení…",
+  "invoice_btc_address_title": "Příjem prostřednictvím adresy BTC",
+  "invoice_btc_address_network_error": "Nepodařilo se načíst adresu ze serveru Breez\nZkontrolujte prosím připojení k internetu.",
+  "invoice_btc_address_action_retry": "OPAKOVAT",
+  "invoice_btc_address_action_close": "ZAVŘÍT",
+  "invoice_btc_address_warning_with_min_fee_account_connected": "Posílejte na tuto adresu více než {minSats} a až {maxSats}. Za odesílání více než {liquidity} bude účtován poplatek za nastavení ve výši {setUpFee} % s minimem {minFee}. Tuto adresu lze použít pouze jednou.",
   "@invoice_btc_address_warning_with_min_fee_account_connected": {
     "placeholders": {
       "minSats": {
@@ -74,7 +74,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_without_min_fee_account_connected": "Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% will be applied for sending more than {liquidity}. This address can be used only once.",
+  "invoice_btc_address_warning_without_min_fee_account_connected": "Pošlete na tuto adresu více než {minSats} a až {maxSats}. Za odesílání více než {likvidity} bude účtován poplatek za nastavení ve výši {setUpFee} %. Tuto adresu lze použít pouze jednou.",
   "@invoice_btc_address_warning_without_min_fee_account_connected": {
     "placeholders": {
       "minSats": {
@@ -95,7 +95,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_with_min_fee_account_not_connected": "Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% with a minimum of {minFee} will be applied on the received amount. This address can be used only once.",
+  "invoice_btc_address_warning_with_min_fee_account_not_connected": "Na tuto adresu odešlete více než {minSats} a až {maxSats}. Na přijatou částku bude účtován poplatek za nastavení ve výši {setUpFee} % s minimem {minFee}. Tuto adresu lze použít pouze jednou.",
   "@invoice_btc_address_warning_with_min_fee_account_not_connected": {
     "placeholders": {
       "minSats": {
@@ -116,7 +116,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_without_min_fee_account_not_connected": "Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% will be applied on the received amount. This address can be used only once.",
+  "invoice_btc_address_warning_without_min_fee_account_not_connected": "Na tuto adresu pošlete více než {minSats} a až {maxSats}. Na přijatou částku bude účtován poplatek za nastavení ve výši {setUpFee} %. Tuto adresu lze použít pouze jednou.",
   "@invoice_btc_address_warning_without_min_fee_account_not_connected": {
     "placeholders": {
       "minSats": {
@@ -133,20 +133,20 @@
       }
     }
   },
-  "invoice_btc_address_deposit_address": "Deposit Address",
-  "invoice_btc_address_deposit_address_copied": "Deposit address was copied to your clipboard.",
-  "invoice_btc_address_on_chain_begin": "Breez is using Submarine Swaps to execute on-chain transactions. Click ",
-  "invoice_btc_address_on_chain_here": "here",
-  "invoice_btc_address_on_chain_end": " to view the script associated with this address.",
+  "invoice_btc_address_deposit_address": "Adresa vkladu",
+  "invoice_btc_address_deposit_address_copied": "Adresa vkladu byla zkopírována do vaší schránky.",
+  "invoice_btc_address_on_chain_begin": "Breez používá Submarine Swaps k provádění transakcí v řetězci. Klikněte na ",
+  "invoice_btc_address_on_chain_here": "zde",
+  "invoice_btc_address_on_chain_end": " pro zobrazení skriptu přidruženého k této adrese.",
   "invoice_btc_address_on_chain_action_ok": "OK",
-  "invoice_title": "Receive via Invoice",
-  "invoice_action_create": "CREATE",
-  "invoice_action_redeem": "REDEEM",
-  "invoice_action_scan_barcode": "Scan Barcode",
-  "invoice_payment_success": "Payment was successfully received!",
-  "invoice_qr_code_not_detected": "QR code wasn't detected.",
-  "invoice_receive_fail": "Receive Failed",
-  "invoice_receive_fail_message": "Reason: {reason}",
+  "invoice_title": "Příjem prostřednictvím faktury",
+  "invoice_action_create": "VYTVOŘIT",
+  "invoice_action_redeem": "UHRADIT",
+  "invoice_action_scan_barcode": "Naskenovat čárový kód",
+  "invoice_payment_success": "Platba byla úspěšně přijata!",
+  "invoice_qr_code_not_detected": "QR kód nebyl detekován.",
+  "invoice_receive_fail": "Příjem se nezdařil",
+  "invoice_receive_fail_message": "Důvod: {reason}",
   "@invoice_receive_fail_message": {
     "placeholders": {
       "reason": {
@@ -155,8 +155,8 @@
       }
     }
   },
-  "invoice_error_url": "Invalid URL",
-  "invoice_insufficient_amount_fee": "Insufficient amount to cover the setup fees of {fee}",
+  "invoice_error_url": "Neplatná adresa URL",
+  "invoice_insufficient_amount_fee": "Nedostatečná částka na pokrytí instalačních poplatků ve výši {fee}",
   "@invoice_insufficient_amount_fee": {
     "placeholders": {
       "fee": {
@@ -165,10 +165,10 @@
       }
     }
   },
-  "invoice_description_label": "Description (optional)",
-  "invoice_availability_message_synchronizing": "Receiving payments will be available as soon as Breez is synchronized.",
-  "invoice_availability_message_opening_channel": "You will be able to receive payments after Breez is finished opening a secure channel with our server. This usually takes ~10 minutes to be completed. Please try again in a couple of minutes.",
-  "invoice_receive_label": "Receive up to: {maxSats}",
+  "invoice_description_label": "Popis (volitelné)",
+  "invoice_availability_message_synchronizing": "Přijímání plateb bude k dispozici, jakmile bude Breez synchronizován.",
+  "invoice_availability_message_opening_channel": "Platby budete moci přijímat poté, co Breez dokončí otevření zabezpečeného kanálu s naším serverem. Dokončení obvykle trvá ~10 minut. Zkuste to prosím znovu za několik minut.",
+  "invoice_receive_label": "Příjem až: {maxSats}",
   "@invoice_receive_label": {
     "placeholders": {
       "maxSats": {
@@ -177,7 +177,7 @@
       }
     }
   },
-  "invoice_ln_address_warning_with_min_fee_account_connected": "A setup fee of {setUpFee}% with a minimum of {minFee} will be applied for receiving more than {liquidity}.",
+  "invoice_ln_address_warning_with_min_fee_account_connected": "Za příjem více než {liquidity} bude účtován poplatek za nastavení ve výši {setUpFee}% s minimem {minFee}.",
   "@invoice_ln_address_warning_with_min_fee_account_connected": {
     "placeholders": {
       "setUpFee": {
@@ -194,7 +194,7 @@
       }
     }
   },
-  "invoice_ln_address_warning_without_min_fee_account_connected": "A setup fee of {setUpFee}% will be applied for receiving more than {liquidity}.",
+  "invoice_ln_address_warning_without_min_fee_account_connected": "Za příjem více než {likvidity} bude účtován poplatek za nastavení ve výši {setUpFee}%.",
   "@invoice_ln_address_warning_without_min_fee_account_connected": {
     "placeholders": {
       "setUpFee": {
@@ -207,7 +207,7 @@
       }
     }
   },
-  "invoice_ln_address_warning_with_min_fee_account_not_connected": "A setup fee of {setUpFee}% with a minimum of {minFee} will be applied on the received amount.",
+  "invoice_ln_address_warning_with_min_fee_account_not_connected": "Na přijatou částku bude účtován poplatek za nastavení ve výši {setUpFee}% s minimem {minFee}.",
   "@invoice_ln_address_warning_with_min_fee_account_not_connected": {
     "placeholders": {
       "setUpFee": {
@@ -220,7 +220,7 @@
       }
     }
   },
-  "invoice_ln_address_warning_without_min_fee_account_not_connected": "A setup fee of {setUpFee}% will be applied on the received amount.",
+  "invoice_ln_address_warning_without_min_fee_account_not_connected": "Na přijatou částku bude účtován poplatek za nastavení ve výši {setUpFee}%.",
   "@invoice_ln_address_warning_without_min_fee_account_not_connected": {
     "placeholders": {
       "setUpFee": {
@@ -229,11 +229,11 @@
       }
     }
   },
-  "invoice_bottom_sheet_action_invoice": "INVOICE",
-  "invoice_bottom_sheet_action_pay": "PAY",
-  "invoice_bottom_sheet_action_receive": "RECEIVE",
-  "invoice_bottom_sheet_error_qrcode": "QR code wasn't detected.",
-  "invoice_payment_validator_error_payment_exceeded_limit": "Payment exceeds the limit ({maxSats})",
+  "invoice_bottom_sheet_action_invoice": "FAKTURA",
+  "invoice_bottom_sheet_action_pay": "ZAPLATIT",
+  "invoice_bottom_sheet_action_receive": "PŘÍJEM",
+  "invoice_bottom_sheet_error_qrcode": "QR kód nebyl zjištěn.",
+  "invoice_payment_validator_error_payment_exceeded_limit": "Platba překračuje limit ({maxSats})",
   "@invoice_payment_validator_error_payment_exceeded_limit": {
     "placeholders": {
       "maxSats": {
@@ -242,7 +242,7 @@
       }
     }
   },
-  "invoice_payment_validator_error_payment_below_invoice_limit": "Payment is below the limit ({minSats})",
+  "invoice_payment_validator_error_payment_below_invoice_limit": "Platba je pod limitem ({minSats})",
   "@invoice_payment_validator_error_payment_below_invoice_limit": {
     "placeholders": {
       "minSats": {
@@ -251,7 +251,7 @@
       }
     }
   },
-  "invoice_payment_validator_error_payment_below_limit": "Breez requires you to keep {minSats} in your balance.",
+  "invoice_payment_validator_error_payment_below_limit": "Breez vyžaduje, abyste na svém zůstatku ponechali {minSats}.",
   "@invoice_payment_validator_error_payment_below_limit": {
     "placeholders": {
       "minSats": {
@@ -260,8 +260,8 @@
       }
     }
   },
-  "invoice_payment_validator_error_insufficient_local_balance": "Insufficient local balance",
-  "invoice_payment_validator_error_payment_below_setup_fees_error": "Insufficient amount to cover the setup fees of {setUpSats}",
+  "invoice_payment_validator_error_insufficient_local_balance": "Nedostatečný místní zůstatek",
+  "invoice_payment_validator_error_payment_below_setup_fees_error": "Nedostatečná částka na pokrytí poplatků {setUpSats} za nastavení služby",
   "@invoice_payment_validator_error_payment_below_setup_fees_error": {
     "placeholders": {
       "setUpSats": {
@@ -270,7 +270,7 @@
       }
     }
   },
-  "invoice_payment_validator_error_unknown": "Validation error {error}",
+  "invoice_payment_validator_error_unknown": "Chyba ověření {error}",
   "@invoice_payment_validator_error_unknown": {
     "placeholders": {
       "error": {
@@ -279,31 +279,31 @@
       }
     }
   },
-  "backup_dialog_title": "Backup",
-  "backup_dialog_message_remote_server": "Failed to save backup files to Remote Server. Please review your settings and try again.",
-  "backup_dialog_message_default": "If you want to be able to restore your funds in case this mobile device or this app are no longer available (e.g. lost or stolen device or app uninstall), you are required to backup your information.",
-  "backup_dialog_do_not_prompt_again": "Don't prompt again",
-  "backup_dialog_option_cancel": "LATER",
-  "backup_dialog_option_ok_remote_server": "SETTINGS",
-  "backup_dialog_option_ok_default": "BACKUP NOW",
-  "backup_dialog_icloud_error_title": "Sign in to iCloud",
-  "backup_dialog_icloud_error_message": "Sign in to your iCloud account. On the Home screen, launch Settings, tap iCloud, and enter your Apple ID. Turn iCloud Drive on. If you don't have an iCloud account, tap Create a new Apple ID.",
-  "backup_provider_dialog_title": "Backup Data Storage",
-  "backup_provider_dialog_message_restore": "Restore backup data from:",
-  "backup_provider_dialog_message_store": "Store backup data in:",
-  "backup_provider_dialog_action_cancel": "CANCEL",
+  "backup_dialog_title": "Záloha",
+  "backup_dialog_message_remote_server": "Nepodařilo se uložit záložní soubory na vzdálený server. Zkontrolujte prosím svá nastavení a zkuste to znovu.",
+  "backup_dialog_message_default": "Pokud chcete mít možnost obnovit své prostředky v případě, že toto mobilní zařízení nebo tato aplikace již nebudou dostupné (např. ztracené nebo odcizené zařízení nebo odinstalace aplikace), musíte si zálohovat své informace.",
+  "backup_dialog_do_not_prompt_again": "Nezobrazovat znovu výzvu",
+  "backup_dialog_option_cancel": "POZDĚJI",
+  "backup_dialog_option_ok_remote_server": "NASTAVENÍ",
+  "backup_dialog_option_ok_default": "ZÁLOHOVAT NYNÍ",
+  "backup_dialog_icloud_error_title": "Přihlaste se do iCloud",
+  "backup_dialog_icloud_error_message": "Přihlaste se ke svému účtu iCloud. Na domovské obrazovce spusťte Nastavení, klepněte na iCloud a zadejte své Apple ID. Zapněte iCloud Drive. Pokud nemáte účet na iCloudu, klepněte na Vytvořit nové Apple ID.",
+  "backup_provider_dialog_title": "Záložní úložiště dat",
+  "backup_provider_dialog_message_restore": "Obnovit zálohovaná data z:",
+  "backup_provider_dialog_message_store": "Ukládat záložní data do:",
+  "backup_provider_dialog_action_cancel": "ZRUŠIT",
   "backup_provider_dialog_action_ok": "OK",
-  "tutorial_gotcha": "Gotcha!",
-  "bottom_action_bar_send": "SEND",
-  "bottom_action_bar_receive": "RECEIVE",
-  "bottom_action_bar_paste_invoice": "Paste Invoice or ID",
-  "bottom_action_bar_connect_to_pay": "Connect to Pay",
-  "bottom_action_bar_send_btc_address": "Send to BTC Address",
-  "bottom_action_bar_escher": "Cash-Out via Escher",
-  "bottom_action_bar_receive_invoice": "Receive via Invoice",
-  "bottom_action_bar_receive_btc_address": "Receive via BTC Address",
-  "bottom_action_bar_buy_bitcoin": "Buy Bitcoin",
-  "bottom_action_bar_warning_balance_title": "Breez requires you to keep {balance} in your balance.",
+  "tutorial_gotcha": "Mám to!",
+  "bottom_action_bar_send": "ODESLAT",
+  "bottom_action_bar_receive": "PŘÍJEM",
+  "bottom_action_bar_paste_invoice": "Vložit fakturu nebo ID",
+  "bottom_action_bar_connect_to_pay": "Připojit k platbě",
+  "bottom_action_bar_send_btc_address": "Odeslat na BTC adresu",
+  "bottom_action_bar_escher": "Výplata přes Escher",
+  "bottom_action_bar_receive_invoice": "Příjem prostřednictvím LN faktury",
+  "bottom_action_bar_receive_btc_address": "Příjem prostřednictvím adresy BTC",
+  "bottom_action_bar_buy_bitcoin": "Nakupte bitcoiny",
+  "bottom_action_bar_warning_balance_title": "Breez vyžaduje, abyste ve svém zůstatku udržovali {balance}.",
   "@bottom_action_bar_warning_balance_title": {
     "placeholders": {
       "balance": {
