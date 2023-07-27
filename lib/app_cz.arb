@@ -312,18 +312,18 @@
       }
     }
   },
-  "payments_filter_action_export": "Export",
-  "payments_filter_action_export_failed": "Failed to export payments.",
-  "payments_filter_option_all": "All Activities",
-  "payments_filter_option_sent": "Sent",
-  "payments_filter_option_received": "Received",
-  "payments_filter_message_loading_transactions": "Please wait while Breez is loading transactions.",
-  "payment_details_dialog_closed_channel_title": "Closed Channel",
-  "payment_details_dialog_closed_channel_title_pending": "Pending Closed Channel",
+  "payments_filter_action_export": "Exportovat",
+  "payments_filter_action_export_failed": "Export plateb se nezdařil.",
+  "payments_filter_option_all": "Všechny aktivity",
+  "payments_filter_option_sent": "Odesláno",
+  "payments_filter_option_received": "Přijato",
+  "payments_filter_message_loading_transactions": "Počkejte prosím, než Breez načte transakce.",
+  "payment_details_dialog_closed_channel_title": "Uzavřený kanál",
+  "payment_details_dialog_closed_channel_title_pending": "Čeká na uzavřený kanál",
   "payment_details_dialog_closed_channel_ok": "OK",
-  "payment_details_dialog_closed_channel_local_wallet": "Transfer to local wallet due to closed channel.",
-  "payment_details_dialog_closed_channel_about_hour": "in about an hour",
-  "payment_details_dialog_closed_channel_about_hours": "~{hours} hours",
+  "payment_details_dialog_closed_channel_local_wallet": "Převod do místní peněženky z důvodu uzavření kanálu.",
+  "payment_details_dialog_closed_channel_about_hour": "přibližně za hodinu",
+  "payment_details_dialog_closed_channel_about_hours": "~{hours} hodin",
   "@payment_details_dialog_closed_channel_about_hours": {
     "placeholders": {
       "hours": {
@@ -332,8 +332,8 @@
       }
     }
   },
-  "payment_details_dialog_closed_channel_transfer_no_estimation": "Waiting for closed channel funds to be transferred to your local wallet",
-  "payment_details_dialog_closed_channel_transfer_estimation": "Waiting for closed channel funds to be transferred to your local wallet in block ${lockHeight} (${hoursToUnlock})",
+  "payment_details_dialog_closed_channel_transfer_no_estimation": "Čekání na převod prostředků z uzavřeného kanálu do vaší místní peněženky",
+  "payment_details_dialog_closed_channel_transfer_estimation": "Čekání na převod prostředků z uzavřeného kanálu do vaší místní peněženky v bloku ${lockHeight} (${hoursToUnlock})",
   "@payment_details_dialog_closed_channel_transfer_estimation": {
     "placeholders": {
       "lockHeight": {
@@ -346,17 +346,17 @@
       }
     }
   },
-  "payment_details_dialog_transaction_id_copied": "Transaction ID was copied to your clipboard.",
-  "payment_details_dialog_restart_text": "Please restart Breez to reset chain information for this channel.",
-  "payment_details_dialog_restart_cancel": "CANCEL",
-  "payment_details_dialog_restart_exit_breez": "EXIT BREEZ",
-  "payment_details_dialog_transaction_label_default": "Transaction ID:",
-  "payment_details_dialog_internal_error": "Internal Error",
-  "payment_details_dialog_refresh_information": "Refresh Information",
-  "payment_details_dialog_share_transaction": "Share Transaction Hash",
-  "payment_details_dialog_share_lightning_address": "Lightning Address",
-  "payment_details_dialog_share_comment": "Comment",
-  "payment_details_dialog_copy_action": "Copy {title}",
+  "payment_details_dialog_transaction_id_copied": "ID transakce bylo zkopírováno do vaší schránky.",
+  "payment_details_dialog_restart_text": "Restartujte prosím Breez, abyste resetovali informace o řetězci pro tento kanál.",
+  "payment_details_dialog_restart_cancel": "ZRUŠIT",
+  "payment_details_dialog_restart_exit_breez": "UKONČIT BREEZ",
+  "payment_details_dialog_transaction_label_default": "ID transakce:",
+  "payment_details_dialog_internal_error": "Interní chyba",
+  "payment_details_dialog_refresh_information": "Obnovit informace",
+  "payment_details_dialog_share_transaction": "Sdílet hash transakce",
+  "payment_details_dialog_share_lightning_address": "Lightning Adresa",
+  "payment_details_dialog_share_comment": "Komentář",
+  "payment_details_dialog_copy_action": "Kopírovat {title}",
   "@payment_details_dialog_copy_action": {
     "placeholders": {
       "title": {
@@ -365,7 +365,7 @@
       }
     }
   },
-  "payment_details_dialog_copied": "{title} was copied to your clipboard.",
+  "payment_details_dialog_copied": "{title} byl zkopírován do vaší schránky.",
   "@payment_details_dialog_copied": {
     "placeholders": {
       "title": {
@@ -374,15 +374,15 @@
       }
     }
   },
-  "payment_details_dialog_single_info_pre_image": "Payment Preimage",
-  "payment_details_dialog_single_info_node_id": "Node ID",
-  "payment_details_dialog_single_info_on_chain": "On-chain Transaction",
-  "payment_details_dialog_action_for_payment_description": "Description",
+  "payment_details_dialog_single_info_pre_image": "Předběžný obraz",
+  "payment_details_dialog_single_info_node_id": "ID uzlu",
+  "payment_details_dialog_single_info_on_chain": "Transakce v řetězci",
+  "payment_details_dialog_action_for_payment_description": "Popis",
   "payment_details_dialog_action_for_payment_url": "URL",
-  "payment_details_dialog_action_for_payment_message": "Message",
-  "payment_details_dialog_expiration": "Expiration",
-  "payment_details_dialog_date_and_time": "Date & Time",
-  "payment_details_dialog_amount_title": "Amount",
+  "payment_details_dialog_action_for_payment_message": "Zpráva",
+  "payment_details_dialog_expiration": "Vypršení platnosti",
+  "payment_details_dialog_date_and_time": "Datum a čas",
+  "payment_details_dialog_amount_title": "Částka",
   "payment_details_dialog_amount_negative": "-{amount}",
   "@payment_details_dialog_amount_negative": {
     "placeholders": {
@@ -401,34 +401,34 @@
       }
     }
   },
-  "payment_info_dialog_title": "Payee Information",
-  "payment_info_dialog_hint": "Invoice or ID",
-  "payment_info_dialog_hint_expanded": "Enter an invoice, a node ID or a Lightning address.",
-  "payment_info_dialog_barcode": "Scan Barcode",
-  "payment_info_dialog_error": "Invalid invoice, ID or Address",
-  "payment_info_dialog_error_unsupported_input": "Unsupported input",
-  "payment_info_dialog_error_qrcode": "QR code wasn't detected.",
-  "payment_info_dialog_action_cancel": "CANCEL",
-  "payment_info_dialog_action_approve": "APPROVE",
-  "pos_invoice_item_management_title_add": "Add Item",
-  "pos_invoice_item_management_title_edit": "Edit Item",
-  "pos_invoice_item_management_title_save": "SAVE",
-  "pos_invoice_item_management_field_name_label": "Name",
-  "pos_invoice_item_management_field_name_hint": "Enter a name",
-  "pos_invoice_item_management_field_name_error": "Name is required",
-  "pos_invoice_item_management_field_price_label": "Price",
-  "pos_invoice_item_management_field_price_hint": "Enter a price",
-  "pos_invoice_item_management_field_price_error": "Price is required",
+  "payment_info_dialog_title": "Informace o příjemci platby",
+  "payment_info_dialog_hint": "Faktura nebo ID",
+  "payment_info_dialog_hint_expanded": "Zadejte fakturu, ID uzlu nebo Lightning adresu.",
+  "payment_info_dialog_barcode": "Naskenovat čárový kód",
+  "payment_info_dialog_error": "Neplatná faktura, ID nebo adresa",
+  "payment_info_dialog_error_unsupported_input": "Nepodporovaný vstup",
+  "payment_info_dialog_error_qrcode": "QR kód nebyl zjištěn.",
+  "payment_info_dialog_action_cancel": "ZRUŠIT",
+  "payment_info_dialog_action_approve": "SCHVÁLIT",
+  "pos_invoice_item_management_title_add": "Přidat položku",
+  "pos_invoice_item_management_title_edit": "Upravit položku",
+  "pos_invoice_item_management_title_save": "ULOŽIT",
+  "pos_invoice_item_management_field_name_label": "Jméno",
+  "pos_invoice_item_management_field_name_hint": "Zadejte jméno",
+  "pos_invoice_item_management_field_name_error": "Jméno je povinné",
+  "pos_invoice_item_management_field_price_label": "Cena",
+  "pos_invoice_item_management_field_price_hint": "Zadejte cenu",
+  "pos_invoice_item_management_field_price_error": "Cena je povinná",
   "pos_invoice_item_management_field_sku_label": "SKU",
-  "pos_invoice_item_management_field_sku_hint": "Enter a SKU",
-  "pos_invoice_item_management_dd_currency_title": "Currency",
-  "pos_invoice_item_management_image_title": "Select Image",
-  "pos_invoice_item_management_error_btc_rate": "Failed to retrieve BTC exchange rate.",
-  "pos_invoice_item_management_avatar_title": "Select Image",
-  "pos_invoice_item_management_avatar_search": "Search for an image",
-  "pos_invoice_tab_keypad": "Keypad",
-  "pos_invoice_tab_items": "Items",
-  "pos_invoice_charge_label": "CHARGE {amount} {currencyName}",
+  "pos_invoice_item_management_field_sku_hint": "Zadejte SKU",
+  "pos_invoice_item_management_dd_currency_title": "Měna",
+  "pos_invoice_item_management_image_title": "Vyberte obrázek",
+  "pos_invoice_item_management_error_btc_rate": "Nepodařilo se načíst směnný kurz BTC.",
+  "pos_invoice_item_management_avatar_title": "Vybrat obrázek",
+  "pos_invoice_item_management_avatar_search": "Vyhledat obrázek",
+  "pos_invoice_tab_keypad": "Klávesnice",
+  "pos_invoice_tab_items": "Položky",
+  "pos_invoice_charge_label": "ÚČTOVAT {amount} {currencyName}",
   "@pos_invoice_charge_label": {
     "placeholders": {
       "amount": {
@@ -443,17 +443,17 @@
   },
   "pos_invoice_num_pad_clear": "C",
   "pos_invoice_num_pad_plus": "+",
-  "pos_invoice_search_hint": "Search for name or SKU",
-  "pos_invoice_search_empty": "No matching items found.",
-  "pos_invoice_search_no_items": "No items to display.\nAdd items to this view using the '+' button.",
-  "pos_invoice_error_fiat_exchange_rates": "Failed to retrieve fiat exchange rates.",
-  "pos_invoice_error_submit_header": "Required Information",
-  "pos_invoice_error_submit_name_avatar": "Please enter your business name and select a business logo in the Settings screen.",
-  "pos_invoice_error_submit_name_only": "Please enter your business name in the Settings screen.",
-  "pos_invoice_error_submit_avatar_only": "Please select a business logo in the Settings screen.",
-  "pos_invoice_error_fix_action": "GO TO SETTINGS",
-  "pos_invoice_error_capacity_header": "You don't have the capacity to receive such payment.",
-  "pos_invoice_error_capacity_message": "Maximum payment size you can receive is {maxAllowed}. Please enter a smaller value.",
+  "pos_invoice_search_hint": "Vyhledat název nebo SKU",
+  "pos_invoice_search_empty": "Nebyly nalezeny žádné odpovídající položky.",
+  "pos_invoice_search_no_items": "Žádné položky k zobrazení.\nPřidejte položky do tohoto zobrazení pomocí tlačítka '+'.",
+  "pos_invoice_error_fiat_exchange_rates": "Nepodařilo se načíst směnné kurzy fiat.",
+  "pos_invoice_error_submit_header": "Požadované informace",
+  "pos_invoice_error_submit_name_avatar": "Zadejte název své firmy a vyberte logo firmy v obrazovce Nastavení.",
+  "pos_invoice_error_submit_name_only": "Zadejte název své firmy v obrazovce Nastavení.",
+  "pos_invoice_error_submit_avatar_only": "V obrazovce Nastavení vyberte logo firmy.",
+  "pos_invoice_error_fix_action": "PŘEJÍT DO NASTAVENÍ",
+  "pos_invoice_error_capacity_header": "Nemáte kapacitu na přijetí takové platby.",
+  "pos_invoice_error_capacity_message": "Maximální částka platby, kterou můžete obdržet, je {maxAllowed}. Zadejte prosím menší hodnotu.",
   "@pos_invoice_error_capacity_message": {
     "placeholders": {
       "maxAllowed": {
@@ -462,8 +462,8 @@
       }
     }
   },
-  "pos_invoice_error_payment_size_header": "You have exceeded the maximum payment size.",
-  "pos_invoice_error_payment_size_message": "Maximum payment size on the Lightning Network is {maxAllowed}. Please enter a smaller value or complete the payment in multiple transactions.",
+  "pos_invoice_error_payment_size_header": "Překročili jste maximální velikost platby.",
+  "pos_invoice_error_payment_size_message": "Maximální velikost platby v Lightning Network je {maxAllowed}. Zadejte prosím menší hodnotu nebo dokončete platbu ve více transakcích.",
   "@pos_invoice_error_payment_size_message": {
     "placeholders": {
       "maxAllowed": {
@@ -472,41 +472,41 @@
       }
     }
   },
-  "pos_invoice_close": "CLOSE",
-  "pos_invoice_clear_sale_header": "Clear Sale?",
-  "pos_invoice_clear_sale_message": "This will clear the current transaction.",
-  "pos_invoice_clear_sale_cancel": "CANCEL",
-  "pos_invoice_clear_sale_confirm": "CLEAR",
-  "pos_invoice_sort_none": "None",
-  "pos_invoice_sort_alphabetically": "Name",
-  "pos_invoice_sort_price": "Price",
-  "app_animal_bat": "Bat",
-  "app_animal_bear": "Bear",
-  "app_animal_boar": "Boar",
-  "app_animal_cat": "Cat",
-  "app_animal_chick": "Chick",
-  "app_animal_cow": "Cow",
-  "app_animal_deer": "Deer",
-  "app_animal_dog": "Dog",
-  "app_animal_eagle": "Eagle",
-  "app_animal_elephant": "Elephant",
-  "app_animal_fox": "Fox",
-  "app_animal_frog": "Frog",
-  "app_animal_hippo": "Hippo",
-  "app_animal_hummingbird": "Hummingbird",
+  "pos_invoice_close": "ZAVŘÍT",
+  "pos_invoice_clear_sale_header": "Zrušit prodej?",
+  "pos_invoice_clear_sale_message": "Tímto vymažete aktuální transakci.",
+  "pos_invoice_clear_sale_cancel": "ZRUŠIT",
+  "pos_invoice_clear_sale_confirm": "VYMAZAT",
+  "pos_invoice_sort_none": "Žádné",
+  "pos_invoice_sort_alphabetically": "Jméno",
+  "pos_invoice_sort_price": "Cena",
+  "app_animal_bat": "Netopýr",
+  "app_animal_bear": "Medvěd",
+  "app_animal_boar": "Kanec",
+  "app_animal_cat": "Kočka",
+  "app_animal_chick": "Kuře",
+  "app_animal_cow": "Kráva",
+  "app_animal_deer": "Jelen",
+  "app_animal_dog": "Pes",
+  "app_animal_eagle": "Orel",
+  "app_animal_elephant": "Slon",
+  "app_animal_fox": "Liška",
+  "app_animal_frog": "Žába",
+  "app_animal_hippo": "Hroch",
+  "app_animal_hummingbird": "Kolibřík",
   "app_animal_koala": "Koala",
-  "app_animal_lion": "Lion",
-  "app_animal_monkey": "Monkey",
-  "app_animal_mouse": "Mouse",
-  "app_animal_owl": "Owl",
-  "app_animal_ox": "Ox",
+  "app_animal_lion": "Lev",
+  "app_animal_monkey": "Opice",
+  "app_animal_mouse": "Myš",
+  "app_animal_owl": "Sova",
+  "app_animal_ox": "Vůl",
   "app_animal_panda": "Panda",
-  "app_animal_pig": "Pig",
-  "app_animal_rabbit": "Rabbit",
-  "app_animal_seagull": "Seagull",
-  "app_animal_sheep": "Sheep",
-  "app_animal_snake": "Snake",
-  "app_color_salmon": "Salmon",
+  "app_animal_pig": "Prase",
+  "app_animal_rabbit": "Králík",
+  "app_animal_seagull": "Racek",
+  "app_animal_sheep": "Ovce",
+  "app_animal_snake": "Had",
+  "app_color_salmon": "Losos",
   "app_color_blue": "Blue",
   "app_color_turquoise": "Turquoise",
   "app_color_orchid": "Orchid",
@@ -531,16 +531,16 @@
   "app_color_indigo": "Indigo",
   "app_color_jade": "Jade",
   "app_color_coral": "Coral",
-  "pos_transactions_title": "Transactions",
-  "pos_transactions_placeholder": "Successful transactions are displayed here.",
+  "pos_transactions_title": "Transakce",
+  "pos_transactions_placeholder": "Zde se zobrazují úspěšné transakce.",
   "pos_transactions_action_export": "Export",
-  "pos_transactions_action_export_failed": "Failed to export payments.",
-  "pos_transactions_range_no_transactions": "There are no transactions in this date range",
-  "pos_transactions_range_dialog_title": "Choose a date range:",
+  "pos_transactions_action_export_failed": "Export plateb se nezdařil.",
+  "pos_transactions_range_no_transactions": "V tomto období nejsou žádné transakce",
+  "pos_transactions_range_dialog_title": "Vyberte časové období:",
   "pos_transactions_range_dialog_start": "Start",
-  "pos_transactions_range_dialog_end": "End",
-  "pos_transactions_range_dialog_clear": "CLEAR",
-  "pos_transactions_range_dialog_apply": "APPLY FILTER",
+  "pos_transactions_range_dialog_end": "Konec",
+  "pos_transactions_range_dialog_clear": "VYMAZAT",
+  "pos_transactions_range_dialog_apply": "POUŽÍT FILTR",
   "pos_transactions_item_positive": "{value}",
   "@pos_transactions_item_positive": {
     "placeholders": {
@@ -568,9 +568,9 @@
       }
     }
   },
-  "sale_view_title": "Current Sale",
-  "sale_view_note_hint": "Add Note",
-  "sale_view_print": "Print",
+  "sale_view_title": "Aktuální prodej",
+  "sale_view_note_hint": "Přidat poznámku",
+  "sale_view_print": "Tisk",
   "sale_view_total_title_read_only_no_fiat": "{value}",
   "@sale_view_total_title_read_only_no_fiat": {
     "placeholders": {
@@ -580,7 +580,7 @@
       }
     }
   },
-  "sale_view_total_title_charge_no_fiat": "CHARGE {value}",
+  "sale_view_total_title_charge_no_fiat": "ÚČTOVAT {value}",
   "@sale_view_total_title_charge_no_fiat": {
     "placeholders": {
       "value": {
@@ -602,7 +602,7 @@
       }
     }
   },
-  "sale_view_total_title_charge_fiat": "CHARGE {value} ({fiatValue})",
+  "sale_view_total_title_charge_fiat": "ÚČTOVAT {value} ({fiatValue})",
   "@sale_view_total_title_charge_fiat": {
     "placeholders": {
       "value": {
@@ -615,13 +615,13 @@
       }
     }
   },
-  "fiat_currencies_title": "Fiat Currencies",
-  "fiat_currencies_save_fail": "Failed to save changes.",
-  "connect_to_pay_title_payer": "Connect To Pay",
-  "connect_to_pay_title_payee": "Receive Payment",
-  "connect_to_pay_canceled_payer": "Payer has canceled the payment session",
-  "connect_to_pay_canceled_payee": "Payee has canceled the payment session",
-  "connect_to_pay_canceled_remote_user": "{name} has canceled the payment session",
+  "fiat_currencies_title": "Fiat měny",
+  "fiat_currencies_save_fail": "Uložení změn se nezdařilo.",
+  "connect_to_pay_title_payer": "Připojit k Pay",
+  "connect_to_pay_title_payee": "Přijmout platbu",
+  "connect_to_pay_canceled_payer": "Plátce zrušil relaci platby",
+  "connect_to_pay_canceled_payee": "Příjemce platby zrušil relaci platby",
+  "connect_to_pay_canceled_remote_user": "{name} zrušil relaci platby",
   "@connect_to_pay_canceled_remote_user": {
     "placeholders": {
       "name": {
@@ -630,7 +630,7 @@
       }
     }
   },
-  "connect_to_pay_success_payer": "You have successfully paid {name} {amount}!",
+  "connect_to_pay_success_payer": "Úspěšně jste zaplatili {name} {amount}!",
   "@connect_to_pay_success_payer": {
     "placeholders": {
       "name": {
@@ -643,7 +643,7 @@
       }
     }
   },
-  "connect_to_pay_success_payee": "{name} have successfully paid you {amount}!",
+  "connect_to_pay_success_payee": "{name} vám úspěšně zaplatil {amount}!",
   "@connect_to_pay_success_payee": {
     "placeholders": {
       "name": {
@@ -656,8 +656,8 @@
       }
     }
   },
-  "connect_to_pay_exit_warning": "Are you sure you want to cancel this payment session?",
-  "connect_to_pay_failed_to_connect": "Failed connecting to session: {error}",
+  "connect_to_pay_exit_warning": "Opravdu chcete zrušit tuto platební relaci?",
+  "connect_to_pay_failed_to_connect": "Nepodařilo se připojit k relaci: {error}",
   "@connect_to_pay_failed_to_connect": {
     "placeholders": {
       "error": {
@@ -666,7 +666,7 @@
       }
     }
   },
-  "connect_to_pay_payee_success_received": "You've successfully got {amount}",
+  "connect_to_pay_payee_success_received": "Úspěšně jste získali {amount}",
   "@connect_to_pay_payee_success_received": {
     "placeholders": {
       "amount": {
@@ -675,8 +675,8 @@
       }
     }
   },
-  "connect_to_pay_payee_waiting_no_name": "Waiting for payer to enter an amount",
-  "connect_to_pay_payee_waiting_with_name": "Waiting for {name} to enter an amount",
+  "connect_to_pay_payee_waiting_no_name": "Čeká se, až plátce zadá částku",
+  "connect_to_pay_payee_waiting_with_name": "Čeká se, až {name} zadá částku",
   "@connect_to_pay_payee_waiting_with_name": {
     "placeholders": {
       "name": {
@@ -685,9 +685,9 @@
       }
     }
   },
-  "connect_to_pay_payee_waiting_sync": "Please wait while Breez is synchronizing",
-  "connect_to_pay_payee_waiting_sync_action_close": "CLOSE",
-  "connect_to_pay_payee_message_no_fiat": "{name} wants to pay you {amount}",
+  "connect_to_pay_payee_waiting_sync": "Počkejte, dokud se Breez synchronizuje",
+  "connect_to_pay_payee_waiting_sync_action_close": "ZAVŘÍT",
+  "connect_to_pay_payee_message_no_fiat": "{name} vám chce zaplatit {amount}",
   "@connect_to_pay_payee_message_no_fiat": {
     "placeholders": {
       "name": {
@@ -700,7 +700,7 @@
       }
     }
   },
-  "connect_to_pay_payee_message_with_fiat": "{name} wants to pay you {amount} ({fiat})",
+  "connect_to_pay_payee_message_with_fiat": "{name} vám chce zaplatit {amount} ({fiat})",
   "@connect_to_pay_payee_message_with_fiat": {
     "placeholders": {
       "name": {
@@ -717,7 +717,7 @@
       }
     }
   },
-  "connect_to_pay_payee_error_limit_exceeds": "This payment exceeds your limit {amount}",
+  "connect_to_pay_payee_error_limit_exceeds": "Tato platba překračuje váš limit {amount}",
   "@connect_to_pay_payee_error_limit_exceeds": {
     "placeholders": {
       "amount": {
@@ -726,7 +726,7 @@
       }
     }
   },
-  "connect_to_pay_payee_process": "Processing {name} payment",
+  "connect_to_pay_payee_process": "Zpracovává se platba {name}",
   "@connect_to_pay_payee_process": {
     "placeholders": {
       "name": {
