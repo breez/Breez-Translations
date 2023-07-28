@@ -2296,9 +2296,9 @@
   "lnurl_payment_page_unknown_error": "Neznáma chyba",
   "node_state_error": "Nepodarilo sa získať stav nody",
   "generic_network_error": "Nepodarilo sa pripojiť k Breez. Skontroluj internetové pripojenie a skús to znova.",
-  "moonpay_network_error": "Failed to connect to MoonPay. Please check your internet connection and try again.",
-  "moonpay_retry_button": "RETRY",
-  "moonpay_swap_in_progress": "Swap in progress was detected for address {address}. Please wait for it to complete.",
+  "moonpay_network_error": "Nepodarilo sa pripojiť k MoonPay. Skontroluj internetové pripojenie a skús to znova.",
+  "moonpay_retry_button": "OPAKOVAŤ",
+  "moonpay_swap_in_progress": "Bola zistená prebiehajúca výmena adresy {address}. Počkaj, prosím, kým sa dokončí.",
   "@moonpay_swap_in_progress": {
     "placeholders": {
       "address": {
@@ -2307,11 +2307,11 @@
       }
     }
   },
-  "moonpay_swap_in_progress_action": "See the transaction in Mempool",
-  "moonpay_swap_expired": "A swap was in progress, but it has expired; Breez is generating a refund for you.",
-  "moonpay_swap_expired_action": "Back to home",
-  "setup_fees_dialog_title": "Setup Fees",
-  "setup_fees_dialog_message": "Please notice the updated setup fees under the QR code before receiving a payment.",
+  "moonpay_swap_in_progress_action": "Pozri si transakciu v Mempool",
+  "moonpay_swap_expired": "Prebiehala výmena, ale jej platnosť vypršala; Breez ti generuje náhradu.",
+  "moonpay_swap_expired_action": "Späť domov",
+  "setup_fees_dialog_title": "Poplatky za nastavenie",
+  "setup_fees_dialog_message": "Pred prijatím platby si všimni aktualizované poplatky za nastavenie pod QR kódom.",
   "locale": "sk",
   "app_name": "Breez"
 }
