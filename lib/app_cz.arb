@@ -1298,22 +1298,22 @@
   "order_card_zip_code_error": "Neplatné PSČ",
   "order_card_country_label": "Země",
   "order_card_country_error_empty": "Zadejte prosím svou zemi",
-  "order_card_country_error_invalid": "Invalid country",
-  "order_card_state_label": "State",
-  "order_card_country_state_empty": "Please enter your state",
-  "order_card_country_state_invalid": "Invalid state",
-  "order_card_city_label": "City",
-  "order_card_city_error": "Please enter your city",
-  "order_card_address_label": "Address",
-  "order_card_address_error": "Please enter your address",
-  "order_card_email_label": "E-mail Address",
-  "order_card_country_email_empty": "Please enter your e-mail address",
-  "order_card_country_email_invalid": "Invalid e-mail",
-  "order_card_full_name_label": "Full Name",
-  "order_card_full_name_error": "Please enter your full name",
-  "link_launcher_title": "Transaction ID:",
+  "order_card_country_error_invalid": "Neplatná země",
+  "order_card_state_label": "Stát",
+  "order_card_country_state_empty": "Zadejte prosím svůj stát",
+  "order_card_country_state_invalid": "Neplatný stát",
+  "order_card_city_label": "Město",
+  "order_card_city_error": "Zadejte prosím své město",
+  "order_card_address_label": "Adresa",
+  "order_card_address_error": "Zadejte svou adresu",
+  "order_card_email_label": "E-mailová adresa",
+  "order_card_country_email_empty": "Zadejte svou e-mailovou adresu",
+  "order_card_country_email_invalid": "Neplatný e-mail",
+  "order_card_full_name_label": "Celé jméno",
+  "order_card_full_name_error": "Zadejte prosím své celé jméno",
+  "link_launcher_title": "ID transakce:",
   "link_launcher_link_name": "",
-  "link_launcher_failed_to_launch": "Could not launch {url}",
+  "link_launcher_failed_to_launch": "Nelze spustit {url}",
   "@link_launcher_failed_to_launch": {
     "placeholders": {
       "url": {
@@ -1322,15 +1322,15 @@
       }
     }
   },
-  "keyboard_done_action": "Done",
+  "keyboard_done_action": "Hotovo",
   "flushbar_default_message": "",
   "flushbar_default_action": "OK",
-  "fee_chooser_option_economy": "Economy",
-  "fee_chooser_option_regular": "Regular",
-  "fee_chooser_option_priority": "Priority",
-  "fee_chooser_estimated_delivery_more_than_day": "Estimated Delivery: more than a day",
-  "fee_chooser_estimated_delivery_hour": "Estimated Delivery: 1 hour",
-  "fee_chooser_estimated_delivery_hours": "Estimated Delivery: {hours} hours",
+  "fee_chooser_option_economy": "Ekonomika",
+  "fee_chooser_option_regular": "Pravidelně",
+  "fee_chooser_option_priority": "Priorita",
+  "fee_chooser_estimated_delivery_more_than_day": "Odhadované doručení: více než den",
+  "fee_chooser_estimated_delivery_hour": "Odhadované doručení: 1 hodina",
+  "fee_chooser_estimated_delivery_hours": "Odhadované doručení: {hours} hodin",
   "@fee_chooser_estimated_delivery_hours": {
     "placeholders": {
       "hours": {
@@ -1339,7 +1339,7 @@
       }
     }
   },
-  "fee_chooser_estimated_delivery_hour_range": "Estimated Delivery: {hours}-24 hours",
+  "fee_chooser_estimated_delivery_hour_range": "Odhadované doručení: {hours}-24 hodin",
   "@fee_chooser_estimated_delivery_hour_range": {
     "placeholders": {
       "hours": {
@@ -1348,7 +1348,7 @@
       }
     }
   },
-  "fee_chooser_estimated_delivery_minutes": "Estimated Delivery: ~{minutes} minutes",
+  "fee_chooser_estimated_delivery_minutes": "Odhadované doručení: ~{minutes} minut",
   "@fee_chooser_estimated_delivery_minutes": {
     "placeholders": {
       "minutes": {
@@ -1357,11 +1357,11 @@
       }
     }
   },
-  "escher_cash_out_amount": "Enter cash-out amount:",
-  "escher_action_cancel": "CANCEL",
-  "escher_action_approve": "APPROVE",
+  "escher_cash_out_amount": "Zadejte částku pro výběr:",
+  "escher_action_cancel": "ZRUŠIT",
+  "escher_action_approve": "SCHVÁLIT",
   "collapsible_list_default_value": "",
-  "collapsible_list_action_copy": "Copy {title}",
+  "collapsible_list_action_copy": "Kopírovat {title}",
   "@collapsible_list_action_copy": {
     "placeholders": {
       "title": {
@@ -1370,7 +1370,7 @@
       }
     }
   },
-  "collapsible_list_copied": "{title} was copied to your clipboard.",
+  "collapsible_list_copied": "{title} byl zkopírován do vaší schránky.",
   "@collapsible_list_copied": {
     "placeholders": {
       "title": {
@@ -1379,8 +1379,8 @@
       }
     }
   },
-  "close_popup_title": "Exit Breez",
-  "close_popup_message": "Do you really want to quit Breez?",
+  "close_popup_title": "Ukončit Breez",
+  "close_popup_message": "Opravdu chcete ukončit Breez?",
   "breez_date_picker_day_and_date": "{day} {date}",
   "@breez_date_picker_day_and_date": {
     "placeholders": {
@@ -1420,34 +1420,34 @@
       }
     }
   },
-  "breez_date_picker_error_initial_date_after": "Initial date must be on or after first date",
-  "breez_date_picker_error_initial_date_before": "Initial date must be on or before last date",
-  "breez_date_picker_error_initial_date_predicate": "Provided initial date must satisfy provided selectable day predicate",
-  "breez_date_picker_error_initial_date_null": "Initial date picker mode must not be null",
-  "breez_date_picker_error_last_date_after": "Last date must be on or after first date",
-  "breez_avatar_dialog_random": "RANDOM",
-  "breez_avatar_dialog_gallery": "GALLERY",
-  "breez_avatar_dialog_your_name": "Enter your name",
-  "breez_avatar_dialog_action_cancel": "CANCEL",
-  "breez_avatar_dialog_action_save": "SAVE",
-  "breez_avatar_dialog_error_upload": "Failed to upload profile picture",
-  "barcode_scanner_camera_message": "For QR scan, please grant Breez access to your camera.",
-  "barcode_scanner_app_settings": "App Settings",
-  "utils_retry_failed": "Retry failed",
-  "utils_print_pdf_transaction_time": "Transaction Time",
-  "utils_print_pdf_header_item": "Item",
-  "utils_print_pdf_header_price": "Price",
-  "utils_print_pdf_header_quantity": "Quantity",
-  "utils_print_pdf_header_amount": "Amount",
-  "utils_print_pdf_header_total": "Total",
-  "utils_print_pdf_header_description": "Description:",
-  "utils_print_pdf_header_payment_preimage": "Payment Preimage:",
-  "handler_check_version_action_update": "UPDATE",
-  "handler_check_version_message": "Please update Breez to the latest version.",
-  "handler_channel_connection_message": "Breez is offline",
-  "handler_channel_connection_close": "CLOSE",
-  "handler_lnurl_error_link": "Link Error",
-  "handler_lnurl_error_process": "Failed to process link: {message}",
+  "breez_date_picker_error_initial_date_after": "Počáteční datum musí být stejné nebo po prvním datu",
+  "breez_date_picker_error_initial_date_before": "Počáteční datum musí být stejné nebo starší než poslední datum",
+  "breez_date_picker_error_initial_date_predicate": "Zadané počáteční datum musí splňovat zadaný volitelný predikát dne",
+  "breez_date_picker_error_initial_date_null": "Počáteční režim výběru data nesmí být null",
+  "breez_date_picker_error_last_date_after": "Poslední datum musí být stejné nebo po prvním datu",
+  "breez_avatar_dialog_random": "NÁHODNĚ",
+  "breez_avatar_dialog_gallery": "GALERIE",
+  "breez_avatar_dialog_your_name": "Zadejte své jméno",
+  "breez_avatar_dialog_action_cancel": "ZRUŠIT",
+  "breez_avatar_dialog_action_save": "ULOŽIT",
+  "breez_avatar_dialog_error_upload": "Nepodařilo se nahrát profilový obrázek",
+  "barcode_scanner_camera_message": "Chcete-li skenovat QR kód, udělte systému Breez přístup ke své kameře.",
+  "barcode_scanner_app_settings": "Nastavení aplikace",
+  "utils_retry_failed": "Opakování se nezdařilo",
+  "utils_print_pdf_transaction_time": "Doba transakce",
+  "utils_print_pdf_header_item": "Položka",
+  "utils_print_pdf_header_price": "Cena",
+  "utils_print_pdf_header_quantity": "Množství",
+  "utils_print_pdf_header_amount": "Částka",
+  "utils_print_pdf_header_total": "Celkem",
+  "utils_print_pdf_header_description": "Popis:",
+  "utils_print_pdf_header_payment_preimage": "Platební předobraz:",
+  "handler_check_version_action_update": "AKTUALIZOVAT",
+  "handler_check_version_message": "Aktualizujte Breez na nejnovější verzi.",
+  "handler_channel_connection_message": "Breez je offline",
+  "handler_channel_connection_close": "ZAVŘÍT",
+  "handler_lnurl_error_link": "Chyba odkazu",
+  "handler_lnurl_error_process": "Nepodařilo se zpracovat odkaz: {message}",
   "@handler_lnurl_error_process": {
     "placeholders": {
       "message": {
@@ -1456,10 +1456,10 @@
       }
     }
   },
-  "handler_lnurl_error_gift": "This gift has been redeemed!",
-  "handler_lnurl_login_anonymously": "Do you want to anonymously login to ",
-  "handler_lnurl_login_error_title": "Login Error",
-  "handler_lnurl_login_error_message": "Failed to log in.\n{message}",
+  "handler_lnurl_error_gift": "Tento dárek byl uplatněn!",
+  "handler_lnurl_login_anonymously": "Chcete se anonymně přihlásit do ",
+  "handler_lnurl_login_error_title": "Chyba přihlášení",
+  "handler_lnurl_login_error_message": "Nepodařilo se přihlásit.\n{message}",
   "@handler_lnurl_login_error_message": {
     "placeholders": {
       "message": {
@@ -1468,9 +1468,9 @@
       }
     }
   },
-  "handler_lnurl_login_error_unsupported": "Unsupported LNURL",
-  "handler_lnurl_open_channel_title": "Open Channel",
-  "handler_lnurl_open_channel_message": "Are you sure you want to open a channel with {host}?",
+  "handler_lnurl_login_error_unsupported": "Nepodporovaná LNURL",
+  "handler_lnurl_open_channel_title": "Otevřít kanál",
+  "handler_lnurl_open_channel_message": "Opravdu chcete otevřít kanál s {host}?",
   "@handler_lnurl_open_channel_message": {
     "placeholders": {
       "host": {
@@ -1479,9 +1479,9 @@
       }
     }
   },
-  "handler_lnurl_open_channel_action_cancel": "CANCEL",
-  "handler_lnurl_open_channel_error_title": "Open Channel Error",
-  "handler_lnurl_open_channel_error_message": "Failed to open channel.\n{message}",
+  "handler_lnurl_open_channel_action_cancel": "ZRUŠIT",
+  "handler_lnurl_open_channel_error_title": "Chyba otevření kanálu",
+  "handler_lnurl_open_channel_error_message": "Nepodařilo se otevřít kanál.\n{message}",
   "@handler_lnurl_open_channel_error_message": {
     "placeholders": {
       "message": {
@@ -1490,13 +1490,13 @@
       }
     }
   },
-  "handler_podcast_error_load_episode": "Failed to load episode. Please check your connection.",
-  "handler_podcast_error_load_episode_fallback": "Failed to load podcast.",
-  "handler_sync_ui_message": "Breez is synchronizing to the Bitcoin network",
-  "add_funds_error_deposit": "Breez is processing your previous deposit. You will be able to add more funds once this operation is completed.",
-  "add_funds_error_withdraw": "Breez is processing your previous withdrawal. You will be able to add more funds once this operation is completed.",
-  "add_funds_transaction_id_copied": "Transaction ID was copied to your clipboard.",
-  "add_funds_item_voucher_title": "Voucher value",
+  "handler_podcast_error_load_episode": "Nepodařilo se načíst epizodu. Zkontrolujte prosím své připojení.",
+  "handler_podcast_error_load_episode_fallback": "Nepodařilo se načíst podcast.",
+  "handler_sync_ui_message": "Breez se synchronizuje do bitcoinové sítě",
+  "add_funds_error_deposit": "Breez zpracovává váš předchozí vklad. Po dokončení této operace budete moci přidat další prostředky.",
+  "add_funds_error_withdraw": "Breez zpracovává váš předchozí výběr. Po dokončení této operace budete moci přidat další prostředky.",
+  "add_funds_transaction_id_copied": "ID transakce bylo zkopírováno do vaší schránky.",
+  "add_funds_item_voucher_title": "Hodnota poukazu",
   "add_funds_item_voucher_message": "{value} {currency}",
   "@add_funds_item_voucher_message": {
     "placeholders": {
@@ -1510,7 +1510,7 @@
       }
     }
   },
-  "add_funds_item_exchange_rate_title": "Exchange rate",
+  "add_funds_item_exchange_rate_title": "Směnný kurz",
   "add_funds_item_exchange_rate_message": "{rate} {currency}",
   "@add_funds_item_exchange_rate_message": {
     "placeholders": {
@@ -1524,7 +1524,7 @@
       }
     }
   },
-  "add_funds_item_commission_rate_title": "Commission rate",
+  "add_funds_item_commission_rate_title": "Sazba provize",
   "add_funds_item_commission_rate_message": "{rate}%",
   "@add_funds_item_commission_rate_message": {
     "placeholders": {
@@ -1534,7 +1534,7 @@
       }
     }
   },
-  "add_funds_item_commission_total_title": "Commission total",
+  "add_funds_item_commission_total_title": "Celková provize",
   "add_funds_item_commission_total_message": "{commission} {currency}",
   "@add_funds_item_commission_total_message": {
     "placeholders": {
@@ -1548,20 +1548,20 @@
       }
     }
   },
-  "add_funds_item_bitcoins_received_title": "Bitcoins received",
+  "add_funds_item_bitcoins_received_title": "Přijaté bitcoiny",
   "add_funds_moonpay_title": "MoonPay",
-  "add_funds_moonpay_error_address": "Failed to retrieve an address from Breez server\nPlease check your internet connection.",
-  "add_funds_moonpay_loading": "Loading…",
-  "add_funds_moonpay_error_service_unavailable": "Service Unavailable. Please try again later.",
-  "csv_exporter_date_and_time": "Date & Time",
-  "csv_exporter_title": "Title",
-  "csv_exporter_description": "Description",
-  "csv_exporter_node_id": "Node ID",
-  "csv_exporter_amount": "Amount",
-  "csv_exporter_preimage": "Preimage",
+  "add_funds_moonpay_error_address": "Nepodařilo se načíst adresu ze serveru Breez\nZkontrolujte prosím své připojení k internetu.",
+  "add_funds_moonpay_loading": "Načítám…",
+  "add_funds_moonpay_error_service_unavailable": "Služba není dostupná. Zkuste to prosím znovu později.",
+  "csv_exporter_date_and_time": "Datum a čas",
+  "csv_exporter_title": "Název",
+  "csv_exporter_description": "Popis",
+  "csv_exporter_node_id": "ID uzlu",
+  "csv_exporter_amount": "Částka",
+  "csv_exporter_preimage": "Předobraz",
   "csv_exporter_tx_hash": "TX Hash",
-  "csv_exporter_fee": "Fee",
-  "pos_custom_item_name": "Item {index}",
+  "csv_exporter_fee": "Poplatek",
+  "pos_custom_item_name": "Položka {index}",
   "@pos_custom_item_name": {
     "placeholders": {
       "index": {
@@ -1570,47 +1570,47 @@
       }
     }
   },
-  "pos_settings_title": "POS Settings",
-  "pos_settings_cancellation_timeout": "Payment Cancellation Timeout (in seconds)",
-  "pos_settings_items_list": "Items List",
-  "pos_settings_import_csv": "Import from CSV",
-  "pos_settings_export_csv": "Export to CSV",
-  "pos_settings_import_dialog_title": "Import Items",
-  "pos_settings_import_dialog_message": "Importing this list will override the existing one. Are you sure you want to continue?",
-  "pos_settings_import_action_yes": "YES",
-  "pos_settings_import_action_no": "NO",
-  "pos_settings_import_select_message": "Please select a .csv file.",
-  "pos_settings_import_success_message": "Items were successfully imported.",
-  "pos_settings_import_error_generic": "Failed to import POS items.",
-  "pos_settings_import_error_invalid_file": "Selected file isn't a valid CSV file.",
-  "pos_settings_import_error_invalid_data": "Selected file contains invalid data.",
-  "pos_settings_export_error_generic": "Failed to export POS items.",
-  "pos_settings_export_error_no_items": "There are no items to export.",
-  "pos_settings_create_manager_password": "Create Manager Password",
-  "pos_settings_activate_manager_password": "Activate Manager Password",
-  "pos_settings_change_manager_password": "Change Manager Password",
-  "pos_settings_manager_password_error_title": "Manager Password",
-  "pos_settings_manager_password_error_message": "Manager Password can be configured only if you have an active backup. To trigger a backup process, go to Receive > Receive via BTC Address.",
-  "pos_settings_manager_password_title": "Manager Password",
-  "pos_settings_manager_password_message": "If Manager Password is activated, sending funds from Breez will require you to enter a password.\nAre you sure you want to activate Manager Password?",
-  "pos_settings_manager_password_action_create": "CREATE",
-  "pos_settings_manager_password_action_change": "CHANGE",
-  "pos_settings_business_address": "Business Address",
-  "pos_settings_address_line_1": "Address Line 1",
-  "pos_settings_address_line_2": "Address Line 2",
-  "pos_settings_default_note": "Default Note",
+  "pos_settings_title": "Nastavení POS",
+  "pos_settings_cancellation_timeout": "Časový limit pro zrušení platby (v sekundách)",
+  "pos_settings_items_list": "Seznam položek",
+  "pos_settings_import_csv": "Importovat z CSV",
+  "pos_settings_export_csv": "Exportovat do CSV",
+  "pos_settings_import_dialog_title": "Importovat položky",
+  "pos_settings_import_dialog_message": "Importem tohoto seznamu přepíšete stávající. Opravdu chcete pokračovat?",
+  "pos_settings_import_action_yes": "ANO",
+  "pos_settings_import_action_no": "NE",
+  "pos_settings_import_select_message": "Vyberte prosím soubor .csv.",
+  "pos_settings_import_success_message": "Položky byly úspěšně importovány.",
+  "pos_settings_import_error_generic": "Import položek POS se nezdařil.",
+  "pos_settings_import_error_invalid_file": "Vybraný soubor není platný soubor CSV.",
+  "pos_settings_import_error_invalid_data": "Vybraný soubor obsahuje neplatná data.",
+  "pos_settings_export_error_generic": "Nepodařilo se exportovat položky POS.",
+  "pos_settings_export_error_no_items": "Neexistují žádné položky k exportu.",
+  "pos_settings_create_manager_password": "Vytvořit heslo správce",
+  "pos_settings_activate_manager_password": "Aktivovat heslo správce",
+  "pos_settings_change_manager_password": "Změnit heslo správce",
+  "pos_settings_manager_password_error_title": "Heslo správce",
+  "pos_settings_manager_password_error_message": "Heslo správce lze konfigurovat pouze v případě, že máte aktivní zálohu. Chcete-li spustit proces zálohování, přejděte na Příjem > Přijímat přes BTC adresu.",
+  "pos_settings_manager_password_title": "Heslo správce",
+  "pos_settings_manager_password_message": "If Pokud je aktivováno heslo správce, bude posílání prostředků z Breez vyžadovat zadání hesla.\nOpravdu chcete aktivovat heslo správce?",
+  "pos_settings_manager_password_action_create": "VYTVOŘIT",
+  "pos_settings_manager_password_action_change": "ZMĚNA",
+  "pos_settings_business_address": "Adresa firmy",
+  "pos_settings_address_line_1": "Řádek adresy 1",
+  "pos_settings_address_line_2": "Řádek adresy 2",
+  "pos_settings_default_note": "Výchozí poznámka",
   "pos_settings_id": "ID",
-  "pos_settings_name": "Name",
+  "pos_settings_name": "Jméno",
   "pos_settings_sku": "SKU",
-  "pos_settings_image_url": "Image URL",
-  "pos_settings_currency": "Currency",
-  "pos_settings_price": "Price",
-  "pos_password_admin_title": "Manager Password",
-  "pos_password_admin_error_password_empty": "Password is required",
-  "pos_password_admin_error_password_short": "At least 8 characters are required",
-  "pos_password_admin_error_password_match": "Passwords don't match",
-  "pos_password_admin_new_password": "Enter a new password",
-  "pos_password_admin_confirm_password": "Confirm password",
+  "pos_settings_image_url": "Adresa URL obrázku",
+  "pos_settings_currency": "Měna",
+  "pos_settings_price": "Cena",
+  "pos_password_admin_title": "Heslo správce",
+  "pos_password_admin_error_password_empty": "Je vyžadováno heslo",
+  "pos_password_admin_error_password_short": "Je vyžadováno alespoň 8 znaků",
+  "pos_password_admin_error_password_match": "Hesla se neshodují",
+  "pos_password_admin_new_password": "Zadejte nové heslo",
+  "pos_password_admin_confirm_password": "Potvrďte heslo",
   "pos_dialog_clock": "{minutes}:{seconds}",
   "@pos_dialog_clock": {
     "placeholders": {
@@ -1624,13 +1624,13 @@
       }
     }
   },
-  "pos_dialog_title": "Scan to Pay",
-  "pos_dialog_share": "Share invoice data",
-  "pos_dialog_invoice_copy": "Copy invoice data",
-  "pos_dialog_invoice_copied": "Invoice data was copied to your clipboard.",
-  "pos_dialog_clear_sale": "CLEAR SALE",
-  "pos_dialog_cancel": "CANCEL",
-  "pos_dialog_setup_fee": "A setup fee of {fee} ({fiat}) is applied to this invoice.",
+  "pos_dialog_title": "Naskenováním zaplatit",
+  "pos_dialog_share": "Sdílet fakturační údaje",
+  "pos_dialog_invoice_copy": "Kopírovat data faktury",
+  "pos_dialog_invoice_copied": "Data faktury byla zkopírována do vaší schránky.",
+  "pos_dialog_clear_sale": "VYMAZAT PRODEJ",
+  "pos_dialog_cancel": "ZRUŠIT",
+  "pos_dialog_setup_fee": "K této faktuře se účtuje zřizovací poplatek ve výši {fee} ({fiat}).",
   "@pos_dialog_setup_fee": {
     "placeholders": {
       "fee": {
@@ -1643,8 +1643,8 @@
       }
     }
   },
-  "pos_payment_nfc_error_title": "NFC Payment error",
-  "pos_payment_nfc_range_error": "Only payments between {minValue} and {maxValue} are allowed.",
+  "pos_payment_nfc_error_title": "Chyba platby NFC",
+  "pos_payment_nfc_range_error": "Povoleny jsou pouze platby mezi {minValue} a {maxValue}.",
   "@pos_payment_nfc_range_error": {
     "placeholders": {
       "minValue": {
@@ -1657,23 +1657,23 @@
       }
     }
   },
-  "pos_payment_nfc_error_action_close": "CLOSE",
-  "successful_payment_print": "Print",
-  "successful_payment_received": "Payment received!",
-  "payment_options_title": "Lightning Fees",
-  "payment_options_fee_header": "Maximum fees for Lightning payments:",
-  "payment_options_fee_override_enable": "Enforce fees (experimental)",
-  "payment_options_base_fee_label": "Base Fee in sats",
-  "payment_options_proportional_fee_label": "Proportional Fee (%)",
-  "payment_options_fee_action_reset": "Reset",
-  "payment_options_fee_action_save": "Save",
-  "payment_options_fee_action_cancel": "Cancel",
-  "payment_options_fee_warning": "Warning: this feature is experimental. Limiting fees may cause payments to fail, but the reason for the failure may not be apparent.",
-  "payment_options_fee_warning_dialog_title": "Warning",
-  "payment_options_fee_warning_dialog_message": "This feature is experimental. Limiting fees may cause payments to fail, but the reason for the failure may not be apparent.",
-  "catalog_item_action_edit": "Edit Item",
-  "catalog_item_action_delete": "Delete Item",
-  "catalog_item_error_delete": "Failed to delete {name}",
+  "pos_payment_nfc_error_action_close": "ZAVŘÍT",
+  "successful_payment_print": "Tisk",
+  "successful_payment_received": "Platba přijata!",
+  "payment_options_title": "Lightning poplatek",
+  "payment_options_fee_header": "Maximální poplatky za platby Lightning:",
+  "payment_options_fee_override_enable": "Vymáhání poplatků (experimentální)",
+  "payment_options_base_fee_label": "Základní poplatek v sats",
+  "payment_options_proportional_fee_label": "Poměrný poplatek v (%)",
+  "payment_options_fee_action_reset": "Resetovat",
+  "payment_options_fee_action_save": "Uložit",
+  "payment_options_fee_action_cancel": "Zrušit",
+  "payment_options_fee_warning": "Upozornění: Tato funkce je experimentální. Omezení poplatků může způsobit selhání plateb, ale důvod selhání nemusí být zřejmý.",
+  "payment_options_fee_warning_dialog_title": "Upozornění",
+  "payment_options_fee_warning_dialog_message": "Tato funkce je experimentální. Omezení poplatků může způsobit selhání plateb, ale důvod selhání nemusí být zřejmý.",
+  "catalog_item_action_edit": "Upravit položku",
+  "catalog_item_action_delete": "Smazat položku",
+  "catalog_item_error_delete": "Nepodařilo se smazat {name}",
   "@catalog_item_error_delete": {
     "placeholders": {
       "name": {
@@ -1682,24 +1682,24 @@
       }
     }
   },
-  "pos_report_dialog_title_daily": "Daily Summary",
-  "pos_report_dialog_title_weekly": "Weekly Summary",
-  "pos_report_dialog_title_monthly": "Monthly Summary",
-  "pos_report_dialog_title_custom": "Custom Summary",
-  "pos_report_dialog_action_close": "CLOSE",
-  "pos_report_dialog_dropdown_item_daily": "Today",
-  "pos_report_dialog_dropdown_item_weekly": "This Week",
-  "pos_report_dialog_dropdown_item_monthly": "This Month",
-  "pos_report_dialog_dropdown_item_custom": "Custom Range",
-  "pos_report_dialog_content_sales_label": "Number of sales:",
-  "pos_report_dialog_content_amount_label": "Total amount:",
-  "pos_report_dialog_content_start_date_label": "Start date:",
-  "pos_report_dialog_content_end_date_label": "End date:",
-  "lnurl_withdraw_dialog_title": "Receive Funds",
-  "lnurl_withdraw_dialog_wait": "Please wait while your payment is being processed",
-  "lnurl_withdraw_dialog_action_close": "CLOSE",
-  "lnurl_withdraw_dialog_error_unknown": "Failed to receive funds",
-  "lnurl_withdraw_dialog_error": "Failed to receive funds: {error}",
+  "pos_report_dialog_title_daily": "Denní souhrn",
+  "pos_report_dialog_title_weekly": "Týdenní souhrn",
+  "pos_report_dialog_title_monthly": "Měsíční souhrn",
+  "pos_report_dialog_title_custom": "Vlastní shrnutí",
+  "pos_report_dialog_action_close": "ZAVŘÍT",
+  "pos_report_dialog_dropdown_item_daily": "Dnes",
+  "pos_report_dialog_dropdown_item_weekly": "Tento týden",
+  "pos_report_dialog_dropdown_item_monthly": "Tento měsíc",
+  "pos_report_dialog_dropdown_item_custom": "Vlastní rozsah",
+  "pos_report_dialog_content_sales_label": "Počet prodejů:",
+  "pos_report_dialog_content_amount_label": "Celková částka:",
+  "pos_report_dialog_content_start_date_label": "Datum zahájení:",
+  "pos_report_dialog_content_end_date_label": "Datum ukončení:",
+  "lnurl_withdraw_dialog_title": "Přijímání prostředků",
+  "lnurl_withdraw_dialog_wait": "Počkejte prosím na zpracování platby",
+  "lnurl_withdraw_dialog_action_close": "ZAVŘÍT",
+  "lnurl_withdraw_dialog_error_unknown": "Nepodařilo se přijmout prostředky",
+  "lnurl_withdraw_dialog_error": "Nepodařilo se přijmout prostředky: {error}",
   "@lnurl_withdraw_dialog_error": {
     "placeholders": {
       "error": {
@@ -1708,7 +1708,7 @@
       }
     }
   },
-  "lnurl_withdraw_dialog_error_amount_exceeds": "Exceeds maximum withdrawable amount: {maxSats}",
+  "lnurl_withdraw_dialog_error_amount_exceeds": "Překračuje maximální vyjímatelnou částku: {maxSats}",
   "@lnurl_withdraw_dialog_error_amount_exceeds": {
     "placeholders": {
       "maxSats": {
@@ -1717,7 +1717,7 @@
       }
     }
   },
-  "lnurl_withdraw_dialog_error_amount_below": "Below minimum withdrawable amount: {minSats}",
+  "lnurl_withdraw_dialog_error_amount_below": "Pod minimální vyjímatelnou částkou: {minSats}",
   "@lnurl_withdraw_dialog_error_amount_below": {
     "placeholders": {
       "minSats": {
@@ -1726,15 +1726,15 @@
       }
     }
   },
-  "qr_code_dialog_synchronizing": "Synchronizing to the network",
-  "qr_code_dialog_invoice": "Invoice",
-  "qr_code_dialog_action_close": "CLOSE",
-  "qr_code_dialog_share": "Share invoice data",
-  "qr_code_dialog_copy": "Copy invoice data",
-  "qr_code_dialog_copied": "Invoice data was copied to your clipboard.",
-  "qr_code_dialog_warning_message_error": "Failed to create invoice",
-  "qr_code_dialog_warning_message": "Keep Breez open until the payment is completed.",
-  "qr_code_dialog_warning_message_with_lsp": "A setup fee of {setupFee} ({fiatFee}) is applied to this invoice. Keep Breez open until the payment is completed.",
+  "qr_code_dialog_synchronizing": "Synchronizace se sítí",
+  "qr_code_dialog_invoice": "Faktura",
+  "qr_code_dialog_action_close": "ZAVŘÍT",
+  "qr_code_dialog_share": "Sdílet fakturační údaje",
+  "qr_code_dialog_copy": "Kopírovat data faktury",
+  "qr_code_dialog_copied": "Údaje faktury byly zkopírovány do vaší schránky.",
+  "qr_code_dialog_warning_message_error": "Nepodařilo se vytvořit fakturu",
+  "qr_code_dialog_warning_message": "Nechte Breez otevřený, dokud nebude platba dokončena.",
+  "qr_code_dialog_warning_message_with_lsp": "K této faktuře se účtuje nastavovací poplatek {setupFee} ({fiatFee}). Nechte Breez otevřený, dokud nebude platba dokončena.",
   "@qr_code_dialog_warning_message_with_lsp": {
     "placeholders": {
       "setupFee": {
@@ -1747,7 +1747,7 @@
       }
     }
   },
-  "qr_code_dialog_error": "Failed to create an invoice {error}. Please try again later.",
+  "qr_code_dialog_error": "Nepodařilo se vytvořit fakturu {error}. Zkuste to prosím znovu později.",
   "@qr_code_dialog_error": {
     "placeholders": {
       "error": {
@@ -1756,15 +1756,15 @@
       }
     }
   },
-  "waiting_broadcast_dialog_dialog_title": "Refund Transaction",
-  "waiting_broadcast_dialog_dialog_title_error": "Refund Error",
-  "waiting_broadcast_dialog_action_close": "CLOSE",
-  "waiting_broadcast_dialog_action_copy": "Copy Transaction Hash",
-  "waiting_broadcast_dialog_action_share": "Share Transaction Hash",
-  "waiting_broadcast_dialog_transaction_id": "Transaction ID:",
-  "waiting_broadcast_dialog_content_success": "Funds were successfully sent to the specified address.",
-  "waiting_broadcast_dialog_content_warning": "Please wait while Breez is sending the funds to the specified address.",
-  "waiting_broadcast_dialog_content_error": "Error in broadcasting transaction: {error}",
+  "waiting_broadcast_dialog_dialog_title": "Transakce vrácení peněz",
+  "waiting_broadcast_dialog_dialog_title_error": "Chyba vrácení peněz",
+  "waiting_broadcast_dialog_action_close": "ZAVŘÍT",
+  "waiting_broadcast_dialog_action_copy": "Kopírovat hash transakce",
+  "waiting_broadcast_dialog_action_share": "Sdílet hash transakce",
+  "waiting_broadcast_dialog_transaction_id": "ID transakce:",
+  "waiting_broadcast_dialog_content_success": "Prostředky byly úspěšně odeslány na zadanou adresu.",
+  "waiting_broadcast_dialog_content_warning": "Počkejte prosím, než Breez pošle prostředky na zadanou adresu.",
+  "waiting_broadcast_dialog_content_error": "Chyba při vysílání transakce: {error}",
   "@waiting_broadcast_dialog_content_error": {
     "placeholders": {
       "error": {
@@ -1793,7 +1793,7 @@
       }
     }
   },
-  "wallet_dashboard_payment_item_balance_fee": "FEE {feeFormatted}",
+  "wallet_dashboard_payment_item_balance_fee": "POPLATEK {feeFormatted}",
   "@wallet_dashboard_payment_item_balance_fee": {
     "placeholders": {
       "feeFormatted": {
@@ -1802,21 +1802,21 @@
       }
     }
   },
-  "wallet_dashboard_payment_item_balance_pending_suffix": " (Pending)",
-  "wallet_dashboard_payment_item_no_title": "Unknown",
+  "wallet_dashboard_payment_item_balance_pending_suffix": " (Nevyřízeno)",
+  "wallet_dashboard_payment_item_no_title": "Neznámé",
   "status_text_loading_begin": "Breez is ",
-  "status_text_loading_middle": "opening a secure channel",
-  "status_text_loading_end": " with our server. This might take a while, but don't worry, we'll notify you when the app is ready to send and receive payments.",
-  "status_text_ready": "Breez is ready to receive funds.",
-  "status_opening_secure_connection": "Breez is opening a secure connection",
-  "qr_action_button_open_link": "Open Link",
-  "qr_action_button_open_link_confirmation": "Are you sure you want to open this link?",
-  "qr_action_button_open_link_confirmation_no": "NO",
-  "qr_action_button_open_link_confirmation_yes": "YES",
-  "qr_action_button_error_code_not_detected": "QR code wasn't detected.",
-  "qr_action_button_error_code_not_processed": "QR code cannot be processed.",
-  "qr_action_button_error_link_title": "Link Error",
-  "qr_action_button_error_link_message": "Failed to process link: {error}",
+  "status_text_loading_middle": "otevření zabezpečeného kanálu",
+  "status_text_loading_end": " s naším serverem. Může to chvíli trvat, ale nebojte se, upozorníme vás, až bude aplikace připravena odesílat a přijímat platby.",
+  "status_text_ready": "Breez je připraven přijímat platby.",
+  "status_opening_secure_connection": "Breez otevírá zabezpečené připojení",
+  "qr_action_button_open_link": "Otevřít odkaz",
+  "qr_action_button_open_link_confirmation": "Opravdu chcete otevřít tento odkaz?",
+  "qr_action_button_open_link_confirmation_no": "NE",
+  "qr_action_button_open_link_confirmation_yes": "ANO",
+  "qr_action_button_error_code_not_detected": "QR kód nebyl zjištěn.",
+  "qr_action_button_error_code_not_processed": "QR kód nelze zpracovat.",
+  "qr_action_button_error_link_title": "Chyba odkazu",
+  "qr_action_button_error_link_message": "Nepodařilo se zpracovat odkaz: {error}",
   "@qr_action_button_error_link_message": {
     "placeholders": {
       "error": {
@@ -1825,9 +1825,9 @@
       }
     }
   },
-  "lnurl_webview_error_title": "Error",
-  "lnurl_webview_error_invalid_url": "Invalid URL",
-  "lnurl_webview_error_message": "Failed to call {apiName} API",
+  "lnurl_webview_error_title": "Chyba",
+  "lnurl_webview_error_invalid_url": "Neplatná adresa URL",
+  "lnurl_webview_error_message": "Nepodařilo se spojit s {apiName} API",
   "@lnurl_webview_error_message": {
     "placeholders": {
       "apiName": {
@@ -1836,8 +1836,8 @@
       }
     }
   },
-  "lnurl_fetch_invoice_action_continue": "CONTINUE",
-  "lnurl_fetch_invoice_pay_to_payee": "Pay to {payee}",
+  "lnurl_fetch_invoice_action_continue": "POKRAČOVAT",
+  "lnurl_fetch_invoice_pay_to_payee": "Zaplatit {payee}",
   "@lnurl_fetch_invoice_pay_to_payee": {
     "placeholders": {
       "payee": {
@@ -1846,8 +1846,8 @@
       }
     }
   },
-  "lnurl_fetch_invoice_comment": "Comment (optional)",
-  "lnurl_fetch_invoice_error_min": "Must be at least {min}",
+  "lnurl_fetch_invoice_comment": "Komentář (volitelné)",
+  "lnurl_fetch_invoice_error_min": "Musí být alespoň {min}",
   "@lnurl_fetch_invoice_error_min": {
     "placeholders": {
       "min": {
@@ -1856,7 +1856,7 @@
       }
     }
   },
-  "lnurl_fetch_invoice_error_max": "Exceeds the limit {max}",
+  "lnurl_fetch_invoice_error_max": "Překračuje limit {max}",
   "@lnurl_fetch_invoice_error_max": {
     "placeholders": {
       "max": {
@@ -1865,7 +1865,7 @@
       }
     }
   },
-  "lnurl_fetch_invoice_limit": "Enter an amount between {min} and {max}",
+  "lnurl_fetch_invoice_limit": "Zadejte částku mezi {min} a {max}",
   "@lnurl_fetch_invoice_limit": {
     "placeholders": {
       "min": {
@@ -1878,8 +1878,8 @@
       }
     }
   },
-  "lnurl_fetch_invoice_error_title": "LNURL-Pay Error",
-  "lnurl_fetch_invoice_error_message": "An error occurred while attempting to retrieve an invoice from {host}!\nReason: {reason}",
+  "lnurl_fetch_invoice_error_title": "Chyba platby LNURL",
+  "lnurl_fetch_invoice_error_message": "Při pokusu o načtení faktury od {host} došlo k chybě!\nDůvod: {reason}",
   "@lnurl_fetch_invoice_error_message": {
     "placeholders": {
       "host": {
@@ -1892,30 +1892,30 @@
       }
     }
   },
-  "lnurl_error_unsupported": "Unsupported LNURL",
-  "make_invoice_request_title": "This site wants to pay you:",
-  "make_invoice_request_action_cancel": "CANCEL",
-  "make_invoice_request_action_approve": "APPROVE",
-  "mnemonics_confirmation_title": "Backup Phrase",
-  "mnemonics_confirmation_verify_backup_phrase": "Verify Backup Phrase",
-  "mnemonics_confirmation_display_backup_phrase": "Display Backup Phrase",
-  "mnemonics_confirmation_instructions": "You will be shown a list of words. Write down the words and store them in a safe place. Without these words, you won't be able to restore from backup and your funds will be lost.",
-  "mnemonics_confirmation_action_verify": "VERIFY",
-  "podcast_add_funds_title": "Add funds to your balance to send payments to this podcast.",
-  "podcast_add_funds_action_add": "ADD FUNDS",
-  "podcast_boost_not_enough_founds": "You don't have enough funds to complete this payment.",
-  "podcast_boost_sats": "sats",
-  "podcast_boost_sats_min": "sats/min",
-  "podcast_boost_action_boost": "BOOST!",
-  "podcast_boost_action_cancel": "CANCEL",
-  "podcast_boost_action_approve": "APPROVE",
+  "lnurl_error_unsupported": "Nepodporovaná LNURL",
+  "make_invoice_request_title": "Tento web vám chce zaplatit:",
+  "make_invoice_request_action_cancel": "ZRUŠIT",
+  "make_invoice_request_action_approve": "SCHVÁLIT",
+  "mnemonics_confirmation_title": "Záložní fráze",
+  "mnemonics_confirmation_verify_backup_phrase": "Ověřit záložní frázi",
+  "mnemonics_confirmation_display_backup_phrase": "Zobrazit záložní frázi",
+  "mnemonics_confirmation_instructions": "Zobrazí se vám seznam slov. Zapište si slova a uložte je na bezpečné místo offline. Bez těchto slov nebudete moci obnovit ze zálohy a vaše prostředky budou ztraceny.",
+  "mnemonics_confirmation_action_verify": "OVĚŘIT",
+  "podcast_add_funds_title": "Přidejte prostředky do svého zůstatku, abyste mohli odesílat platby na tento podcast.",
+  "podcast_add_funds_action_add": "PŘIDAT SATY",
+  "podcast_boost_not_enough_founds": "Nemáte dostatek prostředků k dokončení této platby.",
+  "podcast_boost_sats": "saty",
+  "podcast_boost_sats_min": "satů/min",
+  "podcast_boost_action_boost": "ZVÝŠIT!",
+  "podcast_boost_action_cancel": "ZRUŠIT",
+  "podcast_boost_action_approve": "SCHVÁLIT",
   "podcast_boost_symbol_circa": "~",
-  "podcast_boost_send_title": "Send a Boostagram",
-  "podcast_boost_send_optional": "Boostagram (optional)",
-  "podcast_boost_send_amount": "Boost Amount (in sats)",
-  "podcast_boost_custom_amount": "Enter a Custom Amount:",
-  "podcast_boost_custom_amount_error_empty": "Please enter an amount",
-  "podcast_boost_custom_amount_error_too_few": "Please enter at least {amount} sats.",
+  "podcast_boost_send_title": "Poslat Boostagram",
+  "podcast_boost_send_optional": "Boostagram (volitelné)",
+  "podcast_boost_send_amount": "Částka navýšení (v satech)",
+  "podcast_boost_custom_amount": "Zadejte vlastní částku:",
+  "podcast_boost_custom_amount_error_empty": "Zadejte částku",
+  "podcast_boost_custom_amount_error_too_few": "Zadejte alespoň {amount} satů.",
   "@podcast_boost_custom_amount_error_too_few": {
     "placeholders": {
       "amount": {
@@ -1924,11 +1924,11 @@
       }
     }
   },
-  "podcast_boost_adjustment_boost": "Boost",
-  "podcast_boost_adjustment_boost_message": "Send a one-time tip to a show's creators. Long press to add a personalized message.",
-  "podcast_boost_adjustment_stream_sats": "Stream sats",
-  "podcast_boost_adjustment_stream_sats_message": "Stream sats to the creators while listening to their show. The number indicates the amount of sats sent per minute. To listen for free, set this value to 0.",
-  "podcast_boost_action_share": "Share",
+  "podcast_boost_adjustment_boost": "Zvýšit",
+  "podcast_boost_adjustment_boost_message": "Pošlete jednorázový tip tvůrcům pořadu. Dlouhým stisknutím přidáte personalizovanou zprávu.",
+  "podcast_boost_adjustment_stream_sats": "Streamovat saty",
+  "podcast_boost_adjustment_stream_sats_message": "Streamovat saty pro tvůrce při poslechu jejich pořadu. Číslo udává množství odeslaných satů za minutu. Chcete-li poslouchat zdarma, nastavte tuto hodnotu na 0.",
+  "podcast_boost_action_share": "Sdílet",
   "podcast_boost_share_texts": "{podcast}\n{episode}\n{link}",
   "@podcast_boost_share_texts": {
     "placeholders": {
@@ -1968,19 +1968,19 @@
       }
     }
   },
-  "lock_screen_enter_pin": "Enter your PIN",
-  "lock_screen_pin_incorrect": "Incorrect PIN",
-  "lock_screen_pin_match_exception": "There was an error confirming your PIN, please try again. If this error persists, please contact Breez support.",
-  "backup_phrase_generate": "Encrypt Cloud Backup",
-  "backup_phrase_instructions": "You will be shown a list of words. Write down the words and store them in a safe place. Without these words, you won't be able to restore from backup and your funds will be lost. Breez won’t be able to help. Note these words aren't a wallet seed. They are used to encrypt the backup data stored in the cloud.",
-  "backup_phrase_action_confirm": "I UNDERSTAND",
-  "backup_phrase_action_next": "NEXT",
-  "backup_phrase_warning_disclaimer": "Your existing backup phrase will no longer be valid and a new one will be generated next time you decide to use a backup phrase. Are you sure you don't want to use a backup phrase?",
-  "backup_phrase_warning_action_yes": "YES",
-  "backup_phrase_warning_action_no": "NO",
-  "backup_phrase_warning_action_next": "NEXT",
-  "backup_phrase_warning_action_backup": "BACKUP",
-  "backup_phrase_generation_write_words": "Write these words",
+  "lock_screen_enter_pin": "Zadejte svůj PIN",
+  "lock_screen_pin_incorrect": "Nesprávný PIN",
+  "lock_screen_pin_match_exception": "Došlo k chybě při potvrzování vašeho PIN, zkuste to prosím znovu. Pokud tato chyba přetrvává, kontaktujte podporu Breez.",
+  "backup_phrase_generate": "Šifrovat cloudovou zálohu",
+  "backup_phrase_instructions": "Zobrazí se vám seznam slov. Slova si zapište a uložte je na bezpečné místo offline. Bez těchto slov nebudete moci obnovit ze zálohy a vaše prostředky budou ztraceny. Breez vám nepomůže. Upozorňujeme, že tato slova nejsou zdrojem peněženky. Používají se k šifrování zálohovaných dat uložených v cloudu.",
+  "backup_phrase_action_confirm": "ROZUMÍM",
+  "backup_phrase_action_next": "DALŠÍ",
+  "backup_phrase_warning_disclaimer": "Vaše stávající záložní fráze již nebude platná a až se příště rozhodnete použít záložní frázi, bude vygenerována nová. Opravdu nechcete použít záložní frázi?",
+  "backup_phrase_warning_action_yes": "ANO",
+  "backup_phrase_warning_action_no": "NE",
+  "backup_phrase_warning_action_next": "DALŠÍ",
+  "backup_phrase_warning_action_backup": "ZÁLOHOVAT",
+  "backup_phrase_generation_write_words": "Napište tato slova",
   "backup_phrase_generation_index": "{index}.",
   "@backup_phrase_generation_index": {
     "placeholders": {
@@ -1990,8 +1990,8 @@
       }
     }
   },
-  "backup_phrase_generation_verify": "Let's verify",
-  "backup_phrase_generation_type_words": "Please type words number {numberA}, {numberB} and {numberC} of the generated backup phrase.",
+  "backup_phrase_generation_verify": "Pojďme si to ověřit",
+  "backup_phrase_generation_type_words": "Zadejte číslo slova {numberA}, {numberB} a {numberC} z vygenerované záložní fráze.",
   "@backup_phrase_generation_type_words": {
     "placeholders": {
       "numberA": {
@@ -2017,14 +2017,14 @@
       }
     }
   },
-  "backup_phrase_generation_verification_failed": "Failed to verify words. Please write down the words and try again.",
-  "backup_phrase_generation_generic_error": "Internal Error",
-  "spontaneous_payment_title": "Send Payment",
-  "spontaneous_payment_action_pay": "PAY",
-  "spontaneous_payment_action_cancel": "CANCEL",
-  "spontaneous_payment_tip_message": "Tip Message (optional)",
-  "spontaneous_payment_generic_message": "You will be able to receive payments after Breez is finished opening a secure channel with our server. This usually takes ~10 minutes to be completed. Please try again in a couple of minutes.",
-  "spontaneous_payment_max_amount": "Pay up to: {amount}",
+  "backup_phrase_generation_verification_failed": "Nepodařilo se ověřit slova. Zapište si slova a zkuste to znovu.",
+  "backup_phrase_generation_generic_error": "Interní chyba",
+  "spontaneous_payment_title": "Odeslat platbu",
+  "spontaneous_payment_action_pay": "ZAPLATIT",
+  "spontaneous_payment_action_cancel": "ZRUŠIT",
+  "spontaneous_payment_tip_message": "Zpráva spropitného (volitelné)",
+  "spontaneous_payment_generic_message": "Platby budete moci přijímat poté, co Breez dokončí otevření zabezpečeného kanálu na našem serveru. Dokončení obvykle trvá ~10 minut. Zkuste to prosím znovu za několik minut.",
+  "spontaneous_payment_max_amount": "Zaplaťte až do: {amount}",
   "@spontaneous_payment_max_amount": {
     "placeholders": {
       "amount": {
@@ -2033,9 +2033,9 @@
       }
     }
   },
-  "spontaneous_payment_node_id": "Node ID",
-  "spontaneous_payment_send_payment_title": "Send Payment",
-  "spontaneous_payment_send_payment_message": "Are you sure you want to send {amount} to this node?\n\n{nodeID}",
+  "spontaneous_payment_node_id": "ID uzlu",
+  "spontaneous_payment_send_payment_title": "Odeslat platbu",
+  "spontaneous_payment_send_payment_message": "Opravdu chcete poslat {amount} tomuto uzlu?\n\n{nodeID}",
   "@spontaneous_payment_send_payment_message": {
     "placeholders": {
       "amount": {
@@ -2048,13 +2048,13 @@
       }
     }
   },
-  "spontaneous_payment_error_title": "Payment Error",
-  "sweep_all_coins_speed": "Choose Processing Speed",
-  "sweep_all_coins_action_retry": "RETRY",
-  "sweep_all_coins_action_confirm": "CONFIRM",
-  "sweep_all_coins_label_send": "You send:",
-  "sweep_all_coins_label_receive": "You receive:",
-  "sweep_all_coins_label_transaction_fee": "Transaction fee:",
+  "spontaneous_payment_error_title": "Chyba platby",
+  "sweep_all_coins_speed": "Vyberte rychlost zpracování",
+  "sweep_all_coins_action_retry": "OPAKOVAT",
+  "sweep_all_coins_action_confirm": "POTVRDIT",
+  "sweep_all_coins_label_send": "Posíláte:",
+  "sweep_all_coins_label_receive": "Dostáváte:",
+  "sweep_all_coins_label_transaction_fee": "Transakční poplatek:",
   "sweep_all_coins_fee": "-{fee}",
   "@sweep_all_coins_fee": {
     "placeholders": {
@@ -2086,42 +2086,42 @@
       }
     }
   },
-  "sweep_all_coins_error_retrieve_fees": "Failed to retrieve fees. Please try again later.",
-  "sweep_all_coins_error_amount_small": "The amount is too small to broadcast. Please try again later.",
-  "unexpected_funds_title": "Unexpected Funds",
-  "unexpected_funds_message": "Breez found unexpected funds in its underlying wallet (probably due to a closed channel). It is highly recommended you send these fund to a BTC address as soon as possible.",
-  "unexpected_error_restoring_chain_message": "Restoring chain information might take several minutes.",
-  "unexpected_error_action_cancel": "CANCEL",
-  "unexpected_error_action_exit": "EXIT BREEZ",
-  "unexpected_error_action_exit_for_retry": "EXIT",
-  "unexpected_error_action_try_again": "TRY AGAIN",
-  "unexpected_error_action_just_exit": "EXIT",
-  "unexpected_error_logs": "your logs \n",
-  "unexpected_error_view": "View ",
+  "sweep_all_coins_error_retrieve_fees": "Nepodařilo se načíst poplatky. Zkuste to prosím znovu později.",
+  "sweep_all_coins_error_amount_small": "Částka je pro vysílání příliš malá. Zkuste to prosím znovu později.",
+  "unexpected_funds_title": "Neočekávané prostředky",
+  "unexpected_funds_message": "Breez našel neočekávané prostředky ve své podkladové peněžence (pravděpodobně kvůli uzavřenému kanálu). Důrazně doporučujeme, abyste tyto prostředky co nejdříve poslali na adresu BTC.",
+  "unexpected_error_restoring_chain_message": "Obnova informací o řetězci může trvat několik minut.",
+  "unexpected_error_action_cancel": "ZRUŠIT",
+  "unexpected_error_action_exit": "UKONČIT BREEZ",
+  "unexpected_error_action_exit_for_retry": "UKONČIT",
+  "unexpected_error_action_try_again": "ZKUSTE ZNOVU",
+  "unexpected_error_action_just_exit": "UKONČIT",
+  "unexpected_error_logs": "vaše protokoly \n",
+  "unexpected_error_view": "Zobrazit ",
   "unexpected_error_bullet": "• ",
-  "unexpected_error_bitcoin_node": "your Bitcoin node\n",
-  "unexpected_error_reset": "Reset ",
-  "unexpected_error_chain_information": "chain information\n",
-  "unexpected_error_recover": "Recover ",
-  "unexpected_error_signal": "• Checking the signal in your area\n",
-  "unexpected_error_wifi": "• Turning on mobile data or Wi-Fi\n",
-  "unexpected_error_airplane": "• Turning off airplane mode\n",
-  "unexpected_error_suggestions": "You can try:\n",
-  "unexpected_error_title": "Unexpected Error",
-  "unexpected_error_deactivate_tor": "Deactivate",
-  "transferring_funds_title": "Transferring funds",
-  "select_provider_error_dialog_title": "Connection Error",
-  "select_provider_error_dialog_select_provider_begin": "select ",
-  "select_provider_error_dialog_select_provider_end": "a provider.",
-  "select_provider_error_dialog_message": "In order to activate Breez, please ",
-  "select_provider_error_dialog_message_error": "There was an error connecting to the selected provider. In order to activate Breez, please ",
-  "qr_scan_action_cancel": "CANCEL",
-  "qr_scan_gallery_failed": "No QR Code found in the image",
-  "pending_closed_channel_title": "Pending Closed Channel",
+  "unexpected_error_bitcoin_node": "váš bitcoinový uzel\n",
+  "unexpected_error_reset": "Resetovat ",
+  "unexpected_error_chain_information": "informace o řetězci\n",
+  "unexpected_error_recover": "Obnovit ",
+  "unexpected_error_signal": "• Zkontrolovat signál ve vaší oblasti\n",
+  "unexpected_error_wifi": "• Zapnout mobilní data nebo Wi-Fi\n",
+  "unexpected_error_airplane": "• Vypnout režim letadla\n",
+  "unexpected_error_suggestions": "Můžete zkusit:\n",
+  "unexpected_error_title": "Neočekávaná chyba",
+  "unexpected_error_deactivate_tor": "Deaktivovat",
+  "transferring_funds_title": "Převod prostředků",
+  "select_provider_error_dialog_title": "Chyba připojení",
+  "select_provider_error_dialog_select_provider_begin": "vyberte ",
+  "select_provider_error_dialog_select_provider_end": "poskytovatele.",
+  "select_provider_error_dialog_message": "Chcete-li aktivovat Breez, prosím ",
+  "select_provider_error_dialog_message_error": "Došlo k chybě při připojování k vybranému poskytovateli. Chcete-li aktivovat Breez, prosím ",
+  "qr_scan_action_cancel": "ZRUŠIT",
+  "qr_scan_gallery_failed": "Na obrázku nebyl nalezen žádný QR kód",
+  "pending_closed_channel_title": "Čeká na uzavřený kanál",
   "pending_closed_channel_action_ok": "OK",
-  "close_warning_dialog_title": "Inactive Channels",
+  "close_warning_dialog_title": "Neaktivní kanály",
   "close_warning_dialog_action_ok": "OK",
-  "close_warning_dialog_message_begin": "You haven't made any payments with Breez for {duration} days, so your LSP might have to close your channels. Should this happen, Breez will generate an on-chain address and sweep your funds into it. You will retain complete control of your money, less the mining fee incurred by the sweep transaction, and you can come back any time. To learn more about why this happens, read our post on ",
+  "close_warning_dialog_message_begin": "Neprovedli jste žádné platby pomocí Breez po dobu {duration} dnů, takže vaše LSP možná bude muset zavřít vaše kanály. Pokud k tomu dojde, Breez vygeneruje adresu v řetězci a zamete na ni vaše prostředky. Zachováte si úplnou kontrolu nad svými penězi, po odečtení poplatků za těžbu vzniklých v souvislosti s transakcemi sweepu, přečtěte si další informace o tomto důvodu a můžete se vrátit zpět na ",
   "@close_warning_dialog_message_begin": {
     "placeholders": {
       "duration": {
@@ -2130,20 +2130,20 @@
       }
     }
   },
-  "close_warning_dialog_message_middle": "inbound liquidity",
+  "close_warning_dialog_message_middle": "příchozí likvidita",
   "close_warning_dialog_message_end": ".",
   "close_warning_dialog_url": "https://medium.com/breez-technology/lightning-economics-how-i-learned-to-stop-worrying-and-love-inbound-liquidity-511d05aa8b8b",
-  "admin_login_dialog_manager_password": "Manager Password",
-  "admin_login_dialog_password_label": "Enter your password",
-  "admin_login_dialog_action_cancel": "CANCEL",
+  "admin_login_dialog_manager_password": "Heslo správce",
+  "admin_login_dialog_password_label": "Zadejte své heslo",
+  "admin_login_dialog_action_cancel": "ZRUŠIT",
   "admin_login_dialog_action_ok": "OK",
-  "admin_login_dialog_error_authenticate": "Failed to authenticate as manager",
-  "admin_login_dialog_error_password_required": "Password is required",
-  "admin_login_dialog_error_password_incorrect": "Incorrect Password",
-  "fast_bitcoin_dot_com_voucher": "Fastbitcoins.com Voucher",
-  "fast_bitcoin_dot_com_error_service_unavailable": "Service Unavailable. Please try again later.",
-  "payment_error_insufficient_balance": "Insufficient balance",
-  "payment_error_insufficient_balance_amount": "Insufficient balance: you can send up to {amount} to this destination",
+  "admin_login_dialog_error_authenticate": "Nepodařilo se ověřit jako správce",
+  "admin_login_dialog_error_password_required": "Je vyžadováno heslo",
+  "admin_login_dialog_error_password_incorrect": "Nesprávné heslo",
+  "fast_bitcoin_dot_com_voucher": "Fastbitcoins.com Poukaz",
+  "fast_bitcoin_dot_com_error_service_unavailable": "Služba není dostupná. Zkuste to prosím znovu později.",
+  "payment_error_insufficient_balance": "Nedostatečný zůstatek",
+  "payment_error_insufficient_balance_amount": "Nedostatečný zůstatek: na toto místo můžete poslat až do {amount}",
   "@payment_error_insufficient_balance_amount": {
     "placeholders": {
       "amount": {
@@ -2152,18 +2152,18 @@
       }
     }
   },
-  "payment_error_incorrect_payment_details": "Incorrect payment details",
-  "payment_error_unexpected_error": "Unexpected error",
-  "payment_error_no_route": "No route",
-  "payment_error_payment_timeout_exceeded": "Payment timeout exceeded",
+  "payment_error_incorrect_payment_details": "Nesprávné platební údaje",
+  "payment_error_unexpected_error": "Neočekávaná chyba",
+  "payment_error_no_route": "Žádná trasa",
+  "payment_error_payment_timeout_exceeded": "Vypršel časový limit platby",
   "payment_error_none": "",
-  "swap_error_funds_exceed_limit": "the executed transaction was above the specified limit.",
-  "swap_error_invoice_amount_mismatch": "the requested amount doesn't match the original transaction.",
-  "swap_error_swap_expired": "the transaction had expired.",
-  "swap_error_tx_too_small": "the transaction size was too small to process.",
-  "status_message_unconfirmed_tx_id": "Breez is waiting for Bitcoin transfer to be confirmed. This might take a while",
-  "status_transferring_on_chain_deposit": "Transferring funds",
-  "status_failed_to_add_funds": "Failed to add funds: {error}",
+  "swap_error_funds_exceed_limit": "provedená transakce překročila stanovený limit.",
+  "swap_error_invoice_amount_mismatch": "požadovaná částka neodpovídá původní transakci.",
+  "swap_error_swap_expired": "platnost transakce vypršela.",
+  "swap_error_tx_too_small": "velikost transakce byla příliš malá na zpracování.",
+  "status_message_unconfirmed_tx_id": "Breez čeká na potvrzení převodu bitcoinů. To může chvíli trvat",
+  "status_transferring_on_chain_deposit": "Převod prostředků",
+  "status_failed_to_add_funds": "Nepodařilo se přidat prostředky: {error}",
   "@status_failed_to_add_funds": {
     "placeholders": {
       "error": {
@@ -2172,9 +2172,9 @@
       }
     }
   },
-  "on_chain_payment_error_not_enough_funds": "Not enough funds.",
-  "valid_payment_error_exceeds_limit": "Payment exceeds the limit.",
-  "valid_payment_error_exceeds_the_limit": "Payment exceeds the limit {amount}.",
+  "on_chain_payment_error_not_enough_funds": "Nedostatek prostředků.",
+  "valid_payment_error_exceeds_limit": "Platba překračuje limit.",
+  "valid_payment_error_exceeds_the_limit": "Platba překračuje limit {amount}.",
   "@valid_payment_error_exceeds_the_limit": {
     "placeholders": {
       "amount": {
@@ -2183,7 +2183,7 @@
       }
     }
   },
-  "valid_payment_error_keep_balance": "Breez requires you to keep {amount} in your balance.",
+  "valid_payment_error_keep_balance": "Breez vyžaduje, abyste na svém zůstatku ponechali {amount}.",
   "@valid_payment_error_keep_balance": {
     "placeholders": {
       "amount": {
@@ -2192,12 +2192,12 @@
       }
     }
   },
-  "valid_payment_error_insufficient_balance": "Insufficient local balance",
-  "description_waiting_broadcast": "Waiting to broadcast transaction",
-  "description_broadcast_done": "Transaction was broadcasted",
-  "description_type_deposit": "Bitcoin Transfer",
+  "valid_payment_error_insufficient_balance": "Nedostatečný místní zůstatek",
+  "description_waiting_broadcast": "Čekání na vysílání transakce",
+  "description_broadcast_done": "Transakce byla odvysílána",
+  "description_type_deposit": "Převod bitcoinů",
   "payment_info_title_bitrefill": "Bitrefill",
-  "payment_info_title_breez_sale": "Sale [{date}]",
+  "payment_info_title_breez_sale": "Prodej [{date}]",
   "@payment_info_title_breez_sale": {
     "placeholders": {
       "date": {
@@ -2209,13 +2209,13 @@
   "payment_info_title_lightning_gifts": "lightning.gifts",
   "payment_info_title_ln_pizza": "ln.pizza",
   "payment_info_title_zebedee": "Zebedee",
-  "payment_info_title_bitcoin_transfer": "Bitcoin Transfer",
-  "payment_info_title_closed_channel": "Closed Channel",
-  "payment_info_title_send_to_node": "Send to Node",
-  "payment_info_title_unknown": "Unknown",
-  "payment_info_title_pending_closed_channel": "Pending Closed Channel",
-  "payment_error_to_send_unknown_reason": "Failed to send payment",
-  "payment_error_to_send": "Failed to send payment: {error}",
+  "payment_info_title_bitcoin_transfer": "Převod bitcoinů",
+  "payment_info_title_closed_channel": "Uzavřený kanál",
+  "payment_info_title_send_to_node": "Odeslat do uzlu",
+  "payment_info_title_unknown": "Neznámé",
+  "payment_info_title_pending_closed_channel": "Čeká na uzavřený kanál",
+  "payment_error_to_send_unknown_reason": "Nepodařilo se odeslat platbu",
+  "payment_error_to_send": "Nepodařilo se odeslat platbu: {error}",
   "@payment_error_to_send": {
     "placeholders": {
       "error": {
@@ -2224,42 +2224,42 @@
       }
     }
   },
-  "payment_info_title_opened_channel": "Opened Channel",
-  "payment_info_title_pending_opened_channel": "Pending Opened Channel",
-  "no_lsp_widget_message": "In order to activate Breez, please select a provider:",
-  "no_lsp_widget_action_select": "SELECT…",
-  "podcast_history_drawer": "My Top Podcasts",
-  "podcast_history_share_message": "My top podcasts listened on Breez",
-  "podcast_history_share_text": "SHARE",
-  "podcast_history_sats_streamed": "sats streamed",
-  "podcast_history_boostagrams_sent": "boosts sent",
-  "podcast_history_open_podcast_button": "OPEN PODCASTS",
-  "podcast_history_appbar_top_weekly": "Top Weekly Podcasts",
-  "podcast_history_appbar_top_monthly": "Top Monthly Podcasts",
-  "podcast_history_appbar_top_yearly": "Top Yearly Podcasts",
-  "podcast_history_timerange_dropdown_week": "Past Week",
-  "podcast_history_timerange_dropdown_month": "Past Month",
-  "podcast_history_timerange_dropdown_year": "Past Year",
-  "podcast_history_sort_dropdown_recent": "Recent",
-  "podcast_history_sort_dropdown_duration": "Listened",
-  "podcast_history_sort_dropdown_sats": "Paid",
-  "podcast_history_sort_dropdown_boosts": "Boosted",
-  "podcast_history_empty_text": "No available data to display.",
-  "podcast_clips_clip_button": "CLIP",
-  "podcast_clips_cancel_button": "CANCEL",
-  "podcast_clips_seconds": "seconds",
-  "podcast_clips_dialog_title": "Clip Duration (in seconds)",
-  "podcast_clips_dialog_done": "DONE",
-  "podcast_clips_error": "An error has occurred while clipping the episode. Please try again.",
-  "localized_error_message_invalid_pair_hash": "Fee estimations have expired. Please retry.",
-  "share_log_text": "Share Log",
-  "share_file_title": "Share File",
-  "mempool_settings_custom_url": "Mempool API URL",
-  "mempool_settings_custom_url_error": "Invalid Mempool API URL",
-  "mempool_settings_action_reset": "Reset",
-  "mempool_settings_action_save": "Save",
-  "lnurl_payment_page_title": "LNURL Invoice",
-  "lnurl_payment_page_domain_pay": "{domain} is requesting you to pay {amount} sats.",
+  "payment_info_title_opened_channel": "Otevřený kanál",
+  "payment_info_title_pending_opened_channel": "Čeká na otevřený kanál",
+  "no_lsp_widget_message": "Chcete-li aktivovat Breez, vyberte poskytovatele:",
+  "no_lsp_widget_action_select": "VYBRAT…",
+  "podcast_history_drawer": "Moje nejlepší podcasty",
+  "podcast_history_share_message": "Moje nejlepší podcasty poslouchané na Breez",
+  "podcast_history_share_text": "SDÍLET",
+  "podcast_history_sats_streamed": "streamované saty",
+  "podcast_history_boostagrams_sent": "poslána zvýšení",
+  "podcast_history_open_podcast_button": "OTEVŘENÉ PODCASTY",
+  "podcast_history_appbar_top_weekly": "Nejlepší týdenní podcasty",
+  "podcast_history_appbar_top_monthly": "Nejlepší měsíční podcasty",
+  "podcast_history_appbar_top_yearly": "Nejlepší roční podcasty",
+  "podcast_history_timerange_dropdown_week": "Minulý týden",
+  "podcast_history_timerange_dropdown_month": "Minulý měsíc",
+  "podcast_history_timerange_dropdown_year": "Minulý rok",
+  "podcast_history_sort_dropdown_recent": "Nedávné",
+  "podcast_history_sort_dropdown_duration": "Posloucháno",
+  "podcast_history_sort_dropdown_sats": "Zaplaceno",
+  "podcast_history_sort_dropdown_boosts": "Posíleno",
+  "podcast_history_empty_text": "Žádná dostupná data k zobrazení.",
+  "podcast_clips_clip_button": "OŘEZAT",
+  "podcast_clips_cancel_button": "ZRUŠIT",
+  "podcast_clips_seconds": "sekundy",
+  "podcast_clips_dialog_title": "Trvání klipu (v sekundách)",
+  "podcast_clips_dialog_done": "HOTOVO",
+  "podcast_clips_error": "Při ořezávání epizody došlo k chybě. Zkuste to prosím znovu.",
+  "localized_error_message_invalid_pair_hash": "Platnost odhadu poplatků vypršela. Zkuste to prosím znovu.",
+  "share_log_text": "Sdílet protokol",
+  "share_file_title": "Sdílet soubor",
+  "mempool_settings_custom_url": "Adresa URL rozhraní Mempool API",
+  "mempool_settings_custom_url_error": "Neplatná adresa URL Mempool API",
+  "mempool_settings_action_reset": "Resetovat",
+  "mempool_settings_action_save": "Uložit",
+  "lnurl_payment_page_title": "Faktura LNURL",
+  "lnurl_payment_page_domain_pay": "{domain} vás žádá o zaplacení {amount} satů.",
   "@lnurl_payment_page_domain_pay": {
     "placeholders": {
       "domain": {
@@ -2272,10 +2272,10 @@
       }
     }
   },
-  "lnurl_payment_page_comment": "Comment (optional)",
-  "lnurl_payment_page_enter_k1": "Please enter a k1",
-  "lnurl_payment_page_action_pay": "PAY",
-  "lnurl_payment_page_error_exceeds_limit": "Exceeds maximum sendable amount: {amount}",
+  "lnurl_payment_page_comment": "Komentář (volitelné)",
+  "lnurl_payment_page_enter_k1": "Zadejte k1",
+  "lnurl_payment_page_action_pay": "ZAPLATIT",
+  "lnurl_payment_page_error_exceeds_limit": "Překračuje maximální částku, kterou lze odeslat: {amount}",
   "@lnurl_payment_page_error_exceeds_limit": {
     "placeholders": {
       "amount": {
@@ -2284,7 +2284,7 @@
       }
     }
   },
-  "lnurl_payment_page_error_below_limit": "Below minimum accepted amount: {amount}",
+  "lnurl_payment_page_error_below_limit": "Pod minimální přijatelnou částkou: {amount}",
   "@lnurl_payment_page_error_below_limit": {
     "placeholders": {
       "amount": {
@@ -2293,12 +2293,12 @@
       }
     }
   },
-  "lnurl_payment_page_unknown_error": "Unknown error",
-  "node_state_error": "Failed to get node state",
-  "generic_network_error": "Failed to connect to Breez. Please check your internet connection and try again.",
-  "moonpay_network_error": "Failed to connect to MoonPay. Please check your internet connection and try again.",
-  "moonpay_retry_button": "RETRY",
-  "moonpay_swap_in_progress": "Swap in progress was detected for address {address}. Please wait for it to complete.",
+  "lnurl_payment_page_unknown_error": "Neznámá chyba",
+  "node_state_error": "Nepodařilo se získat stav uzlu",
+  "generic_network_error": "Nepodařilo se připojit k Breez. Zkontrolujte prosím připojení k internetu a zkuste to znovu.",
+  "moonpay_network_error": "Nepodařilo se připojit k MoonPay. Zkontrolujte prosím své internetové připojení a zkuste to znovu.",
+  "moonpay_retry_button": "OPAKOVAT",
+  "moonpay_swap_in_progress": "Pro adresu {address} byla zjištěna probíhající výměna. Počkejte prosím na její dokončení.",
   "@moonpay_swap_in_progress": {
     "placeholders": {
       "address": {
@@ -2307,11 +2307,11 @@
       }
     }
   },
-  "moonpay_swap_in_progress_action": "See the transaction in Mempool",
-  "moonpay_swap_expired": "A swap was in progress, but it has expired; Breez is generating a refund for you.",
-  "moonpay_swap_expired_action": "Back to home",
-  "setup_fees_dialog_title": "Setup Fees",
-  "setup_fees_dialog_message": "Please notice the updated setup fees under the QR code before receiving a payment.",
-  "locale": "en",
+  "moonpay_swap_in_progress_action": "Zobrazit transakci v Mempool",
+  "moonpay_swap_expired": "Probíhala výměna, ale její platnost vypršela; Breez vám generuje náhradu.",
+  "moonpay_swap_expired_action": "Zpět domů",
+  "setup_fees_dialog_title": "Zřizovací poplatky",
+  "setup_fees_dialog_message": "Před přijetím platby si prosím všimněte aktualizovaných poplatků za nastavení pod QR kódem.",
+  "locale": "cz",
   "app_name": "Breez"
 }
