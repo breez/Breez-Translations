@@ -56,9 +56,12 @@ void main() {
         expect(text.contains(provider), true);
       });
 
-      test("invoice_btc_address_warning_with_min_fee_account_connected for ${locale.locale}", () {
-        final text = locale.invoice_btc_address_warning_with_min_fee_account_connected(
-            minSats, maxSats, setUpFee, minFee, liquidity);
+      test(
+          "invoice_btc_address_warning_with_min_fee_account_connected for ${locale.locale}",
+          () {
+        final text =
+            locale.invoice_btc_address_warning_with_min_fee_account_connected(
+                minSats, maxSats, setUpFee, minFee, liquidity);
         expect(text.contains(minSats), true);
         expect(text.contains(maxSats), true);
         expect(text.contains(setUpFee), true);
@@ -66,27 +69,34 @@ void main() {
         expect(text.contains(liquidity), true);
       });
 
-      test("invoice_btc_address_warning_without_min_fee_account_connected for ${locale.locale}", () {
-        final text = locale.invoice_btc_address_warning_without_min_fee_account_connected(
-            minSats, maxSats, setUpFee, liquidity);
+      test(
+          "invoice_btc_address_warning_without_min_fee_account_connected for ${locale.locale}",
+          () {
+        final text = locale
+            .invoice_btc_address_warning_without_min_fee_account_connected(
+                minSats, maxSats);
         expect(text.contains(minSats), true);
         expect(text.contains(maxSats), true);
-        expect(text.contains(setUpFee), true);
-        expect(text.contains(liquidity), true);
       });
 
-      test("invoice_btc_address_warning_with_min_fee_account_not_connected for ${locale.locale}", () {
-        final text = locale.invoice_btc_address_warning_with_min_fee_account_not_connected(
-            minSats, maxSats, setUpFee, minFee);
+      test(
+          "invoice_btc_address_warning_with_min_fee_account_not_connected for ${locale.locale}",
+          () {
+        final text = locale
+            .invoice_btc_address_warning_with_min_fee_account_not_connected(
+                minSats, maxSats, setUpFee, minFee);
         expect(text.contains(minSats), true);
         expect(text.contains(maxSats), true);
         expect(text.contains(setUpFee), true);
         expect(text.contains(minFee), true);
       });
 
-      test("invoice_btc_address_warning_without_min_fee_account_not_connected for ${locale.locale}", () {
-        final text = locale.invoice_btc_address_warning_without_min_fee_account_not_connected(
-            minSats, maxSats, setUpFee);
+      test(
+          "invoice_btc_address_warning_without_min_fee_account_not_connected for ${locale.locale}",
+          () {
+        final text = locale
+            .invoice_btc_address_warning_without_min_fee_account_not_connected(
+                minSats, maxSats, setUpFee);
         expect(text.contains(minSats), true);
         expect(text.contains(maxSats), true);
         expect(text.contains(setUpFee), true);
@@ -107,28 +117,43 @@ void main() {
         expect(text.contains(maxSats), true);
       });
 
-      test("invoice_ln_address_warning_with_min_fee_account_connected for ${locale.locale}", () {
+      test(
+          "invoice_ln_address_warning_with_min_fee_account_connected for ${locale.locale}",
+          () {
         final text =
-            locale.invoice_ln_address_warning_with_min_fee_account_connected(setUpFee, minFee, liquidity);
+            locale.invoice_ln_address_warning_with_min_fee_account_connected(
+                setUpFee, minFee, liquidity);
         expect(text.contains(setUpFee), true);
         expect(text.contains(minFee), true);
         expect(text.contains(liquidity), true);
       });
 
-      test("invoice_ln_address_warning_without_min_fee_account_connected for ${locale.locale}", () {
-        final text = locale.invoice_ln_address_warning_without_min_fee_account_connected(setUpFee, liquidity);
+      test(
+          "invoice_ln_address_warning_without_min_fee_account_connected for ${locale.locale}",
+          () {
+        final text =
+            locale.invoice_ln_address_warning_without_min_fee_account_connected(
+                setUpFee, liquidity);
         expect(text.contains(setUpFee), true);
         expect(text.contains(liquidity), true);
       });
 
-      test("invoice_ln_address_warning_with_min_fee_account_not_connected for ${locale.locale}", () {
-        final text = locale.invoice_ln_address_warning_with_min_fee_account_not_connected(setUpFee, minFee);
+      test(
+          "invoice_ln_address_warning_with_min_fee_account_not_connected for ${locale.locale}",
+          () {
+        final text = locale
+            .invoice_ln_address_warning_with_min_fee_account_not_connected(
+                setUpFee, minFee);
         expect(text.contains(setUpFee), true);
         expect(text.contains(minFee), true);
       });
 
-      test("invoice_ln_address_warning_without_min_fee_account_not_connected for ${locale.locale}", () {
-        final text = locale.invoice_ln_address_warning_without_min_fee_account_not_connected(setUpFee);
+      test(
+          "invoice_ln_address_warning_without_min_fee_account_not_connected for ${locale.locale}",
+          () {
+        final text = locale
+            .invoice_ln_address_warning_without_min_fee_account_not_connected(
+                setUpFee);
         expect(text.contains(setUpFee), true);
       });
 
@@ -137,14 +162,20 @@ void main() {
         expect(text.contains(balance), true);
       });
 
-      test("payment_details_dialog_closed_channel_about_hours for ${locale.locale}", () {
-        final text = locale.payment_details_dialog_closed_channel_about_hours(hours);
+      test(
+          "payment_details_dialog_closed_channel_about_hours for ${locale.locale}",
+          () {
+        final text =
+            locale.payment_details_dialog_closed_channel_about_hours(hours);
         expect(text.contains(hours), true);
       });
 
-      test("payment_details_dialog_closed_channel_transfer_estimation for ${locale.locale}", () {
+      test(
+          "payment_details_dialog_closed_channel_transfer_estimation for ${locale.locale}",
+          () {
         final text =
-            locale.payment_details_dialog_closed_channel_transfer_estimation(lockHeightInt, hoursToUnlock);
+            locale.payment_details_dialog_closed_channel_transfer_estimation(
+                lockHeightInt, hoursToUnlock);
         expect(text.contains(lockHeight), true);
         expect(text.contains(hoursToUnlock), true);
       });
@@ -211,7 +242,8 @@ void main() {
       });
 
       test("sale_view_total_title_read_only_fiat for ${locale.locale}", () {
-        final text = locale.sale_view_total_title_read_only_fiat(value, fiatValue);
+        final text =
+            locale.sale_view_total_title_read_only_fiat(value, fiatValue);
         expect(text.contains(value), true);
         expect(text.contains(fiatValue), true);
       });
@@ -261,7 +293,8 @@ void main() {
       });
 
       test("connect_to_pay_payee_message_with_fiat for ${locale.locale}", () {
-        final text = locale.connect_to_pay_payee_message_with_fiat(name, amount, fiat);
+        final text =
+            locale.connect_to_pay_payee_message_with_fiat(name, amount, fiat);
         expect(text.contains(name), true);
         expect(text.contains(amount), true);
         expect(text.contains(fiat), true);
@@ -293,13 +326,17 @@ void main() {
         expect(text.contains(name), true);
       });
 
-      test("connect_to_pay_payer_waiting_join_with_name for ${locale.locale}", () {
+      test("connect_to_pay_payer_waiting_join_with_name for ${locale.locale}",
+          () {
         final text = locale.connect_to_pay_payer_waiting_join_with_name(name);
         expect(text.contains(name), true);
       });
 
-      test("connect_to_pay_payer_waiting_approve_with_name for ${locale.locale}", () {
-        final text = locale.connect_to_pay_payer_waiting_approve_with_name(name);
+      test(
+          "connect_to_pay_payer_waiting_approve_with_name for ${locale.locale}",
+          () {
+        final text =
+            locale.connect_to_pay_payer_waiting_approve_with_name(name);
         expect(text.contains(name), true);
       });
 
@@ -309,13 +346,17 @@ void main() {
         expect(text.contains(address), true);
       });
 
-      test("security_and_backup_last_backup_no_account for ${locale.locale}", () {
-        final text = locale.security_and_backup_last_backup_no_account(lastBackup);
+      test("security_and_backup_last_backup_no_account for ${locale.locale}",
+          () {
+        final text =
+            locale.security_and_backup_last_backup_no_account(lastBackup);
         expect(text.contains(lastBackup), true);
       });
 
-      test("security_and_backup_last_backup_with_account for ${locale.locale}", () {
-        final text = locale.security_and_backup_last_backup_with_account(lastBackup, accountName);
+      test("security_and_backup_last_backup_with_account for ${locale.locale}",
+          () {
+        final text = locale.security_and_backup_last_backup_with_account(
+            lastBackup, accountName);
         expect(text.contains(lastBackup), true);
         expect(text.contains(accountName), true);
       });
@@ -336,23 +377,31 @@ void main() {
         expect(text.contains(currencyName), true);
       });
 
-      test("reverse_swap_confirmation_received_no_fiat for ${locale.locale}", () {
-        final text = locale.reverse_swap_confirmation_received_no_fiat(received);
+      test("reverse_swap_confirmation_received_no_fiat for ${locale.locale}",
+          () {
+        final text =
+            locale.reverse_swap_confirmation_received_no_fiat(received);
         expect(text.contains(received), true);
       });
 
-      test("reverse_swap_confirmation_received_with_fiat for ${locale.locale}", () {
-        final text = locale.reverse_swap_confirmation_received_with_fiat(received, fiat);
+      test("reverse_swap_confirmation_received_with_fiat for ${locale.locale}",
+          () {
+        final text =
+            locale.reverse_swap_confirmation_received_with_fiat(received, fiat);
         expect(text.contains(received), true);
         expect(text.contains(fiat), true);
       });
 
-      test("reverse_swap_confirmation_transaction_fee_value for ${locale.locale}", () {
-        final text = locale.reverse_swap_confirmation_transaction_fee_value(fee);
+      test(
+          "reverse_swap_confirmation_transaction_fee_value for ${locale.locale}",
+          () {
+        final text =
+            locale.reverse_swap_confirmation_transaction_fee_value(fee);
         expect(text.contains(fee), true);
       });
 
-      test("reverse_swap_confirmation_boltz_fee_value for ${locale.locale}", () {
+      test("reverse_swap_confirmation_boltz_fee_value for ${locale.locale}",
+          () {
         final text = locale.reverse_swap_confirmation_boltz_fee_value(fee);
         expect(text.contains(fee), true);
       });
@@ -367,8 +416,11 @@ void main() {
         expect(text.contains(maxValue), true);
       });
 
-      test("funds_over_limit_dialog_transfer_fail_with_reason for ${locale.locale}", () {
-        final text = locale.funds_over_limit_dialog_transfer_fail_with_reason(reason);
+      test(
+          "funds_over_limit_dialog_transfer_fail_with_reason for ${locale.locale}",
+          () {
+        final text =
+            locale.funds_over_limit_dialog_transfer_fail_with_reason(reason);
         expect(text.contains(reason), true);
       });
 
@@ -378,7 +430,8 @@ void main() {
       });
 
       test("funds_over_limit_dialog_redeem_hours for ${locale.locale}", () {
-        final text = locale.funds_over_limit_dialog_redeem_hours(lockHeight, hoursToUnlock);
+        final text = locale.funds_over_limit_dialog_redeem_hours(
+            lockHeight, hoursToUnlock);
         expect(text.contains(lockHeight), true);
         expect(text.contains(hoursToUnlock), true);
       });
@@ -414,27 +467,39 @@ void main() {
         expect(text.contains(nodeId), true);
       });
 
-      test("lsp_fee_warning_with_min_fee_account_connected for ${locale.locale}", () {
-        final text = locale.lsp_fee_warning_with_min_fee_account_connected(setUpFee, minFee, liquidity);
+      test(
+          "lsp_fee_warning_with_min_fee_account_connected for ${locale.locale}",
+          () {
+        final text = locale.lsp_fee_warning_with_min_fee_account_connected(
+            setUpFee, minFee, liquidity);
         expect(text.contains(setUpFee), true);
         expect(text.contains(minFee), true);
         expect(text.contains(liquidity), true);
       });
 
-      test("lsp_fee_warning_without_min_fee_account_connected for ${locale.locale}", () {
-        final text = locale.lsp_fee_warning_without_min_fee_account_connected(setUpFee, liquidity);
+      test(
+          "lsp_fee_warning_without_min_fee_account_connected for ${locale.locale}",
+          () {
+        final text = locale.lsp_fee_warning_without_min_fee_account_connected(
+            setUpFee, liquidity);
         expect(text.contains(setUpFee), true);
         expect(text.contains(liquidity), true);
       });
 
-      test("lsp_fee_warning_with_min_fee_account_not_connected for ${locale.locale}", () {
-        final text = locale.lsp_fee_warning_with_min_fee_account_not_connected(setUpFee, minFee);
+      test(
+          "lsp_fee_warning_with_min_fee_account_not_connected for ${locale.locale}",
+          () {
+        final text = locale.lsp_fee_warning_with_min_fee_account_not_connected(
+            setUpFee, minFee);
         expect(text.contains(setUpFee), true);
         expect(text.contains(minFee), true);
       });
 
-      test("lsp_fee_warning_without_min_fee_account_not_connected for ${locale.locale}", () {
-        final text = locale.lsp_fee_warning_without_min_fee_account_not_connected(setUpFee);
+      test(
+          "lsp_fee_warning_without_min_fee_account_not_connected for ${locale.locale}",
+          () {
+        final text = locale
+            .lsp_fee_warning_without_min_fee_account_not_connected(setUpFee);
         expect(text.contains(setUpFee), true);
       });
 
@@ -443,7 +508,8 @@ void main() {
         expect(text.contains(hours), true);
       });
 
-      test("fee_chooser_estimated_delivery_hour_range for ${locale.locale}", () {
+      test("fee_chooser_estimated_delivery_hour_range for ${locale.locale}",
+          () {
         final text = locale.fee_chooser_estimated_delivery_hour_range(hours);
         expect(text.contains(hours), true);
       });
@@ -470,7 +536,8 @@ void main() {
       });
 
       test("breez_date_picker_previous_month_tooltip for ${locale.locale}", () {
-        final text = locale.breez_date_picker_previous_month_tooltip(message, date);
+        final text =
+            locale.breez_date_picker_previous_month_tooltip(message, date);
         expect(text.contains(message), true);
         expect(text.contains(date), true);
       });
@@ -508,7 +575,8 @@ void main() {
       });
 
       test("add_funds_item_exchange_rate_message for ${locale.locale}", () {
-        final text = locale.add_funds_item_exchange_rate_message(rate, currency);
+        final text =
+            locale.add_funds_item_exchange_rate_message(rate, currency);
         expect(text.contains(rate), true);
         expect(text.contains(currency), true);
       });
@@ -519,7 +587,8 @@ void main() {
       });
 
       test("add_funds_item_commission_total_message for ${locale.locale}", () {
-        final text = locale.add_funds_item_commission_total_message(commission, currency);
+        final text = locale.add_funds_item_commission_total_message(
+            commission, currency);
         expect(text.contains(commission), true);
         expect(text.contains(currency), true);
       });
@@ -558,7 +627,8 @@ void main() {
       });
 
       test("qr_code_dialog_warning_message_with_lsp for ${locale.locale}", () {
-        final text = locale.qr_code_dialog_warning_message_with_lsp(setUpFee, fiatFee);
+        final text =
+            locale.qr_code_dialog_warning_message_with_lsp(setUpFee, fiatFee);
         expect(text.contains(setUpFee), true);
         expect(text.contains(fiatFee), true);
       });
@@ -573,17 +643,24 @@ void main() {
         expect(text.contains(error), true);
       });
 
-      test("wallet_dashboard_payment_item_balance_positive for ${locale.locale}", () {
-        final text = locale.wallet_dashboard_payment_item_balance_positive(value);
+      test(
+          "wallet_dashboard_payment_item_balance_positive for ${locale.locale}",
+          () {
+        final text =
+            locale.wallet_dashboard_payment_item_balance_positive(value);
         expect(text.contains(value), true);
       });
 
-      test("wallet_dashboard_payment_item_balance_negative for ${locale.locale}", () {
-        final text = locale.wallet_dashboard_payment_item_balance_negative(value);
+      test(
+          "wallet_dashboard_payment_item_balance_negative for ${locale.locale}",
+          () {
+        final text =
+            locale.wallet_dashboard_payment_item_balance_negative(value);
         expect(text.contains(value), true);
       });
 
-      test("wallet_dashboard_payment_item_balance_fee for ${locale.locale}", () {
+      test("wallet_dashboard_payment_item_balance_fee for ${locale.locale}",
+          () {
         final text = locale.wallet_dashboard_payment_item_balance_fee(fee);
         expect(text.contains(fee), true);
       });
@@ -625,8 +702,10 @@ void main() {
         expect(text.contains(reason), true);
       });
 
-      test("podcast_boost_custom_amount_error_too_few for ${locale.locale}", () {
-        final text = locale.podcast_boost_custom_amount_error_too_few(amountInt);
+      test("podcast_boost_custom_amount_error_too_few for ${locale.locale}",
+          () {
+        final text =
+            locale.podcast_boost_custom_amount_error_too_few(amountInt);
         expect(text.contains(amount), true);
       });
 
@@ -654,7 +733,8 @@ void main() {
       });
 
       test("backup_phrase_generation_type_words for ${locale.locale}", () {
-        final text = locale.backup_phrase_generation_type_words(numberAInt, numberBInt, numberCInt);
+        final text = locale.backup_phrase_generation_type_words(
+            numberAInt, numberBInt, numberCInt);
         expect(text.contains(numberA), true);
         expect(text.contains(numberB), true);
         expect(text.contains(numberC), true);
@@ -671,7 +751,8 @@ void main() {
       });
 
       test("spontaneous_payment_send_payment_message for ${locale.locale}", () {
-        final text = locale.spontaneous_payment_send_payment_message(amount, nodeId);
+        final text =
+            locale.spontaneous_payment_send_payment_message(amount, nodeId);
         expect(text.contains(amount), true);
         expect(text.contains(nodeId), true);
       });
@@ -697,7 +778,8 @@ void main() {
         expect(text.contains(duration), true);
       });
 
-      test("payment_error_insufficient_balance_amount for ${locale.locale}", () {
+      test("payment_error_insufficient_balance_amount for ${locale.locale}",
+          () {
         final text = locale.payment_error_insufficient_balance_amount(duration);
         expect(text.contains(duration), true);
       });
@@ -727,7 +809,8 @@ void main() {
         expect(text.contains(error), true);
       });
 
-      test("reverse_swap_upstream_generic_error_message for ${locale.locale}", () {
+      test("reverse_swap_upstream_generic_error_message for ${locale.locale}",
+          () {
         final text = locale.reverse_swap_upstream_generic_error_message(error);
         expect(text.contains(error), true);
       });
@@ -737,8 +820,10 @@ void main() {
         expect(text.contains(url), true);
       });
 
-      test("lnurl_withdraw_dialog_error_amount_exceeds for ${locale.locale}", () {
-        final text = locale.lnurl_withdraw_dialog_error_amount_exceeds(amountInt);
+      test("lnurl_withdraw_dialog_error_amount_exceeds for ${locale.locale}",
+          () {
+        final text =
+            locale.lnurl_withdraw_dialog_error_amount_exceeds(amountInt);
         expect(text.contains(amount), true);
       });
 
@@ -764,22 +849,29 @@ void main() {
       });
 
       test("invoice_payment_validator_error_payment_exceeded_limit", () {
-        final text = locale.invoice_payment_validator_error_payment_exceeded_limit(maxSats);
+        final text = locale
+            .invoice_payment_validator_error_payment_exceeded_limit(maxSats);
         expect(text.contains(maxSats), true);
       });
 
       test("invoice_payment_validator_error_payment_below_invoice_limit", () {
-        final text = locale.invoice_payment_validator_error_payment_below_invoice_limit(minSats);
+        final text =
+            locale.invoice_payment_validator_error_payment_below_invoice_limit(
+                minSats);
         expect(text.contains(minSats), true);
       });
 
       test("invoice_payment_validator_error_payment_below_limit", () {
-        final text = locale.invoice_payment_validator_error_payment_below_limit(minSats);
+        final text =
+            locale.invoice_payment_validator_error_payment_below_limit(minSats);
         expect(text.contains(minSats), true);
       });
 
-      test("invoice_payment_validator_error_payment_below_setup_fees_error", () {
-        final text = locale.invoice_payment_validator_error_payment_below_setup_fees_error(setUpFee);
+      test("invoice_payment_validator_error_payment_below_setup_fees_error",
+          () {
+        final text = locale
+            .invoice_payment_validator_error_payment_below_setup_fees_error(
+                setUpFee);
         expect(text.contains(setUpFee), true);
       });
 
