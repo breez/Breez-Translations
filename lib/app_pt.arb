@@ -49,7 +49,7 @@
   "invoice_btc_address_network_error": "Houve uma falha ao recuperar o endereço do servidor da Breez\nPor favor, verifique sua conexão com a internet e tente novamente.",
   "invoice_btc_address_action_retry": "TENTAR NOVAMENTE",
   "invoice_btc_address_action_close": "FECHAR",
-  "invoice_btc_address_warning_with_min_fee_account_connected": "Envie mais de {minSats} e no máximo {maxSats} para este endereço. Uma taxa de configuração de {setUpFee}% com um mínimo de {minFee} será aplicada caso o envio seja maior do que {liquidity}. Este endereço poderá ser utilizado uma única vez.",
+  "invoice_btc_address_warning_with_min_fee_account_connected": "Envie mais de {minSats} e no máximo {maxSats} para este endereço. Uma taxa de configuração de {setUpFee}% com um mínimo de {minFee} será aplicada ao enviar mais de {liquidity}. Este endereço poderá ser utilizado uma única vez.",
   "@invoice_btc_address_warning_with_min_fee_account_connected": {
     "placeholders": {
       "minSats": {
@@ -59,10 +59,6 @@
       "maxSats": {
         "type": "String",
         "example": "4 000 000 sats"
-      },
-      "setUpFee": {
-        "type": "String",
-        "example": "0.4"
       },
       "minFee": {
         "type": "String",

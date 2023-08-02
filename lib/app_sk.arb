@@ -49,7 +49,7 @@
   "invoice_btc_address_network_error": "Nepodarilo sa načítať adresu zo servera Breez\nSkontroluj si internetové pripojenie.",
   "invoice_btc_address_action_retry": "SKÚSIŤ ZNOVA",
   "invoice_btc_address_action_close": "ZAVRIEŤ",
-  "invoice_btc_address_warning_with_min_fee_account_connected": "Na túto adresu pošli minimálne {minSats} ale maximálne {maxSats}. Za odoslanie viac ako {liquidity}, si Breez naúčtuje zriaďovací poplatok vo výške {setUpFee}%, minimálne však {minFee}.",
+  "invoice_btc_address_warning_with_min_fee_account_connected": "Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% with a minimum of {minFee} will be applied for sending more than {liquidity}. This address can be used only once.",
   "@invoice_btc_address_warning_with_min_fee_account_connected": {
     "placeholders": {
       "minSats": {
@@ -59,10 +59,6 @@
       "maxSats": {
         "type": "String",
         "example": "4 000 000 sats"
-      },
-      "setUpFee": {
-        "type": "String",
-        "example": "0.4"
       },
       "minFee": {
         "type": "String",

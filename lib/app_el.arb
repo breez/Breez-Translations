@@ -60,10 +60,6 @@
         "type": "String",
         "example": "4 000 000 sats"
       },
-      "setUpFee": {
-        "type": "String",
-        "example": "0.4"
-      },
       "minFee": {
         "type": "String",
         "example": "1 000 sats"

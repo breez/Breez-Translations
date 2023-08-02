@@ -49,7 +49,7 @@
   "invoice_btc_address_network_error": "Nepodařilo se načíst adresu ze serveru Breez\nZkontrolujte prosím připojení k internetu.",
   "invoice_btc_address_action_retry": "OPAKOVAT",
   "invoice_btc_address_action_close": "ZAVŘÍT",
-  "invoice_btc_address_warning_with_min_fee_account_connected": "Posílejte na tuto adresu více než {minSats} a až {maxSats}. Za odesílání více než {liquidity} bude účtován poplatek za nastavení ve výši {setUpFee} % s minimem {minFee}. Tuto adresu lze použít pouze jednou.",
+  "invoice_btc_address_warning_with_min_fee_account_connected": "Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% with a minimum of {minFee} will be applied for sending more than {liquidity}. This address can be used only once.",
   "@invoice_btc_address_warning_with_min_fee_account_connected": {
     "placeholders": {
       "minSats": {
@@ -59,10 +59,6 @@
       "maxSats": {
         "type": "String",
         "example": "4 000 000 sats"
-      },
-      "setUpFee": {
-        "type": "String",
-        "example": "0.4"
       },
       "minFee": {
         "type": "String",
@@ -74,7 +70,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_without_min_fee_account_connected": "Pošlete na tuto adresu více než {minSats} a až {maxSats}. Za odesílání více než {likvidity} bude účtován poplatek za nastavení ve výši {setUpFee} %. Tuto adresu lze použít pouze jednou.",
+  "invoice_btc_address_warning_without_min_fee_account_connected": "Send more than {minSats} and up to {maxSats} to this address. This address can be used only once.",
   "@invoice_btc_address_warning_without_min_fee_account_connected": {
     "placeholders": {
       "minSats": {
@@ -84,14 +80,6 @@
       "maxSats": {
         "type": "String",
         "example": "4 000 000 sats"
-      },
-      "setUpFee": {
-        "type": "String",
-        "example": "0.4"
-      },
-      "liquidity": {
-        "type": "String",
-        "example": "99 000 sats"
       }
     }
   },
