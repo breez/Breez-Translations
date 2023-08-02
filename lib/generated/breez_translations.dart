@@ -5,6 +5,7 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
+import 'breez_translations_cs.dart';
 import 'breez_translations_de.dart';
 import 'breez_translations_el.dart';
 import 'breez_translations_en.dart';
@@ -98,6 +99,7 @@ abstract class BreezTranslations {
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
+    Locale('cs'),
     Locale('de'),
     Locale('el'),
     Locale('es'),
@@ -6089,7 +6091,7 @@ class _BreezTranslationsDelegate extends LocalizationsDelegate<BreezTranslations
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['de', 'el', 'en', 'es', 'fi', 'fr', 'it', 'pt', 'sk', 'sv'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['cs', 'de', 'el', 'en', 'es', 'fi', 'fr', 'it', 'pt', 'sk', 'sv'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_BreezTranslationsDelegate old) => false;
@@ -6100,6 +6102,7 @@ BreezTranslations lookupBreezTranslations(Locale locale) {
 
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
+    case 'cs': return BreezTranslationsCs();
     case 'de': return BreezTranslationsDe();
     case 'el': return BreezTranslationsEl();
     case 'en': return BreezTranslationsEn();

@@ -112,7 +112,7 @@ class BreezTranslationsFr extends BreezTranslations {
 
   @override
   String invoice_btc_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String minFee, String liquidity, Object setUpFee) {
-    return 'Envoyez plus de $minSats et jusqu\'à $maxSats à cette adresse. Des frais de mise en place de $setUpFee% avec un minimum de $minFee seront appliqués pour l\'envoi de plus de $liquidity. This address can be used only once.';
+    return 'Send more than $minSats and up to $maxSats to this address. A setup fee of $setUpFee% with a minimum of $minFee will be applied for sending more than $liquidity. This address can be used only once.';
   }
 
   @override

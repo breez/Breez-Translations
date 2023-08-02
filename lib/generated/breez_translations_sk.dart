@@ -80,7 +80,7 @@ class BreezTranslationsSk extends BreezTranslations {
 
   @override
   String home_config_backup_error_encrypted(String provider) {
-    return 'Breez has detected that the app is using an old backup. Please reinstall and restore from the latest backup available in $provider. Note that you won\'t be able to restore Breez without your encryption key.';
+    return 'Breez zistil, že aplikácia používa starú zálohu. Preinštaluj a obnov z najnovšej zálohy dostupnej u $provider. Pozor, že bez šifrovacieho kľúča nebudeš môcť obnoviť Breez.';
   }
 
   @override
@@ -112,7 +112,7 @@ class BreezTranslationsSk extends BreezTranslations {
 
   @override
   String invoice_btc_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String minFee, String liquidity, Object setUpFee) {
-    return 'Na túto adresu pošli minimálne $minSats ale maximálne $maxSats. Za odoslanie viac ako $liquidity, si Breez naúčtuje zriaďovací poplatok vo výške $setUpFee%, minimálne však $minFee.';
+    return 'Send more than $minSats and up to $maxSats to this address. A setup fee of $setUpFee% with a minimum of $minFee will be applied for sending more than $liquidity. This address can be used only once.';
   }
 
   @override
@@ -3232,30 +3232,30 @@ class BreezTranslationsSk extends BreezTranslations {
   String get generic_network_error => 'Nepodarilo sa pripojiť k Breez. Skontroluj internetové pripojenie a skús to znova.';
 
   @override
-  String get moonpay_network_error => 'Failed to connect to MoonPay. Please check your internet connection and try again.';
+  String get moonpay_network_error => 'Nepodarilo sa pripojiť k MoonPay. Skontroluj internetové pripojenie a skús to znova.';
 
   @override
-  String get moonpay_retry_button => 'RETRY';
+  String get moonpay_retry_button => 'OPAKOVAŤ';
 
   @override
   String moonpay_swap_in_progress(String address) {
-    return 'Swap in progress was detected for address $address. Please wait for it to complete.';
+    return 'Bola zistená prebiehajúca výmena adresy $address. Počkaj, prosím, kým sa dokončí.';
   }
 
   @override
-  String get moonpay_swap_in_progress_action => 'See the transaction in Mempool';
+  String get moonpay_swap_in_progress_action => 'Pozri si transakciu v Mempool';
 
   @override
-  String get moonpay_swap_expired => 'A swap was in progress, but it has expired; Breez is generating a refund for you.';
+  String get moonpay_swap_expired => 'Prebiehala výmena, ale jej platnosť vypršala; Breez ti generuje náhradu.';
 
   @override
-  String get moonpay_swap_expired_action => 'Back to home';
+  String get moonpay_swap_expired_action => 'Späť domov';
 
   @override
-  String get setup_fees_dialog_title => 'Setup Fees';
+  String get setup_fees_dialog_title => 'Poplatky za nastavenie';
 
   @override
-  String get setup_fees_dialog_message => 'Please notice the updated setup fees under the QR code before receiving a payment.';
+  String get setup_fees_dialog_message => 'Pred prijatím platby si všimni aktualizované poplatky za nastavenie pod QR kódom.';
 
   @override
   String get locale => 'sk';
