@@ -1,8 +1,9 @@
 import 'package:breez_translations/breez_translations_locales.dart';
 import 'package:breez_translations/generated/breez_translations.dart';
+import 'package:breez_translations/generated/breez_translations_cs.dart';
 import 'package:breez_translations/generated/breez_translations_de.dart';
-import 'package:breez_translations/generated/breez_translations_en.dart';
 import 'package:breez_translations/generated/breez_translations_el.dart';
+import 'package:breez_translations/generated/breez_translations_en.dart';
 import 'package:breez_translations/generated/breez_translations_es.dart';
 import 'package:breez_translations/generated/breez_translations_fi.dart';
 import 'package:breez_translations/generated/breez_translations_fr.dart';
@@ -14,6 +15,7 @@ import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   final locales = {
+    "cs": BreezTranslationsCs(),
     "de": BreezTranslationsDe(),
     "el": BreezTranslationsEl(),
     "en": BreezTranslationsEn(),
