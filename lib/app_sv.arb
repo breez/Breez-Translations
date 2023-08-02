@@ -74,7 +74,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_without_min_fee_account_connected": "Skicka mer än {minSats} och upp till {maxSats} till den här adressen. En installationsavgift på {setUpFee} % kommer att tas ut för att skicka mer än {liquidity}. This address can be used only once.",
+  "invoice_btc_address_warning_without_min_fee_account_connected": "Skicka mer än {minSats} och upp till {maxSats} till den här adressen. This address can be used only once.",
   "@invoice_btc_address_warning_without_min_fee_account_connected": {
     "placeholders": {
       "minSats": {
@@ -84,14 +84,6 @@
       "maxSats": {
         "type": "String",
         "example": "4 000 000 sats"
-      },
-      "setUpFee": {
-        "type": "String",
-        "example": "0.4"
-      },
-      "liquidity": {
-        "type": "String",
-        "example": "99 000 sats"
       }
     }
   },

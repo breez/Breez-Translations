@@ -111,13 +111,13 @@ class BreezTranslationsEs extends BreezTranslations {
   String get invoice_btc_address_action_close => 'CERRAR';
 
   @override
-  String invoice_btc_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String minFee, String liquidity) {
+  String invoice_btc_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String minFee, String liquidity, Object setUpFee) {
     return 'Envíe más de $minSats y un máximo de $maxSats a esta dirección. Se aplicará una tarifa de instalación de $setUpFee% con un mínimo de $minFee si el envío es superior a $liquidity. Esta dirección solo se puede utilizar una vez.';
   }
 
   @override
-  String invoice_btc_address_warning_without_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String liquidity) {
-    return 'Envíe más de $minSats y un máximo de $maxSats a esta dirección. Se aplicará una tarifa de instalación de $setUpFee% si el envío es superior a $liquidity. Esta dirección solo se puede utilizar una vez.';
+  String invoice_btc_address_warning_without_min_fee_account_connected(String minSats, String maxSats) {
+    return 'Envíe más de $minSats y un máximo de $maxSats a esta dirección. Esta dirección solo se puede utilizar una vez.';
   }
 
   @override

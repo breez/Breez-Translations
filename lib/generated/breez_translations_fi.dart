@@ -111,13 +111,13 @@ class BreezTranslationsFi extends BreezTranslations {
   String get invoice_btc_address_action_close => 'SULJE';
 
   @override
-  String invoice_btc_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String minFee, String liquidity) {
+  String invoice_btc_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String minFee, String liquidity, Object setUpFee) {
     return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Yli $liquidity talletuksista veloitetaan $setUpFee% avauskulu ja kuitenkin vähintään $minFee. Tätä Bitcoin-osoitetta voi käyttää vain yhden kerran!';
   }
 
   @override
-  String invoice_btc_address_warning_without_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String liquidity) {
-    return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Yli $liquidity talletuksesta veloitetaan $setUpFee% avauskulu. Tätä Bitcoin-osoitetta voi käyttää vain yhden kerran!';
+  String invoice_btc_address_warning_without_min_fee_account_connected(String minSats, String maxSats) {
+    return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Tätä Bitcoin-osoitetta voi käyttää vain yhden kerran!';
   }
 
   @override

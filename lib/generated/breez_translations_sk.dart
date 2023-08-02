@@ -111,13 +111,13 @@ class BreezTranslationsSk extends BreezTranslations {
   String get invoice_btc_address_action_close => 'ZAVRIEŤ';
 
   @override
-  String invoice_btc_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String minFee, String liquidity) {
+  String invoice_btc_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String minFee, String liquidity, Object setUpFee) {
     return 'Na túto adresu pošli minimálne $minSats ale maximálne $maxSats. Za odoslanie viac ako $liquidity, si Breez naúčtuje zriaďovací poplatok vo výške $setUpFee%, minimálne však $minFee.';
   }
 
   @override
-  String invoice_btc_address_warning_without_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String liquidity) {
-    return 'Na túto adresu pošli minimálne $minSats ale maximálne $maxSats. Za odoslanie viac ako $liquidity, si Breez naúčtuje zriaďovací poplatok vo výške $setUpFee%.';
+  String invoice_btc_address_warning_without_min_fee_account_connected(String minSats, String maxSats) {
+    return 'Na túto adresu pošli minimálne $minSats ale maximálne $maxSats.';
   }
 
   @override
