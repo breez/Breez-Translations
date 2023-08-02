@@ -194,7 +194,7 @@
       }
     }
   },
-  "invoice_ln_address_warning_without_min_fee_account_connected": "Za příjem více než {likvidity} bude účtován poplatek za nastavení ve výši {setUpFee}%.",
+  "invoice_ln_address_warning_without_min_fee_account_connected": "Za příjem více než {liquidity} bude účtován poplatek za nastavení ve výši {setUpFee}%.",
   "@invoice_ln_address_warning_without_min_fee_account_connected": {
     "placeholders": {
       "setUpFee": {
