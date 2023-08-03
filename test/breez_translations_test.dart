@@ -76,9 +76,11 @@ void main() {
           () {
         final text = locale
             .invoice_btc_address_warning_without_min_fee_account_connected(
-                minSats, maxSats);
+                minSats, maxSats, setUpFee, liquidity);
         expect(text.contains(minSats), true);
         expect(text.contains(maxSats), true);
+        expect(text.contains(setUpFee), true);
+        expect(text.contains(liquidity), true);
       });
 
       test(
