@@ -70,7 +70,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_without_min_fee_account_connected": "Sende mehr als {minSats} und bis zu {maxSats} an diese Adresse. Diese Adresse kann nur einmal verwendet werden.",
+  "invoice_btc_address_warning_without_min_fee_account_connected": "Sende mehr als {minSats} und bis zu {maxSats} an diese Adresse. Eine Einrichtungsgebühr von {setUpFee}% wird für den Versand von mehr als {liquidity} erhoben. Diese Adresse kann nur einmal verwendet werden.",
   "@invoice_btc_address_warning_without_min_fee_account_connected": {
     "placeholders": {
       "minSats": {
@@ -80,6 +80,14 @@
       "maxSats": {
         "type": "String",
         "example": "4 000 000 Sats"
+      },
+      "setUpFee": {
+        "type": "String",
+        "example": "0.4"
+      },
+      "liquidity": {
+        "type": "String",
+        "example": "99 000 Sats"
       }
     }
   },

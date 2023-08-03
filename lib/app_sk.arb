@@ -70,7 +70,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_without_min_fee_account_connected": "Na túto adresu pošli minimálne {minSats} ale maximálne {maxSats}.",
+  "invoice_btc_address_warning_without_min_fee_account_connected": "Na túto adresu pošli minimálne {minSats} ale maximálne {maxSats}. Za odoslanie viac ako {liquidity}, si Breez naúčtuje zriaďovací poplatok vo výške {setUpFee}%.",
   "@invoice_btc_address_warning_without_min_fee_account_connected": {
     "placeholders": {
       "minSats": {
@@ -80,6 +80,14 @@
       "maxSats": {
         "type": "String",
         "example": "4 000 000 sats"
+      },
+      "setUpFee": {
+        "type": "String",
+        "example": "0.4"
+      },
+      "liquidity": {
+        "type": "String",
+        "example": "99 000 sats"
       }
     }
   },
