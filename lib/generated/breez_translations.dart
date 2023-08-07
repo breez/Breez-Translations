@@ -99,9 +99,9 @@ abstract class BreezTranslations {
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
+    Locale('cs'),
     Locale('de'),
     Locale('el'),
-    Locale('cs'),
     Locale('es'),
     Locale('fi'),
     Locale('fr'),
@@ -314,6 +314,12 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'CLOSE'**
   String get invoice_btc_address_action_close;
+
+  /// No description provided for @invoice_btc_address_channel_not_needed.
+  ///
+  /// In en, this message translates to:
+  /// **'Send more than {minSats} and up to {maxSats} to this address.  This address can be used only once.'**
+  String invoice_btc_address_channel_not_needed(String minSats, String maxSats);
 
   /// No description provided for @invoice_btc_address_warning_with_min_fee_account_connected.
   ///

@@ -111,6 +111,11 @@ class BreezTranslationsFi extends BreezTranslations {
   String get invoice_btc_address_action_close => 'SULJE';
 
   @override
+  String invoice_btc_address_channel_not_needed(String minSats, String maxSats) {
+    return 'Send more than $minSats and up to $maxSats to this address.  This address can be used only once.';
+  }
+
+  @override
   String invoice_btc_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String minFee, String liquidity) {
     return 'Send more than $minSats and up to $maxSats to this address. A setup fee of $setUpFee% with a minimum of $minFee will be applied for sending more than $liquidity. This address can be used only once.';
   }
