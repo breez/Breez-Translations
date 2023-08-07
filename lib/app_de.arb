@@ -70,6 +70,19 @@
       }
     }
   },
+  "invoice_btc_address_channel_not_needed": "Sende mehr als {minSats} und bis zu {maxSats} an diese Adresse.  Diese Adresse kann nur einmal verwendet werden.",
+  "@invoice_btc_address_channel_not_needed" :{
+  "placeholders": {
+      "minSats": {
+        "type": "String",
+        "example": "2 000 sats"
+      },
+      "maxSats": {
+        "type": "String",
+        "example": "4 000 000 sats"
+      }
+     }
+  },
   "invoice_btc_address_warning_without_min_fee_account_connected": "Sende mehr als {minSats} und bis zu {maxSats} an diese Adresse. Eine Einrichtungsgebühr von {setUpFee}% wird für den Versand von mehr als {liquidity} erhoben. Diese Adresse kann nur einmal verwendet werden.",
   "@invoice_btc_address_warning_without_min_fee_account_connected": {
     "placeholders": {
