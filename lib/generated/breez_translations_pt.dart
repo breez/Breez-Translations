@@ -1746,6 +1746,9 @@ class BreezTranslationsPt extends BreezTranslations {
   String get lsp_error_not_selected => 'O LSP não foi selecionado';
 
   @override
+  String get lsp_error_cannot_open_channel => 'Currently, Breez can\'t open new channels. Please retry later.';
+
+  @override
   String get lost_card_dialog_title => 'Cartão perdido ou roubado';
 
   @override

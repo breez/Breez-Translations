@@ -1288,6 +1288,7 @@
   },
   "lsp_error_provider_do_not_exists": "LSP existerar ej",
   "lsp_error_not_selected": "lsp valdes ej",
+  "lsp_error_cannot_open_channel": "Currently, Breez can't open new channels. Please retry later.",
   "lost_card_dialog_title": "Förlorat eller stulet kort",
   "lost_card_dialog_message": "Om ditt kort har tappats bort eller blivit stulet bör du avaktivera det nu för att förhindra att det används av andra. Avaktivera betyder att du inte kommer att kunna använda något av dina befintliga kort förrän du återaktiverar dem.",
   "lost_card_dialog_action_cancel": "AVBRYT",

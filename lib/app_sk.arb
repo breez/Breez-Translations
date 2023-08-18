@@ -1288,6 +1288,7 @@
   },
   "lsp_error_provider_do_not_exists": "LSP neexistuje",
   "lsp_error_not_selected": "lsp nebol vybraný",
+  "lsp_error_cannot_open_channel": "Currently, Breez can't open new channels. Please retry later.",
   "lost_card_dialog_title": "Stratená alebo ukradnutá karta",
   "lost_card_dialog_message": "Ak bola tvoja karta stratená alebo odcudzená, mal by si ju teraz deaktivovať, aby si zabránil jej použitiu inými osobami. Deaktivácia znamená, že nebudeš môcť používať žiadnu zo svojich existujúcich kariet, kým ich znova neaktivuješ.",
   "lost_card_dialog_action_cancel": "ZRUŠIŤ",

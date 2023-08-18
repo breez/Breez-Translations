@@ -1288,6 +1288,7 @@
   },
   "lsp_error_provider_do_not_exists": "LSP does not exist",
   "lsp_error_not_selected": "lsp was not selected",
+  "lsp_error_cannot_open_channel": "Currently, Breez can't open new channels. Please retry later.",
   "lost_card_dialog_title": "Lost or Stolen Card",
   "lost_card_dialog_message": "If your card has been lost or stolen, you should deactivate it now to prevent it from being used by others. Deactivate means you won't be able to use any of your existing cards until you re-activate them.",
   "lost_card_dialog_action_cancel": "CANCEL",
