@@ -99,9 +99,9 @@ abstract class BreezTranslations {
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
-    Locale('cs'),
     Locale('de'),
     Locale('el'),
+    Locale('cs'),
     Locale('es'),
     Locale('fi'),
     Locale('fr'),
@@ -3284,6 +3284,12 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'lsp was not selected'**
   String get lsp_error_not_selected;
+
+  /// No description provided for @lsp_error_cannot_open_channel.
+  ///
+  /// In en, this message translates to:
+  /// **'Currently, Breez can\'t open new channels. Please retry later.'**
+  String get lsp_error_cannot_open_channel;
 
   /// No description provided for @lost_card_dialog_title.
   ///
