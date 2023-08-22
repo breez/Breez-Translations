@@ -700,6 +700,16 @@ void main() {
         expect(text.contains(max), true);
       });
 
+      test("lnurl_fetch_invoice_min for ${locale.locale}", () {
+        final text = locale.lnurl_fetch_invoice_min(min);
+        expect(text.contains(min), true);
+      });
+
+      test("lnurl_fetch_invoice_and for ${locale.locale}", () {
+        final text = locale.lnurl_fetch_invoice_and(max);
+        expect(text.contains(max), true);
+      });
+
       test("lnurl_fetch_invoice_error_message for ${locale.locale}", () {
         final text = locale.lnurl_fetch_invoice_error_message(host, reason);
         expect(text.contains(host), true);
