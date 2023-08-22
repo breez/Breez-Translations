@@ -2600,6 +2600,16 @@ class BreezTranslationsFi extends BreezTranslations {
   }
 
   @override
+  String lnurl_fetch_invoice_min(String min) {
+    return 'Anna määrä joka on vähintään $min';
+  }
+
+  @override
+  String lnurl_fetch_invoice_and(String max) {
+    return ' ja enintään $max';
+  }
+
+  @override
   String get lnurl_fetch_invoice_error_title => 'LNURL-Pay virhe';
 
   @override

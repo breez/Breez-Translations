@@ -1888,6 +1888,24 @@
       }
     }
   },
+  "lnurl_fetch_invoice_min": "Ange ett belopp mellan {min}",
+  "@lnurl_fetch_invoice_min": {
+    "placeholders": {
+      "min": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
+  "lnurl_fetch_invoice_and": " och {max}",
+  "@lnurl_fetch_invoice_and": {
+    "placeholders": {
+      "max": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
   "lnurl_fetch_invoice_error_title": "LNURL-Betal Fel",
   "lnurl_fetch_invoice_error_message": "Ett fel uppstod vid försök att hämta en Invoice från {host}!\nOrsak: {reason}",
   "@lnurl_fetch_invoice_error_message": {

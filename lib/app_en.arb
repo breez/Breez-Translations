@@ -1892,6 +1892,24 @@
       }
     }
   },
+  "lnurl_fetch_invoice_min" : "Enter an amount between {min}",
+  "@lnurl_fetch_invoice_min": {
+    "placeholders": {
+      "min": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
+  "lnurl_fetch_invoice_and" : " and {max}",
+  "@lnurl_fetch_invoice_and": {
+    "placeholders": {
+      "max": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
   "lnurl_fetch_invoice_error_title": "LNURL-Pay Error",
   "lnurl_fetch_invoice_error_message": "An error occurred while attempting to retrieve an invoice from {host}!\nReason: {reason}",
   "@lnurl_fetch_invoice_error_message": {

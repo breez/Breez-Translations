@@ -1888,6 +1888,24 @@
       }
     }
   },
+  "lnurl_fetch_invoice_min": "Entrez un montant compris entre {min}",
+  "@lnurl_fetch_invoice_min": {
+    "placeholders": {
+      "min": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
+  "lnurl_fetch_invoice_and": " et {max}.",
+  "@lnurl_fetch_invoice_and": {
+    "placeholders": {
+      "max": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
   "lnurl_fetch_invoice_error_title": "Erreur de LNURL-Pay",
   "lnurl_fetch_invoice_error_message": "Une erreur s'est produite lors de la tentative de récupération d'une facture auprès de {host}!\nRaison : {reason}",
   "@lnurl_fetch_invoice_error_message": {
