@@ -2600,6 +2600,16 @@ class BreezTranslationsSk extends BreezTranslations {
   }
 
   @override
+  String lnurl_fetch_invoice_min(String min) {
+    return 'Zadaj sumu medzi $min';
+  }
+
+  @override
+  String lnurl_fetch_invoice_and(String max) {
+    return ' a $max';
+  }
+
+  @override
   String get lnurl_fetch_invoice_error_title => 'LNURL-Pay Chyba';
 
   @override

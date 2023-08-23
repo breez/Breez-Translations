@@ -1888,6 +1888,24 @@
       }
     }
   },
+  "lnurl_fetch_invoice_min": "Gib einen Betrag zwischen {min}",
+  "@lnurl_fetch_invoice_min": {
+    "placeholders": {
+      "min": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
+  "lnurl_fetch_invoice_and": " und {max} ein.",
+  "@lnurl_fetch_invoice_and": {
+    "placeholders": {
+      "max": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
   "lnurl_fetch_invoice_error_title": "LNURL-Zahlungsfehler",
   "lnurl_fetch_invoice_error_message": "Beim Versuch, eine Rechnung von {host} abzurufen, ist ein Fehler aufgetreten!\nGrund: {reason}",
   "@lnurl_fetch_invoice_error_message": {

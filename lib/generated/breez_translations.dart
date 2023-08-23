@@ -4845,6 +4845,18 @@ abstract class BreezTranslations {
   /// **'Enter an amount between {min} and {max}'**
   String lnurl_fetch_invoice_limit(String min, String max);
 
+  /// No description provided for @lnurl_fetch_invoice_min.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter an amount between {min}'**
+  String lnurl_fetch_invoice_min(String min);
+
+  /// No description provided for @lnurl_fetch_invoice_and.
+  ///
+  /// In en, this message translates to:
+  /// **' and {max}'**
+  String lnurl_fetch_invoice_and(String max);
+
   /// No description provided for @lnurl_fetch_invoice_error_title.
   ///
   /// In en, this message translates to:

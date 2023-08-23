@@ -1888,6 +1888,24 @@
       }
     }
   },
+  "lnurl_fetch_invoice_min": "Anna määrä joka on vähintään {min}",
+  "@lnurl_fetch_invoice_min": {
+    "placeholders": {
+      "min": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
+  "lnurl_fetch_invoice_and": " ja enintään {max}",
+  "@lnurl_fetch_invoice_and": {
+    "placeholders": {
+      "max": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
   "lnurl_fetch_invoice_error_title": "LNURL-Pay virhe",
   "lnurl_fetch_invoice_error_message": "Tapahtumatietojen hakeminen palvelimelta {host} ei onnistunut!\nKuvaus: {reason}",
   "@lnurl_fetch_invoice_error_message": {

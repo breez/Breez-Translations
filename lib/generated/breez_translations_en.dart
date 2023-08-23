@@ -2600,6 +2600,16 @@ class BreezTranslationsEn extends BreezTranslations {
   }
 
   @override
+  String lnurl_fetch_invoice_min(String min) {
+    return 'Enter an amount between $min';
+  }
+
+  @override
+  String lnurl_fetch_invoice_and(String max) {
+    return ' and $max';
+  }
+
+  @override
   String get lnurl_fetch_invoice_error_title => 'LNURL-Pay Error';
 
   @override

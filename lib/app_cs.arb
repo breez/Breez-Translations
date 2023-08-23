@@ -1888,6 +1888,24 @@
       }
     }
   },
+  "lnurl_fetch_invoice_min": "Zadejte částku mezi {min} ",
+  "@lnurl_fetch_invoice_min": {
+    "placeholders": {
+      "min": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
+  "lnurl_fetch_invoice_and": "a {max}",
+  "@lnurl_fetch_invoice_and": {
+    "placeholders": {
+      "max": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
   "lnurl_fetch_invoice_error_title": "Chyba platby LNURL",
   "lnurl_fetch_invoice_error_message": "Při pokusu o načtení faktury od {host} došlo k chybě!\nDůvod: {reason}",
   "@lnurl_fetch_invoice_error_message": {
