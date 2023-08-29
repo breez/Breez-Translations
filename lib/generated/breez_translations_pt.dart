@@ -477,7 +477,7 @@ class BreezTranslationsPt extends BreezTranslations {
   String get payment_info_dialog_error => 'A fatura, o ID ou o endereço é inválido';
 
   @override
-  String get payment_info_dialog_error_unsupported_input => 'Unsupported input';
+  String get payment_info_dialog_error_unsupported_input => 'Não suportado';
 
   @override
   String get payment_info_dialog_error_qrcode => 'O código QR não foi detectado.';
@@ -1746,7 +1746,7 @@ class BreezTranslationsPt extends BreezTranslations {
   String get lsp_error_not_selected => 'O LSP não foi selecionado';
 
   @override
-  String get lsp_error_cannot_open_channel => 'Currently, Breez can\'t open new channels. Please retry later.';
+  String get lsp_error_cannot_open_channel => 'A Breez não consegue abrir novos canais no momento. Por favor, tente novamente mais tarde.';
 
   @override
   String get lost_card_dialog_title => 'Cartão perdido ou roubado';
@@ -2633,16 +2633,16 @@ class BreezTranslationsPt extends BreezTranslations {
   String get mnemonics_confirmation_title => 'Frase de backup';
 
   @override
-  String get mnemonics_confirmation_verify_backup_phrase => 'Verify Backup Phrase';
+  String get mnemonics_confirmation_verify_backup_phrase => 'Confirme a frase de backup';
 
   @override
-  String get mnemonics_confirmation_display_backup_phrase => 'Display Backup Phrase';
+  String get mnemonics_confirmation_display_backup_phrase => 'Mostrar a frase de backup';
 
   @override
   String get mnemonics_confirmation_instructions => 'Você verá uma lista de palavras. Anote as palavras e guarde-as em um lugar seguro. Sem essas palavras você não poderá restaurar os seus fundos a partir do backup e seus fundos serão perdidos e a Breez não poderá te ajudar.';
 
   @override
-  String get mnemonics_confirmation_action_verify => 'Verify';
+  String get mnemonics_confirmation_action_verify => 'Verificar';
 
   @override
   String get podcast_add_funds_title => 'Adicione satoshis à sua carteira para enviar pagamentos para este podcast.';
@@ -3118,10 +3118,10 @@ class BreezTranslationsPt extends BreezTranslations {
   String get payment_info_title_pending_opened_channel => 'Canal em abertura';
 
   @override
-  String get no_lsp_widget_message => 'In order to activate Breez, please select a provider:';
+  String get no_lsp_widget_message => 'Selecione um provedor para ativar a Breez:';
 
   @override
-  String get no_lsp_widget_action_select => 'SELECT…';
+  String get no_lsp_widget_action_select => 'SELECIONAR…';
 
   @override
   String get podcast_history_drawer => 'Meus Principais Podcasts';
@@ -3270,10 +3270,10 @@ class BreezTranslationsPt extends BreezTranslations {
   String get moonpay_swap_expired_action => 'Voltar para a carteira';
 
   @override
-  String get setup_fees_dialog_title => 'Setup Fees';
+  String get setup_fees_dialog_title => 'Taxa de configuração';
 
   @override
-  String get setup_fees_dialog_message => 'Please notice the updated setup fees under the QR code before receiving a payment.';
+  String get setup_fees_dialog_message => 'Se atente às taxas de configuração atualizadas no código QR antes de receber um pagamento.';
 
   @override
   String get locale => 'pt';
