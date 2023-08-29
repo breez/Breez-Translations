@@ -6093,6 +6093,12 @@ abstract class BreezTranslations {
   /// **'Please notice the updated setup fees under the QR code before receiving a payment.'**
   String get setup_fees_dialog_message;
 
+  /// No description provided for @google_sign_not_available_exception.
+  ///
+  /// In en, this message translates to:
+  /// **'Google Sign-In is not available on this device.'**
+  String get google_sign_not_available_exception;
+
   /// No description provided for @locale.
   ///
   /// In en, this message translates to:

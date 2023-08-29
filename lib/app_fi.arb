@@ -2344,6 +2344,7 @@
   "moonpay_swap_expired_action": "Back to home",
   "setup_fees_dialog_title": "Setup Fees",
   "setup_fees_dialog_message": "Please notice the updated setup fees under the QR code before receiving a payment.",
+  "google_sign_not_available_exception": "Google Sign-In is not available on this device.",
   "locale": "fi",
   "app_name": "Breez"
 }

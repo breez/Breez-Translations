@@ -2344,6 +2344,7 @@
   "moonpay_swap_expired_action": "Späť domov",
   "setup_fees_dialog_title": "Poplatky za nastavenie",
   "setup_fees_dialog_message": "Pred prijatím platby si všimni aktualizované poplatky za nastavenie pod QR kódom.",
+  "google_sign_not_available_exception": "Google Sign-In is not available on this device.",
   "locale": "sk",
   "app_name": "Breez"
 }

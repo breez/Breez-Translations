@@ -3276,6 +3276,9 @@ class BreezTranslationsPt extends BreezTranslations {
   String get setup_fees_dialog_message => 'Se atente às taxas de configuração atualizadas no código QR antes de receber um pagamento.';
 
   @override
+  String get google_sign_not_available_exception => 'A autenticação do Google não está disponível neste dispositivo.';
+
+  @override
   String get locale => 'pt';
 
   @override

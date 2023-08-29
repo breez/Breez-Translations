@@ -3276,6 +3276,9 @@ class BreezTranslationsEl extends BreezTranslations {
   String get setup_fees_dialog_message => 'Please notice the updated setup fees under the QR code before receiving a payment.';
 
   @override
+  String get google_sign_not_available_exception => 'Google Sign-In is not available on this device.';
+
+  @override
   String get locale => 'el';
 
   @override

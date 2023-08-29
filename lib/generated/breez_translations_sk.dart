@@ -3276,6 +3276,9 @@ class BreezTranslationsSk extends BreezTranslations {
   String get setup_fees_dialog_message => 'Pred prijatím platby si všimni aktualizované poplatky za nastavenie pod QR kódom.';
 
   @override
+  String get google_sign_not_available_exception => 'Google Sign-In is not available on this device.';
+
+  @override
   String get locale => 'sk';
 
   @override
