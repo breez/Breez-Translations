@@ -49,6 +49,19 @@
   "invoice_btc_address_network_error": "Es konnte keine Adresse vom Breez-Server abgerufen werden\nBitte überprüfe deine Internetverbindung.",
   "invoice_btc_address_action_retry": "ERNEUT VERSUCHEN",
   "invoice_btc_address_action_close": "SCHLIESSEN",
+  "invoice_btc_address_channel_not_needed": "Sende mehr als {minSats} und bis zu {maxSats} an diese Adresse.  Diese Adresse kann nur einmal verwendet werden.",
+  "@invoice_btc_address_channel_not_needed": {
+    "placeholders": {
+      "minSats": {
+        "type": "String",
+        "example": "2 000 sats"
+      },
+      "maxSats": {
+        "type": "String",
+        "example": "4 000 000 sats"
+      }
+    }
+  },
   "invoice_btc_address_warning_with_min_fee_account_connected": "Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% with a minimum of {minFee} will be applied for sending more than {liquidity}. This address can be used only once.",
   "@invoice_btc_address_warning_with_min_fee_account_connected": {
     "placeholders": {
@@ -60,6 +73,10 @@
         "type": "String",
         "example": "4 000 000 Sats"
       },
+      "setUpFee": {
+        "type": "String",
+        "example": "0.4"
+      },
       "minFee": {
         "type": "String",
         "example": "1 000 Sats"
@@ -69,19 +86,6 @@
         "example": "99 000 Sats"
       }
     }
-  },
-  "invoice_btc_address_channel_not_needed": "Sende mehr als {minSats} und bis zu {maxSats} an diese Adresse.  Diese Adresse kann nur einmal verwendet werden.",
-  "@invoice_btc_address_channel_not_needed" :{
-  "placeholders": {
-      "minSats": {
-        "type": "String",
-        "example": "2 000 sats"
-      },
-      "maxSats": {
-        "type": "String",
-        "example": "4 000 000 sats"
-      }
-     }
   },
   "invoice_btc_address_warning_without_min_fee_account_connected": "Sende mehr als {minSats} und bis zu {maxSats} an diese Adresse. Eine Einrichtungsgebühr von {setUpFee}% wird für den Versand von mehr als {liquidity} erhoben. Diese Adresse kann nur einmal verwendet werden.",
   "@invoice_btc_address_warning_without_min_fee_account_connected": {
