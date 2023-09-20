@@ -5,7 +5,6 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
-import 'breez_translations_cs.dart';
 import 'breez_translations_de.dart';
 import 'breez_translations_el.dart';
 import 'breez_translations_en.dart';
@@ -14,7 +13,6 @@ import 'breez_translations_fi.dart';
 import 'breez_translations_fr.dart';
 import 'breez_translations_it.dart';
 import 'breez_translations_pt.dart';
-import 'breez_translations_sk.dart';
 import 'breez_translations_sv.dart';
 
 /// Callers can lookup localized strings with an instance of BreezTranslations
@@ -99,7 +97,6 @@ abstract class BreezTranslations {
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
-    Locale('cs'),
     Locale('de'),
     Locale('el'),
     Locale('es'),
@@ -107,7 +104,6 @@ abstract class BreezTranslations {
     Locale('fr'),
     Locale('it'),
     Locale('pt'),
-    Locale('sk'),
     Locale('sv')
   ];
 
@@ -6121,7 +6117,7 @@ class _BreezTranslationsDelegate extends LocalizationsDelegate<BreezTranslations
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['cs', 'de', 'el', 'en', 'es', 'fi', 'fr', 'it', 'pt', 'sk', 'sv'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['en', 'de', 'el', 'es', 'fi', 'fr', 'it', 'pt', 'sv'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_BreezTranslationsDelegate old) => false;
@@ -6132,16 +6128,14 @@ BreezTranslations lookupBreezTranslations(Locale locale) {
 
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
-    case 'cs': return BreezTranslationsCs();
+    case 'en': return BreezTranslationsEn();
     case 'de': return BreezTranslationsDe();
     case 'el': return BreezTranslationsEl();
-    case 'en': return BreezTranslationsEn();
     case 'es': return BreezTranslationsEs();
     case 'fi': return BreezTranslationsFi();
     case 'fr': return BreezTranslationsFr();
     case 'it': return BreezTranslationsIt();
     case 'pt': return BreezTranslationsPt();
-    case 'sk': return BreezTranslationsSk();
     case 'sv': return BreezTranslationsSv();
   }
 

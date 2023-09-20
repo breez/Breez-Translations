@@ -1,7 +1,6 @@
 import 'dart:io';
 
 import 'package:breez_translations/generated/breez_translations.dart';
-import 'package:breez_translations/generated/breez_translations_cs.dart';
 import 'package:breez_translations/generated/breez_translations_de.dart';
 import 'package:breez_translations/generated/breez_translations_el.dart';
 import 'package:breez_translations/generated/breez_translations_en.dart';
@@ -10,7 +9,6 @@ import 'package:breez_translations/generated/breez_translations_fi.dart';
 import 'package:breez_translations/generated/breez_translations_fr.dart';
 import 'package:breez_translations/generated/breez_translations_it.dart';
 import 'package:breez_translations/generated/breez_translations_pt.dart';
-import 'package:breez_translations/generated/breez_translations_sk.dart';
 import 'package:breez_translations/generated/breez_translations_sv.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -32,7 +30,6 @@ Iterable<LocalizationsDelegate<dynamic>> localizationsDelegates() {
 Iterable<Locale> supportedLocales() {
   return [
     const Locale("en", ""),
-    const Locale("cs", ""),
     const Locale("de", ""),
     const Locale("el", ""),
     const Locale("es", ""),
@@ -40,7 +37,6 @@ Iterable<Locale> supportedLocales() {
     const Locale("fr", ""),
     const Locale("it", ""),
     const Locale("pt", ""),
-    const Locale("sk", ""),
     const Locale("sv", ""),
   ];
 }
@@ -62,8 +58,6 @@ BreezTranslations getSystemAppLocalizations() {
   switch (getSystemLocale().languageCode) {
     case "en":
       return BreezTranslationsEn();
-    case "cs":
-      return BreezTranslationsCs();
     case "de":
       return BreezTranslationsDe();
     case "el":
@@ -78,8 +72,6 @@ BreezTranslations getSystemAppLocalizations() {
       return BreezTranslationsIt();
     case "pt":
       return BreezTranslationsPt();
-    case "sk":
-      return BreezTranslationsSk();
     case "sv":
       return BreezTranslationsSv();
     default:
