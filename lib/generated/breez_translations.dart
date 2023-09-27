@@ -4377,6 +4377,12 @@ abstract class BreezTranslations {
   /// **'Base Fee in sats'**
   String get payment_options_base_fee_label;
 
+  /// No description provided for @payment_options_exemptfee_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Exempt Fee in sats'**
+  String get payment_options_exemptfee_label;
+
   /// No description provided for @payment_options_proportional_fee_label.
   ///
   /// In en, this message translates to:

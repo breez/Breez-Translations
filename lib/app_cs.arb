@@ -1678,6 +1678,7 @@
   "payment_options_fee_header": "Maximální poplatky za platby Lightning:",
   "payment_options_fee_override_enable": "Vymáhání poplatků (experimentální)",
   "payment_options_base_fee_label": "Základní poplatek v sats",
+  "payment_options_exemptfee_label": "Exempt Fee in sats", 
   "payment_options_proportional_fee_label": "Poměrný poplatek v (%)",
   "payment_options_fee_action_reset": "Resetovat",
   "payment_options_fee_action_save": "Uložit",

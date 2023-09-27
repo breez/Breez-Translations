@@ -2334,6 +2334,9 @@ class BreezTranslationsSv extends BreezTranslations {
   String get payment_options_base_fee_label => 'Basavgift i sats';
 
   @override
+  String get payment_options_exemptfee_label => 'Exempt Fee in sats';
+
+  @override
   String get payment_options_proportional_fee_label => 'Proportionell avgift (%)';
 
   @override

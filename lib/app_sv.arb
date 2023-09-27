@@ -1678,6 +1678,7 @@
   "payment_options_fee_header": "Maximala avgifter för Lightning-betalningar:",
   "payment_options_fee_override_enable": "Genomföra avgifter (experimentell)",
   "payment_options_base_fee_label": "Basavgift i sats",
+  "payment_options_exemptfee_label": "Exempt Fee in sats", 
   "payment_options_proportional_fee_label": "Proportionell avgift (%)",
   "payment_options_fee_action_reset": "Återställ",
   "payment_options_fee_action_save": "Spara",

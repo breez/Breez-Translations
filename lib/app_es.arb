@@ -1678,6 +1678,7 @@
   "payment_options_fee_header": "Tasas máximas para pagos Lightning:",
   "payment_options_fee_override_enable": "Aplicar tasas máximas (experimental)",
   "payment_options_base_fee_label": "Tasa base en satoshis",
+  "payment_options_exemptfee_label": "Exempt Fee in sats", 
   "payment_options_proportional_fee_label": "Tasa Proporcional (%)",
   "payment_options_fee_action_reset": "Restablecer",
   "payment_options_fee_action_save": "Guardar",

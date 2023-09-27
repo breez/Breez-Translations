@@ -1678,6 +1678,7 @@
   "payment_options_fee_header": "Maximum fees for Lightning payments:",
   "payment_options_fee_override_enable": "Enforce fees (experimental)",
   "payment_options_base_fee_label": "Base Fee in sats",
+  "payment_options_exemptfee_label": "Exempt Fee in sats",
   "payment_options_proportional_fee_label": "Proportional Fee (%)",
   "payment_options_fee_action_reset": "Reset",
   "payment_options_fee_action_save": "Αποθήκευση",
