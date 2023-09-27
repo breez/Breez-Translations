@@ -1678,6 +1678,7 @@
   "payment_options_fee_header": "Salamamaksujen hyväksyttävä enimmäiskulu:",
   "payment_options_fee_override_enable": "ota käyttöön",
   "payment_options_base_fee_label": "Tapahtuman perusmaksu satosheina",
+  "payment_options_exemptfee_label": "Exempt Fee in sats", 
   "payment_options_proportional_fee_label": "Tapahtuman määräpohjainen kulu (%)",
   "payment_options_fee_action_reset": "Palauta oletus",
   "payment_options_fee_action_save": "TALLENNA",

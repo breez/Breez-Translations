@@ -2334,6 +2334,9 @@ class BreezTranslationsPt extends BreezTranslations {
   String get payment_options_base_fee_label => 'Taxa base em satoshis';
 
   @override
+  String get payment_options_exemptfee_label => 'Exempt Fee in sats';
+
+  @override
   String get payment_options_proportional_fee_label => 'Taxa proporcional (%)';
 
   @override

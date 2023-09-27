@@ -1678,6 +1678,7 @@
   "payment_options_fee_header": "Maximale Gebühren für Lightning-Zahlungen:",
   "payment_options_fee_override_enable": "Gebühren festsetzen (experimentell)",
   "payment_options_base_fee_label": "Grundgebühr in Sats",
+  "payment_options_exemptfee_label": "Exempt Fee in sats", 
   "payment_options_proportional_fee_label": "Anteilige Gebühr (%)",
   "payment_options_fee_action_reset": "Zurücksetzen",
   "payment_options_fee_action_save": "Speichern",

@@ -1678,6 +1678,7 @@
   "payment_options_fee_header": "Commissioni massime per i pagamenti Lightning:",
   "payment_options_fee_override_enable": "Forza commissioni (sperimentale)",
   "payment_options_base_fee_label": "Base fee in sat",
+  "payment_options_exemptfee_label": "Exempt Fee in sats",
   "payment_options_proportional_fee_label": "Fee Rate (%)",
   "payment_options_fee_action_reset": "Ripristina",
   "payment_options_fee_action_save": "SALVA",
