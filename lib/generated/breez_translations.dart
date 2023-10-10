@@ -633,6 +633,18 @@ abstract class BreezTranslations {
   /// **'OK'**
   String get backup_provider_dialog_action_ok;
 
+  /// No description provided for @backup_export_static.
+  ///
+  /// In en, this message translates to:
+  /// **'Export static backup'**
+  String get backup_export_static;
+
+  /// No description provided for @backup_export_static_error_data_missing.
+  ///
+  /// In en, this message translates to:
+  /// **'Static backup data is missing'**
+  String get backup_export_static_error_data_missing;
+
   /// No description provided for @tutorial_gotcha.
   ///
   /// In en, this message translates to:

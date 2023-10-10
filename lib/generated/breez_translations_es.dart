@@ -304,6 +304,12 @@ class BreezTranslationsEs extends BreezTranslations {
   String get backup_provider_dialog_action_ok => 'OK';
 
   @override
+  String get backup_export_static => 'Exportar copia de seguridad estática';
+
+  @override
+  String get backup_export_static_error_data_missing => 'Archivo de respaldo no encontrado';
+
+  @override
   String get tutorial_gotcha => '¡Entendido!';
 
   @override

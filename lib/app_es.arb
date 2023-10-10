@@ -306,6 +306,8 @@
   "backup_provider_dialog_message_store": "Almacenar respaldo de datos en:",
   "backup_provider_dialog_action_cancel": "CANCELAR",
   "backup_provider_dialog_action_ok": "OK",
+  "backup_export_static": "Exportar copia de seguridad estática",
+  "backup_export_static_error_data_missing": "Archivo de respaldo no encontrado",
   "tutorial_gotcha": "¡Entendido!",
   "bottom_action_bar_send": "ENVIAR",
   "bottom_action_bar_receive": "RECIBIR",

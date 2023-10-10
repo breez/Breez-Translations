@@ -306,6 +306,8 @@
   "backup_provider_dialog_message_store": "Armazenar dados de backup no:",
   "backup_provider_dialog_action_cancel": "CANCELAR",
   "backup_provider_dialog_action_ok": "OK",
+  "backup_export_static": "Exportar backup estático",
+  "backup_export_static_error_data_missing": "Arquivo de backup não encontrado",
   "tutorial_gotcha": "Entendi!",
   "bottom_action_bar_send": "ENVIAR",
   "bottom_action_bar_receive": "RECEBER",

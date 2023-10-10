@@ -306,6 +306,8 @@
   "backup_provider_dialog_message_store": "Varmuuskopion tallennus sijainti:",
   "backup_provider_dialog_action_cancel": "Peruuta",
   "backup_provider_dialog_action_ok": "OK",
+  "backup_export_static": "Export static backup",
+  "backup_export_static_error_data_missing": "Static backup data is missing",
   "tutorial_gotcha": "Kas niin!",
   "bottom_action_bar_send": "LÄHETÄ",
   "bottom_action_bar_receive": "VASTAANOTA",

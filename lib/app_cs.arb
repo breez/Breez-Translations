@@ -306,6 +306,8 @@
   "backup_provider_dialog_message_store": "Ukládat záložní data do:",
   "backup_provider_dialog_action_cancel": "ZRUŠIT",
   "backup_provider_dialog_action_ok": "OK",
+  "backup_export_static": "Export static backup",
+  "backup_export_static_error_data_missing": "Static backup data is missing",
   "tutorial_gotcha": "Mám to!",
   "bottom_action_bar_send": "ODESLAT",
   "bottom_action_bar_receive": "PŘÍJEM",
