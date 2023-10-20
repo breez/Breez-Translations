@@ -1460,6 +1460,7 @@
   "utils_print_pdf_header_payment_preimage": "Payment Preimage:",
   "handler_check_version_action_update": "ΕΝΗΜΕΡΩΣΗ",
   "handler_check_version_message": "Παρακαλώ ενημερώστε το Breez στην τελευταία του έκδοση.",
+  "handler_check_version_error_upgrading_servers": "Breez is currently upgrading its servers. You won't be able to send or receive funds during the upgrade. Please try again later.",
   "handler_channel_connection_message": "Το Breez είναι εκτός σύνδεσης",
   "handler_channel_connection_close": "CLOSE",
   "handler_lnurl_error_link": "Link Error",

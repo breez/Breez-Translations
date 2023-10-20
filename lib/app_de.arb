@@ -1460,6 +1460,7 @@
   "utils_print_pdf_header_payment_preimage": "Zahlungs-Preimage:",
   "handler_check_version_action_update": "AKTUALISIEREN",
   "handler_check_version_message": "Bitte aktualisiere Breez auf die neueste Version.",
+  "handler_check_version_error_upgrading_servers": "Breez is currently upgrading its servers. You won't be able to send or receive funds during the upgrade. Please try again later.",
   "handler_channel_connection_message": "Breez ist offline",
   "handler_channel_connection_close": "SCHLIESSEN",
   "handler_lnurl_error_link": "Link-Fehler",

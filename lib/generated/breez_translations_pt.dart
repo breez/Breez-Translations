@@ -2016,6 +2016,9 @@ class BreezTranslationsPt extends BreezTranslations {
   String get handler_check_version_message => 'Por favor, atualize a Breez para a versão mais recente.';
 
   @override
+  String get handler_check_version_error_upgrading_servers => 'A Breez está atualmente atualizando seus servidores.Você não poderá enviar ou receber fundos durante a atualização. Por favor, tente novamente mais tarde.';
+
+  @override
   String get handler_channel_connection_message => 'A Breez está offline';
 
   @override

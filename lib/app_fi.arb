@@ -1460,6 +1460,7 @@
   "utils_print_pdf_header_payment_preimage": "Maksun Preimage:",
   "handler_check_version_action_update": "Saatavilla on päivitys!",
   "handler_check_version_message": "Päivitä Breez viimeisimpään versioon.",
+  "handler_check_version_error_upgrading_servers": "Breez is currently upgrading its servers. You won't be able to send or receive funds during the upgrade. Please try again later.",
   "handler_channel_connection_message": "Breez on offline-tilassa",
   "handler_channel_connection_close": "SULJE",
   "handler_lnurl_error_link": "Linkkin käsittely epäonnistui",

@@ -3789,6 +3789,12 @@ abstract class BreezTranslations {
   /// **'Please update Breez to the latest version.'**
   String get handler_check_version_message;
 
+  /// No description provided for @handler_check_version_error_upgrading_servers.
+  ///
+  /// In en, this message translates to:
+  /// **'Breez is currently upgrading its servers. You won\'t be able to send or receive funds during the upgrade. Please try again later.'**
+  String get handler_check_version_error_upgrading_servers;
+
   /// No description provided for @handler_channel_connection_message.
   ///
   /// In en, this message translates to:

@@ -1460,6 +1460,7 @@
   "utils_print_pdf_header_payment_preimage": "Predbežný obraz platby:",
   "handler_check_version_action_update": "AKTUALIZOVAŤ",
   "handler_check_version_message": "Aktualizuj Breez na najnovšiu verziu.",
+  "handler_check_version_error_upgrading_servers": "Breez is currently upgrading its servers. You won't be able to send or receive funds during the upgrade. Please try again later.",
   "handler_channel_connection_message": "Breez je offline",
   "handler_channel_connection_close": "ZAVRIEŤ",
   "handler_lnurl_error_link": "Chyba odkazu",
