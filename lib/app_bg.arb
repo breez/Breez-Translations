@@ -1,0 +1,2354 @@
+{
+  "home_drawer_item_title_preferences": "Настройки",
+  "home_drawer_item_title_fiat_currencies": "Фиатни валути",
+  "home_drawer_item_title_network": "Мрежа",
+  "home_drawer_item_title_security": "Сигурност",
+  "home_drawer_item_title_security_and_backup": "Сигурност и архивиране",
+  "home_drawer_item_title_transactions": "Трансакции",
+  "home_drawer_item_title_balance": "Баланс",
+  "home_drawer_item_title_podcasts": "Подкасти",
+  "home_drawer_item_title_pos": "ПОС",
+  "home_drawer_item_title_apps": "Приложения",
+  "home_drawer_item_title_pos_settings": "ПОС настройки",
+  "home_drawer_item_title_developers": "Разработчици",
+  "home_drawer_item_title_get_refund": "Възстановяване на средства",
+  "home_drawer_item_title_payment_options": "Такси в светкавична мрежа",
+  "home_drawer_error_internal": "Вътрешна грешка",
+  "home_drawer_error_no_name": "Безименен",
+  "home_podcast_title": "Подкаст плейър по всяко време",
+  "home_podcast_no_subscriptions": "Използвайте изглед 'Намери', за да намерите и да се абонирате за първия си подкаст",
+  "home_error_connect_to_pay": "Свържете се, за да платите",
+  "home_error_podcast_link": "Подкаст връзка",
+  "home_broadcast_transaction": "Излъчете/публикувайте своята трансакция",
+  "home_config_error_title": "Конфигурационна грешка",
+  "home_config_error_message": "Breez откри, че друго устройство работи със същата конфигурация (вероятно се дължи на възстановяване). Breez не може да изпълнява една и съща конфигурация на повече от едно устройство. Моля, преинсталирайте Breez, ако искате да продължите да използвате Breez на това устройство.",
+  "home_config_backup_error": "Breez откри, че приложението използва стар архив. Моля, преинсталирайте и възстановете най-новия архив, наличен от {provider}.",
+  "@home_config_backup_error": {
+    "placeholders": {
+      "provider": {
+        "type": "String",
+        "example": "Google Drive"
+      }
+    }
+  },
+  "home_config_backup_error_encrypted": "Breez откри, че приложението използва стар архив. Моля, преинсталирайте и възстановете най-новия архив, наличен от {provider}. Имайте предвид, че няма да можете да възстановите Breez без вашия ключ за шифроване.",
+  "@home_config_backup_error_encrypted": {
+    "placeholders": {
+      "provider": {
+        "type": "String",
+        "example": "Apple iCloud"
+      }
+    }
+  },
+  "home_config_error_action_exit": "ОТКАЗ",
+  "home_background_synchronization_title": "Синхронизиране на заден план",
+  "home_background_synchronization_message": "За да поддържа незабавни плащания, Breez се нуждае от вашето разрешение, за да синхронизира информацията, докато приложението не е активно. Моля, одобрете приложението в следващия диалогов прозорец.",
+  "home_payment_sent": "Плащането беше изпратено успешно!",
+  "home_report_sending": "Изпращане на репорт…",
+  "invoice_btc_address_title": "Получаване чрез BTC адрес",
+  "invoice_btc_address_network_error": "Неуспешно извличане на адрес от сървъра на Breez\nМоля, проверете вашата интернет връзка.",
+  "invoice_btc_address_action_retry": "Опитайте отново",
+  "invoice_btc_address_action_close": "ЗАТВОРЕТЕ",
+  "invoice_btc_address_channel_not_needed": "Изпратете повече от {minSats} и до {maxSats} на този адрес. Този адрес може да се използва само веднъж.",
+  "@invoice_btc_address_channel_not_needed" :{
+  "placeholders": {
+      "minSats": {
+        "type": "String",
+        "example": "2 000 сатошита"
+      },
+      "maxSats": {
+        "type": "String",
+        "example": "4 000 000 сатошита"
+      }
+     }
+  },
+  "invoice_btc_address_warning_with_min_fee_account_connected": "Изпратете повече от {minSats} и до {maxSats} на този адрес. Ще бъде приложена такса за настройка от {setUpFee}% с минимум {minFee} за изпращане на повече от {liquidity}. Този адрес може да се използва само веднъж.",
+  "@invoice_btc_address_warning_with_min_fee_account_connected": {
+    "placeholders": {
+      "minSats": {
+        "type": "String",
+        "example": "2 000 сатошита"
+      },
+      "maxSats": {
+        "type": "String",
+        "example": "4 000 000 сатошита"
+      },
+      "setUpFee": {
+        "type": "String",
+        "example": "0.4"
+      },
+      "minFee": {
+        "type": "String",
+        "example": "1 000 сатошита"
+      },
+      "liquidity": {
+        "type": "String",
+        "example": "99 000 сатошита"
+      }
+    }
+  },
+  "invoice_btc_address_warning_without_min_fee_account_connected": "Изпратете повече от {minSats} и до {maxSats} на този адрес. Ще бъде приложена такса за настройка от {setUpFee}% за изпращане на повече от {liquidity}. Този адрес може да се използва само веднъж.",
+  "@invoice_btc_address_warning_without_min_fee_account_connected": {
+    "placeholders": {
+      "minSats": {
+        "type": "String",
+        "example": "2 000 сатошита"
+      },
+      "maxSats": {
+        "type": "String",
+        "example": "4 000 000 сатошита"
+      },
+      "setUpFee": {
+        "type": "String",
+        "example": "0.4"
+      },
+      "liquidity": {
+        "type": "String",
+        "example": "99 000 сатошита"
+      }
+    }
+  },
+  "invoice_btc_address_warning_with_min_fee_account_not_connected": "Изпратете повече от {minSats} и до {maxSats} на този адрес. Върху получената сума ще бъде приложена такса за настройка от {setUpFee}% с минимум {minFee}. Този адрес може да се използва само веднъж.",
+  "@invoice_btc_address_warning_with_min_fee_account_not_connected": {
+    "placeholders": {
+      "minSats": {
+        "type": "String",
+        "example": "2 000 сатошита"
+      },
+      "maxSats": {
+        "type": "String",
+        "example": "4 000 000 сатошита"
+      },
+      "setUpFee": {
+        "type": "String",
+        "example": "0.4"
+      },
+      "minFee": {
+        "type": "String",
+        "example": "1 000 сатошита"
+      }
+    }
+  },
+  "invoice_btc_address_warning_without_min_fee_account_not_connected": "Изпратете повече от {minSats} и до {maxSats} на този адрес. Върху получената сума ще бъде приложена такса за настройка от {setUpFee}%. Този адрес може да се използва само веднъж.",
+  "@invoice_btc_address_warning_without_min_fee_account_not_connected": {
+    "placeholders": {
+      "minSats": {
+        "type": "String",
+        "example": "2 000 сатошита"
+      },
+      "maxSats": {
+        "type": "String",
+        "example": "4 000 000 сатошита"
+      },
+      "setUpFee": {
+        "type": "String",
+        "example": "0.4"
+      }
+    }
+  },
+  "invoice_btc_address_deposit_address": "Депозитен адрес",
+  "invoice_btc_address_deposit_address_copied": "Адресът за депозит бе копиран в клипборда ви.",
+  "invoice_btc_address_on_chain_begin": "Breez използва метода Submarine Swaps за извършване на транзакции във веригата. Кликнете ",
+  "invoice_btc_address_on_chain_here": "тук",
+  "invoice_btc_address_on_chain_end": " за да видите скрипта, асоцииран с този адрес.",
+  "invoice_btc_address_on_chain_action_ok": "ПОТВЪРЖАВАНЕ",
+  "invoice_title": "Получаване чрез фактура",
+  "invoice_action_create": "СЪЗДАЙТЕ",
+  "invoice_action_redeem": "ОТКУПЕТЕ",
+  "invoice_action_scan_barcode": "Сканирайте баркода",
+  "invoice_payment_success": "Плащането беше получено успешно!",
+  "invoice_qr_code_not_detected": "QR кодът не беше открит.",
+  "invoice_receive_fail": "Неуспешно получаване",
+  "invoice_receive_fail_message": "Причина: {reason}",
+  "@invoice_receive_fail_message": {
+    "placeholders": {
+      "reason": {
+        "type": "String",
+        "example": "Съобщение за грешка"
+      }
+    }
+  },
+  "invoice_error_url": "Невалиден URL",
+  "invoice_insufficient_amount_fee": "Недостатъчна сума за покриване на таксите за настройка от {fee}",
+  "@invoice_insufficient_amount_fee": {
+    "placeholders": {
+      "fee": {
+        "type": "String",
+        "example": "20 сатошита"
+      }
+    }
+  },
+  "invoice_description_label": "Описание (по избор)",
+  "invoice_availability_message_synchronizing": "Получаването на плащания ще бъде налично веднага щом Breez се синхронизира.",
+  "invoice_availability_message_opening_channel": "Ще можете да получавате плащания, след като Breez приключи с отварянето на защитен канал с нашия сървър. Това обикновено отнема около 10 минути. Моля, опитайте отново след няколко минути.",
+  "invoice_receive_label": "Получете до: {maxSats}",
+  "@invoice_receive_label": {
+    "placeholders": {
+      "maxSats": {
+        "type": "String",
+        "example": "2 000 сатошита"
+      }
+    }
+  },
+  "invoice_ln_address_warning_with_min_fee_account_connected": "За получаване на повече от {liquidity} ще бъде приложена такса за настройка от {setUpFee}% с минимум {minFee}.",
+  "@invoice_ln_address_warning_with_min_fee_account_connected": {
+    "placeholders": {
+      "setUpFee": {
+        "type": "String",
+        "example": "0.4"
+      },
+      "minFee": {
+        "type": "String",
+        "example": "1 000 сатошита"
+      },
+      "liquidity": {
+        "type": "String",
+        "example": "99 000 сатошита"
+      }
+    }
+  },
+  "invoice_ln_address_warning_without_min_fee_account_connected": "Ще бъде приложена такса за настройка от {setUpFee}% за получаване на повече от {liquidity}.",
+  "@invoice_ln_address_warning_without_min_fee_account_connected": {
+    "placeholders": {
+      "setUpFee": {
+        "type": "String",
+        "example": "0.4"
+      },
+      "liquidity": {
+        "type": "String",
+        "example": "99 000 сатошита"
+      }
+    }
+  },
+  "invoice_ln_address_warning_with_min_fee_account_not_connected": "Върху получената сума ще бъде приложена такса за настройка от {setUpFee}% с минимум {minFee}.",
+  "@invoice_ln_address_warning_with_min_fee_account_not_connected": {
+    "placeholders": {
+      "setUpFee": {
+        "type": "String",
+        "example": "0.4"
+      },
+      "minFee": {
+        "type": "String",
+        "example": "1 000 сатошита"
+      }
+    }
+  },
+  "invoice_ln_address_warning_without_min_fee_account_not_connected": "Върху получената сума ще бъде приложена такса за настройка от {setUpFee}%.",
+  "@invoice_ln_address_warning_without_min_fee_account_not_connected": {
+    "placeholders": {
+      "setUpFee": {
+        "type": "String",
+        "example": "0.4"
+      }
+    }
+  },
+  "invoice_bottom_sheet_action_invoice": "ФАКТУРА",
+  "invoice_bottom_sheet_action_pay": "ПЛАЩАНЕ",
+  "invoice_bottom_sheet_action_receive": "ПОЛУЧАВАНЕ",
+  "invoice_bottom_sheet_error_qrcode": "QR кода не беше открит.",
+  "invoice_payment_validator_error_payment_exceeded_limit": "Плащането надвишава лимита ({maxSats})",
+  "@invoice_payment_validator_error_payment_exceeded_limit": {
+    "placeholders": {
+      "maxSats": {
+        "type": "String",
+        "example": "2 000 сатошита"
+      }
+    }
+  },
+  "invoice_payment_validator_error_payment_below_invoice_limit": "Плащането е под лимита ({minSats})",
+  "@invoice_payment_validator_error_payment_below_invoice_limit": {
+    "placeholders": {
+      "minSats": {
+        "type": "String",
+        "example": "2 000 сатошита"
+      }
+    }
+  },
+  "invoice_payment_validator_error_payment_below_limit": "Breez изисква да поддържате {minSats} в баланса Ви.",
+  "@invoice_payment_validator_error_payment_below_limit": {
+    "placeholders": {
+      "minSats": {
+        "type": "String",
+        "example": "2 000 сатошита"
+      }
+    }
+  },
+  "invoice_payment_validator_error_insufficient_local_balance": "Недостатъчен местен баланс",
+  "invoice_payment_validator_error_payment_below_setup_fees_error": "Недостатъчна сума за покриване на таксите за настройка на {setUpSats}",
+  "@invoice_payment_validator_error_payment_below_setup_fees_error": {
+    "placeholders": {
+      "setUpSats": {
+        "type": "String",
+        "example": "20 сатошита"
+      }
+    }
+  },
+  "invoice_payment_validator_error_unknown": "Грешка при валидиране {error}",
+  "@invoice_payment_validator_error_unknown": {
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Съобшение за грешка"
+      }
+    }
+  },
+  "backup_dialog_title": "Резервно копие",
+  "backup_dialog_message_remote_server": "Неуспешно записване на резервното копие на отдалечения сървър. Моля, прегледайте настройките си и опитайте отново.",
+  "backup_dialog_message_default": "Ако искате да можете да възстановите средствата си, в случай че това мобилно устройство или това приложение вече не са налични (напр. изгубено или откраднато устройство или деинсталиране на приложение), трябва да направите резервно копие на вашата информация.",
+  "backup_dialog_do_not_prompt_again": "Не подканвайте отново",
+  "backup_dialog_option_cancel": "ПО КЪСНО",
+  "backup_dialog_option_ok_remote_server": "НАСТРОЙКИ",
+  "backup_dialog_option_ok_default": "АРХИВИРАНЕ СЕГА",
+  "backup_dialog_icloud_error_title": "Влезте в iCloud",
+  "backup_dialog_icloud_error_message": "Влезте в акаунта си в iCloud. На началния екран стартирайте Настройки, докоснете iCloud и въведете своя Apple ID. Включете iCloud Drive. Ако нямате iCloud акаунт, докоснете Създаване на нов Apple ID.",
+  "backup_provider_dialog_title": "Съхранение на архивни данни",
+  "backup_provider_dialog_message_restore": "Възстановяване на архивни данни от:",
+  "backup_provider_dialog_message_store": "Съхранявайте резервни данни в:",
+  "backup_provider_dialog_action_cancel": "ОТМЕНЯНЕ",
+  "backup_provider_dialog_action_ok": "ПОТВЪРЖАВАНЕ",
+  "backup_export_static": "Експортиране на статично архивиране",
+  "backup_export_static_error_data_missing": "Липсват статични резервни данни",
+  "tutorial_gotcha": "Схванах!",
+  "bottom_action_bar_send": "ИЗПРАЩАНЕ",
+  "bottom_action_bar_receive": "ПРИЕМАНЕ",
+  "bottom_action_bar_paste_invoice": "Поставете фактура или ID",
+  "bottom_action_bar_connect_to_pay": "Свържете се, за да платите",
+  "bottom_action_bar_send_btc_address": "Изпращане до BTC адрес",
+  "bottom_action_bar_escher": "Изплащане чрез Escher",
+  "bottom_action_bar_receive_invoice": "Получаване чрез фактура",
+  "bottom_action_bar_receive_btc_address": "Получаване чрез BTC адрес",
+  "bottom_action_bar_buy_bitcoin": "Купете Биткойн",
+  "bottom_action_bar_warning_balance_title": "Breez изисква да поддържате {balance} в баланса си.",
+  "@bottom_action_bar_warning_balance_title": {
+    "placeholders": {
+      "balance": {
+        "type": "String",
+        "example": "1.23456789"
+      }
+    }
+  },
+  "payments_filter_action_export": "Експортирайте",
+  "payments_filter_action_export_failed": "Неуспешно експортиране на плащания.",
+  "payments_filter_option_all": "Всички дейности",
+  "payments_filter_option_sent": "Изпратени",
+  "payments_filter_option_received": "Получени",
+  "payments_filter_message_loading_transactions": "Моля, изчакайте, докато Breez зарежда транзакции.",
+  "payment_details_dialog_closed_channel_title": "Затворен канал",
+  "payment_details_dialog_closed_channel_title_pending": "Чакащ затворен канал",
+  "payment_details_dialog_closed_channel_ok": "ПОТВЪРЖАВАНЕ",
+  "payment_details_dialog_closed_channel_local_wallet": "Прехвърляне към локален портфейл поради затворен канал.",
+  "payment_details_dialog_closed_channel_about_hour": "след около час",
+  "payment_details_dialog_closed_channel_about_hours": "~{hours} часа",
+  "@payment_details_dialog_closed_channel_about_hours": {
+    "placeholders": {
+      "hours": {
+        "type": "String",
+        "example": "2"
+      }
+    }
+  },
+  "payment_details_dialog_closed_channel_transfer_no_estimation": "Изчакване средствата от затворен канал да бъдат прехвърлени към вашия локален портфейл",
+  "payment_details_dialog_closed_channel_transfer_estimation": "Изчакване средствата от затворен канал да бъдат прехвърлени към вашия локален портфейл в блок ${lockHeight} (${hoursToUnlock})",
+  "@payment_details_dialog_closed_channel_transfer_estimation": {
+    "placeholders": {
+      "lockHeight": {
+        "type": "int",
+        "example": "12345"
+      },
+      "hoursToUnlock": {
+        "type": "String",
+        "example": "след около час"
+      }
+    }
+  },
+  "payment_details_dialog_transaction_id_copied": "ID на транзакцията бе копиран в клипборда ви.",
+  "payment_details_dialog_restart_text": "Моля, рестартирайте Breez, за да нулирате информацията за веригата за този канал.",
+  "payment_details_dialog_restart_cancel": "ОТМЕНЯНЕ",
+  "payment_details_dialog_restart_exit_breez": "ИЗХОД BREEZ",
+  "payment_details_dialog_transaction_label_default": "Номер на транзакцията:",
+  "payment_details_dialog_internal_error": "Вътрешна грешка",
+  "payment_details_dialog_refresh_information": "Опреснете информацията",
+  "payment_details_dialog_share_transaction": "Споделете хеша на трансакцията",
+  "payment_details_dialog_share_lightning_address": "Светкавичен адрес",
+  "payment_details_dialog_share_comment": "Коментар",
+  "payment_details_dialog_copy_action": "Копирайте {title}",
+  "@payment_details_dialog_copy_action": {
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "Предварително изображение на плащане"
+      }
+    }
+  },
+  "payment_details_dialog_copied": "{title} бе копирано в клипборда ви.",
+  "@payment_details_dialog_copied": {
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "Предварително изображение на плащане"
+      }
+    }
+  },
+  "payment_details_dialog_single_info_pre_image": "Предварително изображение на плащане",
+  "payment_details_dialog_single_info_node_id": "ID на възел",
+  "payment_details_dialog_single_info_on_chain": "Транзакция във веригата",
+  "payment_details_dialog_action_for_payment_description": "Описание",
+  "payment_details_dialog_action_for_payment_url": "URL",
+  "payment_details_dialog_action_for_payment_message": "Съобщение",
+  "payment_details_dialog_expiration": "Изтичане",
+  "payment_details_dialog_date_and_time": "Дата и час",
+  "payment_details_dialog_amount_title": "Сума",
+  "payment_details_dialog_amount_negative": "-{amount}",
+  "@payment_details_dialog_amount_negative": {
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "1000 сатошита"
+      }
+    }
+  },
+  "payment_details_dialog_amount_positive": "+{amount}",
+  "@payment_details_dialog_amount_positive": {
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "1000 сатошита"
+      }
+    }
+  },
+  "payment_info_dialog_title": "Информация за получателя",
+  "payment_info_dialog_hint": "Фактура или ID",
+  "payment_info_dialog_hint_expanded": "Въведете фактура, ID на възел или адрес на Lightning.",
+  "payment_info_dialog_barcode": "Сканирайте баркода",
+  "payment_info_dialog_error": "Невалидна фактура, ID или адрес",
+  "payment_info_dialog_error_unsupported_input": "Неподдържан вход",
+  "payment_info_dialog_error_qrcode": "QR кода не беше открит.",
+  "payment_info_dialog_action_cancel": "ОТМЕНЯНЕ",
+  "payment_info_dialog_action_approve": "ОДОБРЯВАНЕ",
+  "pos_invoice_item_management_title_add": "Добавете артикул",
+  "pos_invoice_item_management_title_edit": "Променете артикул",
+  "pos_invoice_item_management_title_save": "ЗАПАЗЕТЕ",
+  "pos_invoice_item_management_field_name_label": "Име",
+  "pos_invoice_item_management_field_name_hint": "Въведете име",
+  "pos_invoice_item_management_field_name_error": "Името е задължително",
+  "pos_invoice_item_management_field_price_label": "Цена",
+  "pos_invoice_item_management_field_price_hint": "Въведете цена",
+  "pos_invoice_item_management_field_price_error": "Цената е задължителна",
+  "pos_invoice_item_management_field_sku_label": "SKU",
+  "pos_invoice_item_management_field_sku_hint": "Въведете SKU",
+  "pos_invoice_item_management_dd_currency_title": "Валута",
+  "pos_invoice_item_management_image_title": "Изберете изображение",
+  "pos_invoice_item_management_error_btc_rate": "Неуспешно извличане на обменния курс на BTC.",
+  "pos_invoice_item_management_avatar_title": "Изберете изображение",
+  "pos_invoice_item_management_avatar_search": "Търсене на изображение",
+  "pos_invoice_tab_keypad": "Клавиатура",
+  "pos_invoice_tab_items": "Артикули",
+  "pos_invoice_charge_label": "ТАКСУВАЙТЕ {amount} {currencyName}",
+  "@pos_invoice_charge_label": {
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "2.00"
+      },
+      "currencyName": {
+        "type": "String",
+        "example": "USD"
+      }
+    }
+  },
+  "pos_invoice_num_pad_clear": "C",
+  "pos_invoice_num_pad_plus": "+",
+  "pos_invoice_search_hint": "Търсете име или SKU",
+  "pos_invoice_search_empty": "Няма намерени съответстващи елементи.",
+  "pos_invoice_search_no_items": "Няма елементи за показване.\nДобавете елементи към този изглед с помощта на бутона +.",
+  "pos_invoice_error_fiat_exchange_rates": "Неуспешно извличане на обменните курсове на fiat.",
+  "pos_invoice_error_submit_header": "Задължителна информация",
+  "pos_invoice_error_submit_name_avatar": "Моля, въведете името на вашия бизнес и изберете фирмено лого в екрана с настройки.",
+  "pos_invoice_error_submit_name_only": "Моля, въведете името на вашия бизнес в екрана с настройки.",
+  "pos_invoice_error_submit_avatar_only": "Моля, изберете бизнес лого в екрана с настройки.",
+  "pos_invoice_error_fix_action": "ОТИДЕТЕ В НАСТРОЙКИ",
+  "pos_invoice_error_capacity_header": "Нямате капацитет да получите такова плащане.",
+  "pos_invoice_error_capacity_message": "Максималният размер на плащането, което можете да получите, е {maxAllowed}. Моля, въведете по-малка стойност.",
+  "@pos_invoice_error_capacity_message": {
+    "placeholders": {
+      "maxAllowed": {
+        "type": "String",
+        "example": "2.00"
+      }
+    }
+  },
+  "pos_invoice_error_payment_size_header": "Надхвърлихте максималния размер на плащането.",
+  "pos_invoice_error_payment_size_message": "Максималният размер на плащането в светкавичната мрежа е {maxAllowed}. Моля, въведете по-малка стойност или завършете плащането в няколко транзакции.",
+  "@pos_invoice_error_payment_size_message": {
+    "placeholders": {
+      "maxAllowed": {
+        "type": "String",
+        "example": "2.00"
+      }
+    }
+  },
+  "pos_invoice_close": "ЗАТВАРЯНЕ",
+  "pos_invoice_clear_sale_header": "Анулиране на разпродажба?",
+  "pos_invoice_clear_sale_message": "Това ще изчисти текущата транзакция.",
+  "pos_invoice_clear_sale_cancel": "ОТМЕНЯНЕ",
+  "pos_invoice_clear_sale_confirm": "ИЗЧИСТВАНЕ",
+  "pos_invoice_sort_none": "Нищо",
+  "pos_invoice_sort_alphabetically": "Име",
+  "pos_invoice_sort_price": "Цена",
+  "app_animal_bat": "Прилеп",
+  "app_animal_bear": "Мечка",
+  "app_animal_boar": "Глиган",
+  "app_animal_cat": "Котка",
+  "app_animal_chick": "Пиле",
+  "app_animal_cow": "Крава",
+  "app_animal_deer": "Елен",
+  "app_animal_dog": "Куче",
+  "app_animal_eagle": "Орел",
+  "app_animal_elephant": "Слон",
+  "app_animal_fox": "Лисица",
+  "app_animal_frog": "Жаба",
+  "app_animal_hippo": "Хипопотам",
+  "app_animal_hummingbird": "Колибри",
+  "app_animal_koala": "Коала",
+  "app_animal_lion": "Лъв",
+  "app_animal_monkey": "Маймуна",
+  "app_animal_mouse": "Мишка",
+  "app_animal_owl": "Бухал",
+  "app_animal_ox": "Говедо",
+  "app_animal_panda": "Панда",
+  "app_animal_pig": "Прасе",
+  "app_animal_rabbit": "Заек",
+  "app_animal_seagull": "Чайка",
+  "app_animal_sheep": "Овца",
+  "app_animal_snake": "Змия",
+  "app_color_salmon": "Скумрия",
+  "app_color_blue": "Синьо",
+  "app_color_turquoise": "Тюркоаз",
+  "app_color_orchid": "Орхидея",
+  "app_color_purple": "Лилаво",
+  "app_color_tomato": "Домат",
+  "app_color_cyan": "Циан",
+  "app_color_crimson": "Пурпурен",
+  "app_color_orange": "Оранжев",
+  "app_color_lime": "Лайм",
+  "app_color_pink": "Розов",
+  "app_color_green": "Зелен",
+  "app_color_red": "Червен",
+  "app_color_yellow": "Жълт",
+  "app_color_azure": "Лазурно",
+  "app_color_silver": "Сребърно",
+  "app_color_magenta": "Магента",
+  "app_color_olive": "Маслено",
+  "app_color_violet": "Виолетов",
+  "app_color_rose": "Роза",
+  "app_color_wine": "Вино",
+  "app_color_mint": "Мента",
+  "app_color_indigo": "Индиго",
+  "app_color_jade": "Нефрит",
+  "app_color_coral": "Корал",
+  "pos_transactions_title": "Транзакции",
+  "pos_transactions_placeholder": "Тук се показват успешните транзакции.",
+  "pos_transactions_action_export": "Експортиране",
+  "pos_transactions_action_export_failed": "Неуспешно експортиране на плащания.",
+  "pos_transactions_range_no_transactions": "Няма транзакции в този период от време",
+  "pos_transactions_range_dialog_title": "Изберете период от време:",
+  "pos_transactions_range_dialog_start": "Начало",
+  "pos_transactions_range_dialog_end": "Край",
+  "pos_transactions_range_dialog_clear": "ИЗЧИСТВАНЕ",
+  "pos_transactions_range_dialog_apply": "ПРИЛОЖЕТЕ ФИЛТЪР",
+  "pos_transactions_item_positive": "{value}",
+  "@pos_transactions_item_positive": {
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "1.234"
+      }
+    }
+  },
+  "pos_transactions_item_negative": "- {value}",
+  "@pos_transactions_item_negative": {
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "1.234"
+      }
+    }
+  },
+  "pos_transactions_item_fiat": "{fiat}",
+  "@pos_transactions_item_fiat": {
+    "placeholders": {
+      "fiat": {
+        "type": "String",
+        "example": "1.234"
+      }
+    }
+  },
+  "sale_view_title": "Текуща продажба",
+  "sale_view_note_hint": "Добавете бележка",
+  "sale_view_print": "Принтиране",
+  "sale_view_total_title_read_only_no_fiat": "{value}",
+  "@sale_view_total_title_read_only_no_fiat": {
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "1.234"
+      }
+    }
+  },
+  "sale_view_total_title_charge_no_fiat": "ТАКСУВАНЕ {стойност}",
+  "@sale_view_total_title_charge_no_fiat": {
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "1.234"
+      }
+    }
+  },
+  "sale_view_total_title_read_only_fiat": "{value} ({fiatValue})",
+  "@sale_view_total_title_read_only_fiat": {
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "1.234"
+      },
+      "fiatValue": {
+        "type": "String",
+        "example": "1.23"
+      }
+    }
+  },
+  "sale_view_total_title_charge_fiat": "ТАКСУВАНЕ {value} ({fiatValue})",
+  "@sale_view_total_title_charge_fiat": {
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "1.234"
+      },
+      "fiatValue": {
+        "type": "String",
+        "example": "1.23"
+      }
+    }
+  },
+  "fiat_currencies_title": "Фиатни валути",
+  "fiat_currencies_save_fail": "Неуспешно запазване на промените.",
+  "connect_to_pay_title_payer": "Свържете се, за да платите",
+  "connect_to_pay_title_payee": "Получаване на плащане",
+  "connect_to_pay_canceled_payer": "Платецът анулира платежната сесия",
+  "connect_to_pay_canceled_payee": "Получателят е анулирал платежната сесия",
+  "connect_to_pay_canceled_remote_user": "{name} анулира платежната сесия",
+  "@connect_to_pay_canceled_remote_user": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Алис"
+      }
+    }
+  },
+  "connect_to_pay_success_payer": "Успешно платихте {amount} на {name}!",
+  "@connect_to_pay_success_payer": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Алис"
+      },
+      "amount": {
+        "type": "String",
+        "example": "1.23"
+      }
+    }
+  },
+  "connect_to_pay_success_payee": "{name} Ви платиха успешно {amount}!",
+  "@connect_to_pay_success_payee": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Алис"
+      },
+      "amount": {
+        "type": "String",
+        "example": "1.23"
+      }
+    }
+  },
+  "connect_to_pay_exit_warning": "Сигурни ли сте, че искате да отмените тази платежна сесия?",
+  "connect_to_pay_failed_to_connect": "Неуспешно свързване със сесия: {error}",
+  "@connect_to_pay_failed_to_connect": {
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Съобщение за грешка"
+      }
+    }
+  },
+  "connect_to_pay_payee_success_received": "Успешно получихте {amount}",
+  "@connect_to_pay_payee_success_received": {
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "1.23"
+      }
+    }
+  },
+  "connect_to_pay_payee_waiting_no_name": "Изчаква се платецът да въведе сума",
+  "connect_to_pay_payee_waiting_with_name": "Изчаква се {name} да въведе сума",
+  "@connect_to_pay_payee_waiting_with_name": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Алис"
+      }
+    }
+  },
+  "connect_to_pay_payee_waiting_sync": "Моля, изчакайте, докато Breez се синхронизира",
+  "connect_to_pay_payee_waiting_sync_action_close": "ЗАТВАРЯНЕ",
+  "connect_to_pay_payee_message_no_fiat": "{name} иска да ви плати {amount}",
+  "@connect_to_pay_payee_message_no_fiat": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Алис"
+      },
+      "amount": {
+        "type": "String",
+        "example": "1.23"
+      }
+    }
+  },
+  "connect_to_pay_payee_message_with_fiat": "{name} иска да ви плати {amount} ({fiat})",
+  "@connect_to_pay_payee_message_with_fiat": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Алис"
+      },
+      "amount": {
+        "type": "String",
+        "example": "1.23"
+      },
+      "fiat": {
+        "type": "String",
+        "example": "1.23"
+      }
+    }
+  },
+  "connect_to_pay_payee_error_limit_exceeds": "Това плащане надвишава вашия лимит {amount}",
+  "@connect_to_pay_payee_error_limit_exceeds": {
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "1.23"
+      }
+    }
+  },
+  "connect_to_pay_payee_process": "Плащането на {name} се обработва",
+  "@connect_to_pay_payee_process": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Алис"
+      }
+    }
+  },
+  "connect_to_pay_payee_setup_fee": "Към това плащане се прилага такса за настройка от {sats} ({fiat}).",
+  "@connect_to_pay_payee_setup_fee": {
+    "placeholders": {
+      "sats": {
+        "type": "String",
+        "example": "1.23"
+      },
+      "fiat": {
+        "type": "String",
+        "example": "1.23"
+      }
+    }
+  },
+  "connect_to_pay_payee_action_reject": "Отхвърляне",
+  "connect_to_pay_payee_action_approve": "Одобряване",
+  "connect_to_pay_payer_success": "Успешно сте платили {amount}",
+  "@connect_to_pay_payer_success": {
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "1.23"
+      }
+    }
+  },
+  "connect_to_pay_payer_enter_amount": "{name} се присъедини към сесията.\nМоля, въведете сума и докоснете Плащане, за да продължите.",
+  "@connect_to_pay_payer_enter_amount": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Алис"
+      }
+    }
+  },
+  "connect_to_pay_payer_share_link": "Докоснете бутона Споделяне, за да споделите връзка с лице, на което искате да платите. След това, моля изчакайте, докато този човек кликне върху връзката и се присъедини към сесията.",
+  "connect_to_pay_payer_waiting_join_no_name": "Изчаквам някой да се присъедини към тази сесия",
+  "connect_to_pay_payer_waiting_join_with_name": "Изчаква се {name} да се присъедини към тази сесия",
+  "@connect_to_pay_payer_waiting_join_with_name": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Алис"
+      }
+    }
+  },
+  "connect_to_pay_payer_waiting_approve_no_name": "Изчакване някой да одобри плащането Ви",
+  "connect_to_pay_payer_waiting_approve_with_name": "Изчакваме {name} да одобри плащането Ви",
+  "@connect_to_pay_payer_waiting_approve_with_name": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Алис"
+      }
+    }
+  },
+  "connect_to_pay_payer_sending": "Изпращане на плащане…",
+  "connect_to_pay_payer_wait_sync": "Моля изчакайте, докато Breez се синхронизира",
+  "connect_to_pay_payer_synchronizing": "Синхронизиране към мрежата",
+  "connect_to_pay_payer_action_close": "ЗАТВАРЯНЕ",
+  "connect_to_pay_payment_detail_note": "Бележка (по избор)",
+  "connect_to_pay_payment_available": "На разположение:",
+  "connect_to_pay_payment_action_close": "ЗАТВАРЯНЕ",
+  "connect_to_pay_payment_action_pay": "ПЛАЩАНЕ",
+  "connect_to_pay_peer_unknown": "Неизвестен",
+  "connect_to_pay_share_text": "{name} иска да ви плати чрез Breez…\nПоследвайте тази връзка, за да получите плащане: {address}",
+  "@connect_to_pay_share_text": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Алис"
+      },
+      "address": {
+        "type": "String",
+        "example": "http://an.url.com/link"
+      }
+    }
+  },
+  "connect_to_pay_payment_reject": "Плащането е отхвърлено",
+  "connect_to_pay_error_wrong_amount": "Грешна сума в искането за плащане",
+  "connect_to_pay_error_status_tracking_already_started": "Проследяването на състоянието вече е започнало, трябва да бъде спряно, преди да започне отново",
+  "connect_to_pay_error_link_expired": "Тази връзка е изтекла и вече не е валидна за плащане.",
+  "security_title": "Сигурност",
+  "security_and_backup_title": "Сигурност и Архивиране",
+  "security_and_backup_last_backup_no_account": "Последно архивиране: {lastBackup}",
+  "@security_and_backup_last_backup_no_account": {
+    "placeholders": {
+      "lastBackup": {
+        "type": "String",
+        "example": "03/01/2022 14:57"
+      }
+    }
+  },
+  "security_and_backup_last_backup_with_account": "Последно архивиране: {lastBackup}\Акаунт: {accountName}",
+  "@security_and_backup_last_backup_with_account": {
+    "placeholders": {
+      "lastBackup": {
+        "type": "String",
+        "example": "03/01/2022 14:57"
+      },
+      "accountName": {
+        "type": "String",
+        "example": "address@email.com"
+      }
+    }
+  },
+  "security_and_backup_encrypt": "Шифроване на облачно архивиране",
+  "security_and_backup_store_location": "Съхранявайте резервни данни в",
+  "security_and_backup_lock_automatically": "Автоматично заключване",
+  "security_and_backup_lock_automatically_option_immediate": "Незабавно",
+  "security_and_backup_change_pin": "Променете ПИН",
+  "security_and_backup_enable_biometric_option_face": "Активиране на лицево разпознаване",
+  "security_and_backup_enable_biometric_option_face_id": "Активиране на лицево разпознаване ID",
+  "security_and_backup_enable_biometric_option_fingerprint": "Активиране на пръстов отпечатък",
+  "security_and_backup_enable_biometric_option_touch_id": "Активиране на пръстов отпечатък ID",
+  "security_and_backup_enable_biometric_option_other": "Активиране на биометрични данни",
+  "security_and_backup_enable_biometric_option_none": "",
+  "security_and_backup_validate_biometrics_reason": "Удостоверете се, за да активирате тази настройка",
+  "security_and_backup_pin_option_create": "Създаване на ПИН",
+  "security_and_backup_pin_option_deactivate": "Деактивиране на ПИН",
+  "security_and_backup_internal_error": "Вътрешна грешка",
+  "security_and_backup_new_pin": "Въведете своя нов ПИН",
+  "security_and_backup_new_pin_second_time": "Въведете повторно своя нов ПИН",
+  "security_and_backup_new_pin_do_not_match": "ПИН-а не съвпада",
+  "backup_in_progress": "Извършва се архивиране",
+  "backup_in_progress_action_confirm": "ПОТВЪРЖАВАНЕ",
+  "backup_model_name_apple_icloud": "Apple iCloud",
+  "backup_model_name_google_drive": "Google Drive",
+  "backup_model_name_remote_server": "Отдалечен сървър",
+  "backup_model_error_failed": "Неуспешно архивиране",
+  "network_title": "Мрежа",
+  "network_restart_message": "Моля, рестартирайте Breez, за да превключите към новата конфигурация на Bitcoin Node.",
+  "network_restart_action_cancel": "ОТМЕНЯНЕ",
+  "network_restart_action_confirm": "ИЗХОД BREEZ",
+  "network_restart_action_reset": "Нулиране",
+  "network_restart_action_save": "Запазване",
+  "network_bitcoin_node": "Биткойн възел (BIP 157)",
+  "network_optional_node": "Биткойн възел (BIP 157, по избор)",
+  "network_bitcoin_node_required_error": "Това поле е задължително",
+  "network_distinct_node_hint": "Моля, въведете друг възел",
+  "network_default_node_error": "Breez не може да използва възела по подразбиране.",
+  "network_custom_node_error": "Breez не може да се свърже с посочения възел. Моля, уверете се, че този възел поддържа BIP 157.",
+  "network_testing_node": "Тестване на възел",
+  "network_tor_enable": "Активирайте на Tor",
+  "network_tor_disable": "Деактивирайте на Tor",
+  "network_tor_enabling": "Активиране на Tor",
+  "network_tor_disabling": "Деактивиране на Tor",
+  "network_tor_enable_error": "Breez не може да активира Tor. Моля, рестартирайте Breez и опитайте отново.",
+  "network_tor_disable_error": "Breez не може да деактивира Tor. Моля, рестартирайте Breez и опитайте отново.",
+  "amount_form_denomination": "Сума в {denomination}",
+  "@amount_form_denomination": {
+    "placeholders": {
+      "denomination": {
+        "type": "String",
+        "example": "сатошита"
+      }
+    }
+  },
+  "amount_form_insert_hint": "Моля, въведете сумата в {denomination}",
+  "@amount_form_insert_hint": {
+    "placeholders": {
+      "denomination": {
+        "type": "String",
+        "example": "сатошита"
+      }
+    }
+  },
+  "amount_form_error_invalid_amount": "Невалидна сума",
+  "currency_converter_dialog_error_exchange_rate": "Неуспешно извличане на обменния курс на BTC.",
+  "currency_converter_dialog_title": "Въведете сумата",
+  "currency_converter_dialog_action_cancel": "ОТМЕНЯНЕ",
+  "currency_converter_dialog_action_done": "ГОТОВО",
+  "currency_converter_dialog_rate": "1 BTC = {rate} {currencyName}",
+  "@currency_converter_dialog_rate": {
+    "placeholders": {
+      "rate": {
+        "type": "String",
+        "example": "42 902.93"
+      },
+      "currencyName": {
+        "type": "String",
+        "example": "USD"
+      }
+    }
+  },
+  "reverse_swap_title": "Изпращане до BTC адрес",
+  "reverse_swap_funding_transaction": "Финансова транзакция:",
+  "reverse_swap_waiting_channels": "Ще можете да изпратите средствата си на BTC адрес, след като всички канали бъдат потвърдени.",
+  "reverse_swap_confirmation_speed": "Изберете скорост на обработка",
+  "reverse_swap_confirmation_action_confirm": "ПОТВЪРЖАВАНЕ",
+  "reverse_swap_confirmation_you_send": "Изпратихте:",
+  "reverse_swap_confirmation_you_receive": "Получихте:",
+  "reverse_swap_confirmation_received_no_fiat": "{received}",
+  "@reverse_swap_confirmation_received_no_fiat": {
+    "placeholders": {
+      "received": {
+        "type": "String",
+        "example": "12 345"
+      }
+    }
+  },
+  "reverse_swap_confirmation_received_with_fiat": "{received} ({fiat})",
+  "@reverse_swap_confirmation_received_with_fiat": {
+    "placeholders": {
+      "received": {
+        "type": "String",
+        "example": "12 345"
+      },
+      "fiat": {
+        "type": "String",
+        "example": "56$"
+      }
+    }
+  },
+  "reverse_swap_confirmation_transaction_fee": "Такса за транзакция:",
+  "reverse_swap_confirmation_transaction_fee_value": "-{fee}",
+  "@reverse_swap_confirmation_transaction_fee_value": {
+    "placeholders": {
+      "fee": {
+        "type": "String",
+        "example": "12 345"
+      }
+    }
+  },
+  "reverse_swap_confirmation_boltz_fee": "Такса за обслужване на Boltz:",
+  "reverse_swap_confirmation_boltz_fee_value": "-{boltzFee}",
+  "@reverse_swap_confirmation_boltz_fee_value": {
+    "placeholders": {
+      "boltzFee": {
+        "type": "String",
+        "example": "12 345"
+      }
+    }
+  },
+  "reverse_swap_confirmation_error_fetch_fee": "Неуспешно извличане на таксите. Моля, опитайте отново по-късно.",
+  "reverse_swap_confirmation_error_funds_fee": "Нямате достатъчно средства да покриете таксата за платежната мрежа.",
+  "reverse_swap_notification_title": "Изисква се действие",
+  "reverse_swap_notification_body": "Моля отворете Breez, за да завършите заявената от вас транзакция.",
+  "reverse_swap_upstream_generic_error_message": "{errorMessage}. Моля опитайте отново.",
+  "@reverse_swap_upstream_generic_error_message": {
+    "placeholders": {
+      "errorMessage": {
+        "type": "String",
+        "example": "Неуспешно извличане на таксите"
+      }
+    }
+  },
+  "sync_progress_server_ready": "Синхронизиране към мрежата",
+  "sync_progress_waiting_network": "Изчакване на мрежа",
+  "withdraw_funds_error_min_value": "Трябва да бъде поне {minValue}",
+  "@withdraw_funds_error_min_value": {
+    "placeholders": {
+      "minValue": {
+        "type": "String",
+        "example": "12 345"
+      }
+    }
+  },
+  "withdraw_funds_error_max_value": "Трябва да е по-малко от {maxValue}",
+  "@withdraw_funds_error_max_value": {
+    "placeholders": {
+      "maxValue": {
+        "type": "String",
+        "example": "12 345"
+      }
+    }
+  },
+  "withdraw_funds_use_all_funds": "Използвайте всички средства",
+  "withdraw_funds_btc_address": "BTC адрес",
+  "withdraw_funds_scan_barcode": "Сканирайте баркода",
+  "withdraw_funds_error_invalid_address": "Моля, въведете валиден BTC адрес",
+  "withdraw_funds_balance": "Баланс:",
+  "withdraw_funds_error_qr_code_not_detected": "QR кодът не беше открит.",
+  "withdraw_funds_action_next": "СЛЕДВАЩ",
+  "swap_in_progress_title": "Изпращане до BTC адрес",
+  "swap_in_progress_transaction_id_copied": "Идентификационният номер на транзакцията бе копиран в клипборда ви.",
+  "swap_in_progress_message_waiting_confirmation": "Breez изчаква следната транзакция да бъде потвърдена, преди да изпрати вашите средства на посочения адрес.",
+  "swap_in_progress_message_processing_previous_request": "В момента Breez обработва предишната ви заявка. Ще бъдете уведомени, след като обработката приключи, за да изпратите средствата си на адреса, който сте посочили.",
+  "market_place_no_vendors": "В момента няма налични доставчици.",
+  "account_required_actions_backup": "Резервно копие",
+  "account_page_activation_provider": "За да активирате Breez, моля изберете доставчик:",
+  "account_page_activation_provider_action_select": "ИЗБЕРЕТЕ…",
+  "account_page_activation_provider_label": "Изберете светкавичен доставчик.",
+  "account_page_activation_provider_hint": "Моля, изберете един от следните доставчици, за да активирате Breez и да се свържете към мрежата Lightning.",
+  "account_page_activation_provider_unavailable": "Няма налични доставчици на светкавичната мрежа.\nМоля, проверете конфигурацията си и рестартирайте Breez.",
+  "account_page_activation_error": "Възникна грешка при извличането на светкавични доставчици. Моля, проверете вашата интернет връзка и опитайте отново.",
+  "account_page_activation_action_retry": "ОПИТАЙТЕ ОТНОВО",
+  "account_page_activation_action_select": "ИЗБЕРЕТЕ",
+  "funds_over_limit_dialog_on_chain_transaction": "Верижна транзакция",
+  "funds_over_limit_dialog_action_ok": "ПОТВЪРЖАВАНЕ",
+  "funds_over_limit_dialog_transfer_fail_no_reason_know": "Breez не успя да прехвърли средствата към вашия баланс\n",
+  "funds_over_limit_dialog_transfer_fail_with_reason": "Breez не успя да прехвърли средствата към вашия баланс понеже {reason}\n",
+  "@funds_over_limit_dialog_transfer_fail_with_reason": {
+    "placeholders": {
+      "reason": {
+        "type": "String",
+        "example": "Причина за грешка"
+      }
+    }
+  },
+  "approximately_an_hour": "(след около час)",
+  "approximate_hours": "(~{hours} часа)",
+  "@approximate_hours": {
+    "placeholders": {
+      "hours": {
+        "type": "String",
+        "example": "42"
+      }
+    }
+  },
+  "funds_over_limit_dialog_redeem_hours": "Ще можете да осребрите средствата си след блокиране {lockHeight} {hoursToUnlock}.",
+  "@funds_over_limit_dialog_redeem_hours": {
+    "placeholders": {
+      "lockHeight": {
+        "type": "String",
+        "example": "140659"
+      },
+      "hoursToUnlock": {
+        "type": "String",
+        "example": "(~42 часа)"
+      }
+    }
+  },
+  "funds_over_limit_dialog_refund_begin": "Можете ",
+  "funds_over_limit_dialog_refund_link": "да получите възстановяване на средствата",
+  "funds_over_limit_dialog_refund_end": " сега.",
+  "get_refund_title": "Получете възстановяване на средствата",
+  "get_refund_amount": "Сума: {amount}",
+  "@get_refund_amount": {
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "12 345"
+      }
+    }
+  },
+  "get_refund_action_broadcasted": "ИЗСЛЪЧЕН",
+  "get_refund_action_continue": "ПРОДЪЛЖЕТЕ",
+  "get_refund_transaction": "Транзакция за възстановяване",
+  "get_refund_failed": "се провали",
+  "get_refund_no_refundable_items": "Няма останали артикули за възстановяване.",
+  "get_refund_transaction_id_copied": "Идентификационният номер на транзакцията беше копиран в клипборда ви.",
+  "send_on_chain_broadcast": "ИЗЛЪЧВАНЕ",
+  "send_on_chain_btc_address": "BTC адрес",
+  "send_on_chain_scan_barcode": "Сканирайте баркода",
+  "send_on_chain_invalid_btc_address": "Моля, въведете валиден BTC адрес",
+  "send_on_chain_sat_per_byte_fee_rate": "Такса сатоши за байт",
+  "send_on_chain_invalid_fee_rate": "Моля, въведете валидна такса",
+  "send_on_chain_original_transaction": "Оригинална трансакция",
+  "send_on_chain_amount": "Сума:",
+  "send_on_chain_qr_code_not_detected": "QR кодът не беше открит.",
+  "remote_server_title": "Отдалечен сървър",
+  "remote_server_server_url_hint": "https://example.nextcloud.com",
+  "remote_server_server_url_label": "Сървърна връзка (Nextcloud, WebDav)",
+  "remote_server_server_username_hint": "Потребителско име",
+  "remote_server_server_username_label": "Потребителско име",
+  "remote_server_server_password_hint": "Парола",
+  "remote_server_server_password_label": "Парола",
+  "remote_server_action_restore": "ВЪЗСТАНОВЯВАНЕ",
+  "remote_server_action_save": "ЗАПАЗВАНЕ",
+  "remote_server_warning_connection_title": "Предупреждение за връзка",
+  "remote_server_warning_connection_message": "Вашата връзка с този отдалечен сървър може да не е защитена. Сигурни ли сте, че искате да продължите?",
+  "remote_server_warning_onion_message": "Този URL има домейн onion. Вероятно трябва първо да активирате Tor в мрежовите настройки.",
+  "remote_server_onion_warning_dialog_default_action_cancel": "ОТМЕНЯНЕ",
+  "remote_server_onion_warning_dialog_settings": "НАСТРОЙКИ",
+  "remote_server_testing_connection": "Тестване на връзката",
+  "remote_server_error_invalid_username_or_password": "Невалидно потребителско име или парола",
+  "remote_server_error_invalid_url": "Невалидна URL връзка",
+  "remote_server_error_remote_server_title": "Отдалечен сървър",
+  "remote_server_error_remote_server_message": "Неуспешно свързване с отдалечения сървър, моля, проверете настройките си.",
+  "error_dialog_default_action_ok": "ПОТВЪРЖАВАНЕ",
+  "error_dialog_default_action_yes": "ДА",
+  "error_dialog_default_action_no": "НЕ",
+  "error_dialog_default_action_close": "ЗАТВАРЯНЕ",
+  "ln_url_success_action_title": "Информация за покупка",
+  "ln_url_success_action_link_copied": "Връзката беше копирана в клипборда Ви",
+  "avatar_picker_action_set_photo": "Задаване на снимка",
+  "avatar_picker_action_change_photo": "Променяне на снимка",
+  "avatar_picker_error_select_image": "Неуспешно избиране на изображение",
+  "initial_walk_through_welcome_message": "Най-простият, най-бързият и най-безопасният начин \n да харчите своите биткойни",
+  "initial_walk_through_lets_breeze": "ХАЙДЕ ДА БРИЙЗВАМЕ!",
+  "initial_walk_through_restore_from_backup": "Възстановяване от резервно копие",
+  "initial_walk_through_restoring": "Възстановяване на данни…",
+  "initial_walk_through_sign_in_icloud_title": "Влезте в iCloud",
+  "initial_walk_through_sign_in_icloud_message": "Влезте в акаунта си в iCloud. На началния екран стартирайте Настройки, докоснете iCloud и въведете своя Apple ID. Включете iCloud Drive. Ако нямате iCloud акаунт, докоснете Създаване на нов Apple ID.",
+  "initial_walk_through_error_backup_location": "Не успяхме да се намерим резервно копие за този акаунт",
+  "initial_walk_through_error_internal": "Вътрешна грешка",
+  "restore_pin_title": "Въведете резервен PIN",
+  "enter_backup_phrase": "Enter your backup phrase {number}/{total}",
+  "@enter_backup_phrase": {
+    "placeholders": {
+      "number": {
+        "type": "String",
+        "example": "12"
+      },
+      "total": {
+        "type": "String",
+        "example": "24"
+      }
+    }
+  },
+  "enter_backup_phrase_error": "Неуспешно възстановяване от резервно копие. Моля, уверете се, че резервната фраза е въведена правилно и опитайте отново.",
+  "enter_backup_phrase_missing_word": "Липсваща дума",
+  "enter_backup_phrase_invalid_word": "Невалидна дума",
+  "enter_backup_phrase_action_restore": "ВЪЗСТАНОВЯВАНЕ",
+  "enter_backup_phrase_action_next": "СЛЕДВАЩ",
+  "restore_dialog_title": "Възстановяване",
+  "restore_dialog_multiple_accounts": "Имате няколко резервни копия на Breez на {name}, моля, изберете кое да възстановите:",
+  "@restore_dialog_multiple_accounts": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "A name"
+      }
+    }
+  },
+  "restore_dialog_modified_not_encrypted": "{date}",
+  "@restore_dialog_modified_not_encrypted": {
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "03/01/2022 14:57"
+      }
+    }
+  },
+  "restore_dialog_modified_encrypted": "{date} - (изисква ключ)",
+  "@restore_dialog_modified_encrypted": {
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "03/01/2022 14:57"
+      }
+    }
+  },
+  "restore_dialog_download_backup": "Сваляне на резервно копие",
+  "restore_dialog_download_backup_for_node": "Искате ли да изтеглите резервните данни за възел: {nodeId}?",
+  "@restore_dialog_download_backup_for_node": {
+    "placeholders": {
+      "nodeId": {
+        "type": "String",
+        "example": "ID за възел"
+      }
+    }
+  },
+  "restore_dialog_action_cancel": "ОТМЕНЯНЕ",
+  "restore_dialog_action_ok": "ПОТВЪРЖАВАНЕ",
+  "restore_dialog_download_backup_error": "Грешка при свалянето",
+  "beta_warning_title": "Бета предупреждение",
+  "beta_warning_message": "Тъй като Breez все още е в бета версия, има шанс парите ви да бъдат загубени. Използвайте това приложение само, ако сте готови да поемете този риск.",
+  "beta_warning_understand": "Разбирам",
+  "beta_warning_understand_confirmation": "Моля потвърдете, че разбирате, преди да продължите.",
+  "beta_warning_action_exit": "ИЗХОД",
+  "beta_warning_action_continue": "ПРОДЪЛЖЕТЕ",
+  "alpha_warning_title": "Алфа предупреждение",
+  "alpha_warning_message": "Тъй като Breez все още е в алфа версия, има шанс парите ви да бъдат загубени. Използвайте това приложение само ако сте готови да поемете този риск.",
+  "alpha_warning_understand": "Разбирам",
+  "alpha_warning_understand_confirmation": "Моля потвърдете, че разбирате, преди да продължите.",
+  "alpha_warning_action_exit": "ИЗХОД",
+  "alpha_warning_action_continue": "ПРОДЪЛЖЕТЕ",
+  "processing_payment_dialog_synchronizing": "Синхронизиране към мрежата",
+  "processing_payment_dialog_synchronizing_channels": "Breez синхронизира вашите канали",
+  "processing_payment_dialog_action_close": "ЗАТВАРЯНЕ",
+  "processing_payment_dialog_processing_payment": "Плащането се обработва",
+  "processing_payment_dialog_wait": "Моля изчакайте, докато плащането ви се обработва",
+  "payment_request_dialog_requested": "От вас се иска да платите:",
+  "payment_request_dialog_requesting": "изисква от вас да платите:",
+  "payment_request_dialog_action_cancel": "ОТМЕНЯНЕ",
+  "payment_request_dialog_action_approve": "ОДОБРЯВАНЕ",
+  "payment_failed_report_dialog_title": "Неуспешно плащане",
+  "payment_failed_report_dialog_message": "Изпращането на данни за неуспешно плащане до Breez може да помогне за увеличаване на процента на успешни транзакции.\nИскате ли да изпратите тези данни за неуспешно плащане до Breez?",
+  "payment_failed_report_dialog_do_not_ask_again": "Не ме питай отново",
+  "payment_failed_report_dialog_action_no": "НЕ",
+  "payment_failed_report_dialog_action_yes": "ДА",
+  "payment_confirmation_dialog_title": "Потвърждение за плащане",
+  "payment_confirmation_dialog_confirmation": "Сигурни ли сте, че искате да платите",
+  "payment_confirmation_dialog_confirmation_end": " ?",
+  "payment_confirmation_dialog_action_no": "НЕ",
+  "payment_confirmation_dialog_action_yes": "ДА",
+  "no_connection_flushbar_title": "Няма интернет връзка",
+  "no_connection_flushbar_action_retry": "ОПИТАЙТЕ ОТНОВО",
+  "no_connection_dialog_title": "Няма интернет връзка",
+  "no_connection_dialog_tip_begin": "Може да опитате:\n",
+  "no_connection_dialog_tip_airplane": "• Изключване на самолетен режим\n",
+  "no_connection_dialog_tip_wifi": "• Включване на мобилни данни или Wi-Fi\n",
+  "no_connection_dialog_tip_signal": "• Проверка на сигнала във вашия район\n",
+  "no_connection_dialog_log_view_action": "Вижте ",
+  "no_connection_dialog_log_view_message": "вашите логове \n",
+  "no_connection_dialog_action_cancel": "ОТМЕНЯНЕ",
+  "no_connection_dialog_action_try_again": "ОПИТАЙТЕ ОТНОВО",
+  "lsp_fee_warning_title": "Такса за настройка",
+  "lsp_fee_warning_action_cancel": "ОТМЕНЯНЕ",
+  "lsp_fee_warning_action_ok": "ПОТВЪРЖАВАНЕ",
+  "lsp_fee_warning_with_min_fee_account_connected": "За закупуване на повече от {liquidity} ще бъде приложена такса за настройка от {setUpFee}% с минимум {minFee}.",
+  "@lsp_fee_warning_with_min_fee_account_connected": {
+    "placeholders": {
+      "setUpFee": {
+        "type": "String",
+        "example": "0.4"
+      },
+      "minFee": {
+        "type": "String",
+        "example": "1 000 сатошита"
+      },
+      "liquidity": {
+        "type": "String",
+        "example": "99 000 сатошита"
+      }
+    }
+  },
+  "lsp_fee_warning_without_min_fee_account_connected": "Ще бъде приложена такса за настройка от {setUpFee}% за закупуване на повече от {liquidity}.",
+  "@lsp_fee_warning_without_min_fee_account_connected": {
+    "placeholders": {
+      "setUpFee": {
+        "type": "String",
+        "example": "0.4"
+      },
+      "liquidity": {
+        "type": "String",
+        "example": "99 000 сатошита"
+      }
+    }
+  },
+  "lsp_fee_warning_with_min_fee_account_not_connected": "Върху получената сума ще бъде приложена такса за настройка от {setUpFee}% с минимум {minFee}.",
+  "@lsp_fee_warning_with_min_fee_account_not_connected": {
+    "placeholders": {
+      "setUpFee": {
+        "type": "String",
+        "example": "0.4"
+      },
+      "minFee": {
+        "type": "String",
+        "example": "1 000 сатошита"
+      }
+    }
+  },
+  "lsp_fee_warning_without_min_fee_account_not_connected": "Върху получената сума ще бъде приложена такса за настройка от {setUpFee}%.",
+  "@lsp_fee_warning_without_min_fee_account_not_connected": {
+    "placeholders": {
+      "setUpFee": {
+        "type": "String",
+        "example": "0.4"
+      }
+    }
+  },
+  "lsp_error_provider_do_not_exists": "Доставчика на светкавичната мрежа не съществува",
+  "lsp_error_not_selected": "доставчика на светкавичната мрежа не беше избран",
+  "lsp_error_cannot_open_channel": "В момента Breez не може да отваря нови канали. Моля, опитайте отново по-късно.",
+  "lost_card_dialog_title": "Изгубена или открадната карта",
+  "lost_card_dialog_message": "Ако вашата карта е била изгубена или открадната, трябва да я деактивирате сега, за да предотвратите използването й от други. Деактивиране означава, че няма да можете да използвате нито една от съществуващите си карти, докато не ги активирате отново.",
+  "lost_card_dialog_action_cancel": "ОТМЕНЯНЕ",
+  "lost_card_dialog_action_deactivate": "ДЕАКТИВИРАНЕ",
+  "lost_card_dialog_flush_title": "",
+  "lost_card_dialog_flush_message": "Вашата карта е деактивирана.\nМожете да поръчате нова карта сега.",
+  "lost_card_dialog_flush_action_order": "ПОРЪЧАЙТЕ",
+  "order_card_action_skip": "ПРОПУСНЕТЕ",
+  "order_card_action_ok": "ПОТВЪРЖАВАНЕ",
+  "order_card_action_order": "ПОРЪЧАЙТЕ",
+  "order_card_action_error_name_address_missing": "Името и адресът са необходими, за да ви изпратим карта Breez. Всяка предоставена информация ще бъде изтрита от нашите системи след изпращане на картата. Можете да пропуснете тази стъпка и да продължите да използвате Breez без карта.",
+  "order_card_action_order_breez_card": "Поръчайте Breez карта",
+  "order_card_action_order_card": "Поръчайте карта",
+  "order_card_success": "Breez card ще бъде изпратена скоро на адреса, който сте посочили.",
+  "order_card_info_disclaimer": "Защо трябва да предоставя\тази информация?",
+  "order_card_zip_code_label": "Пощенски код",
+  "order_card_zip_code_error": "Невалиден пощенски код",
+  "order_card_country_label": "Държава",
+  "order_card_country_error_empty": "Моля, въведете своята държава",
+  "order_card_country_error_invalid": "Невалидна държава",
+  "order_card_state_label": "Област",
+  "order_card_country_state_empty": "Моля, въведете своята област",
+  "order_card_country_state_invalid": "Невалидна област",
+  "order_card_city_label": "Град",
+  "order_card_city_error": "Моля, въведете своя град",
+  "order_card_address_label": "Адрес",
+  "order_card_address_error": "Моля, въведете своя адрес",
+  "order_card_email_label": "Имейл адрес",
+  "order_card_country_email_empty": "Моля, въведете своя имейл адрес",
+  "order_card_country_email_invalid": "Невалиден имейл",
+  "order_card_full_name_label": "Три имена",
+  "order_card_full_name_error": "Моля, въведете своите три имена",
+  "link_launcher_title": "Транзакционно ID:",
+  "link_launcher_link_name": "",
+  "link_launcher_failed_to_launch": "Не можа да се стартира {url}",
+  "@link_launcher_failed_to_launch": {
+    "placeholders": {
+      "url": {
+        "type": "String",
+        "example": "https://abc.def.ghi"
+      }
+    }
+  },
+  "keyboard_done_action": "Готово",
+  "flushbar_default_message": "",
+  "flushbar_default_action": "ПОТВЪРЖАВАНЕ",
+  "fee_chooser_option_economy": "Икономична",
+  "fee_chooser_option_regular": "Редовна",
+  "fee_chooser_option_priority": "Приоритетна",
+  "fee_chooser_estimated_delivery_more_than_day": "Очаквана доставка: повече от ден",
+  "fee_chooser_estimated_delivery_hour": "Очаквана доставка: 1 час",
+  "fee_chooser_estimated_delivery_hours": "Очаквана доставка: {hours} часа",
+  "@fee_chooser_estimated_delivery_hours": {
+    "placeholders": {
+      "hours": {
+        "type": "String",
+        "example": "6"
+      }
+    }
+  },
+  "fee_chooser_estimated_delivery_hour_range": "Очаквана доставка: {hours}-24 часа",
+  "@fee_chooser_estimated_delivery_hour_range": {
+    "placeholders": {
+      "hours": {
+        "type": "String",
+        "example": "6"
+      }
+    }
+  },
+  "fee_chooser_estimated_delivery_minutes": "Очаквана доставка: ~{minutes} минути",
+  "@fee_chooser_estimated_delivery_minutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "String",
+        "example": "10"
+      }
+    }
+  },
+  "escher_cash_out_amount": "Въведете сумата за теглене:",
+  "escher_action_cancel": "ОТКАЗ",
+  "escher_action_approve": "ОДОБРЯВАНЕ",
+  "collapsible_list_default_value": "",
+  "collapsible_list_action_copy": "Копирайте {title}",
+  "@collapsible_list_action_copy": {
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "Заглавие"
+      }
+    }
+  },
+  "collapsible_list_copied": "{title} бе копирано в клипборда ви.",
+  "@collapsible_list_copied": {
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "Заглавие"
+      }
+    }
+  },
+  "close_popup_title": "Изход Breez",
+  "close_popup_message": "Наистина ли искаш да напуснеш Breez?",
+  "breez_date_picker_day_and_date": "{day} {date}",
+  "@breez_date_picker_day_and_date": {
+    "placeholders": {
+      "day": {
+        "type": "String",
+        "example": "12"
+      },
+      "date": {
+        "type": "String",
+        "example": "12/12/2121"
+      }
+    }
+  },
+  "breez_date_picker_previous_month_tooltip": "{message} {date}",
+  "@breez_date_picker_previous_month_tooltip": {
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "Предишен месец"
+      },
+      "date": {
+        "type": "String",
+        "example": "12 2121"
+      }
+    }
+  },
+  "breez_date_picker_next_month_tooltip": "{message} {date}",
+  "@breez_date_picker_next_month_tooltip": {
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "Следващ месец"
+      },
+      "date": {
+        "type": "String",
+        "example": "12 2121"
+      }
+    }
+  },
+  "breez_date_picker_error_initial_date_after": "Началната дата трябва да е на или след първата дата",
+  "breez_date_picker_error_initial_date_before": "Началната дата трябва да е на или преди последната дата",
+  "breez_date_picker_error_initial_date_predicate": "Предоставената начална дата трябва да отговаря на предоставения избираем ден",
+  "breez_date_picker_error_initial_date_null": "Първоначалният режим на избор на дата не трябва да е никаква",
+  "breez_date_picker_error_last_date_after": "Последната дата трябва да е на или след първата дата",
+  "breez_avatar_dialog_random": "СЛУЧАЕН",
+  "breez_avatar_dialog_gallery": "ГАЛЕРИЯ",
+  "breez_avatar_dialog_your_name": "Въведете името си",
+  "breez_avatar_dialog_action_cancel": "ОТКАЗ",
+  "breez_avatar_dialog_action_save": "ЗАПАЗВАНЕ",
+  "breez_avatar_dialog_error_upload": "Неуспешно качване на профилна снимка",
+  "barcode_scanner_camera_message": "За QR сканиране, моля, дайте достъп на Breez до вашата камера.",
+  "barcode_scanner_app_settings": "Настройки на приложението",
+  "utils_retry_failed": "Неуспешен повторен опит",
+  "utils_print_pdf_transaction_time": "Време за транзакция",
+  "utils_print_pdf_header_item": "Артикул",
+  "utils_print_pdf_header_price": "Цена",
+  "utils_print_pdf_header_quantity": "Количество",
+  "utils_print_pdf_header_amount": "Сума",
+  "utils_print_pdf_header_total": "Общо",
+  "utils_print_pdf_header_description": "Описание:",
+  "utils_print_pdf_header_payment_preimage": "Предварително изображение на плащане:",
+  "handler_check_version_action_update": "АКТУАЛИЗИРАНЕ",
+  "handler_check_version_message": "Моля, актуализирайте Breez до най-новата версия.",
+  "handler_check_version_error_upgrading_servers": "В момента Breez обновява своите сървъри. Няма да можете да изпращате или получавате средства по време на надстройката. Моля, опитайте отново по-късно.",
+  "handler_channel_connection_message": "Breez е офлайн",
+  "handler_channel_connection_close": "ЗАТВАРЯНЕ",
+  "handler_lnurl_error_link": "Грешка при връзката",
+  "handler_lnurl_error_process": "Неуспешна обработка на връзката: {message}",
+  "@handler_lnurl_error_process": {
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "Съобщение за грешка"
+      }
+    }
+  },
+  "handler_lnurl_error_gift": "Този подарък е осребрен!",
+  "handler_lnurl_login_anonymously": "Искате ли да влезете анонимно в ",
+  "handler_lnurl_login_error_title": "Грешка при вписване",
+  "handler_lnurl_login_error_message": "Неуспешно влизане.\n{съобщение}",
+  "@handler_lnurl_login_error_message": {
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "Съобшение за грешка"
+      }
+    }
+  },
+  "handler_lnurl_login_error_unsupported": "Неподдържан LNURL",
+  "handler_lnurl_open_channel_title": "Отворете канал",
+  "handler_lnurl_open_channel_message": "Сигурни ли сте, че искате да отворите канал с {host}?",
+  "@handler_lnurl_open_channel_message": {
+    "placeholders": {
+      "host": {
+        "type": "String",
+        "example": "Хост"
+      }
+    }
+  },
+  "handler_lnurl_open_channel_action_cancel": "ОТКАЗ",
+  "handler_lnurl_open_channel_error_title": "Грешка при отваряне на канала",
+  "handler_lnurl_open_channel_error_message": "Неуспешно отваряне на канала.\n{съобщение}",
+  "@handler_lnurl_open_channel_error_message": {
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "Съобщение за грешка"
+      }
+    }
+  },
+  "handler_podcast_error_load_episode": "Неуспешно зареждане на епизода. Моля, проверете връзката си.",
+  "handler_podcast_error_load_episode_fallback": "Неуспешно зареждане на подкаст.",
+  "handler_sync_ui_message": "Breez се синхронизира с биткойн мрежата",
+  "add_funds_error_deposit": "Breez обработва предишния ви депозит. Ще можете да добавите още средства, след като тази операция приключи.",
+  "add_funds_error_withdraw": "Breez обработва предишното ви теглене. Ще можете да добавите още средства, след като тази операция приключи.",
+  "add_funds_transaction_id_copied": "Идентификационният номер на транзакцията бе копиран в клипборда ви.",
+  "add_funds_item_voucher_title": "Стойност на ваучера",
+  "add_funds_item_voucher_message": "{value} {currency}",
+  "@add_funds_item_voucher_message": {
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "123"
+      },
+      "currency": {
+        "type": "String",
+        "example": "btc"
+      }
+    }
+  },
+  "add_funds_item_exchange_rate_title": "Обменен курс",
+  "add_funds_item_exchange_rate_message": "{rate} {currency}",
+  "@add_funds_item_exchange_rate_message": {
+    "placeholders": {
+      "rate": {
+        "type": "String",
+        "example": "123"
+      },
+      "currency": {
+        "type": "String",
+        "example": "btc"
+      }
+    }
+  },
+  "add_funds_item_commission_rate_title": "Комисионна ставка",
+  "add_funds_item_commission_rate_message": "{rate}%",
+  "@add_funds_item_commission_rate_message": {
+    "placeholders": {
+      "rate": {
+        "type": "String",
+        "example": "123"
+      }
+    }
+  },
+  "add_funds_item_commission_total_title": "Общо комисионна",
+  "add_funds_item_commission_total_message": "{commission} {currency}",
+  "@add_funds_item_commission_total_message": {
+    "placeholders": {
+      "commission": {
+        "type": "String",
+        "example": "123"
+      },
+      "currency": {
+        "type": "String",
+        "example": "btc"
+      }
+    }
+  },
+  "add_funds_item_bitcoins_received_title": "Получени биткойни",
+  "add_funds_moonpay_title": "MoonPay",
+  "add_funds_moonpay_error_address": "Неуспешно извличане на адрес от сървъра на Breez\nМоля, проверете вашата интернет връзка.",
+  "add_funds_moonpay_loading": "Зареждане…",
+  "add_funds_moonpay_error_service_unavailable": "Услугата не е достъпна. Моля, опитайте отново по-късно.",
+  "csv_exporter_date_and_time": "Дата и час",
+  "csv_exporter_title": "Заглавие",
+  "csv_exporter_description": "Описание",
+  "csv_exporter_node_id": "ID на възел",
+  "csv_exporter_amount": "Сума",
+  "csv_exporter_preimage": "Предварителен образ",
+  "csv_exporter_tx_hash": "TX хеш",
+  "csv_exporter_fee": "Такса",
+  "pos_custom_item_name": "Артикул {index}",
+  "@pos_custom_item_name": {
+    "placeholders": {
+      "index": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "pos_settings_title": "ПОС настройки",
+  "pos_settings_cancellation_timeout": "Време за изчакване на анулиране на плащане (в секунди)",
+  "pos_settings_items_list": "Списък с артикули",
+  "pos_settings_import_csv": "Импортиране от CSV",
+  "pos_settings_export_csv": "Ескпортиране в CSV",
+  "pos_settings_import_dialog_title": "Импортиране на артикули",
+  "pos_settings_import_dialog_message": "Импортирането на този списък ще замени съществуващия. Сигурен ли си, че искаш да продължиш?",
+  "pos_settings_import_action_yes": "ДА",
+  "pos_settings_import_action_no": "НЕ",
+  "pos_settings_import_select_message": "Моля, изберете .csv файл.",
+  "pos_settings_import_success_message": "Артикулите бяха успешно импортирани.",
+  "pos_settings_import_error_generic": "Неуспешно импортиране на POS артикули.",
+  "pos_settings_import_error_invalid_file": "Избраният файл не е валиден CSV файл.",
+  "pos_settings_import_error_invalid_data": "Избраният файл съдържа невалидни данни.",
+  "pos_settings_export_error_generic": "Неуспешно експортиране на POS артикули.",
+  "pos_settings_export_error_no_items": "Няма артикули за експортиране.",
+  "pos_settings_create_manager_password": "Създаване на мениджърска парола",
+  "pos_settings_activate_manager_password": "Активирайте паролата на мениджъра",
+  "pos_settings_change_manager_password": "Промяна на паролата на мениджъра",
+  "pos_settings_manager_password_error_title": "Мениджърска парола",
+  "pos_settings_manager_password_error_message": "Мениджърската парола може да бъде конфигурирана само, ако имате активно архивиране. За да задействате процес на архивиране, отидете на Получаване > Получаване чрез BTC адрес.",
+  "pos_settings_manager_password_title": "Мениджърска парола",
+  "pos_settings_manager_password_message": "Ако мениджърската парола е активирана, изпращането на средства от Breez ще изисква да въведете парола.\nСигурни ли сте, че искате да активирате паролата на мениджър?",
+  "pos_settings_manager_password_action_create": "СЪЗДАЙТЕ",
+  "pos_settings_manager_password_action_change": "ПРОМЕНЕТЕ",
+  "pos_settings_business_address": "Адрес на бизнеса",
+  "pos_settings_address_line_1": "Адрес 1",
+  "pos_settings_address_line_2": "Адрес 2",
+  "pos_settings_default_note": "Бележка по подразбиране",
+  "pos_settings_id": "ID",
+  "pos_settings_name": "Име",
+  "pos_settings_sku": "SKU",
+  "pos_settings_image_url": "Връзка URL на изображение",
+  "pos_settings_currency": "Валута",
+  "pos_settings_price": "Цена",
+  "pos_password_admin_title": "Мениджърска парола",
+  "pos_password_admin_error_password_empty": "Изисква се парола",
+  "pos_password_admin_error_password_short": "Необходими са поне 8 знака",
+  "pos_password_admin_error_password_match": "Паролите не съвпадат",
+  "pos_password_admin_new_password": "Въведете нова парола",
+  "pos_password_admin_confirm_password": "Потвърдете паролата",
+  "pos_dialog_clock": "{minutes}:{seconds}",
+  "@pos_dialog_clock": {
+    "placeholders": {
+      "minutes": {
+        "type": "String",
+        "example": "1"
+      },
+      "seconds": {
+        "type": "String",
+        "example": "30"
+      }
+    }
+  },
+  "pos_dialog_title": "Сканиране за плащане",
+  "pos_dialog_share": "Споделете данните за фактурата",
+  "pos_dialog_invoice_copy": "Копирайте данните на фактурата",
+  "pos_dialog_invoice_copied": "Данните за фактурите бяха копирани в клипборда ви.",
+  "pos_dialog_clear_sale": "ИЗЧИСТВАНЕ НА ПРОДАЖБА",
+  "pos_dialog_cancel": "ОТМЕНЯНЕ",
+  "pos_dialog_setup_fee": "Към тази фактура се прилага такса за настройка от {fee} ({fiat}).",
+  "@pos_dialog_setup_fee": {
+    "placeholders": {
+      "fee": {
+        "type": "String",
+        "example": "1000 сатошита"
+      },
+      "fiat": {
+        "type": "String",
+        "example": "$ 30"
+      }
+    }
+  },
+  "pos_payment_nfc_error_title": "Грешка при плащане с NFC",
+  "pos_payment_nfc_range_error": "Разрешени са само плащания между {minValue} и {maxValue}.",
+  "@pos_payment_nfc_range_error": {
+    "placeholders": {
+      "minValue": {
+        "type": "String",
+        "example": "1000 сатошита"
+      },
+      "maxValue": {
+        "type": "String",
+        "example": "1000 сатошита"
+      }
+    }
+  },
+  "pos_payment_nfc_error_action_close": "ЗАТВАРЯНЕ",
+  "successful_payment_print": "Принтиране",
+  "successful_payment_received": "Получено плащане!",
+  "payment_options_title": "Такси на светкавичната мрежа",
+  "payment_options_fee_header": "Максимални такси за светкавични плащания:",
+  "payment_options_fee_override_enable": "Налагане на такси (експериментално)",
+  "payment_options_base_fee_label": "Основна такса в сатошита",
+  "payment_options_exemptfee_label": "Освободена такса в сатошита",
+  "payment_options_proportional_fee_label": "Пропорционална таска (%)",
+  "payment_options_fee_action_reset": "Нулиране",
+  "payment_options_fee_action_save": "Запазване",
+  "payment_options_fee_action_cancel": "Отменяне",
+  "payment_options_fee_warning": "Предупреждение: тази функция е експериментална. Ограничаването на таксите може да доведе до неуспех на плащанията, но причината за неуспеха може да не е очевидна.",
+  "payment_options_fee_warning_dialog_title": "Предупреждение",
+  "payment_options_fee_warning_dialog_message": "Тази функция е експериментална. Ограничаването на таксите може да доведе до неуспех на плащанията, но причината за неуспеха може да не е очевидна.",
+  "catalog_item_action_edit": "Променяне на артикул",
+  "catalog_item_action_delete": "Изтриване на артикул",
+  "catalog_item_error_delete": "Неуспешно изтриване на {name}",
+  "@catalog_item_error_delete": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Име"
+      }
+    }
+  },
+  "pos_report_dialog_title_daily": "Ежедневно резюме",
+  "pos_report_dialog_title_weekly": "Седмично резюме",
+  "pos_report_dialog_title_monthly": "Месечно резюме",
+  "pos_report_dialog_title_custom": "Персонализирано резюме",
+  "pos_report_dialog_action_close": "ЗАТВАРЯНЕ",
+  "pos_report_dialog_dropdown_item_daily": "Днес",
+  "pos_report_dialog_dropdown_item_weekly": "Тази седмица",
+  "pos_report_dialog_dropdown_item_monthly": "Този месец",
+  "pos_report_dialog_dropdown_item_custom": "Персонализиран диапазон",
+  "pos_report_dialog_content_sales_label": "Брой продажби:",
+  "pos_report_dialog_content_amount_label": "Обща сума:",
+  "pos_report_dialog_content_start_date_label": "Начална дата:",
+  "pos_report_dialog_content_end_date_label": "Крайна дата:",
+  "lnurl_withdraw_dialog_title": "Получаване на средства",
+  "lnurl_withdraw_dialog_wait": "Моля, изчакайте, докато плащането ви се обработва",
+  "lnurl_withdraw_dialog_action_close": "ЗАТВАРЯНЕ",
+  "lnurl_withdraw_dialog_error_unknown": "Неуспешно получаване на средства",
+  "lnurl_withdraw_dialog_error": "Неуспешно получаване на средства: {error}",
+  "@lnurl_withdraw_dialog_error": {
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Грешка"
+      }
+    }
+  },
+  "lnurl_withdraw_dialog_error_amount_exceeds": "Надвишава максималната сума за теглене: {maxSats}",
+  "@lnurl_withdraw_dialog_error_amount_exceeds": {
+    "placeholders": {
+      "maxSats": {
+        "type": "int",
+        "example": "1000"
+      }
+    }
+  },
+  "lnurl_withdraw_dialog_error_amount_below": "Под минималната сума за теглене: {minSats}",
+  "@lnurl_withdraw_dialog_error_amount_below": {
+    "placeholders": {
+      "minSats": {
+        "type": "int",
+        "example": "1000"
+      }
+    }
+  },
+  "qr_code_dialog_synchronizing": "Синхронизиране с мрежата",
+  "qr_code_dialog_invoice": "Фактура",
+  "qr_code_dialog_action_close": "ЗАТВАРЯНЕ",
+  "qr_code_dialog_share": "Споделяне на фактурните данни",
+  "qr_code_dialog_copy": "Копиране на фактурните данни",
+  "qr_code_dialog_copied": "Фактурните данни бяха копирани в клипборда ви.",
+  "qr_code_dialog_warning_message_error": "Неуспешно създаване на фактура",
+  "qr_code_dialog_warning_message": "Дръжте Breez отворен, докато плащането приключи.",
+  "qr_code_dialog_warning_message_with_lsp": "Към тази фактура се прилага такса за настройка от {setupFee} ({fiatFee}). Дръжте Breez отворен, докато плащането приключи.",
+  "@qr_code_dialog_warning_message_with_lsp": {
+    "placeholders": {
+      "setupFee": {
+        "type": "String",
+        "example": "123 сатошита"
+      },
+      "fiatFee": {
+        "type": "String",
+        "example": "1$"
+      }
+    }
+  },
+  "qr_code_dialog_error": "Неуспешно създаване на фактура {error}. Моля, опитайте отново по-късно.",
+  "@qr_code_dialog_error": {
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Грешка"
+      }
+    }
+  },
+  "waiting_broadcast_dialog_dialog_title": "Транзакция за възстановяване",
+  "waiting_broadcast_dialog_dialog_title_error": "Грешка за възстановяване",
+  "waiting_broadcast_dialog_action_close": "ЗАТВАРЯНЕ",
+  "waiting_broadcast_dialog_action_copy": "Копиране на хеша на транзакцията",
+  "waiting_broadcast_dialog_action_share": "Споделяне на хеша на транзакцията",
+  "waiting_broadcast_dialog_transaction_id": "Номер на транзакцията:",
+  "waiting_broadcast_dialog_content_success": "Средствата бяха изпратени успешно на посочения адрес.",
+  "waiting_broadcast_dialog_content_warning": "Моля, изчакайте, докато Breez изпрати средствата на посочения адрес.",
+  "waiting_broadcast_dialog_content_error": "Грешка при трансакция на излъчване: {error}",
+  "@waiting_broadcast_dialog_content_error": {
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Грешка"
+      }
+    }
+  },
+  "wallet_dashboard_balance_hide": "******",
+  "wallet_dashboard_payment_item_balance_hide": "******",
+  "wallet_dashboard_payment_item_balance_positive": "+ {value}",
+  "@wallet_dashboard_payment_item_balance_positive": {
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "123"
+      }
+    }
+  },
+  "wallet_dashboard_payment_item_balance_negative": "- {value}",
+  "@wallet_dashboard_payment_item_balance_negative": {
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "123"
+      }
+    }
+  },
+  "wallet_dashboard_payment_item_balance_fee": "ТАКСА {feeFormatted}",
+  "@wallet_dashboard_payment_item_balance_fee": {
+    "placeholders": {
+      "feeFormatted": {
+        "type": "String",
+        "example": "1"
+      }
+    }
+  },
+  "wallet_dashboard_payment_item_balance_pending_suffix": " (В очакване)",
+  "wallet_dashboard_payment_item_no_title": "Неизвестен",
+  "status_text_loading_begin": "Breez ",
+  "status_text_loading_middle": "отваря защитен канал",
+  "status_text_loading_end": " с нашия сървър. Това може да отнеме известно време, но не се притеснявайте - ще ви уведомим, когато приложението е готово да изпраща и получава плащания.",
+  "status_text_ready": "Breez е готов за получаване на средства.",
+  "status_opening_secure_connection": "Breez отваря защитена връзка",
+  "qr_action_button_open_link": "Отворете връзка",
+  "qr_action_button_open_link_confirmation": "Сигурни ли сте, че искате да отворите тази връзка?",
+  "qr_action_button_open_link_confirmation_no": "НЕ",
+  "qr_action_button_open_link_confirmation_yes": "ДА",
+  "qr_action_button_error_code_not_detected": "QR кодът не беше открит.",
+  "qr_action_button_error_code_not_processed": "QR кодът не може да бъде обработен.",
+  "qr_action_button_error_link_title": "Грешка с връзката",
+  "qr_action_button_error_link_message": "Неуспешна обработка на връзката: {error}",
+  "@qr_action_button_error_link_message": {
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Грешка"
+      }
+    }
+  },
+  "lnurl_webview_error_title": "Грешка",
+  "lnurl_webview_error_invalid_url": "Невалидна URL връзка",
+  "lnurl_webview_error_message": "Неуспешно извикване на {apiName} API",
+  "@lnurl_webview_error_message": {
+    "placeholders": {
+      "apiName": {
+        "type": "String",
+        "example": "Име на доставчик"
+      }
+    }
+  },
+  "lnurl_fetch_invoice_action_continue": "ПРОДЪЛЖЕТЕ",
+  "lnurl_fetch_invoice_pay_to_payee": "Плащане на {payee}",
+  "@lnurl_fetch_invoice_pay_to_payee": {
+    "placeholders": {
+      "payee": {
+        "type": "String",
+        "example": "Получател"
+      }
+    }
+  },
+  "lnurl_fetch_invoice_comment": "Коментар (по избор)",
+  "lnurl_fetch_invoice_error_min": "Трябва да е поне {min}",
+  "@lnurl_fetch_invoice_error_min": {
+    "placeholders": {
+      "min": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
+  "lnurl_fetch_invoice_error_max": "Надвишава ограничението {max}",
+  "@lnurl_fetch_invoice_error_max": {
+    "placeholders": {
+      "max": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
+  "lnurl_fetch_invoice_limit": "Въведете сума между {min} и {max}",
+  "@lnurl_fetch_invoice_limit": {
+    "placeholders": {
+      "min": {
+        "type": "String",
+        "example": "$ 1.23"
+      },
+      "max": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
+  "lnurl_fetch_invoice_min" : "Въведете сума между {min}",
+  "@lnurl_fetch_invoice_min": {
+    "placeholders": {
+      "min": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
+  "lnurl_fetch_invoice_and" : " и {max}",
+  "@lnurl_fetch_invoice_and": {
+    "placeholders": {
+      "max": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
+  "lnurl_fetch_invoice_error_title": "Грешка при LNURL плащане",
+  "lnurl_fetch_invoice_error_message": "Възникна грешка при опит за извличане на фактура от {host}!\nПричина: {reason}",
+  "@lnurl_fetch_invoice_error_message": {
+    "placeholders": {
+      "host": {
+        "type": "String",
+        "example": "http://www.ahost.com"
+      },
+      "reason": {
+        "type": "String",
+        "example": "Причина"
+      }
+    }
+  },
+  "lnurl_error_unsupported": "Неподдържан LNURL",
+  "make_invoice_request_title": "Този сайт иска да ви плати:",
+  "make_invoice_request_action_cancel": "ОТКАЗ",
+  "make_invoice_request_action_approve": "ОДОБРЯВАНЕ",
+  "mnemonics_confirmation_title": "Резервна фраза",
+  "mnemonics_confirmation_verify_backup_phrase": "Проверете резервната фраза",
+  "mnemonics_confirmation_display_backup_phrase": "Показване на резервна фраза",
+  "mnemonics_confirmation_instructions": "Ще ви бъде показан списък с думи. Запишете думите и ги съхранявайте на сигурно място. Без тези думи, няма да можете да възстановите от резервно копие и вашите средства ще бъдат загубени.",
+  "mnemonics_confirmation_action_verify": "ПРОВЕРЯВАНЕ",
+  "podcast_add_funds_title": "Добавете средства към баланса си, за да изпращате плащания към този подкаст.",
+  "podcast_add_funds_action_add": "ДОБАВЕТЕ СРЕДСТВА",
+  "podcast_boost_not_enough_founds": "Нямате достатъчно средства, за да завършите това плащане.",
+  "podcast_boost_sats": "сатошита",
+  "podcast_boost_sats_min": "сатошита на минута",
+  "podcast_boost_action_boost": "ПОДПОМАГАНЕ!",
+  "podcast_boost_action_cancel": "ОТКАЗ",
+  "podcast_boost_action_approve": "ОДОБРЯВАНЕ",
+  "podcast_boost_symbol_circa": "~",
+  "podcast_boost_send_title": "Изпратете Boostagram",
+  "podcast_boost_send_optional": "Boostagram (по избор)",
+  "podcast_boost_send_amount": "Сума за подпомагане (в сатошита)",
+  "podcast_boost_custom_amount": "Въведете персонализирана сума:",
+  "podcast_boost_custom_amount_error_empty": "Моля, въведете сума",
+  "podcast_boost_custom_amount_error_too_few": "Моля, въведете поне {amount} сатошита.",
+  "@podcast_boost_custom_amount_error_too_few": {
+    "placeholders": {
+      "amount": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "podcast_boost_adjustment_boost": "Подпомагане",
+  "podcast_boost_adjustment_boost_message": "Изпратете еднократен бакшиш до създателите на предаването. Натиснете продължително, за да добавите персонализирано съобщение.",
+  "podcast_boost_adjustment_stream_sats": "Поточни сатошита",
+  "podcast_boost_adjustment_stream_sats_message": "Поточно предаване към създателите, докато слушате шоуто им. Числото показва количеството сатошита, изпратени на минута. За да слушате безплатно, задайте тази стойност на 0.",
+  "podcast_boost_action_share": "Споделете",
+  "podcast_boost_share_texts": "{podcast}\n{episode}\n{link}",
+  "@podcast_boost_share_texts": {
+    "placeholders": {
+      "podcast": {
+        "type": "String",
+        "example": "Подкаст"
+      },
+      "episode": {
+        "type": "String",
+        "example": "Епизод"
+      },
+      "link": {
+        "type": "String",
+        "example": "http://link.com"
+      }
+    }
+  },
+  "podcast_boost_share_texts_short": "{podcast}\n{link}",
+  "@podcast_boost_share_texts_short": {
+    "placeholders": {
+      "podcast": {
+        "type": "String",
+        "example": "Подкаст"
+      },
+      "link": {
+        "type": "String",
+        "example": "http://link.com"
+      }
+    }
+  },
+  "podcast_speed_selector_speed": "{speed}x",
+  "@podcast_speed_selector_speed": {
+    "placeholders": {
+      "speed": {
+        "type": "String",
+        "example": "1.5"
+      }
+    }
+  },
+  "lock_screen_enter_pin": "Въведете своя ПИН",
+  "lock_screen_pin_incorrect": "Неправилен ПИН",
+  "lock_screen_pin_match_exception": "Възникна грешка при потвърждаване на вашия ПИН, моля опитайте отново. Ако тази грешка продължава, моля свържете се с поддръжката на Breez.",
+  "backup_phrase_generate": "Шифроване на облачно архивиране",
+  "backup_phrase_instructions": "Ще ви бъде показан списък с думи. Запишете думите и ги съхранявайте на сигурно място. Без тези думи, няма да можете да възстановите от резервно копие и вашите средства ще бъдат загубени. Breez няма да може да помогне. Имайте предвид, че тези думи не са семена на портфейла. Те се използват за криптиране на архивните данни, съхранявани в облака.",
+  "backup_phrase_action_confirm": "РАЗБИРАМ",
+  "backup_phrase_action_next": "СЛЕДВАЩ",
+  "backup_phrase_warning_disclaimer": "Вашата съществуваща резервна фраза вече няма да е валидна и ще бъде генерирана нова следващия път, когато решите да използвате резервна фраза. Сигурни ли сте, че не искате да използвате резервна фраза?",
+  "backup_phrase_warning_action_yes": "ДА",
+  "backup_phrase_warning_action_no": "НЕ",
+  "backup_phrase_warning_action_next": "СЛЕДВАЩ",
+  "backup_phrase_warning_action_backup": "РЕЗЕРВНО КОПИЕ",
+  "backup_phrase_generation_write_words": "Моля, запишете тези думи",
+  "backup_phrase_generation_index": "{index}.",
+  "@backup_phrase_generation_index": {
+    "placeholders": {
+      "index": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "backup_phrase_generation_verify": "Нека проверим",
+  "backup_phrase_generation_type_words": "Моля, въведете думи номер {numberA}, {numberB} и {numberC} от генерираната резервна фраза.",
+  "@backup_phrase_generation_type_words": {
+    "placeholders": {
+      "numberA": {
+        "type": "int",
+        "example": "1"
+      },
+      "numberB": {
+        "type": "int",
+        "example": "2"
+      },
+      "numberC": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "backup_phrase_generation_type_step": "{number}",
+  "@backup_phrase_generation_type_step": {
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "backup_phrase_generation_verification_failed": "Неуспешна проверка на думите. Моля, запишете думите и опитайте отново.",
+  "backup_phrase_generation_generic_error": "Вътрешна грешка",
+  "spontaneous_payment_title": "Изпращане на плащане",
+  "spontaneous_payment_action_pay": "ПЛАЩАНЕ",
+  "spontaneous_payment_action_cancel": "ОТМЕНЯНЕ",
+  "spontaneous_payment_tip_message": "Съобщение за бакшиш (по избор)",
+  "spontaneous_payment_generic_message": "Ще можете да получавате плащания, след като Breez приключи с отварянето на защитен канал с нашия сървър. Това обикновено отнема около 10 минути. Моля, опитайте отново след няколко минути.",
+  "spontaneous_payment_max_amount": "Плащане сума до: {amount}",
+  "@spontaneous_payment_max_amount": {
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "123"
+      }
+    }
+  },
+  "spontaneous_payment_node_id": "ID на възел",
+  "spontaneous_payment_send_payment_title": "Изпращане на плащане",
+  "spontaneous_payment_send_payment_message": "Сигурни ли сте, че искате да изпратите {amount} на този възел?\n\n{nodeID}",
+  "@spontaneous_payment_send_payment_message": {
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "123"
+      },
+      "nodeID": {
+        "type": "String",
+        "example": "456"
+      }
+    }
+  },
+  "spontaneous_payment_error_title": "Грешка при плащането",
+  "sweep_all_coins_speed": "Изберете скорост на обработка",
+  "sweep_all_coins_action_retry": "ОПИТАЙТЕ ОТНОВО",
+  "sweep_all_coins_action_confirm": "ПОТВЪРЖАВАНЕ",
+  "sweep_all_coins_label_send": "Вие изпратихте:",
+  "sweep_all_coins_label_receive": "Вие получихте:",
+  "sweep_all_coins_label_transaction_fee": "Такса за транзакция:",
+  "sweep_all_coins_fee": "-{fee}",
+  "@sweep_all_coins_fee": {
+    "placeholders": {
+      "fee": {
+        "type": "String",
+        "example": "123"
+      }
+    }
+  },
+  "sweep_all_coins_amount_no_fiat": "{amount}",
+  "@sweep_all_coins_amount_no_fiat": {
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "123"
+      }
+    }
+  },
+  "sweep_all_coins_amount_with_fiat": "{amount} ({fiat})",
+  "@sweep_all_coins_amount_with_fiat": {
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "123"
+      },
+      "fiat": {
+        "type": "String",
+        "example": "123"
+      }
+    }
+  },
+  "sweep_all_coins_error_retrieve_fees": "Неуспешно извличане на таксите. Моля, опитайте отново по-късно.",
+  "sweep_all_coins_error_amount_small": "Сумата е твърде малка за излъчване. Моля, опитайте отново по-късно.",
+  "unexpected_funds_title": "Неочаквани средства",
+  "unexpected_funds_message": "Breez намери неочаквани средства в основния си портфейл (вероятно поради затворен канал). Силно препоръчително е да изпратите тези средства на BTC адрес възможно най-скоро.",
+  "unexpected_error_restoring_chain_message": "Възстановяването на информация за веригата може да отнеме няколко минути.",
+  "unexpected_error_action_cancel": "ОТКАЗ",
+  "unexpected_error_action_exit": "ИЗХОД BREEZ",
+  "unexpected_error_action_exit_for_retry": "ИЗХОД",
+  "unexpected_error_action_try_again": "ОПИТАЙТЕ ОТНОВО",
+  "unexpected_error_action_just_exit": "ИЗХОД",
+  "unexpected_error_logs": "вашите логове \n",
+  "unexpected_error_view": "Преглед ",
+  "unexpected_error_bullet": "• ",
+  "unexpected_error_bitcoin_node": "вашия биткойн възел\n",
+  "unexpected_error_reset": "Нулиране ",
+  "unexpected_error_chain_information": "информация за веригата\n",
+  "unexpected_error_recover": "Възстановяване ",
+  "unexpected_error_signal": "• Проверка на сигнала във вашия район\n",
+  "unexpected_error_wifi": "• Включване на мобилни данни или Wi-Fi\n",
+  "unexpected_error_airplane": "• Изключване на самолетен режим\n",
+  "unexpected_error_suggestions": "Можете да опитате:\n",
+  "unexpected_error_title": "Неочаквана грешка",
+  "unexpected_error_deactivate_tor": "Деактивиране",
+  "transferring_funds_title": "Прехвърляне на средства",
+  "select_provider_error_dialog_title": "Грешка при свързване",
+  "select_provider_error_dialog_select_provider_begin": "изберете ",
+  "select_provider_error_dialog_select_provider_end": "доставчик.",
+  "select_provider_error_dialog_message": "За да активирате Breez, моля ",
+  "select_provider_error_dialog_message_error": "Възникна грешка при свързване с избрания доставчик. За да активирате Breez, моля ",
+  "qr_scan_action_cancel": "ОТМЕНЯНЕ",
+  "qr_scan_gallery_failed": "В изображението не е намерен QR код",
+  "pending_closed_channel_title": "Чакащ затворен канал",
+  "pending_closed_channel_action_ok": "ПОТВЪРЖАВАНЕ",
+  "close_warning_dialog_title": "Неактивни канали",
+  "close_warning_dialog_action_ok": "ПОТВЪРЖАВАНЕ",
+  "close_warning_dialog_message_begin": "Не сте извършвали никакви плащания с Breez в продължение на {duration} дни, така че може да се наложи вашият LSP да затвори каналите ви. Ако това се случи, Breez ще генерира адрес във веригата и ще прехвърли вашите средства в него. Ще запазите пълен контрол върху парите си, минус таксата за копаене, наложена от транзакцията за почистване на каналите и можете да се върнете по всяко време. За да научите повече защо това се случва, прочетете нашата публикация на ",
+  "@close_warning_dialog_message_begin": {
+    "placeholders": {
+      "duration": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+  "close_warning_dialog_message_middle": "входяща ликвидност",
+  "close_warning_dialog_message_end": ".",
+  "close_warning_dialog_url": "https://medium.com/breez-technology/lightning-economics-how-i-learned-to-stop-worrying-and-love-inbound-liquidity-511d05aa8b8b",
+  "admin_login_dialog_manager_password": "Мениджърска парола",
+  "admin_login_dialog_password_label": "Въведете вашата парола",
+  "admin_login_dialog_action_cancel": "ОТКАЗ",
+  "admin_login_dialog_action_ok": "ПОТВЪРЖАВАНЕ",
+  "admin_login_dialog_error_authenticate": "Неуспешно удостоверяване като мениджър",
+  "admin_login_dialog_error_password_required": "Изисква се парола",
+  "admin_login_dialog_error_password_incorrect": "Неправилна парола",
+  "fast_bitcoin_dot_com_voucher": "Fastbitcoins.com ваучер",
+  "fast_bitcoin_dot_com_error_service_unavailable": "Услугата не е достъпна. Моля, опитайте отново по-късно.",
+  "payment_error_insufficient_balance": "Недостатъчен баланс",
+  "payment_error_insufficient_balance_amount": "Недостатъчен баланс: можете да изпратите до {amount} до тази дестинация",
+  "@payment_error_insufficient_balance_amount": {
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
+  "payment_error_incorrect_payment_details": "Неправилни данни за плащане",
+  "payment_error_unexpected_error": "Неочаквана грешка",
+  "payment_error_no_route": "Не е наличен маршрут",
+  "payment_error_payment_timeout_exceeded": "Времето за изчакване на плащането е превишено",
+  "payment_error_none": "",
+  "swap_error_funds_exceed_limit": "извършената транзакция е била над определения лимит.",
+  "swap_error_invoice_amount_mismatch": "заявената сума не съответства на оригиналната транзакция.",
+  "swap_error_swap_expired": "транзакцията е изтекла.",
+  "swap_error_tx_too_small": "размерът на транзакцията беше твърде малък за обработка.",
+  "status_message_unconfirmed_tx_id": "Breez чака прехвърлянето на биткойн да бъде потвърдено. Това може да отнеме известно време",
+  "status_transferring_on_chain_deposit": "Прехвърляне на средства",
+  "status_failed_to_add_funds": "Неуспешно добавяне на средства: {error}",
+  "@status_failed_to_add_funds": {
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Грешка"
+      }
+    }
+  },
+  "on_chain_payment_error_not_enough_funds": "Недостатъчно средства",
+  "valid_payment_error_exceeds_limit": "Плащането надвишава лимита.",
+  "valid_payment_error_exceeds_the_limit": "Плащането надвишава лимита {amount}.",
+  "@valid_payment_error_exceeds_the_limit": {
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "$ 123"
+      }
+    }
+  },
+  "valid_payment_error_keep_balance": "Breez изисква да поддържате {amount} в баланса си.",
+  "@valid_payment_error_keep_balance": {
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "$ 123"
+      }
+    }
+  },
+  "valid_payment_error_insufficient_balance": "Недостатъчен локален баланс",
+  "description_waiting_broadcast": "Изчакване за излъчване на транзакция",
+  "description_broadcast_done": "Транзакцията беше излъчена",
+  "description_type_deposit": "Биткойн трансфер",
+  "payment_info_title_bitrefill": "Bitrefill",
+  "payment_info_title_breez_sale": "Продажба [{date}]",
+  "@payment_info_title_breez_sale": {
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "1/2/22"
+      }
+    }
+  },
+  "payment_info_title_lightning_gifts": "lightning.gifts",
+  "payment_info_title_ln_pizza": "ln.pizza",
+  "payment_info_title_zebedee": "Zebedee",
+  "payment_info_title_bitcoin_transfer": "Биткойн трансфер",
+  "payment_info_title_closed_channel": "Затворен канал",
+  "payment_info_title_send_to_node": "Изпращане до възел",
+  "payment_info_title_unknown": "Неизвестен",
+  "payment_info_title_pending_closed_channel": "Чакащ затворен канал",
+  "payment_error_to_send_unknown_reason": "Неуспешно изпращане на плащане",
+  "payment_error_to_send": "Неуспешно изпращане на плащане: {error}",
+  "@payment_error_to_send": {
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Грешка"
+      }
+    }
+  },
+  "payment_info_title_opened_channel": "Отворен канал",
+  "payment_info_title_pending_opened_channel": "Чакащ отворен канал",
+  "no_lsp_widget_message": "За да активирате Breez, моля изберете доставчик:",
+  "no_lsp_widget_action_select": "ИЗБЕРЕТЕ…",
+  "podcast_history_drawer": "Моите най-добри подкасти",
+  "podcast_history_share_message": "Най-добрите ми слушани подкасти в Breez",
+  "podcast_history_share_text": "СПОДЕЛЯНЕ",
+  "podcast_history_sats_streamed": "сатошита предавани поточно",
+  "podcast_history_boostagrams_sent": "изпратени подпомагания",
+  "podcast_history_open_podcast_button": "ОТВОРЕНИ ПОДКАСТИ",
+  "podcast_history_appbar_top_weekly": "Най-добри седмични подкасти",
+  "podcast_history_appbar_top_monthly": "Най-добри месечни подкасти",
+  "podcast_history_appbar_top_yearly": "Най-добри годишни подкасти",
+  "podcast_history_timerange_dropdown_week": "Минала седмица",
+  "podcast_history_timerange_dropdown_month": "Минал месец",
+  "podcast_history_timerange_dropdown_year": "Минала година",
+  "podcast_history_sort_dropdown_recent": "Скорощни",
+  "podcast_history_sort_dropdown_duration": "Слушани",
+  "podcast_history_sort_dropdown_sats": "Платени",
+  "podcast_history_sort_dropdown_boosts": "Подпомагани",
+  "podcast_history_empty_text": "Няма налични данни за показване.",
+  "podcast_clips_clip_button": "КЛИПОВЕ",
+  "podcast_clips_cancel_button": "ОТКАЗ",
+  "podcast_clips_seconds": "секунди",
+  "podcast_clips_dialog_title": "Продължителност на клипа (в секунди)",
+  "podcast_clips_dialog_done": "ГОТОВО",
+  "podcast_clips_error": "Възникна грешка при изрязването на епизода. Моля, опитайте отново.",
+  "localized_error_message_invalid_pair_hash": "Оценките на таксите са изтекли. Моля, опитайте отново.",
+  "share_log_text": "Споделяне на лога",
+  "share_file_title": "Споделяне на файл",
+  "mempool_settings_custom_url": "Mempool API URL връзка",
+  "mempool_settings_custom_url_error": "Невалидна Mempool API URL връзка",
+  "mempool_settings_action_reset": "Нулиране",
+  "mempool_settings_action_save": "Запазване",
+  "lnurl_payment_page_title": "LNURL фактура",
+  "lnurl_payment_page_domain_pay": "{domain} иска да платите {amount} сатошита.",
+  "@lnurl_payment_page_domain_pay": {
+    "placeholders": {
+      "domain": {
+        "type": "String",
+        "example": "example.com"
+      },
+      "amount": {
+        "type": "int",
+        "example": "100"
+      }
+    }
+  },
+  "lnurl_payment_page_comment": "Коментар (по избор)",
+  "lnurl_payment_page_enter_k1": "Моля, въведете k1",
+  "lnurl_payment_page_action_pay": "ПЛАЩАНЕ",
+  "lnurl_payment_page_error_exceeds_limit": "Надвишава максималната сума за изпращане: {amount}",
+  "@lnurl_payment_page_error_exceeds_limit": {
+    "placeholders": {
+      "amount": {
+        "type": "int",
+        "example": "123"
+      }
+    }
+  },
+  "lnurl_payment_page_error_below_limit": "Под минималната приета сума: {amount}",
+  "@lnurl_payment_page_error_below_limit": {
+    "placeholders": {
+      "amount": {
+        "type": "int",
+        "example": "123"
+      }
+    }
+  },
+  "lnurl_payment_page_unknown_error": "Неочаквана грешка",
+  "node_state_error": "Неуспешно получаване на състоянието на възела",
+  "generic_network_error": "Неуспешно свързване с Breez. Моля, проверете вашата интернет връзка и опитайте отново.",
+  "moonpay_network_error": "Неуспешно свързване с MoonPay. Моля, проверете вашата интернет връзка и опитайте отново.",
+  "moonpay_retry_button": "ОПИТАЙТЕ ОТНОВО",
+  "moonpay_swap_in_progress": "Открита е текуща размяна за {address} адрес. Моля, изчакайте да завърши.",
+  "@moonpay_swap_in_progress": {
+    "placeholders": {
+      "address": {
+        "type": "String",
+        "example": "bc1q..."
+      }
+    }
+  },
+  "moonpay_swap_in_progress_action": "Вижте транзакцията в Mempool",
+  "moonpay_swap_expired": "Размяната е била в ход, но е изтекла; Breez генерира възстановяване за вас.",
+  "moonpay_swap_expired_action": "Обратно към началната страница",
+  "setup_fees_dialog_title": "Такси за настройка",
+  "setup_fees_dialog_message": "Моля, обърнете внимание на актуализираните такси за настройка под QR кода, преди да получите плащане.",
+  "google_sign_not_available_exception": "Влизането в Google не е налично на това устройство.",
+  "locale": "en",
+  "app_name": "Breez"
+}
