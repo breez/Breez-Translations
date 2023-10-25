@@ -203,7 +203,7 @@ class BreezTranslationsBg extends BreezTranslations {
 
   @override
   String invoice_ln_address_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity) {
-    return 'За получаване на повече от $liquidity ще бъде приложена такса за настройка от $setUpFee% с минимум $minFee.';
+    return 'За получаване на повече от $liquidity ще бъде приложена такса за отваряне на канал от $setUpFee% с минимум $minFee.';
   }
 
   @override
@@ -2310,7 +2310,7 @@ class BreezTranslationsBg extends BreezTranslations {
 
   @override
   String pos_dialog_setup_fee(String fee, String fiat) {
-    return 'Към тази фактура се прилага такса за настройка от $fee ($fiat).';
+    return 'Към тази фактура се прилага такса за отваряне на канал от $fee ($fiat).';
   }
 
   @override
@@ -2469,7 +2469,7 @@ class BreezTranslationsBg extends BreezTranslations {
 
   @override
   String qr_code_dialog_warning_message_with_lsp(String setupFee, String fiatFee) {
-    return 'Към тази фактура се прилага такса за настройка от $setupFee ($fiatFee). Дръжте Breez отворен, докато плащането приключи.';
+    return 'Към тази фактура се прилага такса за отваряне не канал от $setupFee ($fiatFee). Дръжте Breez отворен, докато плащането приключи.';
   }
 
   @override
@@ -3285,7 +3285,7 @@ class BreezTranslationsBg extends BreezTranslations {
   String get setup_fees_dialog_title => 'Такси за настройка';
 
   @override
-  String get setup_fees_dialog_message => 'Моля, обърнете внимание на актуализираните такси за настройка под QR кода, преди да получите плащане.';
+  String get setup_fees_dialog_message => 'Моля, обърнете внимание на актуализираните такси за отваряне на канал под QR кода, преди да получите плащане.';
 
   @override
   String get google_sign_not_available_exception => 'Влизането в Google не е налично на това устройство.';
