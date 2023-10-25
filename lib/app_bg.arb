@@ -595,7 +595,7 @@
       }
     }
   },
-  "sale_view_total_title_charge_no_fiat": "ТАКСУВАНЕ {стойност}",
+  "sale_view_total_title_charge_no_fiat": "ТАКСУВАНЕ {value}",
   "@sale_view_total_title_charge_no_fiat": {
     "placeholders": {
       "value": {
@@ -1476,7 +1476,7 @@
   "handler_lnurl_error_gift": "Този подарък е осребрен!",
   "handler_lnurl_login_anonymously": "Искате ли да влезете анонимно в ",
   "handler_lnurl_login_error_title": "Грешка при вписване",
-  "handler_lnurl_login_error_message": "Неуспешно влизане.\n{съобщение}",
+  "handler_lnurl_login_error_message": "Неуспешно влизане.\n{message}",
   "@handler_lnurl_login_error_message": {
     "placeholders": {
       "message": {
@@ -1498,7 +1498,7 @@
   },
   "handler_lnurl_open_channel_action_cancel": "ОТКАЗ",
   "handler_lnurl_open_channel_error_title": "Грешка при отваряне на канала",
-  "handler_lnurl_open_channel_error_message": "Неуспешно отваряне на канала.\n{съобщение}",
+  "handler_lnurl_open_channel_error_message": "Неуспешно отваряне на канала.\n{message}",
   "@handler_lnurl_open_channel_error_message": {
     "placeholders": {
       "message": {

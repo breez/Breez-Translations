@@ -1,5 +1,6 @@
 import 'package:breez_translations/breez_translations_locales.dart';
 import 'package:breez_translations/generated/breez_translations.dart';
+import 'package:breez_translations/generated/breez_translations_bg.dart';
 import 'package:breez_translations/generated/breez_translations_cs.dart';
 import 'package:breez_translations/generated/breez_translations_de.dart';
 import 'package:breez_translations/generated/breez_translations_el.dart';
@@ -15,6 +16,7 @@ import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   final locales = {
+    "bg": BreezTranslationsBg(),
     "cs": BreezTranslationsCs(),
     "de": BreezTranslationsDe(),
     "el": BreezTranslationsEl(),
@@ -862,20 +864,20 @@ void main() {
         expect(text.contains(amount), true);
       });
 
-      test("invoice_payment_validator_error_payment_exceeded_limit", () {
+      test("invoice_payment_validator_error_payment_exceeded_limit for ${locale.locale}", () {
         final text = locale
             .invoice_payment_validator_error_payment_exceeded_limit(maxSats);
         expect(text.contains(maxSats), true);
       });
 
-      test("invoice_payment_validator_error_payment_below_invoice_limit", () {
+      test("invoice_payment_validator_error_payment_below_invoice_limit for ${locale.locale}", () {
         final text =
             locale.invoice_payment_validator_error_payment_below_invoice_limit(
                 minSats);
         expect(text.contains(minSats), true);
       });
 
-      test("invoice_payment_validator_error_payment_below_limit", () {
+      test("invoice_payment_validator_error_payment_below_limit for ${locale.locale}", () {
         final text =
             locale.invoice_payment_validator_error_payment_below_limit(minSats);
         expect(text.contains(minSats), true);
@@ -889,14 +891,20 @@ void main() {
         expect(text.contains(setUpFee), true);
       });
 
-      test("invoice_payment_validator_error_unknown", () {
+      test("invoice_payment_validator_error_unknown for ${locale.locale}", () {
         final text = locale.invoice_payment_validator_error_unknown(error);
         expect(text.contains(error), true);
       });
 
-      test("moonpay_swap_in_progress", () {
+      test("moonpay_swap_in_progress for ${locale.locale}", () {
         final text = locale.moonpay_swap_in_progress(address);
         expect(text.contains(address), true);
+      });
+
+      test("invoice_btc_address_channel_not_needed for ${locale.locale}", () {
+        final text = locale.invoice_btc_address_channel_not_needed(minSats, maxSats);
+        expect(text.contains(minSats), true);
+        expect(text.contains(maxSats), true);
       });
     }
   });
