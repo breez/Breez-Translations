@@ -1,6 +1,6 @@
 {
   "home_drawer_item_title_preferences": "Настройки",
-  "home_drawer_item_title_fiat_currencies": "Фиатни валути",
+  "home_drawer_item_title_fiat_currencies": "Фиат валути",
   "home_drawer_item_title_network": "Мрежа",
   "home_drawer_item_title_security": "Сигурност",
   "home_drawer_item_title_security_and_backup": "Сигурност и архивиране",
@@ -17,9 +17,9 @@
   "home_drawer_error_no_name": "Безименен",
   "home_podcast_title": "Подкаст плейър по всяко време",
   "home_podcast_no_subscriptions": "Използвайте изглед 'Намери', за да намерите и да се абонирате за първия си подкаст",
-  "home_error_connect_to_pay": "Свържете се, за да платите",
-  "home_error_podcast_link": "Подкаст връзка",
-  "home_broadcast_transaction": "Излъчете/публикувайте своята трансакция",
+  "home_error_connect_to_pay": "Свържи се и плати",
+  "home_error_podcast_link": "Подкаст линк",
+  "home_broadcast_transaction": "Публикувайте своята трансакция",
   "home_config_error_title": "Конфигурационна грешка",
   "home_config_error_message": "Breez откри, че друго устройство работи със същата конфигурация (вероятно се дължи на възстановяване). Breez не може да изпълнява една и съща конфигурация на повече от едно устройство. Моля, преинсталирайте Breez, ако искате да продължите да използвате Breez на това устройство.",
   "home_config_backup_error": "Breez откри, че приложението използва стар архив. Моля, преинсталирайте и възстановете най-новия архив, наличен от {provider}.",
@@ -31,7 +31,7 @@
       }
     }
   },
-  "home_config_backup_error_encrypted": "Breez откри, че приложението използва стар архив. Моля, преинсталирайте и възстановете най-новия архив, наличен от {provider}. Имайте предвид, че няма да можете да възстановите Breez без вашия ключ за шифроване.",
+  "home_config_backup_error_encrypted": "Breez откри, че приложението използва стар архив. Моля, преинсталирайте и възстановете най-новия архив, наличен от {provider}. Имайте предвид, че няма да можете да възстановите Breez без вашите думи за шифроване.",
   "@home_config_backup_error_encrypted": {
     "placeholders": {
       "provider": {
@@ -47,11 +47,11 @@
   "home_report_sending": "Изпращане на репорт…",
   "invoice_btc_address_title": "Получаване чрез BTC адрес",
   "invoice_btc_address_network_error": "Неуспешно извличане на адрес от сървъра на Breez\nМоля, проверете вашата интернет връзка.",
-  "invoice_btc_address_action_retry": "Опитайте отново",
+  "invoice_btc_address_action_retry": "ОТНОВО",
   "invoice_btc_address_action_close": "ЗАТВОРЕТЕ",
   "invoice_btc_address_channel_not_needed": "Изпратете повече от {minSats} и до {maxSats} на този адрес. Този адрес може да се използва само веднъж.",
-  "@invoice_btc_address_channel_not_needed" :{
-  "placeholders": {
+  "@invoice_btc_address_channel_not_needed": {
+    "placeholders": {
       "minSats": {
         "type": "String",
         "example": "2 000 сатошита"
@@ -60,9 +60,9 @@
         "type": "String",
         "example": "4 000 000 сатошита"
       }
-     }
+    }
   },
-  "invoice_btc_address_warning_with_min_fee_account_connected": "Изпратете повече от {minSats} и до {maxSats} на този адрес. Ще бъде приложена такса за настройка от {setUpFee}% с минимум {minFee} за изпращане на повече от {liquidity}. Този адрес може да се използва само веднъж.",
+  "invoice_btc_address_warning_with_min_fee_account_connected": "Изпратете повече от {minSats} и до {maxSats} на този адрес. Ще бъде приложена такса за отваряне на канал от {setUpFee}% с минимум {minFee} за изпращане на повече от {liquidity}. Този адрес може да се използва само веднъж.",
   "@invoice_btc_address_warning_with_min_fee_account_connected": {
     "placeholders": {
       "minSats": {
@@ -87,7 +87,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_without_min_fee_account_connected": "Изпратете повече от {minSats} и до {maxSats} на този адрес. Ще бъде приложена такса за настройка от {setUpFee}% за изпращане на повече от {liquidity}. Този адрес може да се използва само веднъж.",
+  "invoice_btc_address_warning_without_min_fee_account_connected": "Изпратете повече от {minSats} и до {maxSats} на този адрес. Ще бъде приложена такса за отваряне на канал от {setUpFee}% за изпращане на повече от {liquidity}. Този адрес може да се използва само веднъж.",
   "@invoice_btc_address_warning_without_min_fee_account_connected": {
     "placeholders": {
       "minSats": {
@@ -108,7 +108,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_with_min_fee_account_not_connected": "Изпратете повече от {minSats} и до {maxSats} на този адрес. Върху получената сума ще бъде приложена такса за настройка от {setUpFee}% с минимум {minFee}. Този адрес може да се използва само веднъж.",
+  "invoice_btc_address_warning_with_min_fee_account_not_connected": "Изпратете повече от {minSats} и до {maxSats} на този адрес. Върху получената сума ще бъде приложена такса за отваряне на канал от {setUpFee}% с минимум {minFee}. Този адрес може да се използва само веднъж.",
   "@invoice_btc_address_warning_with_min_fee_account_not_connected": {
     "placeholders": {
       "minSats": {
@@ -129,7 +129,7 @@
       }
     }
   },
-  "invoice_btc_address_warning_without_min_fee_account_not_connected": "Изпратете повече от {minSats} и до {maxSats} на този адрес. Върху получената сума ще бъде приложена такса за настройка от {setUpFee}%. Този адрес може да се използва само веднъж.",
+  "invoice_btc_address_warning_without_min_fee_account_not_connected": "Изпратете повече от {minSats} и до {maxSats} на този адрес. Върху получената сума ще бъде приложена такса за отваряне на канал от {setUpFee}%. Този адрес може да се използва само веднъж.",
   "@invoice_btc_address_warning_without_min_fee_account_not_connected": {
     "placeholders": {
       "minSats": {
@@ -169,7 +169,7 @@
     }
   },
   "invoice_error_url": "Невалиден URL",
-  "invoice_insufficient_amount_fee": "Недостатъчна сума за покриване на таксите за настройка от {fee}",
+  "invoice_insufficient_amount_fee": "Недостатъчна сума за покриване на таксите за отваряне на канал от {fee}",
   "@invoice_insufficient_amount_fee": {
     "placeholders": {
       "fee": {
@@ -207,7 +207,7 @@
       }
     }
   },
-  "invoice_ln_address_warning_without_min_fee_account_connected": "Ще бъде приложена такса за настройка от {setUpFee}% за получаване на повече от {liquidity}.",
+  "invoice_ln_address_warning_without_min_fee_account_connected": "Ще бъде приложена такса за отваряне на канал от {setUpFee}% за получаване на повече от {liquidity}.",
   "@invoice_ln_address_warning_without_min_fee_account_connected": {
     "placeholders": {
       "setUpFee": {
@@ -220,7 +220,7 @@
       }
     }
   },
-  "invoice_ln_address_warning_with_min_fee_account_not_connected": "Върху получената сума ще бъде приложена такса за настройка от {setUpFee}% с минимум {minFee}.",
+  "invoice_ln_address_warning_with_min_fee_account_not_connected": "Върху получената сума ще бъде приложена такса за отваряне на канал от {setUpFee}% с минимум {minFee}.",
   "@invoice_ln_address_warning_with_min_fee_account_not_connected": {
     "placeholders": {
       "setUpFee": {
@@ -233,7 +233,7 @@
       }
     }
   },
-  "invoice_ln_address_warning_without_min_fee_account_not_connected": "Върху получената сума ще бъде приложена такса за настройка от {setUpFee}%.",
+  "invoice_ln_address_warning_without_min_fee_account_not_connected": "Върху получената сума ще бъде приложена такса за отваряне на канал от {setUpFee}%.",
   "@invoice_ln_address_warning_without_min_fee_account_not_connected": {
     "placeholders": {
       "setUpFee": {
@@ -273,8 +273,8 @@
       }
     }
   },
-  "invoice_payment_validator_error_insufficient_local_balance": "Недостатъчен местен баланс",
-  "invoice_payment_validator_error_payment_below_setup_fees_error": "Недостатъчна сума за покриване на таксите за настройка на {setUpSats}",
+  "invoice_payment_validator_error_insufficient_local_balance": "Недостатъчен баланс",
+  "invoice_payment_validator_error_payment_below_setup_fees_error": "Недостатъчна сума за покриване на таксите за отваряне на канал от {setUpSats}",
   "@invoice_payment_validator_error_payment_below_setup_fees_error": {
     "placeholders": {
       "setUpSats": {
@@ -295,7 +295,7 @@
   "backup_dialog_title": "Резервно копие",
   "backup_dialog_message_remote_server": "Неуспешно записване на резервното копие на отдалечения сървър. Моля, прегледайте настройките си и опитайте отново.",
   "backup_dialog_message_default": "Ако искате да можете да възстановите средствата си, в случай че това мобилно устройство или това приложение вече не са налични (напр. изгубено или откраднато устройство или деинсталиране на приложение), трябва да направите резервно копие на вашата информация.",
-  "backup_dialog_do_not_prompt_again": "Не подканвайте отново",
+  "backup_dialog_do_not_prompt_again": "Не показвай отново",
   "backup_dialog_option_cancel": "ПО КЪСНО",
   "backup_dialog_option_ok_remote_server": "НАСТРОЙКИ",
   "backup_dialog_option_ok_default": "АРХИВИРАНЕ СЕГА",
@@ -303,16 +303,16 @@
   "backup_dialog_icloud_error_message": "Влезте в акаунта си в iCloud. На началния екран стартирайте Настройки, докоснете iCloud и въведете своя Apple ID. Включете iCloud Drive. Ако нямате iCloud акаунт, докоснете Създаване на нов Apple ID.",
   "backup_provider_dialog_title": "Съхранение на архивни данни",
   "backup_provider_dialog_message_restore": "Възстановяване на архивни данни от:",
-  "backup_provider_dialog_message_store": "Съхранявайте резервни данни в:",
+  "backup_provider_dialog_message_store": "Съхранявайте данни в:",
   "backup_provider_dialog_action_cancel": "ОТМЕНЯНЕ",
   "backup_provider_dialog_action_ok": "ПОТВЪРЖАВАНЕ",
-  "backup_export_static": "Експортиране на статично архивиране",
-  "backup_export_static_error_data_missing": "Липсват статични резервни данни",
+  "backup_export_static": "Експортиране на архив",
+  "backup_export_static_error_data_missing": "Липсват архивни данни",
   "tutorial_gotcha": "Схванах!",
   "bottom_action_bar_send": "ИЗПРАЩАНЕ",
   "bottom_action_bar_receive": "ПРИЕМАНЕ",
   "bottom_action_bar_paste_invoice": "Поставете фактура или ID",
-  "bottom_action_bar_connect_to_pay": "Свържете се, за да платите",
+  "bottom_action_bar_connect_to_pay": "Свържи се и плати",
   "bottom_action_bar_send_btc_address": "Изпращане до BTC адрес",
   "bottom_action_bar_escher": "Изплащане чрез Escher",
   "bottom_action_bar_receive_invoice": "Получаване чрез фактура",
@@ -327,7 +327,7 @@
       }
     }
   },
-  "payments_filter_action_export": "Експортирайте",
+  "payments_filter_action_export": "Експортиране",
   "payments_filter_action_export_failed": "Неуспешно експортиране на плащания.",
   "payments_filter_option_all": "Всички дейности",
   "payments_filter_option_sent": "Изпратени",
@@ -418,10 +418,10 @@
   },
   "payment_info_dialog_title": "Информация за получателя",
   "payment_info_dialog_hint": "Фактура или ID",
-  "payment_info_dialog_hint_expanded": "Въведете фактура, ID на възел или адрес на Lightning.",
+  "payment_info_dialog_hint_expanded": "Въведете фактура, ID или светкавичен адрес",
   "payment_info_dialog_barcode": "Сканирайте баркода",
   "payment_info_dialog_error": "Невалидна фактура, ID или адрес",
-  "payment_info_dialog_error_unsupported_input": "Неподдържан вход",
+  "payment_info_dialog_error_unsupported_input": "Неподдържан избор",
   "payment_info_dialog_error_qrcode": "QR кода не беше открит.",
   "payment_info_dialog_action_cancel": "ОТМЕНЯНЕ",
   "payment_info_dialog_action_approve": "ОДОБРЯВАНЕ",
@@ -488,7 +488,7 @@
     }
   },
   "pos_invoice_close": "ЗАТВАРЯНЕ",
-  "pos_invoice_clear_sale_header": "Анулиране на разпродажба?",
+  "pos_invoice_clear_sale_header": "Анулиране?",
   "pos_invoice_clear_sale_message": "Това ще изчисти текущата транзакция.",
   "pos_invoice_clear_sale_cancel": "ОТМЕНЯНЕ",
   "pos_invoice_clear_sale_confirm": "ИЗЧИСТВАНЕ",
@@ -555,7 +555,7 @@
   "pos_transactions_range_dialog_start": "Начало",
   "pos_transactions_range_dialog_end": "Край",
   "pos_transactions_range_dialog_clear": "ИЗЧИСТВАНЕ",
-  "pos_transactions_range_dialog_apply": "ПРИЛОЖЕТЕ ФИЛТЪР",
+  "pos_transactions_range_dialog_apply": "ФИЛТРИРАЙ",
   "pos_transactions_item_positive": "{value}",
   "@pos_transactions_item_positive": {
     "placeholders": {
@@ -630,9 +630,9 @@
       }
     }
   },
-  "fiat_currencies_title": "Фиатни валути",
+  "fiat_currencies_title": "Фиат валути",
   "fiat_currencies_save_fail": "Неуспешно запазване на промените.",
-  "connect_to_pay_title_payer": "Свържете се, за да платите",
+  "connect_to_pay_title_payer": "Свържи се и плати",
   "connect_to_pay_title_payee": "Получаване на плащане",
   "connect_to_pay_canceled_payer": "Платецът анулира платежната сесия",
   "connect_to_pay_canceled_payee": "Получателят е анулирал платежната сесия",
@@ -750,7 +750,7 @@
       }
     }
   },
-  "connect_to_pay_payee_setup_fee": "Към това плащане се прилага такса за настройка от {sats} ({fiat}).",
+  "connect_to_pay_payee_setup_fee": "Към това плащане се прилага такса за отваряне на канал от {sats} ({fiat}).",
   "@connect_to_pay_payee_setup_fee": {
     "placeholders": {
       "sats": {
@@ -774,7 +774,7 @@
       }
     }
   },
-  "connect_to_pay_payer_enter_amount": "{name} се присъедини към сесията.\nМоля, въведете сума и докоснете Плащане, за да продължите.",
+  "connect_to_pay_payer_enter_amount": "{name} се присъедини към сесията.\nМоля, въведете сума и натиснете Плащане, за да продължите.",
   "@connect_to_pay_payer_enter_amount": {
     "placeholders": {
       "name": {
@@ -841,7 +841,7 @@
       }
     }
   },
-  "security_and_backup_last_backup_with_account": "Последно архивиране: {lastBackup}\Акаунт: {accountName}",
+  "security_and_backup_last_backup_with_account": "Последно архивиране: {lastBackup}\\Акаунт: {accountName}",
   "@security_and_backup_last_backup_with_account": {
     "placeholders": {
       "lastBackup": {
@@ -854,8 +854,8 @@
       }
     }
   },
-  "security_and_backup_encrypt": "Шифроване на облачно архивиране",
-  "security_and_backup_store_location": "Съхранявайте резервни данни в",
+  "security_and_backup_encrypt": "Шифроване на архива в облака",
+  "security_and_backup_store_location": "Съхранявайте архива в",
   "security_and_backup_lock_automatically": "Автоматично заключване",
   "security_and_backup_lock_automatically_option_immediate": "Незабавно",
   "security_and_backup_change_pin": "Променете ПИН",
@@ -1031,12 +1031,12 @@
   "account_page_activation_provider": "За да активирате Breez, моля изберете доставчик:",
   "account_page_activation_provider_action_select": "ИЗБЕРЕТЕ…",
   "account_page_activation_provider_label": "Изберете светкавичен доставчик.",
-  "account_page_activation_provider_hint": "Моля, изберете един от следните доставчици, за да активирате Breez и да се свържете към мрежата Lightning.",
+  "account_page_activation_provider_hint": "Моля, изберете един от следните доставчици, за да активирате Breez и да се свържете към светкавичната мрежа.",
   "account_page_activation_provider_unavailable": "Няма налични доставчици на светкавичната мрежа.\nМоля, проверете конфигурацията си и рестартирайте Breez.",
   "account_page_activation_error": "Възникна грешка при извличането на светкавични доставчици. Моля, проверете вашата интернет връзка и опитайте отново.",
   "account_page_activation_action_retry": "ОПИТАЙТЕ ОТНОВО",
   "account_page_activation_action_select": "ИЗБЕРЕТЕ",
-  "funds_over_limit_dialog_on_chain_transaction": "Верижна транзакция",
+  "funds_over_limit_dialog_on_chain_transaction": "Блокчейн транзакция",
   "funds_over_limit_dialog_action_ok": "ПОТВЪРЖАВАНЕ",
   "funds_over_limit_dialog_transfer_fail_no_reason_know": "Breez не успя да прехвърли средствата към вашия баланс\n",
   "funds_over_limit_dialog_transfer_fail_with_reason": "Breez не успя да прехвърли средствата към вашия баланс понеже {reason}\n",
@@ -1084,7 +1084,7 @@
       }
     }
   },
-  "get_refund_action_broadcasted": "ИЗСЛЪЧЕН",
+  "get_refund_action_broadcasted": "ИЗЛЪЧЕН",
   "get_refund_action_continue": "ПРОДЪЛЖЕТЕ",
   "get_refund_transaction": "Транзакция за възстановяване",
   "get_refund_failed": "се провали",
@@ -1132,7 +1132,7 @@
   "initial_walk_through_restore_from_backup": "Възстановяване от резервно копие",
   "initial_walk_through_restoring": "Възстановяване на данни…",
   "initial_walk_through_sign_in_icloud_title": "Влезте в iCloud",
-  "initial_walk_through_sign_in_icloud_message": "Влезте в акаунта си в iCloud. На началния екран стартирайте Настройки, докоснете iCloud и въведете своя Apple ID. Включете iCloud Drive. Ако нямате iCloud акаунт, докоснете Създаване на нов Apple ID.",
+  "initial_walk_through_sign_in_icloud_message": "Влезте в акаунта си в iCloud. На началния екран стартирайте Настройки, натиснете iCloud и въведете своя Apple ID. Включете iCloud Drive. Ако нямате iCloud акаунт, докоснете Създаване на нов Apple ID.",
   "initial_walk_through_error_backup_location": "Не успяхме да се намерим резервно копие за този акаунт",
   "initial_walk_through_error_internal": "Вътрешна грешка",
   "restore_pin_title": "Въведете резервен PIN",
@@ -1240,7 +1240,7 @@
   "lsp_fee_warning_title": "Такса за настройка",
   "lsp_fee_warning_action_cancel": "ОТМЕНЯНЕ",
   "lsp_fee_warning_action_ok": "ПОТВЪРЖАВАНЕ",
-  "lsp_fee_warning_with_min_fee_account_connected": "За закупуване на повече от {liquidity} ще бъде приложена такса за настройка от {setUpFee}% с минимум {minFee}.",
+  "lsp_fee_warning_with_min_fee_account_connected": "За закупуване на повече от {liquidity} ще бъде приложена такса за отваряне на канал от {setUpFee}% с минимум {minFee}.",
   "@lsp_fee_warning_with_min_fee_account_connected": {
     "placeholders": {
       "setUpFee": {
@@ -1257,7 +1257,7 @@
       }
     }
   },
-  "lsp_fee_warning_without_min_fee_account_connected": "Ще бъде приложена такса за настройка от {setUpFee}% за закупуване на повече от {liquidity}.",
+  "lsp_fee_warning_without_min_fee_account_connected": "Ще бъде приложена такса за отваряне на канал от {setUpFee}% за закупуване на повече от {liquidity}.",
   "@lsp_fee_warning_without_min_fee_account_connected": {
     "placeholders": {
       "setUpFee": {
@@ -1270,7 +1270,7 @@
       }
     }
   },
-  "lsp_fee_warning_with_min_fee_account_not_connected": "Върху получената сума ще бъде приложена такса за настройка от {setUpFee}% с минимум {minFee}.",
+  "lsp_fee_warning_with_min_fee_account_not_connected": "Върху получената сума ще бъде приложена такса за отваряне на канал от {setUpFee}% с минимум {minFee}.",
   "@lsp_fee_warning_with_min_fee_account_not_connected": {
     "placeholders": {
       "setUpFee": {
@@ -1283,7 +1283,7 @@
       }
     }
   },
-  "lsp_fee_warning_without_min_fee_account_not_connected": "Върху получената сума ще бъде приложена такса за настройка от {setUpFee}%.",
+  "lsp_fee_warning_without_min_fee_account_not_connected": "Върху получената сума ще бъде приложена такса за отваряне на канал от {setUpFee}%.",
   "@lsp_fee_warning_without_min_fee_account_not_connected": {
     "placeholders": {
       "setUpFee": {
@@ -1309,7 +1309,7 @@
   "order_card_action_order_breez_card": "Поръчайте Breez карта",
   "order_card_action_order_card": "Поръчайте карта",
   "order_card_success": "Breez card ще бъде изпратена скоро на адреса, който сте посочили.",
-  "order_card_info_disclaimer": "Защо трябва да предоставя\тази информация?",
+  "order_card_info_disclaimer": "Защо трябва да предоставя\\тази информация?",
   "order_card_zip_code_label": "Пощенски код",
   "order_card_zip_code_error": "Невалиден пощенски код",
   "order_card_country_label": "Държава",
@@ -1700,7 +1700,7 @@
       }
     }
   },
-  "pos_report_dialog_title_daily": "Ежедневно резюме",
+  "pos_report_dialog_title_daily": "Дневно резюме",
   "pos_report_dialog_title_weekly": "Седмично резюме",
   "pos_report_dialog_title_monthly": "Месечно резюме",
   "pos_report_dialog_title_custom": "Персонализирано резюме",
@@ -1896,7 +1896,7 @@
       }
     }
   },
-  "lnurl_fetch_invoice_min" : "Въведете сума между {min}",
+  "lnurl_fetch_invoice_min": "Въведете сума между {min}",
   "@lnurl_fetch_invoice_min": {
     "placeholders": {
       "min": {
@@ -1905,7 +1905,7 @@
       }
     }
   },
-  "lnurl_fetch_invoice_and" : " и {max}",
+  "lnurl_fetch_invoice_and": " и {max}",
   "@lnurl_fetch_invoice_and": {
     "placeholders": {
       "max": {
@@ -2008,7 +2008,7 @@
   "lock_screen_pin_incorrect": "Неправилен ПИН",
   "lock_screen_pin_match_exception": "Възникна грешка при потвърждаване на вашия ПИН, моля опитайте отново. Ако тази грешка продължава, моля свържете се с поддръжката на Breez.",
   "backup_phrase_generate": "Шифроване на облачно архивиране",
-  "backup_phrase_instructions": "Ще ви бъде показан списък с думи. Запишете думите и ги съхранявайте на сигурно място. Без тези думи, няма да можете да възстановите от резервно копие и вашите средства ще бъдат загубени. Breez няма да може да помогне. Имайте предвид, че тези думи не са семена на портфейла. Те се използват за криптиране на архивните данни, съхранявани в облака.",
+  "backup_phrase_instructions": "Ще ви бъде показан списък с думи. Запишете думите и ги съхранявайте на сигурно място. Без тези думи, няма да можете да възстановите от резервно копие и вашите средства ще бъдат загубени. Breez няма да може да помогне. Имайте предвид, че тези думи не са за достъп до портфейла. Те се използват за криптиране на архивните данни, съхранявани в облака.",
   "backup_phrase_action_confirm": "РАЗБИРАМ",
   "backup_phrase_action_next": "СЛЕДВАЩ",
   "backup_phrase_warning_disclaimer": "Вашата съществуваща резервна фраза вече няма да е валидна и ще бъде генерирана нова следващия път, когато решите да използвате резервна фраза. Сигурни ли сте, че не искате да използвате резервна фраза?",
