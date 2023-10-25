@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:breez_translations/generated/breez_translations.dart';
+import 'package:breez_translations/generated/breez_translations_bg.dart';
 import 'package:breez_translations/generated/breez_translations_cs.dart';
 import 'package:breez_translations/generated/breez_translations_de.dart';
 import 'package:breez_translations/generated/breez_translations_el.dart';
@@ -32,6 +33,7 @@ Iterable<LocalizationsDelegate<dynamic>> localizationsDelegates() {
 Iterable<Locale> supportedLocales() {
   return [
     const Locale("en", ""),
+    const Locale("bg", ""),
     const Locale("cs", ""),
     const Locale("de", ""),
     const Locale("el", ""),
@@ -62,6 +64,8 @@ BreezTranslations getSystemAppLocalizations() {
   switch (getSystemLocale().languageCode) {
     case "en":
       return BreezTranslationsEn();
+    case "bg":
+      return BreezTranslationsBg();
     case "cs":
       return BreezTranslationsCs();
     case "de":
