@@ -3294,6 +3294,12 @@ class BreezTranslationsFi extends BreezTranslations {
   String get google_sign_not_available_exception => 'Google Sign-In is not available on this device.';
 
   @override
+  String get satscard_unused_prompt_title => 'Initialize Satscard';
+
+  @override
+  String get satscard_unused_prompt_body => 'The active slot of the detected Satscard needs to be initialized before it can be used, do you wish to do so?';
+
+  @override
   String get locale => 'fi';
 
   @override

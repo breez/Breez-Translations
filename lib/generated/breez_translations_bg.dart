@@ -3294,6 +3294,12 @@ class BreezTranslationsBg extends BreezTranslations {
   String get google_sign_not_available_exception => 'Влизането в Google не е налично на това устройство.';
 
   @override
+  String get satscard_unused_prompt_title => 'Initialize Satscard';
+
+  @override
+  String get satscard_unused_prompt_body => 'The active slot of the detected Satscard needs to be initialized before it can be used, do you wish to do so?';
+
+  @override
   String get locale => 'en';
 
   @override

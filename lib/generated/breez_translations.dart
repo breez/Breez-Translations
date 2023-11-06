@@ -99,11 +99,11 @@ abstract class BreezTranslations {
 
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
-    Locale('en'),
     Locale('bg'),
     Locale('cs'),
     Locale('de'),
     Locale('el'),
+    Locale('en'),
     Locale('es'),
     Locale('fi'),
     Locale('fr'),
@@ -6130,6 +6130,18 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'Google Sign-In is not available on this device.'**
   String get google_sign_not_available_exception;
+
+  /// No description provided for @satscard_unused_prompt_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Initialize Satscard'**
+  String get satscard_unused_prompt_title;
+
+  /// No description provided for @satscard_unused_prompt_body.
+  ///
+  /// In en, this message translates to:
+  /// **'The active slot of the detected Satscard needs to be initialized before it can be used, do you wish to do so?'**
+  String get satscard_unused_prompt_body;
 
   /// No description provided for @locale.
   ///
