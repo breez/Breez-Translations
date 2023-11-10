@@ -2350,8 +2350,15 @@
   "setup_fees_dialog_title": "Setup Fees",
   "setup_fees_dialog_message": "Please notice the updated setup fees under the QR code before receiving a payment.",
   "google_sign_not_available_exception": "Google Sign-In is not available on this device.",
-  "satscard_unused_prompt_title": "Initialize Satscard",
+  "satscard_unused_prompt_title": "Uninitialized Satscard Slot",
   "satscard_unused_prompt_body": "The active slot of the detected Satscard needs to be initialized before it can be used, do you wish to do so?",
+  "satscard_initialize_title": "Initialize Slot {number}",
+  "satscard_initialize_button_label": "INITIALIZE",
+  "satscard_card_id_text": "Card ID: {id}",
+  "satscard_spend_code_label": "Spend code",
+  "satscard_spend_code_wrong_hint": "Look for a 6-digit code on the back of the card",
+  "satscard_chain_code_label": "Chain code (optional)",
+  "satscard_chain_code_wrong_hint": "Must be empty or a 32-byte hex string",
   "locale": "en",
   "app_name": "Breez"
 }

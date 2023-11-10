@@ -3294,10 +3294,35 @@ class BreezTranslationsEs extends BreezTranslations {
   String get google_sign_not_available_exception => 'Autenticación de Google no disponible en este dispositivo';
 
   @override
-  String get satscard_unused_prompt_title => 'Initialize Satscard';
+  String get satscard_unused_prompt_title => 'Uninitialized Satscard Slot';
 
   @override
   String get satscard_unused_prompt_body => 'The active slot of the detected Satscard needs to be initialized before it can be used, do you wish to do so?';
+
+  @override
+  String satscard_initialize_title(Object number) {
+    return 'Initialize Slot $number';
+  }
+
+  @override
+  String get satscard_initialize_button_label => 'INITIALIZE';
+
+  @override
+  String satscard_card_id_text(Object id) {
+    return 'Card ID: $id';
+  }
+
+  @override
+  String get satscard_spend_code_label => 'Spend code';
+
+  @override
+  String get satscard_spend_code_wrong_hint => 'Look for a 6-digit code on the back of the card';
+
+  @override
+  String get satscard_chain_code_label => 'Chain code (optional)';
+
+  @override
+  String get satscard_chain_code_wrong_hint => 'Must be empty or a 32-byte hex string';
 
   @override
   String get locale => 'es';

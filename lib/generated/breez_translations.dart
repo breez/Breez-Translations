@@ -6134,7 +6134,7 @@ abstract class BreezTranslations {
   /// No description provided for @satscard_unused_prompt_title.
   ///
   /// In en, this message translates to:
-  /// **'Initialize Satscard'**
+  /// **'Uninitialized Satscard Slot'**
   String get satscard_unused_prompt_title;
 
   /// No description provided for @satscard_unused_prompt_body.
@@ -6142,6 +6142,48 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'The active slot of the detected Satscard needs to be initialized before it can be used, do you wish to do so?'**
   String get satscard_unused_prompt_body;
+
+  /// No description provided for @satscard_initialize_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Initialize Slot {number}'**
+  String satscard_initialize_title(Object number);
+
+  /// No description provided for @satscard_initialize_button_label.
+  ///
+  /// In en, this message translates to:
+  /// **'INITIALIZE'**
+  String get satscard_initialize_button_label;
+
+  /// No description provided for @satscard_card_id_text.
+  ///
+  /// In en, this message translates to:
+  /// **'Card ID: {id}'**
+  String satscard_card_id_text(Object id);
+
+  /// No description provided for @satscard_spend_code_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Spend code'**
+  String get satscard_spend_code_label;
+
+  /// No description provided for @satscard_spend_code_wrong_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Look for a 6-digit code on the back of the card'**
+  String get satscard_spend_code_wrong_hint;
+
+  /// No description provided for @satscard_chain_code_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Chain code (optional)'**
+  String get satscard_chain_code_label;
+
+  /// No description provided for @satscard_chain_code_wrong_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Must be empty or a 32-byte hex string'**
+  String get satscard_chain_code_wrong_hint;
 
   /// No description provided for @locale.
   ///
