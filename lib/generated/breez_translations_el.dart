@@ -3300,8 +3300,14 @@ class BreezTranslationsEl extends BreezTranslations {
   String get satscard_unused_prompt_body => 'The active slot of the detected Satscard needs to be initialized before it can be used, do you wish to do so?';
 
   @override
+  String get satscard_used_up_prompt_title => 'All Slots Are Unsealed';
+
+  @override
+  String get satscard_used_up_prompt_body => 'A Satscard was detected but it had no sealed or unused slots and therefore can\'t be used.';
+
+  @override
   String satscard_initialize_title(Object number) {
-    return 'Initialize Slot $number';
+    return 'Initialize Satscard Slot $number';
   }
 
   @override
@@ -3323,6 +3329,44 @@ class BreezTranslationsEl extends BreezTranslations {
 
   @override
   String get satscard_chain_code_wrong_hint => 'Must be empty or a 32-byte hex string';
+
+  @override
+  String get satscard_operation_dialog_title => 'Scan Satscard';
+
+  @override
+  String get satscard_operation_dialog_cancel_label => 'CANCEL';
+
+  @override
+  String satscard_operation_dialog_present_satscards_label(Object id) {
+    return 'Please hold the Satscard with the following ID against your phone:\n$id';
+  }
+
+  @override
+  String get satscard_operation_dialog_in_progress_label => 'Communicating with Satscard';
+
+  @override
+  String get satscard_operation_dialog_waiting_label => 'An incorrect spend code was given three times. Please keep the Satscard held against your phone';
+
+  @override
+  String satscard_operation_dialog_incorrect_card_label(Object id) {
+    return 'Incorrect card presented, the ID on the rear of the card must be:\n$id';
+  }
+
+  @override
+  String get satscard_operation_dialog_stale_card_label => 'The correct card was presented but it\'s in an unexpected state, it may have been modified outside of the app.';
+
+  @override
+  String get satscard_operation_dialog_nfc_error_label => 'A communication error occurred, please try again.';
+
+  @override
+  String satscard_operation_dialog_protocol_error_label(Object code, Object literal, Object message) {
+    return 'Encountered protocol error $code, $literal:\n$message';
+  }
+
+  @override
+  String satscard_operation_dialog_unknown_error_label(Object message) {
+    return 'An error occurred:\n$message';
+  }
 
   @override
   String get locale => 'el';

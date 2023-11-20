@@ -6143,10 +6143,22 @@ abstract class BreezTranslations {
   /// **'The active slot of the detected Satscard needs to be initialized before it can be used, do you wish to do so?'**
   String get satscard_unused_prompt_body;
 
+  /// No description provided for @satscard_used_up_prompt_title.
+  ///
+  /// In en, this message translates to:
+  /// **'All Slots Are Unsealed'**
+  String get satscard_used_up_prompt_title;
+
+  /// No description provided for @satscard_used_up_prompt_body.
+  ///
+  /// In en, this message translates to:
+  /// **'A Satscard was detected but it had no sealed or unused slots and therefore can\'t be used.'**
+  String get satscard_used_up_prompt_body;
+
   /// No description provided for @satscard_initialize_title.
   ///
   /// In en, this message translates to:
-  /// **'Initialize Slot {number}'**
+  /// **'Initialize Satscard Slot {number}'**
   String satscard_initialize_title(Object number);
 
   /// No description provided for @satscard_initialize_button_label.
@@ -6184,6 +6196,66 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'Must be empty or a 32-byte hex string'**
   String get satscard_chain_code_wrong_hint;
+
+  /// No description provided for @satscard_operation_dialog_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan Satscard'**
+  String get satscard_operation_dialog_title;
+
+  /// No description provided for @satscard_operation_dialog_cancel_label.
+  ///
+  /// In en, this message translates to:
+  /// **'CANCEL'**
+  String get satscard_operation_dialog_cancel_label;
+
+  /// No description provided for @satscard_operation_dialog_present_satscards_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Please hold the Satscard with the following ID against your phone:\n{id}'**
+  String satscard_operation_dialog_present_satscards_label(Object id);
+
+  /// No description provided for @satscard_operation_dialog_in_progress_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Communicating with Satscard'**
+  String get satscard_operation_dialog_in_progress_label;
+
+  /// No description provided for @satscard_operation_dialog_waiting_label.
+  ///
+  /// In en, this message translates to:
+  /// **'An incorrect spend code was given three times. Please keep the Satscard held against your phone'**
+  String get satscard_operation_dialog_waiting_label;
+
+  /// No description provided for @satscard_operation_dialog_incorrect_card_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Incorrect card presented, the ID on the rear of the card must be:\n{id}'**
+  String satscard_operation_dialog_incorrect_card_label(Object id);
+
+  /// No description provided for @satscard_operation_dialog_stale_card_label.
+  ///
+  /// In en, this message translates to:
+  /// **'The correct card was presented but it\'s in an unexpected state, it may have been modified outside of the app.'**
+  String get satscard_operation_dialog_stale_card_label;
+
+  /// No description provided for @satscard_operation_dialog_nfc_error_label.
+  ///
+  /// In en, this message translates to:
+  /// **'A communication error occurred, please try again.'**
+  String get satscard_operation_dialog_nfc_error_label;
+
+  /// No description provided for @satscard_operation_dialog_protocol_error_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Encountered protocol error {code}, {literal}:\n{message}'**
+  String satscard_operation_dialog_protocol_error_label(Object code, Object literal, Object message);
+
+  /// No description provided for @satscard_operation_dialog_unknown_error_label.
+  ///
+  /// In en, this message translates to:
+  /// **'An error occurred:\n{message}'**
+  String satscard_operation_dialog_unknown_error_label(Object message);
 
   /// No description provided for @locale.
   ///
