@@ -2657,6 +2657,9 @@ class BreezTranslationsFi extends BreezTranslations {
   String get mnemonics_confirmation_action_verify => 'Varmista';
 
   @override
+  String get podcast_action_layout => 'Layout';
+
+  @override
   String get podcast_add_funds_title => 'Sinulla tulee olla saldoa, jotta voit lähettää satosheja tälle podcast:ille.';
 
   @override

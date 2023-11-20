@@ -1937,6 +1937,7 @@
   "mnemonics_confirmation_display_backup_phrase": "Mostrar frase de respaldo",
   "mnemonics_confirmation_instructions": "Usted verá una lista de palabras. Escriba las palabras y guárdelas en un lugar seguro. Sin estas palabras, no podrá restaurar sus fondos desde la copia de seguridad y sus fondos se perderán y Breez no podrá ayudarlo.",
   "mnemonics_confirmation_action_verify": "Verificar",
+  "podcast_action_layout": "Disposición",
   "podcast_add_funds_title": "Agregue satoshis a su billetera para enviar pagos para este podcast.",
   "podcast_add_funds_action_add": "AGREGAR",
   "podcast_boost_not_enough_founds": "No tienes suficientes satoshis para completar este pago.",

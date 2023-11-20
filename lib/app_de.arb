@@ -1937,6 +1937,7 @@
   "mnemonics_confirmation_display_backup_phrase": "Backup Phrase anzeigen",
   "mnemonics_confirmation_instructions": "Es wird dir eine Liste mit Wörtern gezeigt. Schreibe die Wörter auf und bewahre sie an einem sicheren Ort auf. Ohne diese Wörter kannst du das Backup nicht wiederherstellen und deine Bitcoin sind verloren.",
   "mnemonics_confirmation_action_verify": "Verifizieren",
+  "podcast_action_layout": "Layout",
   "podcast_add_funds_title": "Zahle auf dein Konto ein, um Zahlungen an diesen Podcast zu senden",
   "podcast_add_funds_action_add": "BITCOINS EINZAHLEN",
   "podcast_boost_not_enough_founds": "Du verfügest nicht über genügend Mittel, um diese Zahlung auszuführen",

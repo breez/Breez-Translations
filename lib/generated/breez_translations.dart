@@ -4949,6 +4949,12 @@ abstract class BreezTranslations {
   /// **'VERIFY'**
   String get mnemonics_confirmation_action_verify;
 
+  /// No description provided for @podcast_action_layout.
+  ///
+  /// In en, this message translates to:
+  /// **'Layout'**
+  String get podcast_action_layout;
+
   /// No description provided for @podcast_add_funds_title.
   ///
   /// In en, this message translates to:

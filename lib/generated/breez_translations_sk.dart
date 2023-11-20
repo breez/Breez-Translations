@@ -2657,6 +2657,9 @@ class BreezTranslationsSk extends BreezTranslations {
   String get mnemonics_confirmation_action_verify => 'OVERIŤ';
 
   @override
+  String get podcast_action_layout => 'Layout';
+
+  @override
   String get podcast_add_funds_title => 'Ak chceš posielať platby do tohto podcastu, pridaj prostriedky do svojho zostatku.';
 
   @override

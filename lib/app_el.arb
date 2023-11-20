@@ -1937,6 +1937,7 @@
   "mnemonics_confirmation_display_backup_phrase": "Display Backup Phrase",
   "mnemonics_confirmation_instructions": "You will be shown a list of words. Write down the words and store them in a safe place. Without these words, you won't be able to restore from backup and your funds will be lost.",
   "mnemonics_confirmation_action_verify": "VERIFY",
+  "podcast_action_layout": "Layout",
   "podcast_add_funds_title": "Add funds to your balance to send payments to this podcast.",
   "podcast_add_funds_action_add": "ADD FUNDS",
   "podcast_boost_not_enough_founds": "You don't have enough funds to complete this payment.",

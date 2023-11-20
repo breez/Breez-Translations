@@ -1937,6 +1937,7 @@
   "mnemonics_confirmation_display_backup_phrase": "Display Backup Phrase",
   "mnemonics_confirmation_instructions": "Ti verrà mostrato un elenco di parole. Annota le parole e conservale in un luogo sicuro. Senza queste parole, non sarai in grado di ripristinare dal backup e i tuoi fondi andranno persi. Breez non sarà in grado di aiutare.",
   "mnemonics_confirmation_action_verify": "Verify",
+  "podcast_action_layout": "Layout",
   "podcast_add_funds_title": "Aggiungi fondi al tuo bilancio per inviare pagamenti a questo podcast.",
   "podcast_add_funds_action_add": "AGGIUNGI FONDI",
   "podcast_boost_not_enough_founds": "Non hai fondi sufficienti per completare questo pagamento.",

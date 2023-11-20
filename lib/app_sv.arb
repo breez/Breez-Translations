@@ -1937,6 +1937,7 @@
   "mnemonics_confirmation_display_backup_phrase": "Display Backup Phrase",
   "mnemonics_confirmation_instructions": "Du kommer att se en lista med ord. Skriv ner orden och förvara dem på ett säkert ställe. Utan dessa ord kommer du inte att kunna återställa från backup och dina pengar kommer att gå förlorade. Breez kommer inte att kunna hjälpa.",
   "mnemonics_confirmation_action_verify": "Verify",
+  "podcast_action_layout": "Layout",
   "podcast_add_funds_title": "Lägg till pengar till ditt saldo för att skicka betalningar till denna podcast.",
   "podcast_add_funds_action_add": "LÄGG TILL PENGAR",
   "podcast_boost_not_enough_founds": "Du har inte tillräckligt med pengar för att slutföra den här betalningen.",

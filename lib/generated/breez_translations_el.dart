@@ -2657,6 +2657,9 @@ class BreezTranslationsEl extends BreezTranslations {
   String get mnemonics_confirmation_action_verify => 'VERIFY';
 
   @override
+  String get podcast_action_layout => 'Layout';
+
+  @override
   String get podcast_add_funds_title => 'Add funds to your balance to send payments to this podcast.';
 
   @override

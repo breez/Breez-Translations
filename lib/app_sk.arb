@@ -1937,6 +1937,7 @@
   "mnemonics_confirmation_display_backup_phrase": "Zobraziť záložnú frázu",
   "mnemonics_confirmation_instructions": "Zobrazí sa ti zoznam slov. Zapíš si tieto slová poriadne a uložte ich na bezpečné miesto. Bez týchto slov nebudeš môcť obnoviť zálohu a tvoje peniaze budú navždy stratené.",
   "mnemonics_confirmation_action_verify": "OVERIŤ",
+  "podcast_action_layout": "Layout",
   "podcast_add_funds_title": "Ak chceš posielať platby do tohto podcastu, pridaj prostriedky do svojho zostatku.",
   "podcast_add_funds_action_add": "PRIDAŤ PROSTRIEDKY",
   "podcast_boost_not_enough_founds": "Nemáš dostatok prostriedkov na dokončenie tejto platby.",

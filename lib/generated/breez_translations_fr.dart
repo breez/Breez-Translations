@@ -2657,6 +2657,9 @@ class BreezTranslationsFr extends BreezTranslations {
   String get mnemonics_confirmation_action_verify => 'Verify';
 
   @override
+  String get podcast_action_layout => 'Layout';
+
+  @override
   String get podcast_add_funds_title => 'Ajoutez des fonds à votre solde pour envoyer des paiements à ce podcast.';
 
   @override

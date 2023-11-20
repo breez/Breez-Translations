@@ -1937,6 +1937,7 @@
   "mnemonics_confirmation_display_backup_phrase": "Показване на резервна фраза",
   "mnemonics_confirmation_instructions": "Ще ви бъде показан списък с думи. Запишете думите и ги съхранявайте на сигурно място. Без тези думи, няма да можете да възстановите от резервно копие и вашите средства ще бъдат загубени.",
   "mnemonics_confirmation_action_verify": "ПРОВЕРЯВАНЕ",
+  "podcast_action_layout": "Layout",
   "podcast_add_funds_title": "Добавете средства към баланса си, за да изпращате плащания към този подкаст.",
   "podcast_add_funds_action_add": "ДОБАВЕТЕ СРЕДСТВА",
   "podcast_boost_not_enough_founds": "Нямате достатъчно средства, за да завършите това плащане.",
