@@ -142,6 +142,12 @@ class BreezTranslationsBg extends BreezTranslations {
   String get invoice_btc_address_deposit_address_copied => 'Адресът за депозит бе копиран в клипборда ви.';
 
   @override
+  String get invoice_btc_address_generic_address => 'BTC Address';
+
+  @override
+  String get invoice_btc_address_generic_address_copied => 'BTC address was copied to your clipboard.';
+
+  @override
   String get invoice_btc_address_on_chain_begin => 'Breez използва метода Submarine Swaps за извършване на транзакции във веригата. Кликнете ';
 
   @override
@@ -3319,16 +3325,79 @@ class BreezTranslationsBg extends BreezTranslations {
   }
 
   @override
+  String get satscard_card_id_copied => 'Satscard ID was copied to your clipboard.';
+
+  @override
   String get satscard_spend_code_label => 'Spend code';
 
   @override
-  String get satscard_spend_code_wrong_hint => 'Look for a 6-digit code on the back of the card';
+  String get satscard_spend_code_incorrect_code_hint => 'The code you entered was incorrect';
+
+  @override
+  String get satscard_spend_code_incorrect_length_hint => 'Look for a 6-digit code on the back of the card';
 
   @override
   String get satscard_chain_code_label => 'Chain code (optional)';
 
   @override
   String get satscard_chain_code_wrong_hint => 'Must be empty or a 32-byte hex string';
+
+  @override
+  String get satscard_balance_title => 'View Satscard Balance';
+
+  @override
+  String get satscard_balance_button_label => 'Sweep To Wallet';
+
+  @override
+  String get satscard_balance_warning_unconfirmed_title => 'Unconfirmed Balance';
+
+  @override
+  String get satscard_balance_warning_unconfirmed_body => 'The slot has an unconfirmed balance, this will be ignored and only the confirmed balance will be swept. Do you wish to continue?';
+
+  @override
+  String get satscard_balance_awaiting_balance_label => 'Retrieving slot balance';
+
+  @override
+  String get satscard_balance_awaiting_account_label => 'Retrieving currency info';
+
+  @override
+  String get satscard_balance_address_label => 'Address:';
+
+  @override
+  String get satscard_balance_confirmed_label => 'Balance:';
+
+  @override
+  String get satscard_balance_unconfirmed_label => 'Unconfirmed:';
+
+  @override
+  String satscard_balance_value_no_fiat(String received) {
+    return '$received';
+  }
+
+  @override
+  String satscard_balance_value_with_fiat(String received, String fiat) {
+    return '$received ($fiat)';
+  }
+
+  @override
+  String get satscard_balance_birth_height_label => 'Birth Block:';
+
+  @override
+  String get satscard_balance_card_id_label => 'Card ID:';
+
+  @override
+  String get satscard_balance_slot_label => 'Slot:';
+
+  @override
+  String get satscard_balance_version_label => 'Version:';
+
+  @override
+  String satscard_sweep_title(Object number) {
+    return 'Sweep Satscard Slot $number';
+  }
+
+  @override
+  String get satscard_sweep_button_label => 'Confirm';
 
   @override
   String get satscard_operation_dialog_title => 'Scan Satscard';
@@ -3342,15 +3411,21 @@ class BreezTranslationsBg extends BreezTranslations {
   }
 
   @override
+  String get satscard_operation_dialog_success_label => 'Operation complete';
+
+  @override
   String get satscard_operation_dialog_in_progress_label => 'Communicating with Satscard';
 
   @override
-  String get satscard_operation_dialog_waiting_label => 'An incorrect spend code was given three times. Please keep the Satscard held against your phone';
+  String get satscard_operation_dialog_waiting_label => 'An incorrect spend code was previously entered. Please keep the Satscard held against your phone';
 
   @override
   String satscard_operation_dialog_incorrect_card_label(Object id) {
     return 'Incorrect card presented, the ID on the rear of the card must be:\n$id';
   }
+
+  @override
+  String get satscard_operation_dialog_incorrect_code_label => 'Incorrect spend code';
 
   @override
   String get satscard_operation_dialog_stale_card_label => 'The correct card was presented but it\'s in an unexpected state, it may have been modified outside of the app.';

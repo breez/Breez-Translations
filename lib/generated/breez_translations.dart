@@ -359,6 +359,18 @@ abstract class BreezTranslations {
   /// **'Deposit address was copied to your clipboard.'**
   String get invoice_btc_address_deposit_address_copied;
 
+  /// No description provided for @invoice_btc_address_generic_address.
+  ///
+  /// In en, this message translates to:
+  /// **'BTC Address'**
+  String get invoice_btc_address_generic_address;
+
+  /// No description provided for @invoice_btc_address_generic_address_copied.
+  ///
+  /// In en, this message translates to:
+  /// **'BTC address was copied to your clipboard.'**
+  String get invoice_btc_address_generic_address_copied;
+
   /// No description provided for @invoice_btc_address_on_chain_begin.
   ///
   /// In en, this message translates to:
@@ -6173,17 +6185,29 @@ abstract class BreezTranslations {
   /// **'Card ID: {id}'**
   String satscard_card_id_text(Object id);
 
+  /// No description provided for @satscard_card_id_copied.
+  ///
+  /// In en, this message translates to:
+  /// **'Satscard ID was copied to your clipboard.'**
+  String get satscard_card_id_copied;
+
   /// No description provided for @satscard_spend_code_label.
   ///
   /// In en, this message translates to:
   /// **'Spend code'**
   String get satscard_spend_code_label;
 
-  /// No description provided for @satscard_spend_code_wrong_hint.
+  /// No description provided for @satscard_spend_code_incorrect_code_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'The code you entered was incorrect'**
+  String get satscard_spend_code_incorrect_code_hint;
+
+  /// No description provided for @satscard_spend_code_incorrect_length_hint.
   ///
   /// In en, this message translates to:
   /// **'Look for a 6-digit code on the back of the card'**
-  String get satscard_spend_code_wrong_hint;
+  String get satscard_spend_code_incorrect_length_hint;
 
   /// No description provided for @satscard_chain_code_label.
   ///
@@ -6196,6 +6220,108 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'Must be empty or a 32-byte hex string'**
   String get satscard_chain_code_wrong_hint;
+
+  /// No description provided for @satscard_balance_title.
+  ///
+  /// In en, this message translates to:
+  /// **'View Satscard Balance'**
+  String get satscard_balance_title;
+
+  /// No description provided for @satscard_balance_button_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Sweep To Wallet'**
+  String get satscard_balance_button_label;
+
+  /// No description provided for @satscard_balance_warning_unconfirmed_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Unconfirmed Balance'**
+  String get satscard_balance_warning_unconfirmed_title;
+
+  /// No description provided for @satscard_balance_warning_unconfirmed_body.
+  ///
+  /// In en, this message translates to:
+  /// **'The slot has an unconfirmed balance, this will be ignored and only the confirmed balance will be swept. Do you wish to continue?'**
+  String get satscard_balance_warning_unconfirmed_body;
+
+  /// No description provided for @satscard_balance_awaiting_balance_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Retrieving slot balance'**
+  String get satscard_balance_awaiting_balance_label;
+
+  /// No description provided for @satscard_balance_awaiting_account_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Retrieving currency info'**
+  String get satscard_balance_awaiting_account_label;
+
+  /// No description provided for @satscard_balance_address_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Address:'**
+  String get satscard_balance_address_label;
+
+  /// No description provided for @satscard_balance_confirmed_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Balance:'**
+  String get satscard_balance_confirmed_label;
+
+  /// No description provided for @satscard_balance_unconfirmed_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Unconfirmed:'**
+  String get satscard_balance_unconfirmed_label;
+
+  /// No description provided for @satscard_balance_value_no_fiat.
+  ///
+  /// In en, this message translates to:
+  /// **'{received}'**
+  String satscard_balance_value_no_fiat(String received);
+
+  /// No description provided for @satscard_balance_value_with_fiat.
+  ///
+  /// In en, this message translates to:
+  /// **'{received} ({fiat})'**
+  String satscard_balance_value_with_fiat(String received, String fiat);
+
+  /// No description provided for @satscard_balance_birth_height_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Birth Block:'**
+  String get satscard_balance_birth_height_label;
+
+  /// No description provided for @satscard_balance_card_id_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Card ID:'**
+  String get satscard_balance_card_id_label;
+
+  /// No description provided for @satscard_balance_slot_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Slot:'**
+  String get satscard_balance_slot_label;
+
+  /// No description provided for @satscard_balance_version_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Version:'**
+  String get satscard_balance_version_label;
+
+  /// No description provided for @satscard_sweep_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Sweep Satscard Slot {number}'**
+  String satscard_sweep_title(Object number);
+
+  /// No description provided for @satscard_sweep_button_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm'**
+  String get satscard_sweep_button_label;
 
   /// No description provided for @satscard_operation_dialog_title.
   ///
@@ -6215,6 +6341,12 @@ abstract class BreezTranslations {
   /// **'Please hold the Satscard with the following ID against your phone:\n{id}'**
   String satscard_operation_dialog_present_satscards_label(Object id);
 
+  /// No description provided for @satscard_operation_dialog_success_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Operation complete'**
+  String get satscard_operation_dialog_success_label;
+
   /// No description provided for @satscard_operation_dialog_in_progress_label.
   ///
   /// In en, this message translates to:
@@ -6224,7 +6356,7 @@ abstract class BreezTranslations {
   /// No description provided for @satscard_operation_dialog_waiting_label.
   ///
   /// In en, this message translates to:
-  /// **'An incorrect spend code was given three times. Please keep the Satscard held against your phone'**
+  /// **'An incorrect spend code was previously entered. Please keep the Satscard held against your phone'**
   String get satscard_operation_dialog_waiting_label;
 
   /// No description provided for @satscard_operation_dialog_incorrect_card_label.
@@ -6232,6 +6364,12 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'Incorrect card presented, the ID on the rear of the card must be:\n{id}'**
   String satscard_operation_dialog_incorrect_card_label(Object id);
+
+  /// No description provided for @satscard_operation_dialog_incorrect_code_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Incorrect spend code'**
+  String get satscard_operation_dialog_incorrect_code_label;
 
   /// No description provided for @satscard_operation_dialog_stale_card_label.
   ///
