@@ -3364,7 +3364,7 @@ class BreezTranslationsIt extends BreezTranslations {
   String get satscard_balance_awaiting_balance_label => 'Retrieving slot balance';
 
   @override
-  String get satscard_balance_awaiting_account_label => 'Retrieving currency info';
+  String get satscard_balance_awaiting_account_label => 'Retrieving currency information';
 
   @override
   String get satscard_balance_address_label => 'Address:';
@@ -3404,6 +3404,49 @@ class BreezTranslationsIt extends BreezTranslations {
 
   @override
   String get satscard_sweep_button_label => 'Confirm';
+
+  @override
+  String get satscard_sweep_balance_label => 'Slot balance:';
+
+  @override
+  String get satscard_sweep_lsp_fee_label => 'Channel setup fee:';
+
+  @override
+  String get satscard_sweep_chain_fee_label => 'Transaction fee:';
+
+  @override
+  String get satscard_sweep_receive_label => 'You receive:';
+
+  @override
+  String get satscard_sweep_balance_too_high_label => 'Maximum balance:';
+
+  @override
+  String get satscard_sweep_balance_too_low_label => 'Minimum balance:';
+
+  @override
+  String get satscard_sweep_balance_reserve_not_met_label => 'Required reserve:';
+
+  @override
+  String satscard_sweep_fee_value(String fee) {
+    return '-$fee';
+  }
+
+  @override
+  String get satscard_sweep_awaiting_fees_label => 'Retrieving fee rates';
+
+  @override
+  String get satscard_sweep_awaiting_deposit_label => 'Retrieving deposit address';
+
+  @override
+  String get satscard_sweep_awaiting_lsp_label => 'Retrieving LSP status';
+
+  @override
+  String satscard_sweep_warning_lsp_fee_label(Object sats) {
+    return 'A setup fee is required because the balance of the Satscard exceeds $sats';
+  }
+
+  @override
+  String get satscard_sweep_warning_not_valid => 'The Satscard slot can\'t be swept because it doesn\'t meet the requirements of the liquidity provider';
 
   @override
   String get satscard_operation_dialog_title => 'Scan Satscard';

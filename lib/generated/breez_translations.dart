@@ -6266,7 +6266,7 @@ abstract class BreezTranslations {
   /// No description provided for @satscard_balance_awaiting_account_label.
   ///
   /// In en, this message translates to:
-  /// **'Retrieving currency info'**
+  /// **'Retrieving currency information'**
   String get satscard_balance_awaiting_account_label;
 
   /// No description provided for @satscard_balance_address_label.
@@ -6334,6 +6334,84 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'Confirm'**
   String get satscard_sweep_button_label;
+
+  /// No description provided for @satscard_sweep_balance_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Slot balance:'**
+  String get satscard_sweep_balance_label;
+
+  /// No description provided for @satscard_sweep_lsp_fee_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Channel setup fee:'**
+  String get satscard_sweep_lsp_fee_label;
+
+  /// No description provided for @satscard_sweep_chain_fee_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction fee:'**
+  String get satscard_sweep_chain_fee_label;
+
+  /// No description provided for @satscard_sweep_receive_label.
+  ///
+  /// In en, this message translates to:
+  /// **'You receive:'**
+  String get satscard_sweep_receive_label;
+
+  /// No description provided for @satscard_sweep_balance_too_high_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Maximum balance:'**
+  String get satscard_sweep_balance_too_high_label;
+
+  /// No description provided for @satscard_sweep_balance_too_low_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Minimum balance:'**
+  String get satscard_sweep_balance_too_low_label;
+
+  /// No description provided for @satscard_sweep_balance_reserve_not_met_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Required reserve:'**
+  String get satscard_sweep_balance_reserve_not_met_label;
+
+  /// No description provided for @satscard_sweep_fee_value.
+  ///
+  /// In en, this message translates to:
+  /// **'-{fee}'**
+  String satscard_sweep_fee_value(String fee);
+
+  /// No description provided for @satscard_sweep_awaiting_fees_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Retrieving fee rates'**
+  String get satscard_sweep_awaiting_fees_label;
+
+  /// No description provided for @satscard_sweep_awaiting_deposit_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Retrieving deposit address'**
+  String get satscard_sweep_awaiting_deposit_label;
+
+  /// No description provided for @satscard_sweep_awaiting_lsp_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Retrieving LSP status'**
+  String get satscard_sweep_awaiting_lsp_label;
+
+  /// No description provided for @satscard_sweep_warning_lsp_fee_label.
+  ///
+  /// In en, this message translates to:
+  /// **'A setup fee is required because the balance of the Satscard exceeds {sats}'**
+  String satscard_sweep_warning_lsp_fee_label(Object sats);
+
+  /// No description provided for @satscard_sweep_warning_not_valid.
+  ///
+  /// In en, this message translates to:
+  /// **'The Satscard slot can\'t be swept because it doesn\'t meet the requirements of the liquidity provider'**
+  String get satscard_sweep_warning_not_valid;
 
   /// No description provided for @satscard_operation_dialog_title.
   ///
