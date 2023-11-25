@@ -2367,6 +2367,8 @@
   "satscard_chain_code_wrong_hint": "Must be empty or a 32-byte hex string",
   "satscard_balance_title": "View Satscard Balance",
   "satscard_balance_button_label": "Sweep To Wallet",
+  "satscard_balance_warning_no_funds_title": "No Balance",
+  "satscard_balance_warning_no_funds_body": "There is no balance on the Satscard slot so it can't be swept",
   "satscard_balance_warning_unconfirmed_title": "Unconfirmed Balance",
   "satscard_balance_warning_unconfirmed_body": "The slot has an unconfirmed balance, this will be ignored and only the confirmed balance will be swept. Do you wish to continue?",
   "satscard_balance_awaiting_balance_label": "Retrieving slot balance",

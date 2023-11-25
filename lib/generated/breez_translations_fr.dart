@@ -3349,6 +3349,12 @@ class BreezTranslationsFr extends BreezTranslations {
   String get satscard_balance_button_label => 'Sweep To Wallet';
 
   @override
+  String get satscard_balance_warning_no_funds_title => 'No Balance';
+
+  @override
+  String get satscard_balance_warning_no_funds_body => 'There is no balance on the Satscard slot so it can\'t be swept';
+
+  @override
   String get satscard_balance_warning_unconfirmed_title => 'Unconfirmed Balance';
 
   @override

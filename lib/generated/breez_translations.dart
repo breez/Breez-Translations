@@ -6233,6 +6233,18 @@ abstract class BreezTranslations {
   /// **'Sweep To Wallet'**
   String get satscard_balance_button_label;
 
+  /// No description provided for @satscard_balance_warning_no_funds_title.
+  ///
+  /// In en, this message translates to:
+  /// **'No Balance'**
+  String get satscard_balance_warning_no_funds_title;
+
+  /// No description provided for @satscard_balance_warning_no_funds_body.
+  ///
+  /// In en, this message translates to:
+  /// **'There is no balance on the Satscard slot so it can\'t be swept'**
+  String get satscard_balance_warning_no_funds_body;
+
   /// No description provided for @satscard_balance_warning_unconfirmed_title.
   ///
   /// In en, this message translates to:
