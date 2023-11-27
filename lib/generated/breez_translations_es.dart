@@ -3349,6 +3349,9 @@ class BreezTranslationsEs extends BreezTranslations {
   String get satscard_balance_button_label => 'Sweep To Wallet';
 
   @override
+  String get satscard_balance_button_retry_label => 'Retry';
+
+  @override
   String get satscard_balance_warning_no_funds_title => 'No Balance';
 
   @override
@@ -3398,18 +3401,26 @@ class BreezTranslationsEs extends BreezTranslations {
   String get satscard_balance_version_label => 'Version:';
 
   @override
+  String satscard_balance_error_address_info(Object error) {
+    return 'An error occurred while retrieving the balance of the Satscard slot:\n$error';
+  }
+
+  @override
   String satscard_sweep_title(Object number) {
     return 'Sweep Satscard Slot $number';
   }
 
   @override
-  String get satscard_sweep_button_label => 'Confirm';
+  String get satscard_sweep_button_confirm_label => 'Confirm';
+
+  @override
+  String get satscard_sweep_button_cancel_label => 'Cancel';
 
   @override
   String get satscard_sweep_balance_label => 'Slot balance:';
 
   @override
-  String get satscard_sweep_lsp_fee_label => 'Channel setup fee:';
+  String get satscard_sweep_lsp_fee_label => 'Setup fee:';
 
   @override
   String get satscard_sweep_chain_fee_label => 'Transaction fee:';
@@ -3441,12 +3452,27 @@ class BreezTranslationsEs extends BreezTranslations {
   String get satscard_sweep_awaiting_lsp_label => 'Retrieving LSP status';
 
   @override
-  String satscard_sweep_warning_lsp_fee_label(Object sats) {
-    return 'A setup fee is required because the balance of the Satscard exceeds $sats';
+  String satscard_sweep_warning_lsp_fee_no_liquidity_label(Object minimum, Object percent) {
+    return 'A setup fee of $percent% with a minimum fee of $minimum is required to sweep the Satscard';
+  }
+
+  @override
+  String satscard_sweep_warning_lsp_fee_label(Object minimum, Object percent, Object sats) {
+    return 'A setup fee of $percent% with a minimum fee of $minimum is required because the balance of the Satscard exceeds $sats';
   }
 
   @override
   String get satscard_sweep_warning_not_valid => 'The Satscard slot can\'t be swept because it doesn\'t meet the requirements of the liquidity provider';
+
+  @override
+  String satscard_sweep_error_deposit_address(Object error) {
+    return 'An error occurred while retrieving a deposit address:\n$error';
+  }
+
+  @override
+  String satscard_sweep_error_create_transactions(Object error) {
+    return 'An error occurred while retrieving a retrieving fees rates and constructing transactions:\n$error';
+  }
 
   @override
   String get satscard_operation_dialog_title => 'Scan Satscard';
