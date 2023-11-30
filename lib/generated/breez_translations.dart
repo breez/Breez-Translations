@@ -6449,6 +6449,36 @@ abstract class BreezTranslations {
   /// **'An error occurred while retrieving a retrieving fees rates and constructing transactions:\n{error}'**
   String satscard_sweep_error_create_transactions(Object error);
 
+  /// No description provided for @satscard_broadcast_signing_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Signing transaction'**
+  String get satscard_broadcast_signing_label;
+
+  /// No description provided for @satscard_broadcast_broadcasting_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Broadcasting transaction'**
+  String get satscard_broadcast_broadcasting_label;
+
+  /// No description provided for @satscard_broadcast_error_signing.
+  ///
+  /// In en, this message translates to:
+  /// **'An error occurred while attempting to sign the transaction before broadcast:\n{error}'**
+  String satscard_broadcast_error_signing(Object error);
+
+  /// No description provided for @satscard_broadcast_error_broadcasting.
+  ///
+  /// In en, this message translates to:
+  /// **'An error occurred while attempting to broadcast the transaction before broadcast:\n{error}'**
+  String satscard_broadcast_error_broadcasting(Object error);
+
+  /// No description provided for @satscard_broadcast_retry_button.
+  ///
+  /// In en, this message translates to:
+  /// **'Retry'**
+  String get satscard_broadcast_retry_button;
+
   /// No description provided for @satscard_operation_dialog_title.
   ///
   /// In en, this message translates to:

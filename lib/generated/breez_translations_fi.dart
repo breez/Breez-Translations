@@ -3475,6 +3475,25 @@ class BreezTranslationsFi extends BreezTranslations {
   }
 
   @override
+  String get satscard_broadcast_signing_label => 'Signing transaction';
+
+  @override
+  String get satscard_broadcast_broadcasting_label => 'Broadcasting transaction';
+
+  @override
+  String satscard_broadcast_error_signing(Object error) {
+    return 'An error occurred while attempting to sign the transaction before broadcast:\n$error';
+  }
+
+  @override
+  String satscard_broadcast_error_broadcasting(Object error) {
+    return 'An error occurred while attempting to broadcast the transaction before broadcast:\n$error';
+  }
+
+  @override
+  String get satscard_broadcast_retry_button => 'Retry';
+
+  @override
   String get satscard_operation_dialog_title => 'Scan Satscard';
 
   @override
