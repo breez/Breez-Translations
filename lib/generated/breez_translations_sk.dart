@@ -3343,19 +3343,19 @@ class BreezTranslationsSk extends BreezTranslations {
   String get satscard_chain_code_wrong_hint => 'Must be empty or a 32-byte hex string';
 
   @override
-  String get satscard_balance_title => 'View Satscard Balance';
+  String get satscard_balance_title => 'Satscard Balance';
 
   @override
-  String get satscard_balance_button_label => 'Sweep To Wallet';
+  String get satscard_balance_button_label => 'SWEEP';
 
   @override
-  String get satscard_balance_button_retry_label => 'Retry';
+  String get satscard_balance_button_retry_label => 'RETRY';
 
   @override
   String get satscard_balance_warning_no_funds_title => 'No Balance';
 
   @override
-  String get satscard_balance_warning_no_funds_body => 'There is no balance on the Satscard slot so it can\'t be swept';
+  String get satscard_balance_warning_no_funds_body => 'There is no confirmed balance on the Satscard slot so it can\'t be swept';
 
   @override
   String get satscard_balance_warning_unconfirmed_title => 'Unconfirmed Balance';
@@ -3411,10 +3411,10 @@ class BreezTranslationsSk extends BreezTranslations {
   }
 
   @override
-  String get satscard_sweep_button_confirm_label => 'Confirm';
+  String get satscard_sweep_button_confirm_label => 'CONFIRM';
 
   @override
-  String get satscard_sweep_button_cancel_label => 'Cancel';
+  String get satscard_sweep_button_cancel_label => 'CANCEL';
 
   @override
   String get satscard_sweep_balance_label => 'Slot balance:';
@@ -3489,9 +3489,6 @@ class BreezTranslationsSk extends BreezTranslations {
   String satscard_broadcast_error_broadcasting(Object error) {
     return 'An error occurred while attempting to broadcast the transaction before broadcast:\n$error';
   }
-
-  @override
-  String get satscard_broadcast_retry_button => 'Retry';
 
   @override
   String get satscard_operation_dialog_title => 'Scan Satscard';

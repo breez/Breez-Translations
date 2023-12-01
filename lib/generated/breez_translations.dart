@@ -6224,19 +6224,19 @@ abstract class BreezTranslations {
   /// No description provided for @satscard_balance_title.
   ///
   /// In en, this message translates to:
-  /// **'View Satscard Balance'**
+  /// **'Satscard Balance'**
   String get satscard_balance_title;
 
   /// No description provided for @satscard_balance_button_label.
   ///
   /// In en, this message translates to:
-  /// **'Sweep To Wallet'**
+  /// **'SWEEP'**
   String get satscard_balance_button_label;
 
   /// No description provided for @satscard_balance_button_retry_label.
   ///
   /// In en, this message translates to:
-  /// **'Retry'**
+  /// **'RETRY'**
   String get satscard_balance_button_retry_label;
 
   /// No description provided for @satscard_balance_warning_no_funds_title.
@@ -6248,7 +6248,7 @@ abstract class BreezTranslations {
   /// No description provided for @satscard_balance_warning_no_funds_body.
   ///
   /// In en, this message translates to:
-  /// **'There is no balance on the Satscard slot so it can\'t be swept'**
+  /// **'There is no confirmed balance on the Satscard slot so it can\'t be swept'**
   String get satscard_balance_warning_no_funds_body;
 
   /// No description provided for @satscard_balance_warning_unconfirmed_title.
@@ -6344,13 +6344,13 @@ abstract class BreezTranslations {
   /// No description provided for @satscard_sweep_button_confirm_label.
   ///
   /// In en, this message translates to:
-  /// **'Confirm'**
+  /// **'CONFIRM'**
   String get satscard_sweep_button_confirm_label;
 
   /// No description provided for @satscard_sweep_button_cancel_label.
   ///
   /// In en, this message translates to:
-  /// **'Cancel'**
+  /// **'CANCEL'**
   String get satscard_sweep_button_cancel_label;
 
   /// No description provided for @satscard_sweep_balance_label.
@@ -6472,12 +6472,6 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'An error occurred while attempting to broadcast the transaction before broadcast:\n{error}'**
   String satscard_broadcast_error_broadcasting(Object error);
-
-  /// No description provided for @satscard_broadcast_retry_button.
-  ///
-  /// In en, this message translates to:
-  /// **'Retry'**
-  String get satscard_broadcast_retry_button;
 
   /// No description provided for @satscard_operation_dialog_title.
   ///
