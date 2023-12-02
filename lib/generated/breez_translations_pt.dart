@@ -3300,16 +3300,30 @@ class BreezTranslationsPt extends BreezTranslations {
   String get google_sign_not_available_exception => 'A autenticação do Google não está disponível neste dispositivo.';
 
   @override
+  String get satscard_error_invalid_title => 'Unknown Error';
+
+  @override
+  String satscard_error_invalid_body(Object error) {
+    return 'Communication with the Satscard failed unexpectedly:\n$error';
+  }
+
+  @override
+  String get satscard_error_nfc_title => 'Communication Error';
+
+  @override
+  String get satscard_error_nfc_body => 'Communications with the Satscard failed or were interrupted, please try again.';
+
+  @override
+  String get satscard_error_used_up_title => 'All Slots Are Unsealed';
+
+  @override
+  String get satscard_error_used_up_body => 'A Satscard was detected but it had no sealed or unused slots and therefore can\'t be used.';
+
+  @override
   String get satscard_unused_prompt_title => 'Uninitialized Satscard Slot';
 
   @override
   String get satscard_unused_prompt_body => 'The active slot of the detected Satscard needs to be initialized before it can be used, do you wish to do so?';
-
-  @override
-  String get satscard_used_up_prompt_title => 'All Slots Are Unsealed';
-
-  @override
-  String get satscard_used_up_prompt_body => 'A Satscard was detected but it had no sealed or unused slots and therefore can\'t be used.';
 
   @override
   String satscard_initialize_title(Object number) {
@@ -3450,6 +3464,12 @@ class BreezTranslationsPt extends BreezTranslations {
 
   @override
   String get satscard_sweep_awaiting_lsp_label => 'Retrieving LSP status';
+
+  @override
+  String get satscard_sweep_high_fee_title => 'High Fees';
+
+  @override
+  String get satscard_sweep_high_fee_body => 'Sweeping the Satscard slot will require paying more than 10% of the balance in fees. Are you sure you wish to continue?';
 
   @override
   String satscard_sweep_warning_lsp_fee_no_liquidity_label(Object minimum, Object percent) {

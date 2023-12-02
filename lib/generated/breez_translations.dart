@@ -6143,6 +6143,42 @@ abstract class BreezTranslations {
   /// **'Google Sign-In is not available on this device.'**
   String get google_sign_not_available_exception;
 
+  /// No description provided for @satscard_error_invalid_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Unknown Error'**
+  String get satscard_error_invalid_title;
+
+  /// No description provided for @satscard_error_invalid_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Communication with the Satscard failed unexpectedly:\n{error}'**
+  String satscard_error_invalid_body(Object error);
+
+  /// No description provided for @satscard_error_nfc_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Communication Error'**
+  String get satscard_error_nfc_title;
+
+  /// No description provided for @satscard_error_nfc_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Communications with the Satscard failed or were interrupted, please try again.'**
+  String get satscard_error_nfc_body;
+
+  /// No description provided for @satscard_error_used_up_title.
+  ///
+  /// In en, this message translates to:
+  /// **'All Slots Are Unsealed'**
+  String get satscard_error_used_up_title;
+
+  /// No description provided for @satscard_error_used_up_body.
+  ///
+  /// In en, this message translates to:
+  /// **'A Satscard was detected but it had no sealed or unused slots and therefore can\'t be used.'**
+  String get satscard_error_used_up_body;
+
   /// No description provided for @satscard_unused_prompt_title.
   ///
   /// In en, this message translates to:
@@ -6154,18 +6190,6 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'The active slot of the detected Satscard needs to be initialized before it can be used, do you wish to do so?'**
   String get satscard_unused_prompt_body;
-
-  /// No description provided for @satscard_used_up_prompt_title.
-  ///
-  /// In en, this message translates to:
-  /// **'All Slots Are Unsealed'**
-  String get satscard_used_up_prompt_title;
-
-  /// No description provided for @satscard_used_up_prompt_body.
-  ///
-  /// In en, this message translates to:
-  /// **'A Satscard was detected but it had no sealed or unused slots and therefore can\'t be used.'**
-  String get satscard_used_up_prompt_body;
 
   /// No description provided for @satscard_initialize_title.
   ///
@@ -6418,6 +6442,18 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'Retrieving LSP status'**
   String get satscard_sweep_awaiting_lsp_label;
+
+  /// No description provided for @satscard_sweep_high_fee_title.
+  ///
+  /// In en, this message translates to:
+  /// **'High Fees'**
+  String get satscard_sweep_high_fee_title;
+
+  /// No description provided for @satscard_sweep_high_fee_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Sweeping the Satscard slot will require paying more than 10% of the balance in fees. Are you sure you wish to continue?'**
+  String get satscard_sweep_high_fee_body;
 
   /// No description provided for @satscard_sweep_warning_lsp_fee_no_liquidity_label.
   ///
