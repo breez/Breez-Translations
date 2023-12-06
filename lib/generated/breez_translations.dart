@@ -6143,6 +6143,18 @@ abstract class BreezTranslations {
   /// **'Google Sign-In is not available on this device.'**
   String get google_sign_not_available_exception;
 
+  /// No description provided for @satscard_dialog_ok.
+  ///
+  /// In en, this message translates to:
+  /// **'OK'**
+  String get satscard_dialog_ok;
+
+  /// No description provided for @satscard_dialog_cancel.
+  ///
+  /// In en, this message translates to:
+  /// **'CANCEL'**
+  String get satscard_dialog_cancel;
+
   /// No description provided for @satscard_error_invalid_title.
   ///
   /// In en, this message translates to:
@@ -6188,7 +6200,7 @@ abstract class BreezTranslations {
   /// No description provided for @satscard_unused_prompt_body.
   ///
   /// In en, this message translates to:
-  /// **'The active slot of the detected Satscard needs to be initialized before it can be used, do you wish to do so?'**
+  /// **'The active slot of the detected Satscard needs to be initialized before it can be used'**
   String get satscard_unused_prompt_body;
 
   /// No description provided for @satscard_initialize_title.
@@ -6284,7 +6296,7 @@ abstract class BreezTranslations {
   /// No description provided for @satscard_balance_warning_unconfirmed_body.
   ///
   /// In en, this message translates to:
-  /// **'The slot has an unconfirmed balance, this will be ignored and only the confirmed balance will be swept. Do you wish to continue?'**
+  /// **'The slot has an unconfirmed balance, this will be ignored and only the confirmed balance will be swept'**
   String get satscard_balance_warning_unconfirmed_body;
 
   /// No description provided for @satscard_balance_awaiting_balance_label.
@@ -6443,18 +6455,6 @@ abstract class BreezTranslations {
   /// **'Retrieving LSP status'**
   String get satscard_sweep_awaiting_lsp_label;
 
-  /// No description provided for @satscard_sweep_high_fee_title.
-  ///
-  /// In en, this message translates to:
-  /// **'High Fees'**
-  String get satscard_sweep_high_fee_title;
-
-  /// No description provided for @satscard_sweep_high_fee_body.
-  ///
-  /// In en, this message translates to:
-  /// **'Sweeping the Satscard slot will require paying more than 10% of the balance in fees. Are you sure you wish to continue?'**
-  String get satscard_sweep_high_fee_body;
-
   /// No description provided for @satscard_sweep_warning_lsp_fee_no_liquidity_label.
   ///
   /// In en, this message translates to:
@@ -6470,7 +6470,7 @@ abstract class BreezTranslations {
   /// No description provided for @satscard_sweep_warning_not_valid.
   ///
   /// In en, this message translates to:
-  /// **'The Satscard slot can\'t be swept because it doesn\'t meet the requirements of the liquidity provider'**
+  /// **'The Satscard slot can\'t be swept'**
   String get satscard_sweep_warning_not_valid;
 
   /// No description provided for @satscard_sweep_error_deposit_address.
@@ -6530,7 +6530,7 @@ abstract class BreezTranslations {
   /// No description provided for @satscard_operation_dialog_present_satscards_label.
   ///
   /// In en, this message translates to:
-  /// **'Please hold the Satscard with the following ID against your phone:\n{id}'**
+  /// **'Please hold the Satscard with the following ID against your device:\n{id}'**
   String satscard_operation_dialog_present_satscards_label(Object id);
 
   /// No description provided for @satscard_operation_dialog_success_label.

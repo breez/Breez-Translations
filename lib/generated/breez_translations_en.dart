@@ -3300,6 +3300,12 @@ class BreezTranslationsEn extends BreezTranslations {
   String get google_sign_not_available_exception => 'Google Sign-In is not available on this device.';
 
   @override
+  String get satscard_dialog_ok => 'OK';
+
+  @override
+  String get satscard_dialog_cancel => 'CANCEL';
+
+  @override
   String get satscard_error_invalid_title => 'Unknown Error';
 
   @override
@@ -3323,7 +3329,7 @@ class BreezTranslationsEn extends BreezTranslations {
   String get satscard_unused_prompt_title => 'Uninitialized Satscard Slot';
 
   @override
-  String get satscard_unused_prompt_body => 'The active slot of the detected Satscard needs to be initialized before it can be used, do you wish to do so?';
+  String get satscard_unused_prompt_body => 'The active slot of the detected Satscard needs to be initialized before it can be used';
 
   @override
   String satscard_initialize_title(Object number) {
@@ -3375,7 +3381,7 @@ class BreezTranslationsEn extends BreezTranslations {
   String get satscard_balance_warning_unconfirmed_title => 'Unconfirmed Balance';
 
   @override
-  String get satscard_balance_warning_unconfirmed_body => 'The slot has an unconfirmed balance, this will be ignored and only the confirmed balance will be swept. Do you wish to continue?';
+  String get satscard_balance_warning_unconfirmed_body => 'The slot has an unconfirmed balance, this will be ignored and only the confirmed balance will be swept';
 
   @override
   String get satscard_balance_awaiting_balance_label => 'Retrieving slot balance';
@@ -3466,12 +3472,6 @@ class BreezTranslationsEn extends BreezTranslations {
   String get satscard_sweep_awaiting_lsp_label => 'Retrieving LSP status';
 
   @override
-  String get satscard_sweep_high_fee_title => 'High Fees';
-
-  @override
-  String get satscard_sweep_high_fee_body => 'Sweeping the Satscard slot will require paying more than 10% of the balance in fees. Are you sure you wish to continue?';
-
-  @override
   String satscard_sweep_warning_lsp_fee_no_liquidity_label(Object minimum, Object percent) {
     return 'A setup fee of $percent% with a minimum fee of $minimum is required to sweep the Satscard';
   }
@@ -3482,7 +3482,7 @@ class BreezTranslationsEn extends BreezTranslations {
   }
 
   @override
-  String get satscard_sweep_warning_not_valid => 'The Satscard slot can\'t be swept because it doesn\'t meet the requirements of the liquidity provider';
+  String get satscard_sweep_warning_not_valid => 'The Satscard slot can\'t be swept';
 
   @override
   String satscard_sweep_error_deposit_address(Object error) {
@@ -3521,7 +3521,7 @@ class BreezTranslationsEn extends BreezTranslations {
 
   @override
   String satscard_operation_dialog_present_satscards_label(Object id) {
-    return 'Please hold the Satscard with the following ID against your phone:\n$id';
+    return 'Please hold the Satscard with the following ID against your device:\n$id';
   }
 
   @override
