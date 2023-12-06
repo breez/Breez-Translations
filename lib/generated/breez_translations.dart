@@ -99,11 +99,11 @@ abstract class BreezTranslations {
 
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
+    Locale('en'),
     Locale('bg'),
     Locale('cs'),
     Locale('de'),
     Locale('el'),
-    Locale('en'),
     Locale('es'),
     Locale('fi'),
     Locale('fr'),
