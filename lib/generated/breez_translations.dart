@@ -6404,20 +6404,20 @@ abstract class BreezTranslations {
   /// No description provided for @satscard_sweep_balance_too_high_label.
   ///
   /// In en, this message translates to:
-  /// **'Maximum balance:'**
+  /// **'Maximum deposit:'**
   String get satscard_sweep_balance_too_high_label;
 
   /// No description provided for @satscard_sweep_balance_too_low_label.
   ///
   /// In en, this message translates to:
-  /// **'Minimum balance:'**
+  /// **'Minimum deposit:'**
   String get satscard_sweep_balance_too_low_label;
 
-  /// No description provided for @satscard_sweep_balance_reserve_not_met_label.
+  /// No description provided for @satscard_sweep_reserve_not_met_label.
   ///
   /// In en, this message translates to:
   /// **'Required reserve:'**
-  String get satscard_sweep_balance_reserve_not_met_label;
+  String get satscard_sweep_reserve_not_met_label;
 
   /// No description provided for @satscard_sweep_fee_value.
   ///
@@ -6484,6 +6484,12 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'An error occurred while retrieving a retrieving fees rates and constructing transactions:\n{error}'**
   String satscard_sweep_error_create_transactions(Object error);
+
+  /// No description provided for @satscard_broadcast_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Broadcast Transaction'**
+  String get satscard_broadcast_title;
 
   /// No description provided for @satscard_broadcast_signing_label.
   ///

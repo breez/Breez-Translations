@@ -3443,13 +3443,13 @@ class BreezTranslationsEn extends BreezTranslations {
   String get satscard_sweep_receive_label => 'You receive:';
 
   @override
-  String get satscard_sweep_balance_too_high_label => 'Maximum balance:';
+  String get satscard_sweep_balance_too_high_label => 'Maximum deposit:';
 
   @override
-  String get satscard_sweep_balance_too_low_label => 'Minimum balance:';
+  String get satscard_sweep_balance_too_low_label => 'Minimum deposit:';
 
   @override
-  String get satscard_sweep_balance_reserve_not_met_label => 'Required reserve:';
+  String get satscard_sweep_reserve_not_met_label => 'Required reserve:';
 
   @override
   String satscard_sweep_fee_value(String fee) {
@@ -3493,6 +3493,9 @@ class BreezTranslationsEn extends BreezTranslations {
   String satscard_sweep_error_create_transactions(Object error) {
     return 'An error occurred while retrieving a retrieving fees rates and constructing transactions:\n$error';
   }
+
+  @override
+  String get satscard_broadcast_title => 'Broadcast Transaction';
 
   @override
   String get satscard_broadcast_signing_label => 'Signing transaction';

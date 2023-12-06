@@ -2415,9 +2415,9 @@
   "satscard_sweep_lsp_fee_label": "Setup fee:",
   "satscard_sweep_chain_fee_label": "Transaction fee:",
   "satscard_sweep_receive_label": "You receive:",
-  "satscard_sweep_balance_too_high_label": "Maximum balance:",
-  "satscard_sweep_balance_too_low_label": "Minimum balance:",
-  "satscard_sweep_balance_reserve_not_met_label": "Required reserve:",
+  "satscard_sweep_balance_too_high_label": "Maximum deposit:",
+  "satscard_sweep_balance_too_low_label": "Minimum deposit:",
+  "satscard_sweep_reserve_not_met_label": "Required reserve:",
   "satscard_sweep_fee_value": "-{fee}",
   "@satscard_sweep_fee_value": {
     "placeholders": {
@@ -2437,6 +2437,7 @@
   "satscard_sweep_warning_not_valid": "The Satscard slot can't be swept because it doesn't meet the requirements of the liquidity provider",
   "satscard_sweep_error_deposit_address": "An error occurred while retrieving a deposit address:\n{error}",
   "satscard_sweep_error_create_transactions": "An error occurred while retrieving a retrieving fees rates and constructing transactions:\n{error}",
+  "satscard_broadcast_title": "Broadcast Transaction",
   "satscard_broadcast_signing_label": "Signing transaction",
   "satscard_broadcast_broadcasting_label": "Broadcasting transaction",
   "satscard_broadcast_error_signing": "An error occurred while attempting to sign the transaction before broadcast:\n{error}",
