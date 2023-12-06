@@ -906,6 +906,102 @@ void main() {
         expect(text.contains(minSats), true);
         expect(text.contains(maxSats), true);
       });
+
+      test("satscard_error_invalid_body for ${locale.locale}", () {
+        final text = locale.satscard_error_invalid_body(error);
+        expect(text.contains(error), true);
+      });
+
+      test("satscard_initialize_title for ${locale.locale}", () {
+        final text = locale.satscard_initialize_title(indexInt);
+        expect(text.contains(index), true);
+      });
+
+      test("satscard_card_id_text for ${locale.locale}", () {
+        final text = locale.satscard_card_id_text(cardId);
+        expect(text.contains(cardId), true);
+      });
+
+      test("satscard_balance_value_no_fiat for ${locale.locale}", () {
+        final text = locale.satscard_balance_value_no_fiat(sats);
+        expect(text.contains(sats), true);
+      });
+
+      test("satscard_balance_value_with_fiat for ${locale.locale}", () {
+        final text = locale.satscard_balance_value_with_fiat(sats, fiat);
+        expect(text.contains(sats), true);
+        expect(text.contains(fiat), true);
+      });
+
+      test("satscard_balance_error_address_info for ${locale.locale}", () {
+        final text = locale.satscard_balance_error_address_info(error);
+        expect(text.contains(error), true);
+      });
+
+      test("satscard_sweep_title for ${locale.locale}", () {
+        final text = locale.satscard_sweep_title(indexInt);
+        expect(text.contains(index), true);
+      });
+
+      test("satscard_sweep_fee_value for ${locale.locale}", () {
+        final text = locale.satscard_sweep_fee_value(fee);
+        expect(text.contains(fee), true);
+      });
+
+      test("satscard_sweep_warning_lsp_fee_no_liquidity_label for ${locale.locale}", () {
+        final text = locale.satscard_sweep_warning_lsp_fee_no_liquidity_label(minSats, setUpFee);
+        expect(text.contains(minSats), true);
+        expect(text.contains(setUpFee), true);
+      });
+
+      test("satscard_sweep_warning_lsp_fee_label for ${locale.locale}", () {
+        final text = locale.satscard_sweep_warning_lsp_fee_label(minSats, setUpFee, liquidity);
+        expect(text.contains(minSats), true);
+        expect(text.contains(setUpFee), true);
+        expect(text.contains(liquidity), true);
+      });
+
+      test("satscard_sweep_error_deposit_address for ${locale.locale}", () {
+        final text = locale.satscard_sweep_error_deposit_address(error);
+        expect(text.contains(error), true);
+      });
+
+      test("satscard_sweep_error_create_transactions for ${locale.locale}", () {
+        final text = locale.satscard_sweep_error_create_transactions(error);
+        expect(text.contains(error), true);
+      });
+
+      test("satscard_broadcast_error_signing for ${locale.locale}", () {
+        final text = locale.satscard_broadcast_error_signing(error);
+        expect(text.contains(error), true);
+      });
+
+      test("satscard_broadcast_error_broadcasting for ${locale.locale}", () {
+        final text = locale.satscard_broadcast_error_broadcasting(error);
+        expect(text.contains(error), true);
+      });
+
+      test("satscard_operation_dialog_present_satscards_label for ${locale.locale}", () {
+        final text = locale.satscard_operation_dialog_present_satscards_label(cardId);
+        expect(text.contains(cardId), true);
+      });
+
+      test("satscard_operation_dialog_incorrect_card_label for ${locale.locale}", () {
+        final text = locale.satscard_operation_dialog_incorrect_card_label(cardId);
+        expect(text.contains(cardId), true);
+      });
+
+      test("satscard_operation_dialog_protocol_error_label for ${locale.locale}", () {
+        final text = locale.satscard_operation_dialog_protocol_error_label(codeInt, literal, error);
+        expect(text.contains(code), true);
+        expect(text.contains(literal), true);
+        expect(text.contains(error), true);
+      });
+
+      test("satscard_operation_dialog_unknown_error_label for ${locale.locale}", () {
+        final text = locale.satscard_operation_dialog_unknown_error_label(error);
+        expect(text.contains(error), true);
+      });
     }
   });
 }
@@ -916,6 +1012,9 @@ const amount = "34567";
 const amountInt = 34567;
 const apiName = "aLongApiNameToAvoidFalsePositive";
 const balance = "aLongBalanceToAvoidFalsePositive";
+const cardId = "aLongCardIdToAvoidFalsePositive";
+const code = "968392";
+const codeInt = 968392;
 const commission = "aLongCommissionToAvoidFalsePositive";
 const currency = "aLongCurrencyToAvoidFalsePositive";
 const currencyName = "aLongCurrencyNameToAvoidFalsePositive";
@@ -939,6 +1038,7 @@ const indexInt = 67890;
 const lastBackup = "aLongLastBackupToAvoidFalsePositive";
 const link = "aLongLinkToAvoidFalsePositive";
 const liquidity = "aLongLiquidityToAvoidFalsePositive";
+const literal = "aLongLiteralToAvoidFalsePositive";
 const lockHeight = "12345";
 const lockHeightInt = 12345;
 const max = "aLongMaxToAvoidFalsePositive";
