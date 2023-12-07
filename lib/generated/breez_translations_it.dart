@@ -3531,7 +3531,7 @@ class BreezTranslationsIt extends BreezTranslations {
   String get satscard_operation_dialog_in_progress_label => 'Communicating with Satscard';
 
   @override
-  String get satscard_operation_dialog_waiting_label => 'An incorrect spend code was previously entered. Please keep the Satscard held against your phone';
+  String get satscard_operation_dialog_waiting_label => 'An incorrect spend code was previously entered. Please keep the Satscard held against your device';
 
   @override
   String satscard_operation_dialog_incorrect_card_label(Object id) {

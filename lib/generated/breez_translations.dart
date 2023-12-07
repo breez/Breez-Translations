@@ -6548,7 +6548,7 @@ abstract class BreezTranslations {
   /// No description provided for @satscard_operation_dialog_waiting_label.
   ///
   /// In en, this message translates to:
-  /// **'An incorrect spend code was previously entered. Please keep the Satscard held against your phone'**
+  /// **'An incorrect spend code was previously entered. Please keep the Satscard held against your device'**
   String get satscard_operation_dialog_waiting_label;
 
   /// No description provided for @satscard_operation_dialog_incorrect_card_label.
