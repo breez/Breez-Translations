@@ -6515,6 +6515,12 @@ abstract class BreezTranslations {
   /// **'An error occurred while attempting to broadcast the transaction before broadcast:\n{error}'**
   String satscard_broadcast_error_broadcasting(Object error);
 
+  /// No description provided for @satscard_broadcast_complete_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Satscard Swept'**
+  String get satscard_broadcast_complete_title;
+
   /// No description provided for @satscard_operation_dialog_title.
   ///
   /// In en, this message translates to:

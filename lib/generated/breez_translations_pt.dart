@@ -3514,6 +3514,9 @@ class BreezTranslationsPt extends BreezTranslations {
   }
 
   @override
+  String get satscard_broadcast_complete_title => 'Satscard Swept';
+
+  @override
   String get satscard_operation_dialog_title => 'Scan Satscard';
 
   @override

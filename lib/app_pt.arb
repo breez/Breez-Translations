@@ -2442,6 +2442,7 @@
   "satscard_broadcast_broadcasting_label": "Broadcasting transaction",
   "satscard_broadcast_error_signing": "An error occurred while attempting to sign the transaction before broadcast:\n{error}",
   "satscard_broadcast_error_broadcasting": "An error occurred while attempting to broadcast the transaction before broadcast:\n{error}",
+  "satscard_broadcast_complete_title": "Satscard Swept",
   "satscard_operation_dialog_title": "Scan Satscard",
   "satscard_operation_dialog_cancel_label": "CANCEL",
   "satscard_operation_dialog_present_satscards_label": "Please hold the Satscard with the following ID against your device:\n{id}",
