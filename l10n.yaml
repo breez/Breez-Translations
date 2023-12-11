@@ -3,5 +3,6 @@ template-arb-file: app_en.arb
 output-localization-file: breez_translations.dart
 output-class: BreezTranslations
 output-dir: lib/generated
+preferred-supported-locales: ["en"]
 synthetic-package: false
 untranslated-messages-file: untranslated_messages.txt

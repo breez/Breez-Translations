@@ -142,6 +142,12 @@ class BreezTranslationsPt extends BreezTranslations {
   String get invoice_btc_address_deposit_address_copied => 'O endereço foi copiado para a área de transferência.';
 
   @override
+  String get invoice_btc_address_generic_address => 'BTC Address';
+
+  @override
+  String get invoice_btc_address_generic_address_copied => 'BTC address was copied to your clipboard.';
+
+  @override
   String get invoice_btc_address_on_chain_begin => 'A Breez está usando a função Submarine Swaps para executar transações pela rede Bitcoin. Toque ';
 
   @override
@@ -3292,6 +3298,267 @@ class BreezTranslationsPt extends BreezTranslations {
 
   @override
   String get google_sign_not_available_exception => 'A autenticação do Google não está disponível neste dispositivo.';
+
+  @override
+  String get satscard_dialog_ok => 'OK';
+
+  @override
+  String get satscard_dialog_cancel => 'CANCEL';
+
+  @override
+  String get satscard_error_invalid_title => 'Unknown Error';
+
+  @override
+  String satscard_error_invalid_body(Object error) {
+    return 'Communication with the Satscard failed unexpectedly:\n$error';
+  }
+
+  @override
+  String get satscard_error_nfc_title => 'Communication Error';
+
+  @override
+  String get satscard_error_nfc_body => 'Communications with the Satscard failed or were interrupted, please try again.';
+
+  @override
+  String get satscard_error_used_up_title => 'All Slots Are Unsealed';
+
+  @override
+  String get satscard_error_used_up_body => 'A Satscard was detected but it had no sealed or unused slots and therefore can\'t be used.';
+
+  @override
+  String get satscard_unused_prompt_title => 'Uninitialized Satscard Slot';
+
+  @override
+  String get satscard_unused_prompt_body => 'The active slot of the detected Satscard needs to be initialized before it can be used';
+
+  @override
+  String satscard_initialize_title(Object number) {
+    return 'Initialize Satscard Slot $number';
+  }
+
+  @override
+  String get satscard_initialize_button_label => 'INITIALIZE';
+
+  @override
+  String satscard_card_id_text(Object id) {
+    return 'Card ID: $id';
+  }
+
+  @override
+  String get satscard_card_id_copied => 'Satscard ID was copied to your clipboard.';
+
+  @override
+  String get satscard_spend_code_label => 'Spend code';
+
+  @override
+  String get satscard_spend_code_incorrect_code_hint => 'The code you entered was incorrect';
+
+  @override
+  String get satscard_spend_code_incorrect_length_hint => 'Look for a 6-digit code on the back of the card';
+
+  @override
+  String get satscard_chain_code_label => 'Chain code (optional)';
+
+  @override
+  String get satscard_chain_code_wrong_hint => 'Must be empty or a 32-byte hex string';
+
+  @override
+  String get satscard_balance_title => 'Satscard Balance';
+
+  @override
+  String get satscard_balance_button_label => 'SWEEP';
+
+  @override
+  String get satscard_balance_button_retry_label => 'RETRY';
+
+  @override
+  String get satscard_balance_warning_no_funds_title => 'No Balance';
+
+  @override
+  String get satscard_balance_warning_no_funds_body => 'There is no confirmed balance on the Satscard slot so it can\'t be swept';
+
+  @override
+  String get satscard_balance_warning_unconfirmed_title => 'Unconfirmed Balance';
+
+  @override
+  String get satscard_balance_warning_unconfirmed_body => 'The slot has an unconfirmed balance, this will be ignored and only the confirmed balance will be swept';
+
+  @override
+  String get satscard_balance_awaiting_balance_label => 'Retrieving slot balance';
+
+  @override
+  String get satscard_balance_awaiting_account_label => 'Retrieving currency information';
+
+  @override
+  String get satscard_balance_address_label => 'Address:';
+
+  @override
+  String get satscard_balance_confirmed_label => 'Balance:';
+
+  @override
+  String get satscard_balance_unconfirmed_label => 'Unconfirmed:';
+
+  @override
+  String satscard_balance_value_no_fiat(String received) {
+    return '$received';
+  }
+
+  @override
+  String satscard_balance_value_with_fiat(String received, String fiat) {
+    return '$received ($fiat)';
+  }
+
+  @override
+  String get satscard_balance_birth_height_label => 'Birth Block:';
+
+  @override
+  String get satscard_balance_card_id_label => 'Card ID:';
+
+  @override
+  String get satscard_balance_slot_label => 'Slot:';
+
+  @override
+  String get satscard_balance_version_label => 'Version:';
+
+  @override
+  String satscard_balance_error_address_info(Object error) {
+    return 'An error occurred while retrieving the balance of the Satscard slot:\n$error';
+  }
+
+  @override
+  String satscard_sweep_title(Object number) {
+    return 'Sweep Satscard Slot $number';
+  }
+
+  @override
+  String get satscard_sweep_button_confirm_label => 'CONFIRM';
+
+  @override
+  String get satscard_sweep_button_cancel_label => 'CANCEL';
+
+  @override
+  String get satscard_sweep_balance_label => 'Slot balance:';
+
+  @override
+  String get satscard_sweep_lsp_fee_label => 'Setup fee:';
+
+  @override
+  String get satscard_sweep_chain_fee_label => 'Transaction fee:';
+
+  @override
+  String get satscard_sweep_receive_label => 'You receive:';
+
+  @override
+  String get satscard_sweep_balance_too_high_label => 'Maximum deposit:';
+
+  @override
+  String get satscard_sweep_balance_too_low_label => 'Minimum deposit:';
+
+  @override
+  String get satscard_sweep_reserve_not_met_label => 'Required reserve:';
+
+  @override
+  String satscard_sweep_fee_value(String fee) {
+    return '-$fee';
+  }
+
+  @override
+  String get satscard_sweep_awaiting_fees_label => 'Retrieving fee rates';
+
+  @override
+  String get satscard_sweep_awaiting_deposit_label => 'Retrieving deposit address';
+
+  @override
+  String get satscard_sweep_awaiting_lsp_label => 'Retrieving LSP status';
+
+  @override
+  String satscard_sweep_warning_lsp_fee_no_liquidity_label(Object minimum, Object percent) {
+    return 'A setup fee of $percent% with a minimum fee of $minimum is required to sweep the Satscard';
+  }
+
+  @override
+  String satscard_sweep_warning_lsp_fee_label(Object minimum, Object percent, Object sats) {
+    return 'A setup fee of $percent% with a minimum fee of $minimum is required because the balance of the Satscard exceeds $sats';
+  }
+
+  @override
+  String get satscard_sweep_warning_not_valid => 'The Satscard slot can\'t be swept';
+
+  @override
+  String satscard_sweep_error_deposit_address(Object error) {
+    return 'An error occurred while retrieving a deposit address:\n$error';
+  }
+
+  @override
+  String satscard_sweep_error_create_transactions(Object error) {
+    return 'An error occurred while retrieving a retrieving fees rates and constructing transactions:\n$error';
+  }
+
+  @override
+  String get satscard_broadcast_title => 'Broadcast Transaction';
+
+  @override
+  String get satscard_broadcast_signing_label => 'Signing transaction';
+
+  @override
+  String get satscard_broadcast_broadcasting_label => 'Broadcasting transaction';
+
+  @override
+  String satscard_broadcast_error_signing(Object error) {
+    return 'An error occurred while attempting to sign the transaction before broadcast:\n$error';
+  }
+
+  @override
+  String satscard_broadcast_error_broadcasting(Object error) {
+    return 'An error occurred while attempting to broadcast the transaction before broadcast:\n$error';
+  }
+
+  @override
+  String get satscard_broadcast_complete_title => 'Satscard Swept';
+
+  @override
+  String get satscard_operation_dialog_title => 'Scan Satscard';
+
+  @override
+  String get satscard_operation_dialog_cancel_label => 'CANCEL';
+
+  @override
+  String satscard_operation_dialog_present_satscards_label(Object id) {
+    return 'Please hold the Satscard with the following ID against your device:\n$id';
+  }
+
+  @override
+  String get satscard_operation_dialog_success_label => 'Operation complete';
+
+  @override
+  String get satscard_operation_dialog_in_progress_label => 'Communicating with Satscard';
+
+  @override
+  String get satscard_operation_dialog_waiting_label => 'An incorrect spend code was previously entered. Please keep the Satscard held against your device';
+
+  @override
+  String satscard_operation_dialog_incorrect_card_label(Object id) {
+    return 'Incorrect card presented, the ID on the rear of the card must be:\n$id';
+  }
+
+  @override
+  String get satscard_operation_dialog_incorrect_code_label => 'Incorrect spend code';
+
+  @override
+  String get satscard_operation_dialog_stale_card_label => 'The correct card was presented but it\'s in an unexpected state, it may have been modified outside of the app.';
+
+  @override
+  String get satscard_operation_dialog_nfc_error_label => 'A communication error occurred, please try again.';
+
+  @override
+  String satscard_operation_dialog_protocol_error_label(Object code, Object literal, Object message) {
+    return 'Encountered protocol error $code, $literal:\n$message';
+  }
+
+  @override
+  String satscard_operation_dialog_unknown_error_label(Object message) {
+    return 'An error occurred:\n$message';
+  }
 
   @override
   String get locale => 'pt';

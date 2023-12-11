@@ -359,6 +359,18 @@ abstract class BreezTranslations {
   /// **'Deposit address was copied to your clipboard.'**
   String get invoice_btc_address_deposit_address_copied;
 
+  /// No description provided for @invoice_btc_address_generic_address.
+  ///
+  /// In en, this message translates to:
+  /// **'BTC Address'**
+  String get invoice_btc_address_generic_address;
+
+  /// No description provided for @invoice_btc_address_generic_address_copied.
+  ///
+  /// In en, this message translates to:
+  /// **'BTC address was copied to your clipboard.'**
+  String get invoice_btc_address_generic_address_copied;
+
   /// No description provided for @invoice_btc_address_on_chain_begin.
   ///
   /// In en, this message translates to:
@@ -6130,6 +6142,456 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'Google Sign-In is not available on this device.'**
   String get google_sign_not_available_exception;
+
+  /// No description provided for @satscard_dialog_ok.
+  ///
+  /// In en, this message translates to:
+  /// **'OK'**
+  String get satscard_dialog_ok;
+
+  /// No description provided for @satscard_dialog_cancel.
+  ///
+  /// In en, this message translates to:
+  /// **'CANCEL'**
+  String get satscard_dialog_cancel;
+
+  /// No description provided for @satscard_error_invalid_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Unknown Error'**
+  String get satscard_error_invalid_title;
+
+  /// No description provided for @satscard_error_invalid_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Communication with the Satscard failed unexpectedly:\n{error}'**
+  String satscard_error_invalid_body(Object error);
+
+  /// No description provided for @satscard_error_nfc_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Communication Error'**
+  String get satscard_error_nfc_title;
+
+  /// No description provided for @satscard_error_nfc_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Communications with the Satscard failed or were interrupted, please try again.'**
+  String get satscard_error_nfc_body;
+
+  /// No description provided for @satscard_error_used_up_title.
+  ///
+  /// In en, this message translates to:
+  /// **'All Slots Are Unsealed'**
+  String get satscard_error_used_up_title;
+
+  /// No description provided for @satscard_error_used_up_body.
+  ///
+  /// In en, this message translates to:
+  /// **'A Satscard was detected but it had no sealed or unused slots and therefore can\'t be used.'**
+  String get satscard_error_used_up_body;
+
+  /// No description provided for @satscard_unused_prompt_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Uninitialized Satscard Slot'**
+  String get satscard_unused_prompt_title;
+
+  /// No description provided for @satscard_unused_prompt_body.
+  ///
+  /// In en, this message translates to:
+  /// **'The active slot of the detected Satscard needs to be initialized before it can be used'**
+  String get satscard_unused_prompt_body;
+
+  /// No description provided for @satscard_initialize_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Initialize Satscard Slot {number}'**
+  String satscard_initialize_title(Object number);
+
+  /// No description provided for @satscard_initialize_button_label.
+  ///
+  /// In en, this message translates to:
+  /// **'INITIALIZE'**
+  String get satscard_initialize_button_label;
+
+  /// No description provided for @satscard_card_id_text.
+  ///
+  /// In en, this message translates to:
+  /// **'Card ID: {id}'**
+  String satscard_card_id_text(Object id);
+
+  /// No description provided for @satscard_card_id_copied.
+  ///
+  /// In en, this message translates to:
+  /// **'Satscard ID was copied to your clipboard.'**
+  String get satscard_card_id_copied;
+
+  /// No description provided for @satscard_spend_code_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Spend code'**
+  String get satscard_spend_code_label;
+
+  /// No description provided for @satscard_spend_code_incorrect_code_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'The code you entered was incorrect'**
+  String get satscard_spend_code_incorrect_code_hint;
+
+  /// No description provided for @satscard_spend_code_incorrect_length_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Look for a 6-digit code on the back of the card'**
+  String get satscard_spend_code_incorrect_length_hint;
+
+  /// No description provided for @satscard_chain_code_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Chain code (optional)'**
+  String get satscard_chain_code_label;
+
+  /// No description provided for @satscard_chain_code_wrong_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Must be empty or a 32-byte hex string'**
+  String get satscard_chain_code_wrong_hint;
+
+  /// No description provided for @satscard_balance_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Satscard Balance'**
+  String get satscard_balance_title;
+
+  /// No description provided for @satscard_balance_button_label.
+  ///
+  /// In en, this message translates to:
+  /// **'SWEEP'**
+  String get satscard_balance_button_label;
+
+  /// No description provided for @satscard_balance_button_retry_label.
+  ///
+  /// In en, this message translates to:
+  /// **'RETRY'**
+  String get satscard_balance_button_retry_label;
+
+  /// No description provided for @satscard_balance_warning_no_funds_title.
+  ///
+  /// In en, this message translates to:
+  /// **'No Balance'**
+  String get satscard_balance_warning_no_funds_title;
+
+  /// No description provided for @satscard_balance_warning_no_funds_body.
+  ///
+  /// In en, this message translates to:
+  /// **'There is no confirmed balance on the Satscard slot so it can\'t be swept'**
+  String get satscard_balance_warning_no_funds_body;
+
+  /// No description provided for @satscard_balance_warning_unconfirmed_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Unconfirmed Balance'**
+  String get satscard_balance_warning_unconfirmed_title;
+
+  /// No description provided for @satscard_balance_warning_unconfirmed_body.
+  ///
+  /// In en, this message translates to:
+  /// **'The slot has an unconfirmed balance, this will be ignored and only the confirmed balance will be swept'**
+  String get satscard_balance_warning_unconfirmed_body;
+
+  /// No description provided for @satscard_balance_awaiting_balance_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Retrieving slot balance'**
+  String get satscard_balance_awaiting_balance_label;
+
+  /// No description provided for @satscard_balance_awaiting_account_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Retrieving currency information'**
+  String get satscard_balance_awaiting_account_label;
+
+  /// No description provided for @satscard_balance_address_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Address:'**
+  String get satscard_balance_address_label;
+
+  /// No description provided for @satscard_balance_confirmed_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Balance:'**
+  String get satscard_balance_confirmed_label;
+
+  /// No description provided for @satscard_balance_unconfirmed_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Unconfirmed:'**
+  String get satscard_balance_unconfirmed_label;
+
+  /// No description provided for @satscard_balance_value_no_fiat.
+  ///
+  /// In en, this message translates to:
+  /// **'{received}'**
+  String satscard_balance_value_no_fiat(String received);
+
+  /// No description provided for @satscard_balance_value_with_fiat.
+  ///
+  /// In en, this message translates to:
+  /// **'{received} ({fiat})'**
+  String satscard_balance_value_with_fiat(String received, String fiat);
+
+  /// No description provided for @satscard_balance_birth_height_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Birth Block:'**
+  String get satscard_balance_birth_height_label;
+
+  /// No description provided for @satscard_balance_card_id_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Card ID:'**
+  String get satscard_balance_card_id_label;
+
+  /// No description provided for @satscard_balance_slot_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Slot:'**
+  String get satscard_balance_slot_label;
+
+  /// No description provided for @satscard_balance_version_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Version:'**
+  String get satscard_balance_version_label;
+
+  /// No description provided for @satscard_balance_error_address_info.
+  ///
+  /// In en, this message translates to:
+  /// **'An error occurred while retrieving the balance of the Satscard slot:\n{error}'**
+  String satscard_balance_error_address_info(Object error);
+
+  /// No description provided for @satscard_sweep_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Sweep Satscard Slot {number}'**
+  String satscard_sweep_title(Object number);
+
+  /// No description provided for @satscard_sweep_button_confirm_label.
+  ///
+  /// In en, this message translates to:
+  /// **'CONFIRM'**
+  String get satscard_sweep_button_confirm_label;
+
+  /// No description provided for @satscard_sweep_button_cancel_label.
+  ///
+  /// In en, this message translates to:
+  /// **'CANCEL'**
+  String get satscard_sweep_button_cancel_label;
+
+  /// No description provided for @satscard_sweep_balance_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Slot balance:'**
+  String get satscard_sweep_balance_label;
+
+  /// No description provided for @satscard_sweep_lsp_fee_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Setup fee:'**
+  String get satscard_sweep_lsp_fee_label;
+
+  /// No description provided for @satscard_sweep_chain_fee_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction fee:'**
+  String get satscard_sweep_chain_fee_label;
+
+  /// No description provided for @satscard_sweep_receive_label.
+  ///
+  /// In en, this message translates to:
+  /// **'You receive:'**
+  String get satscard_sweep_receive_label;
+
+  /// No description provided for @satscard_sweep_balance_too_high_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Maximum deposit:'**
+  String get satscard_sweep_balance_too_high_label;
+
+  /// No description provided for @satscard_sweep_balance_too_low_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Minimum deposit:'**
+  String get satscard_sweep_balance_too_low_label;
+
+  /// No description provided for @satscard_sweep_reserve_not_met_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Required reserve:'**
+  String get satscard_sweep_reserve_not_met_label;
+
+  /// No description provided for @satscard_sweep_fee_value.
+  ///
+  /// In en, this message translates to:
+  /// **'-{fee}'**
+  String satscard_sweep_fee_value(String fee);
+
+  /// No description provided for @satscard_sweep_awaiting_fees_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Retrieving fee rates'**
+  String get satscard_sweep_awaiting_fees_label;
+
+  /// No description provided for @satscard_sweep_awaiting_deposit_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Retrieving deposit address'**
+  String get satscard_sweep_awaiting_deposit_label;
+
+  /// No description provided for @satscard_sweep_awaiting_lsp_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Retrieving LSP status'**
+  String get satscard_sweep_awaiting_lsp_label;
+
+  /// No description provided for @satscard_sweep_warning_lsp_fee_no_liquidity_label.
+  ///
+  /// In en, this message translates to:
+  /// **'A setup fee of {percent}% with a minimum fee of {minimum} is required to sweep the Satscard'**
+  String satscard_sweep_warning_lsp_fee_no_liquidity_label(Object minimum, Object percent);
+
+  /// No description provided for @satscard_sweep_warning_lsp_fee_label.
+  ///
+  /// In en, this message translates to:
+  /// **'A setup fee of {percent}% with a minimum fee of {minimum} is required because the balance of the Satscard exceeds {sats}'**
+  String satscard_sweep_warning_lsp_fee_label(Object minimum, Object percent, Object sats);
+
+  /// No description provided for @satscard_sweep_warning_not_valid.
+  ///
+  /// In en, this message translates to:
+  /// **'The Satscard slot can\'t be swept'**
+  String get satscard_sweep_warning_not_valid;
+
+  /// No description provided for @satscard_sweep_error_deposit_address.
+  ///
+  /// In en, this message translates to:
+  /// **'An error occurred while retrieving a deposit address:\n{error}'**
+  String satscard_sweep_error_deposit_address(Object error);
+
+  /// No description provided for @satscard_sweep_error_create_transactions.
+  ///
+  /// In en, this message translates to:
+  /// **'An error occurred while retrieving a retrieving fees rates and constructing transactions:\n{error}'**
+  String satscard_sweep_error_create_transactions(Object error);
+
+  /// No description provided for @satscard_broadcast_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Broadcast Transaction'**
+  String get satscard_broadcast_title;
+
+  /// No description provided for @satscard_broadcast_signing_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Signing transaction'**
+  String get satscard_broadcast_signing_label;
+
+  /// No description provided for @satscard_broadcast_broadcasting_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Broadcasting transaction'**
+  String get satscard_broadcast_broadcasting_label;
+
+  /// No description provided for @satscard_broadcast_error_signing.
+  ///
+  /// In en, this message translates to:
+  /// **'An error occurred while attempting to sign the transaction before broadcast:\n{error}'**
+  String satscard_broadcast_error_signing(Object error);
+
+  /// No description provided for @satscard_broadcast_error_broadcasting.
+  ///
+  /// In en, this message translates to:
+  /// **'An error occurred while attempting to broadcast the transaction before broadcast:\n{error}'**
+  String satscard_broadcast_error_broadcasting(Object error);
+
+  /// No description provided for @satscard_broadcast_complete_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Satscard Swept'**
+  String get satscard_broadcast_complete_title;
+
+  /// No description provided for @satscard_operation_dialog_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan Satscard'**
+  String get satscard_operation_dialog_title;
+
+  /// No description provided for @satscard_operation_dialog_cancel_label.
+  ///
+  /// In en, this message translates to:
+  /// **'CANCEL'**
+  String get satscard_operation_dialog_cancel_label;
+
+  /// No description provided for @satscard_operation_dialog_present_satscards_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Please hold the Satscard with the following ID against your device:\n{id}'**
+  String satscard_operation_dialog_present_satscards_label(Object id);
+
+  /// No description provided for @satscard_operation_dialog_success_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Operation complete'**
+  String get satscard_operation_dialog_success_label;
+
+  /// No description provided for @satscard_operation_dialog_in_progress_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Communicating with Satscard'**
+  String get satscard_operation_dialog_in_progress_label;
+
+  /// No description provided for @satscard_operation_dialog_waiting_label.
+  ///
+  /// In en, this message translates to:
+  /// **'An incorrect spend code was previously entered. Please keep the Satscard held against your device'**
+  String get satscard_operation_dialog_waiting_label;
+
+  /// No description provided for @satscard_operation_dialog_incorrect_card_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Incorrect card presented, the ID on the rear of the card must be:\n{id}'**
+  String satscard_operation_dialog_incorrect_card_label(Object id);
+
+  /// No description provided for @satscard_operation_dialog_incorrect_code_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Incorrect spend code'**
+  String get satscard_operation_dialog_incorrect_code_label;
+
+  /// No description provided for @satscard_operation_dialog_stale_card_label.
+  ///
+  /// In en, this message translates to:
+  /// **'The correct card was presented but it\'s in an unexpected state, it may have been modified outside of the app.'**
+  String get satscard_operation_dialog_stale_card_label;
+
+  /// No description provided for @satscard_operation_dialog_nfc_error_label.
+  ///
+  /// In en, this message translates to:
+  /// **'A communication error occurred, please try again.'**
+  String get satscard_operation_dialog_nfc_error_label;
+
+  /// No description provided for @satscard_operation_dialog_protocol_error_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Encountered protocol error {code}, {literal}:\n{message}'**
+  String satscard_operation_dialog_protocol_error_label(Object code, Object literal, Object message);
+
+  /// No description provided for @satscard_operation_dialog_unknown_error_label.
+  ///
+  /// In en, this message translates to:
+  /// **'An error occurred:\n{message}'**
+  String satscard_operation_dialog_unknown_error_label(Object message);
 
   /// No description provided for @locale.
   ///
