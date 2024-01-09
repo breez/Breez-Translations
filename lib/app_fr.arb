@@ -1463,6 +1463,7 @@
   "handler_check_version_action_update": "METTRE À JOUR",
   "handler_check_version_message": "Veuillez mettre à jour Breez à la dernière version.",
   "handler_check_version_error_upgrading_servers": "Breez is currently upgrading its servers. You won't be able to send or receive funds during the upgrade. Please try again later.",
+  "handler_health_check_service_disruption": "Breez services are temporarily unavailable. Please try again later.",
   "handler_channel_connection_message": "Breez est hors ligne",
   "handler_channel_connection_close": "FERMER",
   "handler_lnurl_error_link": "Erreur de lien",

@@ -1463,6 +1463,7 @@
   "handler_check_version_action_update": "АКТУАЛИЗИРАНЕ",
   "handler_check_version_message": "Моля, актуализирайте Breez до най-новата версия.",
   "handler_check_version_error_upgrading_servers": "В момента Breez обновява своите сървъри. Няма да можете да изпращате или получавате средства по време на надстройката. Моля, опитайте отново по-късно.",
+  "handler_health_check_service_disruption": "Breez services are temporarily unavailable. Please try again later.",
   "handler_channel_connection_message": "Breez е офлайн",
   "handler_channel_connection_close": "ЗАТВАРЯНЕ",
   "handler_lnurl_error_link": "Грешка при връзката",

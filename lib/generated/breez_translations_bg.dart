@@ -2025,6 +2025,9 @@ class BreezTranslationsBg extends BreezTranslations {
   String get handler_check_version_error_upgrading_servers => 'В момента Breez обновява своите сървъри. Няма да можете да изпращате или получавате средства по време на надстройката. Моля, опитайте отново по-късно.';
 
   @override
+  String get handler_health_check_service_disruption => 'Breez services are temporarily unavailable. Please try again later.';
+
+  @override
   String get handler_channel_connection_message => 'Breez е офлайн';
 
   @override

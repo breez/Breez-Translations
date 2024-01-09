@@ -3809,6 +3809,12 @@ abstract class BreezTranslations {
   /// **'Breez is currently upgrading its servers. You won\'t be able to send or receive funds during the upgrade. Please try again later.'**
   String get handler_check_version_error_upgrading_servers;
 
+  /// No description provided for @handler_health_check_service_disruption.
+  ///
+  /// In en, this message translates to:
+  /// **'Breez services are temporarily unavailable. Please try again later.'**
+  String get handler_health_check_service_disruption;
+
   /// No description provided for @handler_channel_connection_message.
   ///
   /// In en, this message translates to:
