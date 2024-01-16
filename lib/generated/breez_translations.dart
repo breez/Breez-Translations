@@ -3815,6 +3815,12 @@ abstract class BreezTranslations {
   /// **'Breez services are temporarily unavailable. Please try again later.'**
   String get handler_health_check_service_disruption;
 
+  /// No description provided for @handler_health_check_action_retry.
+  ///
+  /// In en, this message translates to:
+  /// **'RETRY'**
+  String get handler_health_check_action_retry;
+
   /// No description provided for @handler_channel_connection_message.
   ///
   /// In en, this message translates to:

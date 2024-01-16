@@ -1977,7 +1977,7 @@ class BreezTranslationsEs extends BreezTranslations {
   String get breez_avatar_dialog_action_cancel => 'CANCELAR';
 
   @override
-  String get breez_avatar_dialog_action_save => 'AHORRAR';
+  String get breez_avatar_dialog_action_save => 'GUARDAR';
 
   @override
   String get breez_avatar_dialog_error_upload => 'No se pudo cargar la foto de perfil';
@@ -2026,6 +2026,9 @@ class BreezTranslationsEs extends BreezTranslations {
 
   @override
   String get handler_health_check_service_disruption => 'El servicio Breez no está disponible temporalmente. Por favor, inténtelo de nuevo más tarde.';
+
+  @override
+  String get handler_health_check_action_retry => 'REINTENTAR';
 
   @override
   String get handler_channel_connection_message => 'La Breez está offline';

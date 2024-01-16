@@ -2028,6 +2028,9 @@ class BreezTranslationsPt extends BreezTranslations {
   String get handler_health_check_service_disruption => 'O serviço da Breez esta temporariamente indisponível. Por favor, tente novamente mais tarde.';
 
   @override
+  String get handler_health_check_action_retry => 'TENTAR NOVAMENTE';
+
+  @override
   String get handler_channel_connection_message => 'A Breez está offline';
 
   @override

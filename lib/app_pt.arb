@@ -1464,6 +1464,7 @@
   "handler_check_version_message": "Por favor, atualize a Breez para a versão mais recente.",
   "handler_check_version_error_upgrading_servers": "A Breez está atualmente atualizando seus servidores.Você não poderá enviar ou receber fundos durante a atualização. Por favor, tente novamente mais tarde.",
   "handler_health_check_service_disruption": "O serviço da Breez esta temporariamente indisponível. Por favor, tente novamente mais tarde.",
+  "handler_health_check_action_retry": "TENTAR NOVAMENTE",
   "handler_channel_connection_message": "A Breez está offline",
   "handler_channel_connection_close": "FECHAR",
   "handler_lnurl_error_link": "Erro no link",
