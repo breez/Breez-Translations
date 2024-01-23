@@ -3314,7 +3314,7 @@ abstract class BreezTranslations {
   /// No description provided for @lsp_error_cannot_open_channel.
   ///
   /// In en, this message translates to:
-  /// **'Currently, Breez can\'t open new channels. Please retry later.'**
+  /// **'Breez cannot open new channels at the moment. Please try again later.'**
   String get lsp_error_cannot_open_channel;
 
   /// No description provided for @lost_card_dialog_title.
