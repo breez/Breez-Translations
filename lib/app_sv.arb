@@ -320,6 +320,8 @@
   "bottom_action_bar_receive_invoice": "Ta emot via Invoice",
   "bottom_action_bar_receive_btc_address": "Ta emot via BTC Adress",
   "bottom_action_bar_buy_bitcoin": "Köp Bitcoin",
+  "bottom_action_bar_sweep_satscard": "Sweep Satscard",
+  "bottom_action_bar_sweep_satscard_nfc_prompt": "Please hold a Satscard against your device.",
   "bottom_action_bar_warning_balance_title": "Breez kräver att du har {balance} i ditt saldo.",
   "@bottom_action_bar_warning_balance_title": {
     "placeholders": {
@@ -2356,6 +2358,8 @@
   "google_sign_not_available_exception": "Google Sign-In is not available on this device.",
   "satscard_dialog_ok": "OK",
   "satscard_dialog_cancel": "CANCEL",
+  "satscard_ios_success_label": "Satscard was successfully scanned",
+  "satscard_ios_error_label": "Unable to scan the Satscard",
   "satscard_error_invalid_title": "Unknown Error",
   "satscard_error_invalid_body": "Communication with the Satscard failed unexpectedly:\n{error}",
   "satscard_error_nfc_title": "Communication Error",
@@ -2447,10 +2451,21 @@
   "satscard_broadcast_complete_title": "Satscard Swept",
   "satscard_operation_dialog_title": "Scan Satscard",
   "satscard_operation_dialog_cancel_label": "CANCEL",
+  "satscard_operation_dialog_content_ios_label": "Tap the NFC icon to try again...",
   "satscard_operation_dialog_present_satscards_label": "Please hold the Satscard with the following ID against your device:\n{id}",
   "satscard_operation_dialog_success_label": "Operation complete",
   "satscard_operation_dialog_in_progress_label": "Communicating with Satscard",
   "satscard_operation_dialog_waiting_label": "An incorrect spend code was previously entered. Please keep the Satscard held against your device",
+  "satscard_operation_dialog_waiting_ios_label": "An incorrect spend code was previously entered. Please keep the Satscard held against your device ({percent})",
+  "@satscard_operation_dialog_waiting_ios_label": {
+    "description": "The wait progress as a percentage",
+    "placeholders": {
+      "percent": {
+        "type": "double",
+        "format": "percentPattern"
+      }
+    }
+  },
   "satscard_operation_dialog_incorrect_card_label": "Incorrect card presented, the ID on the rear of the card must be:\n{id}",
   "satscard_operation_dialog_incorrect_code_label": "Incorrect spend code",
   "satscard_operation_dialog_stale_card_label": "The correct card was presented but it's in an unexpected state, it may have been modified outside of the app.",

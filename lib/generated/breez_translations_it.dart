@@ -1,3 +1,5 @@
+import 'package:intl/intl.dart' as intl;
+
 import 'breez_translations.dart';
 
 /// The translations for Italian (`it`).
@@ -344,6 +346,12 @@ class BreezTranslationsIt extends BreezTranslations {
 
   @override
   String get bottom_action_bar_buy_bitcoin => 'Compra bitcoin';
+
+  @override
+  String get bottom_action_bar_sweep_satscard => 'Sweep Satscard';
+
+  @override
+  String get bottom_action_bar_sweep_satscard_nfc_prompt => 'Please hold a Satscard against your device.';
 
   @override
   String bottom_action_bar_warning_balance_title(String balance) {
@@ -3312,6 +3320,12 @@ class BreezTranslationsIt extends BreezTranslations {
   String get satscard_dialog_cancel => 'CANCEL';
 
   @override
+  String get satscard_ios_success_label => 'Satscard was successfully scanned';
+
+  @override
+  String get satscard_ios_error_label => 'Unable to scan the Satscard';
+
+  @override
   String get satscard_error_invalid_title => 'Unknown Error';
 
   @override
@@ -3529,6 +3543,9 @@ class BreezTranslationsIt extends BreezTranslations {
   String get satscard_operation_dialog_cancel_label => 'CANCEL';
 
   @override
+  String get satscard_operation_dialog_content_ios_label => 'Tap the NFC icon to try again...';
+
+  @override
   String satscard_operation_dialog_present_satscards_label(Object id) {
     return 'Please hold the Satscard with the following ID against your device:\n$id';
   }
@@ -3541,6 +3558,14 @@ class BreezTranslationsIt extends BreezTranslations {
 
   @override
   String get satscard_operation_dialog_waiting_label => 'An incorrect spend code was previously entered. Please keep the Satscard held against your device';
+
+  @override
+  String satscard_operation_dialog_waiting_ios_label(double percent) {
+    final intl.NumberFormat percentNumberFormat = intl.NumberFormat.percentPattern(localeName);
+    final String percentString = percentNumberFormat.format(percent);
+
+    return 'An incorrect spend code was previously entered. Please keep the Satscard held against your device ($percentString)';
+  }
 
   @override
   String satscard_operation_dialog_incorrect_card_label(Object id) {

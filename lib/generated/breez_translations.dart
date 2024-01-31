@@ -719,6 +719,18 @@ abstract class BreezTranslations {
   /// **'Buy Bitcoin'**
   String get bottom_action_bar_buy_bitcoin;
 
+  /// No description provided for @bottom_action_bar_sweep_satscard.
+  ///
+  /// In en, this message translates to:
+  /// **'Sweep Satscard'**
+  String get bottom_action_bar_sweep_satscard;
+
+  /// No description provided for @bottom_action_bar_sweep_satscard_nfc_prompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Please hold a Satscard against your device.'**
+  String get bottom_action_bar_sweep_satscard_nfc_prompt;
+
   /// No description provided for @bottom_action_bar_warning_balance_title.
   ///
   /// In en, this message translates to:
@@ -6167,6 +6179,18 @@ abstract class BreezTranslations {
   /// **'CANCEL'**
   String get satscard_dialog_cancel;
 
+  /// No description provided for @satscard_ios_success_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Satscard was successfully scanned'**
+  String get satscard_ios_success_label;
+
+  /// No description provided for @satscard_ios_error_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to scan the Satscard'**
+  String get satscard_ios_error_label;
+
   /// No description provided for @satscard_error_invalid_title.
   ///
   /// In en, this message translates to:
@@ -6545,6 +6569,12 @@ abstract class BreezTranslations {
   /// **'CANCEL'**
   String get satscard_operation_dialog_cancel_label;
 
+  /// No description provided for @satscard_operation_dialog_content_ios_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap the NFC icon to try again...'**
+  String get satscard_operation_dialog_content_ios_label;
+
   /// No description provided for @satscard_operation_dialog_present_satscards_label.
   ///
   /// In en, this message translates to:
@@ -6568,6 +6598,12 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'An incorrect spend code was previously entered. Please keep the Satscard held against your device'**
   String get satscard_operation_dialog_waiting_label;
+
+  /// The wait progress as a percentage
+  ///
+  /// In en, this message translates to:
+  /// **'An incorrect spend code was previously entered. Please keep the Satscard held against your device ({percent})'**
+  String satscard_operation_dialog_waiting_ios_label(double percent);
 
   /// No description provided for @satscard_operation_dialog_incorrect_card_label.
   ///
