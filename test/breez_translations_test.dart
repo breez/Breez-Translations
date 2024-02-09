@@ -986,6 +986,11 @@ void main() {
         expect(text.contains(cardId), true);
       });
 
+      test("satscard_operation_dialog_waiting_ios_label for ${locale.locale}", () {
+        final text = locale.satscard_operation_dialog_waiting_ios_label(waitPercentDouble);
+        expect(text.contains(waitPercent), true);
+      });
+
       test("satscard_operation_dialog_incorrect_card_label for ${locale.locale}", () {
         final text = locale.satscard_operation_dialog_incorrect_card_label(cardId);
         expect(text.contains(cardId), true);
@@ -1075,3 +1080,5 @@ const title = "aLongTitleToAvoidFalsePositive";
 const total = "aLongTotalToAvoidFalsePositive";
 const url = "aLongUrlToAvoidFalsePositive";
 const value = "aLongValueToAvoidFalsePositive";
+final waitPercent = RegExp(r"13\s?%");
+const waitPercentDouble = 0.127;

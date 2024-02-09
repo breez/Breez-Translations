@@ -320,6 +320,8 @@
   "bottom_action_bar_receive_invoice": "Lightning-maksu",
   "bottom_action_bar_receive_btc_address": "Bitcoin-maksu",
   "bottom_action_bar_buy_bitcoin": "Osta bitcoineja",
+  "bottom_action_bar_sweep_satscard": "Sweep Satscard",
+  "bottom_action_bar_sweep_satscard_nfc_prompt": "Please hold a Satscard against your device.",
   "bottom_action_bar_warning_balance_title": "Breez vaatii, että saldosi on vähintään {balance}.",
   "@bottom_action_bar_warning_balance_title": {
     "placeholders": {
@@ -2356,6 +2358,8 @@
   "google_sign_not_available_exception": "Laitteesi ei tue Google kirjautumista.",
   "satscard_dialog_ok": "OK",
   "satscard_dialog_cancel": "Peruuta",
+  "satscard_ios_success_label": "Satscard was successfully scanned",
+  "satscard_ios_error_label": "Unable to scan the Satscard",
   "satscard_error_invalid_title": "Tuntematon virhe",
   "satscard_error_invalid_body": "Satscard-yhteys katosi yllättäen:\n{error}",
   "satscard_error_nfc_title": "Yhteysvirhe",
@@ -2447,10 +2451,21 @@
   "satscard_broadcast_complete_title": "Satscard on sweepattu",
   "satscard_operation_dialog_title": "Lue Satscard",
   "satscard_operation_dialog_cancel_label": "Peruuta",
+  "satscard_operation_dialog_content_ios_label": "Tap the NFC icon to try again...",
   "satscard_operation_dialog_present_satscards_label": "Laita laitteesi lähelle Satscard, jonka tunnus on:\n{id}",
   "satscard_operation_dialog_success_label": "Toiminto valmis",
   "satscard_operation_dialog_in_progress_label": "Kommunikoidaan Satscard:lle",
   "satscard_operation_dialog_waiting_label": "Virheellinen kulukoodi on annettu aiemmin. Pidä Satscard lähellä laitettasi",
+  "satscard_operation_dialog_waiting_ios_label": "An incorrect spend code was previously entered. Please keep the Satscard held against your device ({percent})",
+  "@satscard_operation_dialog_waiting_ios_label": {
+    "description": "The wait progress as a percentage",
+    "placeholders": {
+      "percent": {
+        "type": "double",
+        "format": "percentPattern"
+      }
+    }
+  },
   "satscard_operation_dialog_incorrect_card_label": "Väärä kortti havaittu, kortin takapuolella oleva tunnus pitää olla:\n{id}",
   "satscard_operation_dialog_incorrect_code_label": "Virheellinen kulukoodi",
   "satscard_operation_dialog_stale_card_label": "Oikea kortti havaittiin, mutta kortti on tuntemattomassa tilassa. Ehkä sitä on muokattu sovelluksen ulkopuolella.",
