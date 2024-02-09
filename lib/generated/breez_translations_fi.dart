@@ -77,12 +77,12 @@ class BreezTranslationsFi extends BreezTranslations {
 
   @override
   String home_config_backup_error(String provider) {
-    return 'Breez has detected that the app is using an old backup. Please reinstall and restore from the latest backup available in $provider.';
+    return 'Sovelluksen on havaittu käyttävän vanhaa varmuuskopiota. Asenna sovellus uudelleen ja käytä palautukseen viimeisintä  $provider:lta saatavissa olevaa varmuuskopiota.';
   }
 
   @override
   String home_config_backup_error_encrypted(String provider) {
-    return 'Breez has detected that the app is using an old backup. Please reinstall and restore from the latest backup available in $provider. Note that you won\'t be able to restore Breez without your encryption key.';
+    return 'Sovelluksen on havaittu käyttävän vanhaa varmuuskopiota. Asenna sovellus uudelleen ja käytä palautukseen viimeisintä  $provider:lta saatavissa olevaa varmuuskopiota. Huomaathan että sovelluksen palauttaminen ilman salausavainta on mahdotonta.';
   }
 
   @override
@@ -114,12 +114,12 @@ class BreezTranslationsFi extends BreezTranslations {
 
   @override
   String invoice_btc_address_channel_not_needed(String minSats, String maxSats) {
-    return 'Send more than $minSats and up to $maxSats to this address.  This address can be used only once.';
+    return 'Tähän osoitteeseen voi lähettää vähintään $minSats ja enintään $maxSats. Tätä osoitetta voi käyttää vain kerran.';
   }
 
   @override
   String invoice_btc_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String minFee, String liquidity) {
-    return 'Send more than $minSats and up to $maxSats to this address. A setup fee of $setUpFee% with a minimum of $minFee will be applied for sending more than $liquidity. This address can be used only once.';
+    return 'Osoitteeseen voi tallettaa vähintään $minSats ja enintään $maxSats maksuja. Yli $liquidity talletuksista veloitetaan $setUpFee% avauskulu ja kuitenkin vähintään $minFee. Tätä Bitcoin-osoitetta voi käyttää vain yhden kerran!';
   }
 
   @override
@@ -144,10 +144,10 @@ class BreezTranslationsFi extends BreezTranslations {
   String get invoice_btc_address_deposit_address_copied => 'Vastaanotto-osoite kopioitiin leikepöydälle.';
 
   @override
-  String get invoice_btc_address_generic_address => 'BTC Address';
+  String get invoice_btc_address_generic_address => 'Bitcoin-osoite';
 
   @override
-  String get invoice_btc_address_generic_address_copied => 'BTC address was copied to your clipboard.';
+  String get invoice_btc_address_generic_address_copied => 'Bitcoin-osoite kopioitiin leikepöydälle.';
 
   @override
   String get invoice_btc_address_on_chain_begin => 'Bitcoin-siirrot käyttävät Submarine Swaps -toimintoa. Klikkaa ';
@@ -312,10 +312,10 @@ class BreezTranslationsFi extends BreezTranslations {
   String get backup_provider_dialog_action_ok => 'OK';
 
   @override
-  String get backup_export_static => 'Export static backup';
+  String get backup_export_static => 'Vie staattinen varmuuskopio';
 
   @override
-  String get backup_export_static_error_data_missing => 'Static backup data is missing';
+  String get backup_export_static_error_data_missing => 'Staattisen varmuuskopion tietoja ei löydy';
 
   @override
   String get tutorial_gotcha => 'Kas niin!';
@@ -497,7 +497,7 @@ class BreezTranslationsFi extends BreezTranslations {
   String get payment_info_dialog_error => 'LN-lasku, solmu- tai Lightning-osoite oli virheellinen.';
 
   @override
-  String get payment_info_dialog_error_unsupported_input => 'Unsupported input';
+  String get payment_info_dialog_error_unsupported_input => 'Syötteen muotoa ei tunneta';
 
   @override
   String get payment_info_dialog_error_qrcode => 'QR-koodia ei tunnistettu.';
@@ -1766,7 +1766,7 @@ class BreezTranslationsFi extends BreezTranslations {
   String get lsp_error_not_selected => 'LSP ei ollut valittuna';
 
   @override
-  String get lsp_error_cannot_open_channel => 'Breez cannot open new channels at the moment. Please try again later.';
+  String get lsp_error_cannot_open_channel => 'Sovellus ei pysty avaamaan uusia kanavia nyt. Yritä myöhemmin uudelleen.';
 
   @override
   String get lost_card_dialog_title => 'Kortti kadonnut tai varastettu';
@@ -2030,16 +2030,16 @@ class BreezTranslationsFi extends BreezTranslations {
   String get handler_check_version_message => 'Päivitä Breez viimeisimpään versioon.';
 
   @override
-  String get handler_check_version_error_upgrading_servers => 'Breez is currently upgrading its servers. You won\'t be able to send or receive funds during the upgrade. Please try again later.';
+  String get handler_check_version_error_upgrading_servers => 'Sovelluksen taustajärjestelmiä pivitetään. Päivityksen aikana maksujen lähettäminen ja vastaaottaminen ei ole käytettävissä. Yritä myöhemmin uudellen.';
 
   @override
-  String get handler_health_check_service_disruption => 'Breez services are temporarily unavailable. Please try again later.';
+  String get handler_health_check_service_disruption => 'Soveluksen palvelut ovat väliaikaisesti pois käytöstä. Yritä myöhemmin uudellen.';
 
   @override
-  String get handler_health_check_action_retry => 'RETRY';
+  String get handler_health_check_action_retry => 'Yritä uudelleen';
 
   @override
-  String get handler_channel_connection_message => 'Breez on offline-tilassa';
+  String get handler_channel_connection_message => 'Sovellus on offline-tilassa';
 
   @override
   String get handler_channel_connection_close => 'SULJE';
@@ -2363,7 +2363,7 @@ class BreezTranslationsFi extends BreezTranslations {
   String get payment_options_base_fee_label => 'Tapahtuman perusmaksu satosheina';
 
   @override
-  String get payment_options_exemptfee_label => 'Exempt Fee in sats';
+  String get payment_options_exemptfee_label => 'Vapautus maksu satosheina';
 
   @override
   String get payment_options_proportional_fee_label => 'Tapahtuman määräpohjainen kulu (%)';
@@ -2677,7 +2677,7 @@ class BreezTranslationsFi extends BreezTranslations {
   String get mnemonics_confirmation_action_verify => 'Varmista';
 
   @override
-  String get podcast_action_layout => 'Layout';
+  String get podcast_action_layout => 'Ulkoasu';
 
   @override
   String get podcast_add_funds_title => 'Sinulla tulee olla saldoa, jotta voit lähettää satosheja tälle podcast:ille.';
@@ -3285,39 +3285,39 @@ class BreezTranslationsFi extends BreezTranslations {
   String get generic_network_error => 'Tietoliikenneyhteydessä on häiriö. Varmista internet-yhteytesi toiminta ja yritä uudelleen.';
 
   @override
-  String get moonpay_network_error => 'Failed to connect to MoonPay. Please check your internet connection and try again.';
+  String get moonpay_network_error => 'Yhteys MoonPay:hin epäonnistui. Tarkista verkkoyhteyteytesi ja yritä uudelleen.';
 
   @override
-  String get moonpay_retry_button => 'RETRY';
+  String get moonpay_retry_button => 'YRITÄ UUDELLEEN';
 
   @override
   String moonpay_swap_in_progress(String address) {
-    return 'Swap in progress was detected for address $address. Please wait for it to complete.';
+    return 'Meneillään oleva vaihto on havaittu osoitteelle $address. Odota sen valmistumista.';
   }
 
   @override
-  String get moonpay_swap_in_progress_action => 'See the transaction in Mempool';
+  String get moonpay_swap_in_progress_action => 'Tarkastele tapahtumaa Mempool:issa';
 
   @override
-  String get moonpay_swap_expired => 'A swap was in progress, but it has expired; Breez is generating a refund for you.';
+  String get moonpay_swap_expired => 'Vaihto oli meneillään, mutta se vanheni. Sovellus luo sinulle hyvityksen.';
 
   @override
-  String get moonpay_swap_expired_action => 'Back to home';
+  String get moonpay_swap_expired_action => 'Takaisin alkuun';
 
   @override
-  String get setup_fees_dialog_title => 'Setup Fees';
+  String get setup_fees_dialog_title => 'Avauskulut';
 
   @override
-  String get setup_fees_dialog_message => 'Please notice the updated setup fees under the QR code before receiving a payment.';
+  String get setup_fees_dialog_message => 'Huomaa QR-koodin alla olevat avauskulut ennenkuin vastaanotat maksuja.';
 
   @override
-  String get google_sign_not_available_exception => 'Google Sign-In is not available on this device.';
+  String get google_sign_not_available_exception => 'Laitteesi ei tue Google kirjautumista.';
 
   @override
   String get satscard_dialog_ok => 'OK';
 
   @override
-  String get satscard_dialog_cancel => 'CANCEL';
+  String get satscard_dialog_cancel => 'Peruuta';
 
   @override
   String get satscard_ios_success_label => 'Satscard was successfully scanned';
@@ -3326,97 +3326,97 @@ class BreezTranslationsFi extends BreezTranslations {
   String get satscard_ios_error_label => 'Unable to scan the Satscard';
 
   @override
-  String get satscard_error_invalid_title => 'Unknown Error';
+  String get satscard_error_invalid_title => 'Tuntematon virhe';
 
   @override
   String satscard_error_invalid_body(Object error) {
-    return 'Communication with the Satscard failed unexpectedly:\n$error';
+    return 'Satscard-yhteys katosi yllättäen:\n$error';
   }
 
   @override
-  String get satscard_error_nfc_title => 'Communication Error';
+  String get satscard_error_nfc_title => 'Yhteysvirhe';
 
   @override
-  String get satscard_error_nfc_body => 'Communications with the Satscard failed or were interrupted, please try again.';
+  String get satscard_error_nfc_body => 'Satscard-yhteys katkesi tai keskeytyi, yritä uudelleen.';
 
   @override
-  String get satscard_error_used_up_title => 'All Slots Are Unsealed';
+  String get satscard_error_used_up_title => 'Kaikki slotit on avattu';
 
   @override
-  String get satscard_error_used_up_body => 'A Satscard was detected but it had no sealed or unused slots and therefore can\'t be used.';
+  String get satscard_error_used_up_body => 'Satscard löytyi, mutta sitä ei voi käyttää koska siinä ei ole suljettuja tai käyttämättömiä slotteja.';
 
   @override
-  String get satscard_unused_prompt_title => 'Uninitialized Satscard Slot';
+  String get satscard_unused_prompt_title => 'Käyttämätön Satscard slotti';
 
   @override
-  String get satscard_unused_prompt_body => 'The active slot of the detected Satscard needs to be initialized before it can be used';
+  String get satscard_unused_prompt_body => 'Satscardin aktiivinen slotti pitää alustaa käyttöön ennen sen käyttöä.';
 
   @override
   String satscard_initialize_title(Object number) {
-    return 'Initialize Satscard Slot $number';
+    return 'Alusta Satscard slotti $number';
   }
 
   @override
-  String get satscard_initialize_button_label => 'INITIALIZE';
+  String get satscard_initialize_button_label => 'ALUSTA';
 
   @override
   String satscard_card_id_text(Object id) {
-    return 'Card ID: $id';
+    return 'Kortin tunniste: $id';
   }
 
   @override
-  String get satscard_card_id_copied => 'Satscard ID was copied to your clipboard.';
+  String get satscard_card_id_copied => 'Satscard tunniste kopioitiin leikepöydälle.';
 
   @override
-  String get satscard_spend_code_label => 'Spend code';
+  String get satscard_spend_code_label => 'Käytä koodi';
 
   @override
-  String get satscard_spend_code_incorrect_code_hint => 'The code you entered was incorrect';
+  String get satscard_spend_code_incorrect_code_hint => 'Antamasi koodi oli virheellinen';
 
   @override
-  String get satscard_spend_code_incorrect_length_hint => 'Look for a 6-digit code on the back of the card';
+  String get satscard_spend_code_incorrect_length_hint => 'Tarkista kortin takaa kuusi numeroinen koodi';
 
   @override
-  String get satscard_chain_code_label => 'Chain code (optional)';
+  String get satscard_chain_code_label => 'Chain koodi (eli pakollinen)';
 
   @override
-  String get satscard_chain_code_wrong_hint => 'Must be empty or a 32-byte hex string';
+  String get satscard_chain_code_wrong_hint => 'Täytyy olla tyhjä tai 32-tavuinen byte hexadesimaali merkkijono';
 
   @override
-  String get satscard_balance_title => 'Satscard Balance';
+  String get satscard_balance_title => 'Satscard saldo';
 
   @override
   String get satscard_balance_button_label => 'SWEEP';
 
   @override
-  String get satscard_balance_button_retry_label => 'RETRY';
+  String get satscard_balance_button_retry_label => 'YRITÄ UUDELLEEN';
 
   @override
-  String get satscard_balance_warning_no_funds_title => 'No Balance';
+  String get satscard_balance_warning_no_funds_title => 'Saldo on tyhjä';
 
   @override
-  String get satscard_balance_warning_no_funds_body => 'There is no confirmed balance on the Satscard slot so it can\'t be swept';
+  String get satscard_balance_warning_no_funds_body => 'Satscard slotisssa ei ole vahvistettua salboa, joten sen sweeppaamine ei ole mahdollista';
 
   @override
-  String get satscard_balance_warning_unconfirmed_title => 'Unconfirmed Balance';
+  String get satscard_balance_warning_unconfirmed_title => 'Vahvistamaton saldo';
 
   @override
-  String get satscard_balance_warning_unconfirmed_body => 'The slot has an unconfirmed balance, this will be ignored and only the confirmed balance will be swept';
+  String get satscard_balance_warning_unconfirmed_body => 'Slotissa on vahvistamatonta saldoa. Se jätetään huomiotta ja vain vahvisttu saldo sweepataan';
 
   @override
-  String get satscard_balance_awaiting_balance_label => 'Retrieving slot balance';
+  String get satscard_balance_awaiting_balance_label => 'Haetaan slotin saldoa';
 
   @override
-  String get satscard_balance_awaiting_account_label => 'Retrieving currency information';
+  String get satscard_balance_awaiting_account_label => 'Haetaan valuutta tietoja';
 
   @override
-  String get satscard_balance_address_label => 'Address:';
+  String get satscard_balance_address_label => 'Osoite:';
 
   @override
-  String get satscard_balance_confirmed_label => 'Balance:';
+  String get satscard_balance_confirmed_label => 'Saldo:';
 
   @override
-  String get satscard_balance_unconfirmed_label => 'Unconfirmed:';
+  String get satscard_balance_unconfirmed_label => 'Vahvistamaton:';
 
   @override
   String satscard_balance_value_no_fiat(String received) {
@@ -3429,53 +3429,53 @@ class BreezTranslationsFi extends BreezTranslations {
   }
 
   @override
-  String get satscard_balance_birth_height_label => 'Birth Block:';
+  String get satscard_balance_birth_height_label => 'Syntymälohko:';
 
   @override
-  String get satscard_balance_card_id_label => 'Card ID:';
+  String get satscard_balance_card_id_label => 'Kortin tunnus:';
 
   @override
-  String get satscard_balance_slot_label => 'Slot:';
+  String get satscard_balance_slot_label => 'Slotti:';
 
   @override
-  String get satscard_balance_version_label => 'Version:';
+  String get satscard_balance_version_label => 'Versio:';
 
   @override
   String satscard_balance_error_address_info(Object error) {
-    return 'An error occurred while retrieving the balance of the Satscard slot:\n$error';
+    return 'Satscard slotion saldon hakemisessa tapauhtui virhe:\n$error';
   }
 
   @override
   String satscard_sweep_title(Object number) {
-    return 'Sweep Satscard Slot $number';
+    return 'Sweeppaa Satscard:in slotti $number';
   }
 
   @override
-  String get satscard_sweep_button_confirm_label => 'CONFIRM';
+  String get satscard_sweep_button_confirm_label => 'VAHVISTA';
 
   @override
-  String get satscard_sweep_button_cancel_label => 'CANCEL';
+  String get satscard_sweep_button_cancel_label => 'Peruuta';
 
   @override
-  String get satscard_sweep_balance_label => 'Slot balance:';
+  String get satscard_sweep_balance_label => 'Slotin saldo:';
 
   @override
-  String get satscard_sweep_lsp_fee_label => 'Setup fee:';
+  String get satscard_sweep_lsp_fee_label => 'Avausmaksu:';
 
   @override
-  String get satscard_sweep_chain_fee_label => 'Transaction fee:';
+  String get satscard_sweep_chain_fee_label => 'Siirtomaksu:';
 
   @override
-  String get satscard_sweep_receive_label => 'You receive:';
+  String get satscard_sweep_receive_label => 'Vastaanotat:';
 
   @override
-  String get satscard_sweep_balance_too_high_label => 'Maximum deposit:';
+  String get satscard_sweep_balance_too_high_label => 'Enimmäis talletus:';
 
   @override
-  String get satscard_sweep_balance_too_low_label => 'Minimum deposit:';
+  String get satscard_sweep_balance_too_low_label => 'Minimi talletus:';
 
   @override
-  String get satscard_sweep_reserve_not_met_label => 'Required reserve:';
+  String get satscard_sweep_reserve_not_met_label => 'Pakollinen varaus:';
 
   @override
   String satscard_sweep_fee_value(String fee) {
@@ -3483,81 +3483,81 @@ class BreezTranslationsFi extends BreezTranslations {
   }
 
   @override
-  String get satscard_sweep_awaiting_fees_label => 'Retrieving fee rates';
+  String get satscard_sweep_awaiting_fees_label => 'Kulujen tasoja haetaan';
 
   @override
-  String get satscard_sweep_awaiting_deposit_label => 'Retrieving deposit address';
+  String get satscard_sweep_awaiting_deposit_label => 'Haetaan talletus osoitetta';
 
   @override
-  String get satscard_sweep_awaiting_lsp_label => 'Retrieving LSP status';
+  String get satscard_sweep_awaiting_lsp_label => 'Haetaan LSP:n tilaa';
 
   @override
   String satscard_sweep_warning_lsp_fee_no_liquidity_label(Object minimum, Object percent) {
-    return 'A setup fee of $percent% with a minimum fee of $minimum is required to sweep the Satscard';
+    return 'Satscardin sweeppaaminen edellyttää  $percent% tai vähintään $minimum avausmaksua';
   }
 
   @override
   String satscard_sweep_warning_lsp_fee_label(Object minimum, Object percent, Object sats) {
-    return 'A setup fee of $percent% with a minimum fee of $minimum is required because the balance of the Satscard exceeds $sats';
+    return 'Koska Satscard saldo ylittää $sats, niin avausmaksu on $percent% ja vähintään $minimum';
   }
 
   @override
-  String get satscard_sweep_warning_not_valid => 'The Satscard slot can\'t be swept';
+  String get satscard_sweep_warning_not_valid => 'Tätä Satscard slottia ei voi sweepata';
 
   @override
   String satscard_sweep_error_deposit_address(Object error) {
-    return 'An error occurred while retrieving a deposit address:\n$error';
+    return 'Talletusosoitteen hakemisessa tapahtui virhe:\n$error';
   }
 
   @override
   String satscard_sweep_error_create_transactions(Object error) {
-    return 'An error occurred while retrieving a retrieving fees rates and constructing transactions:\n$error';
+    return 'Kulutasojen haussa ja tapahtumien muodostamisessa tapahtui virhe:\n$error';
   }
 
   @override
-  String get satscard_broadcast_title => 'Broadcast Transaction';
+  String get satscard_broadcast_title => 'Lähetä tapahtuma';
 
   @override
-  String get satscard_broadcast_signing_label => 'Signing transaction';
+  String get satscard_broadcast_signing_label => 'Allekirjoita tapahtuma';
 
   @override
-  String get satscard_broadcast_broadcasting_label => 'Broadcasting transaction';
+  String get satscard_broadcast_broadcasting_label => 'Tapahtumaa lähetetään';
 
   @override
   String satscard_broadcast_error_signing(Object error) {
-    return 'An error occurred while attempting to sign the transaction before broadcast:\n$error';
+    return 'Ennen tapahtuman lähettämistä, tapahtui allekirjoittamisesssa virhe:\n$error';
   }
 
   @override
   String satscard_broadcast_error_broadcasting(Object error) {
-    return 'An error occurred while attempting to broadcast the transaction before broadcast:\n$error';
+    return 'Ennen tapahtuman lähettämistä, tapahtui  lähettämisessä virhe:\n$error';
   }
 
   @override
-  String get satscard_broadcast_complete_title => 'Satscard Swept';
+  String get satscard_broadcast_complete_title => 'Satscard on sweepattu';
 
   @override
-  String get satscard_operation_dialog_title => 'Scan Satscard';
+  String get satscard_operation_dialog_title => 'Lue Satscard';
 
   @override
-  String get satscard_operation_dialog_cancel_label => 'CANCEL';
+  String get satscard_operation_dialog_cancel_label => 'Peruuta';
 
   @override
   String get satscard_operation_dialog_content_ios_label => 'Tap the NFC icon to try again...';
 
   @override
   String satscard_operation_dialog_present_satscards_label(Object id) {
-    return 'Please hold the Satscard with the following ID against your device:\n$id';
+    return 'Laita laitteesi lähelle Satscard, jonka tunnus on:\n$id';
   }
 
   @override
-  String get satscard_operation_dialog_success_label => 'Operation complete';
+  String get satscard_operation_dialog_success_label => 'Toiminto valmis';
 
   @override
-  String get satscard_operation_dialog_in_progress_label => 'Communicating with Satscard';
+  String get satscard_operation_dialog_in_progress_label => 'Kommunikoidaan Satscard:lle';
 
   @override
-  String get satscard_operation_dialog_waiting_label => 'An incorrect spend code was previously entered. Please keep the Satscard held against your device';
+  String get satscard_operation_dialog_waiting_label => 'Virheellinen kulukoodi on annettu aiemmin. Pidä Satscard lähellä laitettasi';
 
   @override
   String satscard_operation_dialog_waiting_ios_label(double percent) {
@@ -3569,26 +3569,26 @@ class BreezTranslationsFi extends BreezTranslations {
 
   @override
   String satscard_operation_dialog_incorrect_card_label(Object id) {
-    return 'Incorrect card presented, the ID on the rear of the card must be:\n$id';
+    return 'Väärä kortti havaittu, kortin takapuolella oleva tunnus pitää olla:\n$id';
   }
 
   @override
-  String get satscard_operation_dialog_incorrect_code_label => 'Incorrect spend code';
+  String get satscard_operation_dialog_incorrect_code_label => 'Virheellinen kulukoodi';
 
   @override
-  String get satscard_operation_dialog_stale_card_label => 'The correct card was presented but it\'s in an unexpected state, it may have been modified outside of the app.';
+  String get satscard_operation_dialog_stale_card_label => 'Oikea kortti havaittiin, mutta kortti on tuntemattomassa tilassa. Ehkä sitä on muokattu sovelluksen ulkopuolella.';
 
   @override
-  String get satscard_operation_dialog_nfc_error_label => 'A communication error occurred, please try again.';
+  String get satscard_operation_dialog_nfc_error_label => 'Tapahtui yhteysvirhe. Yritä uudelleen.';
 
   @override
   String satscard_operation_dialog_protocol_error_label(Object code, Object literal, Object message) {
-    return 'Encountered protocol error $code, $literal:\n$message';
+    return 'Törmättiin protokolla virheeseen $code, $literal:\n$message';
   }
 
   @override
   String satscard_operation_dialog_unknown_error_label(Object message) {
-    return 'An error occurred:\n$message';
+    return 'Tapahtui virhe:\n$message';
   }
 
   @override
