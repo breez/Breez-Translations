@@ -4445,6 +4445,12 @@ abstract class BreezTranslations {
   /// **'Proportional Fee (%)'**
   String get payment_options_proportional_fee_label;
 
+  /// No description provided for @payment_options_auto_channel_setup_fee_limit_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Automatic Channel Setup Fee Limit in sats'**
+  String get payment_options_auto_channel_setup_fee_limit_label;
+
   /// No description provided for @payment_options_fee_action_reset.
   ///
   /// In en, this message translates to:

@@ -2369,6 +2369,9 @@ class BreezTranslationsFi extends BreezTranslations {
   String get payment_options_proportional_fee_label => 'Tapahtuman määräpohjainen kulu (%)';
 
   @override
+  String get payment_options_auto_channel_setup_fee_limit_label => 'Automatic Channel Setup Fee Limit in sats';
+
+  @override
   String get payment_options_fee_action_reset => 'Palauta oletus';
 
   @override
