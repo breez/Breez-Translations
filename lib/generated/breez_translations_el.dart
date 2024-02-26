@@ -22,7 +22,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get home_drawer_item_title_security_and_backup => 'Ασφάλεια & Αντίγραφα ασφαλείας';
 
   @override
-  String get home_drawer_item_title_transactions => 'Συνναλαγές';
+  String get home_drawer_item_title_transactions => 'Συναλλαγές';
 
   @override
   String get home_drawer_item_title_balance => 'Υπόλοιπο';
@@ -192,7 +192,7 @@ class BreezTranslationsEl extends BreezTranslations {
 
   @override
   String invoice_insufficient_amount_fee(String fee) {
-    return 'Ανεπάρκες ποσό για να καλύψει το κόστος ρύθμισης $fee';
+    return 'Ανεπαρκές ποσό για να καλύψει το κόστος ρύθμισης $fee';
   }
 
   @override
@@ -306,7 +306,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get backup_provider_dialog_message_store => 'Store backup data in:';
 
   @override
-  String get backup_provider_dialog_action_cancel => 'CANCEL';
+  String get backup_provider_dialog_action_cancel => 'ΑΚΥΡΩΣΗ';
 
   @override
   String get backup_provider_dialog_action_ok => 'OK';
@@ -339,7 +339,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get bottom_action_bar_escher => 'Cash-Out via Escher';
 
   @override
-  String get bottom_action_bar_receive_invoice => 'Receive via Invoice';
+  String get bottom_action_bar_receive_invoice => 'Λήψη μέσω τιμολογίου';
 
   @override
   String get bottom_action_bar_receive_btc_address => 'Λήψη μέσω διεύθυνσης BTC';
@@ -365,19 +365,19 @@ class BreezTranslationsEl extends BreezTranslations {
   String get payments_filter_action_export_failed => 'Failed to export payments.';
 
   @override
-  String get payments_filter_option_all => 'All Activities';
+  String get payments_filter_option_all => 'Όλες οι δραστηριότητες';
 
   @override
-  String get payments_filter_option_sent => 'Sent';
+  String get payments_filter_option_sent => 'Αποστολές';
 
   @override
-  String get payments_filter_option_received => 'Received';
+  String get payments_filter_option_received => 'Λήψεις';
 
   @override
   String get payments_filter_message_loading_transactions => 'Please wait while Breez is loading transactions.';
 
   @override
-  String get payment_details_dialog_closed_channel_title => 'Closed Channel';
+  String get payment_details_dialog_closed_channel_title => 'Κλεισμένο κανάλι';
 
   @override
   String get payment_details_dialog_closed_channel_title_pending => 'Pending Closed Channel';
@@ -389,11 +389,11 @@ class BreezTranslationsEl extends BreezTranslations {
   String get payment_details_dialog_closed_channel_local_wallet => 'Transfer to local wallet due to closed channel.';
 
   @override
-  String get payment_details_dialog_closed_channel_about_hour => 'in about an hour';
+  String get payment_details_dialog_closed_channel_about_hour => 'σε περίπου 1 ώρα';
 
   @override
   String payment_details_dialog_closed_channel_about_hours(String hours) {
-    return '~$hours hours';
+    return '~$hours ώρες';
   }
 
   @override
@@ -411,10 +411,10 @@ class BreezTranslationsEl extends BreezTranslations {
   String get payment_details_dialog_restart_text => 'Please restart Breez to reset chain information for this channel.';
 
   @override
-  String get payment_details_dialog_restart_cancel => 'CANCEL';
+  String get payment_details_dialog_restart_cancel => 'ΑΚΥΡΩΣΗ';
 
   @override
-  String get payment_details_dialog_restart_exit_breez => 'EXIT BREEZ';
+  String get payment_details_dialog_restart_exit_breez => 'ΕΞΟΔΟΣ BREEZ';
 
   @override
   String get payment_details_dialog_transaction_label_default => 'Transaction ID:';
@@ -432,7 +432,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get payment_details_dialog_share_lightning_address => 'Lightning Address';
 
   @override
-  String get payment_details_dialog_share_comment => 'Comment';
+  String get payment_details_dialog_share_comment => 'Σχόλιο';
 
   @override
   String payment_details_dialog_copy_action(String title) {
@@ -466,7 +466,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get payment_details_dialog_expiration => 'Expiration';
 
   @override
-  String get payment_details_dialog_date_and_time => 'Date & Time';
+  String get payment_details_dialog_date_and_time => 'Ημ/νία και ώρα';
 
   @override
   String get payment_details_dialog_amount_title => 'Ποσό';
@@ -491,7 +491,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get payment_info_dialog_hint_expanded => 'Enter an invoice, a node ID or a Lightning address.';
 
   @override
-  String get payment_info_dialog_barcode => 'Scan Barcode';
+  String get payment_info_dialog_barcode => 'Σάρωση Barcode';
 
   @override
   String get payment_info_dialog_error => 'Invalid invoice, ID or Address';
@@ -509,10 +509,10 @@ class BreezTranslationsEl extends BreezTranslations {
   String get payment_info_dialog_action_approve => 'ΕΓΚΡΙΣΗ';
 
   @override
-  String get pos_invoice_item_management_title_add => 'Add Item';
+  String get pos_invoice_item_management_title_add => 'Προσθήκη στοιχείου';
 
   @override
-  String get pos_invoice_item_management_title_edit => 'Edit Item';
+  String get pos_invoice_item_management_title_edit => 'Επεξεργασία στοιχείου';
 
   @override
   String get pos_invoice_item_management_title_save => 'ΑΠΟΘΗΚΕΥΣΗ';
@@ -527,13 +527,13 @@ class BreezTranslationsEl extends BreezTranslations {
   String get pos_invoice_item_management_field_name_error => 'Name is required';
 
   @override
-  String get pos_invoice_item_management_field_price_label => 'Price';
+  String get pos_invoice_item_management_field_price_label => 'Τιμή';
 
   @override
-  String get pos_invoice_item_management_field_price_hint => 'Enter a price';
+  String get pos_invoice_item_management_field_price_hint => 'Εισάγετε μια τιμή';
 
   @override
-  String get pos_invoice_item_management_field_price_error => 'Price is required';
+  String get pos_invoice_item_management_field_price_error => 'Η τιμή απαιτείται';
 
   @override
   String get pos_invoice_item_management_field_sku_label => 'SKU';
@@ -545,13 +545,13 @@ class BreezTranslationsEl extends BreezTranslations {
   String get pos_invoice_item_management_dd_currency_title => 'Νόμισμα';
 
   @override
-  String get pos_invoice_item_management_image_title => 'Select Image';
+  String get pos_invoice_item_management_image_title => 'Επιλογή εικόνας';
 
   @override
   String get pos_invoice_item_management_error_btc_rate => 'Failed to retrieve BTC exchange rate.';
 
   @override
-  String get pos_invoice_item_management_avatar_title => 'Select Image';
+  String get pos_invoice_item_management_avatar_title => 'Επιλογή εικόνας';
 
   @override
   String get pos_invoice_item_management_avatar_search => 'Search for an image';
@@ -953,10 +953,10 @@ class BreezTranslationsEl extends BreezTranslations {
   }
 
   @override
-  String get connect_to_pay_payee_action_reject => 'Reject';
+  String get connect_to_pay_payee_action_reject => 'Απόρριψη';
 
   @override
-  String get connect_to_pay_payee_action_approve => 'Approve';
+  String get connect_to_pay_payee_action_approve => 'Έγκριση';
 
   @override
   String connect_to_pay_payer_success(String amount) {
@@ -1003,7 +1003,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get connect_to_pay_payment_detail_note => 'Note (optional)';
 
   @override
-  String get connect_to_pay_payment_available => 'Available:';
+  String get connect_to_pay_payment_available => 'Διαθέσιμο:';
 
   @override
   String get connect_to_pay_payment_action_close => 'CLOSE';
@@ -1012,7 +1012,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get connect_to_pay_payment_action_pay => 'PAY';
 
   @override
-  String get connect_to_pay_peer_unknown => 'Unknown';
+  String get connect_to_pay_peer_unknown => 'Άγνωστο';
 
   @override
   String connect_to_pay_share_text(String name, String address) {
@@ -1020,7 +1020,7 @@ class BreezTranslationsEl extends BreezTranslations {
   }
 
   @override
-  String get connect_to_pay_payment_reject => 'Η πληρωμή απορίφθηκε';
+  String get connect_to_pay_payment_reject => 'Η πληρωμή απορρίφθηκε';
 
   @override
   String get connect_to_pay_error_wrong_amount => 'Wrong amount in payment request';
@@ -1054,7 +1054,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get security_and_backup_store_location => 'Store Backup Data in';
 
   @override
-  String get security_and_backup_lock_automatically => 'Lock Automatically';
+  String get security_and_backup_lock_automatically => 'Αυτόματο κλείδωμα';
 
   @override
   String get security_and_backup_lock_automatically_option_immediate => 'Immediate';
@@ -1063,7 +1063,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get security_and_backup_change_pin => 'Αλλαγή PIN';
 
   @override
-  String get security_and_backup_enable_biometric_option_face => 'Enable Face';
+  String get security_and_backup_enable_biometric_option_face => 'Ενεργοποίηση Face';
 
   @override
   String get security_and_backup_enable_biometric_option_face_id => 'Ενεργοποίηση Face ID';
@@ -1072,10 +1072,10 @@ class BreezTranslationsEl extends BreezTranslations {
   String get security_and_backup_enable_biometric_option_fingerprint => 'Enable Fingerprint';
 
   @override
-  String get security_and_backup_enable_biometric_option_touch_id => 'Enable Touch ID';
+  String get security_and_backup_enable_biometric_option_touch_id => 'Ενεργοποίηση Touch ID';
 
   @override
-  String get security_and_backup_enable_biometric_option_other => 'Enable Biometric';
+  String get security_and_backup_enable_biometric_option_other => 'Ενεργοποίηση βιομετρικών';
 
   @override
   String get security_and_backup_enable_biometric_option_none => '';
@@ -1090,7 +1090,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get security_and_backup_pin_option_deactivate => 'Απενεργοποίηση PIN';
 
   @override
-  String get security_and_backup_internal_error => 'Internal Error';
+  String get security_and_backup_internal_error => 'Εσωτερικό σφάλμα';
 
   @override
   String get security_and_backup_new_pin => 'Εισάγετε το νέο σας PIN';
@@ -1099,7 +1099,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get security_and_backup_new_pin_second_time => 'Re-enter your new PIN';
 
   @override
-  String get security_and_backup_new_pin_do_not_match => 'PIN does not match';
+  String get security_and_backup_new_pin_do_not_match => 'το PIN δεν ταιριάζει';
 
   @override
   String get backup_in_progress => 'Backup is in progress';
@@ -1117,7 +1117,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get backup_model_name_remote_server => 'Remote Server';
 
   @override
-  String get backup_model_error_failed => 'Backup Failed';
+  String get backup_model_error_failed => 'Αντίγραφο ασφαλείας απέτυχε';
 
   @override
   String get network_title => 'Δίκτυο';
@@ -1126,7 +1126,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get network_restart_message => 'Please restart Breez to switch to the new Bitcoin Node configuration.';
 
   @override
-  String get network_restart_action_cancel => 'CANCEL';
+  String get network_restart_action_cancel => 'ΑΚΥΡΩΣΗ';
 
   @override
   String get network_restart_action_confirm => 'ΕΞΟΔΟΣ ΑΠΟ ΤΟ BREEZ';
@@ -1219,13 +1219,13 @@ class BreezTranslationsEl extends BreezTranslations {
   String get reverse_swap_confirmation_speed => 'Choose Processing Speed';
 
   @override
-  String get reverse_swap_confirmation_action_confirm => 'CONFIRM';
+  String get reverse_swap_confirmation_action_confirm => 'ΕΠΙΒΕΒΑΙΩΣΗ';
 
   @override
-  String get reverse_swap_confirmation_you_send => 'You send:';
+  String get reverse_swap_confirmation_you_send => 'Στέλνετε:';
 
   @override
-  String get reverse_swap_confirmation_you_receive => 'You receive:';
+  String get reverse_swap_confirmation_you_receive => 'Λαμβάνετε:';
 
   @override
   String reverse_swap_confirmation_received_no_fiat(String received) {
@@ -1260,7 +1260,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get reverse_swap_confirmation_error_funds_fee => 'You don\'t have enough funds for this payment network fee.';
 
   @override
-  String get reverse_swap_notification_title => 'Action Required';
+  String get reverse_swap_notification_title => 'Απαιτείται ενέργεια';
 
   @override
   String get reverse_swap_notification_body => 'Please open Breez to complete your requested transaction.';
@@ -1271,10 +1271,10 @@ class BreezTranslationsEl extends BreezTranslations {
   }
 
   @override
-  String get sync_progress_server_ready => 'Synchronizing to the network';
+  String get sync_progress_server_ready => 'Γίνεται συγχρονισμός με το δίκτυο';
 
   @override
-  String get sync_progress_waiting_network => 'Waiting for network';
+  String get sync_progress_waiting_network => 'Αναμονή για δίκτυο';
 
   @override
   String withdraw_funds_error_min_value(String minValue) {
@@ -1305,10 +1305,10 @@ class BreezTranslationsEl extends BreezTranslations {
   String get withdraw_funds_error_qr_code_not_detected => 'QR code wasn\'t detected.';
 
   @override
-  String get withdraw_funds_action_next => 'NEXT';
+  String get withdraw_funds_action_next => 'ΕΠΟΜΕΝΟ';
 
   @override
-  String get swap_in_progress_title => 'Send to BTC Address';
+  String get swap_in_progress_title => 'Αποστολή σε διεύθυνση BTC';
 
   @override
   String get swap_in_progress_transaction_id_copied => 'Transaction ID was copied to your clipboard.';
@@ -1329,7 +1329,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get account_page_activation_provider => 'In order to activate Breez, please select a provider:';
 
   @override
-  String get account_page_activation_provider_action_select => 'SELECT…';
+  String get account_page_activation_provider_action_select => 'ΕΠΙΛΟΓΗ…';
 
   @override
   String get account_page_activation_provider_label => 'Select a Lightning Provider';
@@ -1403,7 +1403,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get get_refund_transaction => 'Refund Transaction';
 
   @override
-  String get get_refund_failed => 'failed';
+  String get get_refund_failed => 'απέτυχε';
 
   @override
   String get get_refund_no_refundable_items => 'No refundable items left.';
@@ -1418,7 +1418,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get send_on_chain_btc_address => 'BTC Address';
 
   @override
-  String get send_on_chain_scan_barcode => 'Scan Barcode';
+  String get send_on_chain_scan_barcode => 'Σάρωση Barcode';
 
   @override
   String get send_on_chain_invalid_btc_address => 'Please enter a valid BTC Address';
@@ -1463,7 +1463,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get remote_server_action_restore => 'RESTORE';
 
   @override
-  String get remote_server_action_save => 'SAVE';
+  String get remote_server_action_save => 'ΑΠΟΘΗΚΕΥΣΗ';
 
   @override
   String get remote_server_warning_connection_title => 'Connection Warning';
@@ -1487,7 +1487,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get remote_server_error_invalid_username_or_password => 'Invalid User Name or Password';
 
   @override
-  String get remote_server_error_invalid_url => 'Invalid URL';
+  String get remote_server_error_invalid_url => 'Μη έγκυρο URL';
 
   @override
   String get remote_server_error_remote_server_title => 'Remote Server';
@@ -1544,10 +1544,10 @@ class BreezTranslationsEl extends BreezTranslations {
   String get initial_walk_through_error_backup_location => 'Could not locate backup for this account';
 
   @override
-  String get initial_walk_through_error_internal => 'Internal Error';
+  String get initial_walk_through_error_internal => 'Εσωτερικό σφάλμα';
 
   @override
-  String get restore_pin_title => 'Enter backup PIN';
+  String get restore_pin_title => 'Εισαγωγή backup PIN';
 
   @override
   String enter_backup_phrase(String number, String total) {
@@ -1564,7 +1564,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get enter_backup_phrase_invalid_word => 'Invalid word';
 
   @override
-  String get enter_backup_phrase_action_restore => 'RESTORE';
+  String get enter_backup_phrase_action_restore => 'ΕΠΑΝΑΦΟΡΑ';
 
   @override
   String get enter_backup_phrase_action_next => 'ΕΠΟΜΕΝΟ';
@@ -1629,16 +1629,16 @@ class BreezTranslationsEl extends BreezTranslations {
   String get alpha_warning_message => 'Since Breez is still in alpha, there is a chance your money will be lost. Use this app only if you are willing to take this risk.';
 
   @override
-  String get alpha_warning_understand => 'I understand';
+  String get alpha_warning_understand => 'Καταλαβαίνω';
 
   @override
   String get alpha_warning_understand_confirmation => 'Please confirm that you understand before you continue.';
 
   @override
-  String get alpha_warning_action_exit => 'EXIT';
+  String get alpha_warning_action_exit => 'ΕΞΟΔΟΣ';
 
   @override
-  String get alpha_warning_action_continue => 'CONTINUE';
+  String get alpha_warning_action_continue => 'ΣΥΝΕΧΕΙΑ';
 
   @override
   String get processing_payment_dialog_synchronizing => 'Synchronizing to the network';
@@ -1662,10 +1662,10 @@ class BreezTranslationsEl extends BreezTranslations {
   String get payment_request_dialog_requesting => 'is requesting you to pay:';
 
   @override
-  String get payment_request_dialog_action_cancel => 'CANCEL';
+  String get payment_request_dialog_action_cancel => 'ΑΚΥΡΩΣΗ';
 
   @override
-  String get payment_request_dialog_action_approve => 'APPROVE';
+  String get payment_request_dialog_action_approve => 'ΕΓΚΡΙΣΗ';
 
   @override
   String get payment_failed_report_dialog_title => 'Failed Payment';
@@ -1704,37 +1704,37 @@ class BreezTranslationsEl extends BreezTranslations {
   String get no_connection_flushbar_action_retry => 'RETRY';
 
   @override
-  String get no_connection_dialog_title => 'No Internet Connection';
+  String get no_connection_dialog_title => 'δεν υπάρχει σύνδεση internet';
 
   @override
-  String get no_connection_dialog_tip_begin => 'You can try:\n';
+  String get no_connection_dialog_tip_begin => 'Μπορείτε να προσπαθήσετε:\n';
 
   @override
-  String get no_connection_dialog_tip_airplane => '• Turning off airplane mode\n';
+  String get no_connection_dialog_tip_airplane => '• Κλείσιμο λειτουργίας πτήσης\n';
 
   @override
-  String get no_connection_dialog_tip_wifi => '• Turning on mobile data or Wi-Fi\n';
+  String get no_connection_dialog_tip_wifi => '• Ενεργοποίηση δεδομένων κινητού ή Wi-Fi\n';
 
   @override
   String get no_connection_dialog_tip_signal => '• Checking the signal in your area\n';
 
   @override
-  String get no_connection_dialog_log_view_action => 'View ';
+  String get no_connection_dialog_log_view_action => 'Προβολή ';
 
   @override
   String get no_connection_dialog_log_view_message => 'your logs \n';
 
   @override
-  String get no_connection_dialog_action_cancel => 'CANCEL';
+  String get no_connection_dialog_action_cancel => 'ΑΚΥΡΩΣΗ';
 
   @override
-  String get no_connection_dialog_action_try_again => 'TRY AGAIN';
+  String get no_connection_dialog_action_try_again => 'ΠΡΟΣΠΑΘΕΙΑ ΞΑΝΑ';
 
   @override
   String get lsp_fee_warning_title => 'Setup Fee';
 
   @override
-  String get lsp_fee_warning_action_cancel => 'CANCEL';
+  String get lsp_fee_warning_action_cancel => 'ΑΚΥΡΩΣΗ';
 
   @override
   String get lsp_fee_warning_action_ok => 'OK';
@@ -1838,13 +1838,13 @@ class BreezTranslationsEl extends BreezTranslations {
   String get order_card_country_state_invalid => 'Invalid state';
 
   @override
-  String get order_card_city_label => 'City';
+  String get order_card_city_label => 'Πόλη';
 
   @override
   String get order_card_city_error => 'Please enter your city';
 
   @override
-  String get order_card_address_label => 'Address';
+  String get order_card_address_label => 'Διεύθυνση';
 
   @override
   String get order_card_address_error => 'Please enter your address';
@@ -1918,10 +1918,10 @@ class BreezTranslationsEl extends BreezTranslations {
   String get escher_cash_out_amount => 'Enter cash-out amount:';
 
   @override
-  String get escher_action_cancel => 'CANCEL';
+  String get escher_action_cancel => 'ΑΚΥΡΩΣΗ';
 
   @override
-  String get escher_action_approve => 'APPROVE';
+  String get escher_action_approve => 'ΕΓΚΡΙΣΗ';
 
   @override
   String get collapsible_list_default_value => '';
@@ -1937,7 +1937,7 @@ class BreezTranslationsEl extends BreezTranslations {
   }
 
   @override
-  String get close_popup_title => 'Εξοδος από Breez';
+  String get close_popup_title => 'Έξοδος από Breez';
 
   @override
   String get close_popup_message => 'Do you really want to quit Breez?';
@@ -1982,7 +1982,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get breez_avatar_dialog_your_name => 'Enter your name';
 
   @override
-  String get breez_avatar_dialog_action_cancel => 'CANCEL';
+  String get breez_avatar_dialog_action_cancel => 'ΑΚΥΡΩΣΗ';
 
   @override
   String get breez_avatar_dialog_action_save => 'SAVE';
@@ -2009,7 +2009,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get utils_print_pdf_header_price => 'Τιμή';
 
   @override
-  String get utils_print_pdf_header_quantity => 'Πσοότητα';
+  String get utils_print_pdf_header_quantity => 'Ποσότητα';
 
   @override
   String get utils_print_pdf_header_amount => 'Ποσό';
@@ -2078,7 +2078,7 @@ class BreezTranslationsEl extends BreezTranslations {
   }
 
   @override
-  String get handler_lnurl_open_channel_action_cancel => 'CANCEL';
+  String get handler_lnurl_open_channel_action_cancel => 'ΑΚΥΡΩΣΗ';
 
   @override
   String get handler_lnurl_open_channel_error_title => 'Open Channel Error';
@@ -2252,10 +2252,10 @@ class BreezTranslationsEl extends BreezTranslations {
   String get pos_settings_manager_password_message => 'If Manager Password is activated, sending funds from Breez will require you to enter a password.\nAre you sure you want to activate Manager Password?';
 
   @override
-  String get pos_settings_manager_password_action_create => 'CREATE';
+  String get pos_settings_manager_password_action_create => 'ΔΗΜΙΟΥΡΓΙΑ';
 
   @override
-  String get pos_settings_manager_password_action_change => 'CHANGE';
+  String get pos_settings_manager_password_action_change => 'ΑΛΛΑΓΗ';
 
   @override
   String get pos_settings_business_address => 'Business Address';
@@ -2285,7 +2285,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get pos_settings_currency => 'Νόμισμα';
 
   @override
-  String get pos_settings_price => 'Price';
+  String get pos_settings_price => 'Τιμή';
 
   @override
   String get pos_password_admin_title => 'Manager Password';
@@ -2326,7 +2326,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get pos_dialog_clear_sale => 'CLEAR SALE';
 
   @override
-  String get pos_dialog_cancel => 'CANCEL';
+  String get pos_dialog_cancel => 'ΑΚΥΡΩΣΗ';
 
   @override
   String pos_dialog_setup_fee(String fee, String fiat) {
@@ -2387,10 +2387,10 @@ class BreezTranslationsEl extends BreezTranslations {
   String get payment_options_fee_warning_dialog_message => 'This feature is experimental. Limiting fees may cause payments to fail, but the reason for the failure may not be apparent.';
 
   @override
-  String get catalog_item_action_edit => 'Edit Item';
+  String get catalog_item_action_edit => 'Επεξεργασία στοιχείου';
 
   @override
-  String get catalog_item_action_delete => 'Delete Item';
+  String get catalog_item_action_delete => 'Διαγραφή στοιχείου';
 
   @override
   String catalog_item_error_delete(String name) {
@@ -2410,10 +2410,10 @@ class BreezTranslationsEl extends BreezTranslations {
   String get pos_report_dialog_title_custom => 'Custom Summary';
 
   @override
-  String get pos_report_dialog_action_close => 'CLOSE';
+  String get pos_report_dialog_action_close => 'ΚΛΕΙΣΙΜΟ';
 
   @override
-  String get pos_report_dialog_dropdown_item_daily => 'Today';
+  String get pos_report_dialog_dropdown_item_daily => 'Σήμερα';
 
   @override
   String get pos_report_dialog_dropdown_item_weekly => 'This Week';
@@ -2443,7 +2443,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get lnurl_withdraw_dialog_wait => 'Please wait while your payment is being processed';
 
   @override
-  String get lnurl_withdraw_dialog_action_close => 'CLOSE';
+  String get lnurl_withdraw_dialog_action_close => 'ΚΛΕΙΣΙΜΟ';
 
   @override
   String get lnurl_withdraw_dialog_error_unknown => 'Failed to receive funds';
@@ -2595,7 +2595,7 @@ class BreezTranslationsEl extends BreezTranslations {
   }
 
   @override
-  String get lnurl_webview_error_title => 'Error';
+  String get lnurl_webview_error_title => 'Σφάλμα';
 
   @override
   String get lnurl_webview_error_invalid_url => 'Invalid URL';
@@ -2606,7 +2606,7 @@ class BreezTranslationsEl extends BreezTranslations {
   }
 
   @override
-  String get lnurl_fetch_invoice_action_continue => 'CONTINUE';
+  String get lnurl_fetch_invoice_action_continue => 'ΣΥΝΕΧΕΙΑ';
 
   @override
   String lnurl_fetch_invoice_pay_to_payee(String payee) {
@@ -2614,7 +2614,7 @@ class BreezTranslationsEl extends BreezTranslations {
   }
 
   @override
-  String get lnurl_fetch_invoice_comment => 'Comment (optional)';
+  String get lnurl_fetch_invoice_comment => 'Σχόλιο (προαιρετικό)';
 
   @override
   String lnurl_fetch_invoice_error_min(String min) {
@@ -2698,10 +2698,10 @@ class BreezTranslationsEl extends BreezTranslations {
   String get podcast_boost_action_boost => 'BOOST!';
 
   @override
-  String get podcast_boost_action_cancel => 'CANCEL';
+  String get podcast_boost_action_cancel => 'ΑΚΥΡΩΣΗ';
 
   @override
-  String get podcast_boost_action_approve => 'APPROVE';
+  String get podcast_boost_action_approve => 'ΕΓΚΡΙΣΗ';
 
   @override
   String get podcast_boost_symbol_circa => '~';
@@ -2772,7 +2772,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get backup_phrase_instructions => 'You will be shown a list of words. Write down the words and store them in a safe place. Without these words, you won\'t be able to restore from backup and your funds will be lost. Breez won’t be able to help. Note these words aren\'t a wallet seed. They are used to encrypt the backup data stored in the cloud.';
 
   @override
-  String get backup_phrase_action_confirm => 'I UNDERSTAND';
+  String get backup_phrase_action_confirm => 'ΚΑΤΑΛΑΒΑΙΝΩ';
 
   @override
   String get backup_phrase_action_next => 'ΕΠΟΜΕΝΟ';
@@ -3317,7 +3317,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get satscard_dialog_ok => 'OK';
 
   @override
-  String get satscard_dialog_cancel => 'CANCEL';
+  String get satscard_dialog_cancel => 'ΑΚΥΩΣΗ';
 
   @override
   String get satscard_ios_success_label => 'Satscard was successfully scanned';
@@ -3326,7 +3326,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get satscard_ios_error_label => 'Unable to scan the Satscard';
 
   @override
-  String get satscard_error_invalid_title => 'Unknown Error';
+  String get satscard_error_invalid_title => 'Άγνωστο σφάλμα';
 
   @override
   String satscard_error_invalid_body(Object error) {
