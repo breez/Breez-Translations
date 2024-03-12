@@ -374,6 +374,7 @@
   "payment_details_dialog_refresh_information": "Päivitä näkymän tiedot",
   "payment_details_dialog_share_transaction": "Jaa tapahtuman Hash-koodi",
   "payment_details_dialog_share_lightning_address": "Lightning-osoite",
+  "payment_details_dialog_share_lnurl_pay_domain": "Lightning Service",
   "payment_details_dialog_share_comment": "Kommentti",
   "payment_details_dialog_copy_action": "Kopioi {title}",
   "@payment_details_dialog_copy_action": {

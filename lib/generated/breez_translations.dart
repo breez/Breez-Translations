@@ -875,6 +875,12 @@ abstract class BreezTranslations {
   /// **'Lightning Address'**
   String get payment_details_dialog_share_lightning_address;
 
+  /// No description provided for @payment_details_dialog_share_lnurl_pay_domain.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning Service'**
+  String get payment_details_dialog_share_lnurl_pay_domain;
+
   /// No description provided for @payment_details_dialog_share_comment.
   ///
   /// In en, this message translates to:
