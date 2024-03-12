@@ -210,6 +210,12 @@ class BreezTranslationsEn extends BreezTranslations {
   }
 
   @override
+  String get invoice_ln_address_title => 'Receive via Lightning Address';
+
+  @override
+  String get invoice_ln_address_address_information => 'Address Information';
+
+  @override
   String invoice_ln_address_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity) {
     return 'A setup fee of $setUpFee% with a minimum of $minFee will be applied for receiving more than $liquidity.';
   }
@@ -325,6 +331,9 @@ class BreezTranslationsEn extends BreezTranslations {
 
   @override
   String get bottom_action_bar_receive => 'RECEIVE';
+
+  @override
+  String get bottom_action_bar_ln_address => 'Receive via Lightning Address';
 
   @override
   String get bottom_action_bar_paste_invoice => 'Paste Invoice or ID';

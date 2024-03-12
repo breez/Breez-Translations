@@ -192,6 +192,8 @@
       }
     }
   },
+  "invoice_ln_address_title": "Receive via Lightning Address",
+  "invoice_ln_address_address_information": "Address Information",
   "invoice_ln_address_warning_with_min_fee_account_connected": "A setup fee of {setUpFee}% with a minimum of {minFee} will be applied for receiving more than {liquidity}.",
   "@invoice_ln_address_warning_with_min_fee_account_connected": {
     "placeholders": {
@@ -313,6 +315,7 @@
   "tutorial_gotcha": "Gotcha!",
   "bottom_action_bar_send": "SEND",
   "bottom_action_bar_receive": "RECEIVE",
+  "bottom_action_bar_ln_address": "Receive via Lightning Address",
   "bottom_action_bar_paste_invoice": "Paste Invoice or ID",
   "bottom_action_bar_connect_to_pay": "Connect to Pay",
   "bottom_action_bar_send_btc_address": "Send to BTC Address",

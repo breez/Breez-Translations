@@ -210,6 +210,12 @@ class BreezTranslationsCs extends BreezTranslations {
   }
 
   @override
+  String get invoice_ln_address_title => 'Receive via Lightning Address';
+
+  @override
+  String get invoice_ln_address_address_information => 'Address Information';
+
+  @override
   String invoice_ln_address_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity) {
     return 'Za příjem více než $liquidity bude účtován poplatek za nastavení ve výši $setUpFee% s minimem $minFee.';
   }
@@ -325,6 +331,9 @@ class BreezTranslationsCs extends BreezTranslations {
 
   @override
   String get bottom_action_bar_receive => 'PŘÍJEM';
+
+  @override
+  String get bottom_action_bar_ln_address => 'Receive via Lightning Address';
 
   @override
   String get bottom_action_bar_paste_invoice => 'Vložit fakturu nebo ID';
