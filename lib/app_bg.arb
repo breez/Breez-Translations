@@ -377,6 +377,7 @@
   "payment_details_dialog_refresh_information": "Опреснете информацията",
   "payment_details_dialog_share_transaction": "Споделете хеша на трансакцията",
   "payment_details_dialog_share_lightning_address": "Светкавичен адрес",
+  "payment_details_dialog_share_lnurl_pay_domain": "Lightning Service",
   "payment_details_dialog_share_comment": "Коментар",
   "payment_details_dialog_copy_action": "Копирайте {title}",
   "@payment_details_dialog_copy_action": {

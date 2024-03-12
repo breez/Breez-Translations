@@ -377,6 +377,7 @@
   "payment_details_dialog_refresh_information": "Refresh Information",
   "payment_details_dialog_share_transaction": "Share Transaction Hash",
   "payment_details_dialog_share_lightning_address": "Lightning Address",
+  "payment_details_dialog_share_lnurl_pay_domain": "Lightning Service",
   "payment_details_dialog_share_comment": "Comment",
   "payment_details_dialog_copy_action": "Copy {title}",
   "@payment_details_dialog_copy_action": {

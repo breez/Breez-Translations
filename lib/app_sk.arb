@@ -377,6 +377,7 @@
   "payment_details_dialog_refresh_information": "Aktualizovať informácie",
   "payment_details_dialog_share_transaction": "Zdieľať hash transakcie",
   "payment_details_dialog_share_lightning_address": "Lightning adresa",
+  "payment_details_dialog_share_lnurl_pay_domain": "Lightning Service",
   "payment_details_dialog_share_comment": "Komentovať",
   "payment_details_dialog_copy_action": "Kopírovať {title}",
   "@payment_details_dialog_copy_action": {

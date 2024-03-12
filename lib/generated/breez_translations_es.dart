@@ -441,6 +441,9 @@ class BreezTranslationsEs extends BreezTranslations {
   String get payment_details_dialog_share_lightning_address => 'Dirección Lightning';
 
   @override
+  String get payment_details_dialog_share_lnurl_pay_domain => 'Lightning Service';
+
+  @override
   String get payment_details_dialog_share_comment => 'Comentario';
 
   @override

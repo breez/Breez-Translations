@@ -377,6 +377,7 @@
   "payment_details_dialog_refresh_information": "Uppdatera information",
   "payment_details_dialog_share_transaction": "Dela transaktions hash",
   "payment_details_dialog_share_lightning_address": "Lightning Adress",
+  "payment_details_dialog_share_lnurl_pay_domain": "Lightning Service",
   "payment_details_dialog_share_comment": "Kommentera",
   "payment_details_dialog_copy_action": "Kopiera {title}",
   "@payment_details_dialog_copy_action": {

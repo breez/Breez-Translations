@@ -377,6 +377,7 @@
   "payment_details_dialog_refresh_information": "Atualizar informação",
   "payment_details_dialog_share_transaction": "Compartilhar o hash da transação",
   "payment_details_dialog_share_lightning_address": "Endereço Relâmpago",
+  "payment_details_dialog_share_lnurl_pay_domain": "Lightning Service",
   "payment_details_dialog_share_comment": "Comentário",
   "payment_details_dialog_copy_action": "Copiar {title}",
   "@payment_details_dialog_copy_action": {
