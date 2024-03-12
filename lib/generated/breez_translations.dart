@@ -479,6 +479,18 @@ abstract class BreezTranslations {
   /// **'Receive up to: {maxSats}'**
   String invoice_receive_label(String maxSats);
 
+  /// No description provided for @invoice_ln_address_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Receive via Lightning Address'**
+  String get invoice_ln_address_title;
+
+  /// No description provided for @invoice_ln_address_address_information.
+  ///
+  /// In en, this message translates to:
+  /// **'Address Information'**
+  String get invoice_ln_address_address_information;
+
   /// No description provided for @invoice_ln_address_warning_with_min_fee_account_connected.
   ///
   /// In en, this message translates to:
@@ -676,6 +688,12 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'RECEIVE'**
   String get bottom_action_bar_receive;
+
+  /// No description provided for @bottom_action_bar_ln_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Receive via Lightning Address'**
+  String get bottom_action_bar_ln_address;
 
   /// No description provided for @bottom_action_bar_paste_invoice.
   ///

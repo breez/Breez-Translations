@@ -192,6 +192,8 @@
       }
     }
   },
+  "invoice_ln_address_title": "Receive via Lightning Address",
+  "invoice_ln_address_address_information": "Address Information",
   "invoice_ln_address_warning_with_min_fee_account_connected": "За получаване на повече от {liquidity} ще бъде приложена такса за отваряне на канал от {setUpFee}% с минимум {minFee}.",
   "@invoice_ln_address_warning_with_min_fee_account_connected": {
     "placeholders": {
@@ -313,6 +315,7 @@
   "tutorial_gotcha": "Схванах!",
   "bottom_action_bar_send": "ИЗПРАЩАНЕ",
   "bottom_action_bar_receive": "ПРИЕМАНЕ",
+  "bottom_action_bar_ln_address": "Receive via Lightning Address",
   "bottom_action_bar_paste_invoice": "Поставете фактура или ID",
   "bottom_action_bar_connect_to_pay": "Свържи се и плати",
   "bottom_action_bar_send_btc_address": "Изпращане до BTC адрес",
