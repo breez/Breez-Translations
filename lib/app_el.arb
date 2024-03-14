@@ -1693,7 +1693,7 @@
   "payment_options_base_fee_label": "Base Fee in sats",
   "payment_options_exemptfee_label": "Exempt Fee in sats",
   "payment_options_proportional_fee_label": "Proportional Fee (%)",
-  "payment_options_auto_channel_setup_fee_limit_label": "Automatic Channel Setup Fee Limit in sats",
+  "payment_options_auto_setup_fee_label": "Automatic Setup Fee in sats",
   "payment_options_fee_action_reset": "Reset",
   "payment_options_fee_action_save": "Αποθήκευση",
   "payment_options_fee_action_cancel": "Cancel",

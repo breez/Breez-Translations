@@ -1693,7 +1693,7 @@
   "payment_options_base_fee_label": "Základní poplatek v sats",
   "payment_options_exemptfee_label": "Exempt Fee in sats", 
   "payment_options_proportional_fee_label": "Poměrný poplatek v (%)",
-  "payment_options_auto_channel_setup_fee_limit_label": "Automatic Channel Setup Fee Limit in sats",
+  "payment_options_auto_setup_fee_label": "Automatic Setup Fee in sats",
   "payment_options_fee_action_reset": "Resetovat",
   "payment_options_fee_action_save": "Uložit",
   "payment_options_fee_action_cancel": "Zrušit",
