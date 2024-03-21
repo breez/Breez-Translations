@@ -216,22 +216,22 @@ class BreezTranslationsSk extends BreezTranslations {
   String get invoice_ln_address_address_information => 'Address Information';
 
   @override
-  String invoice_ln_address_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity) {
+  String invoice_lightning_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity) {
     return 'Za príjem viac ako $liquidity, si Breez naúčtuje zriaďovací poplatok vo výške $setUpFee%, minimálne však $minFee.';
   }
 
   @override
-  String invoice_ln_address_warning_without_min_fee_account_connected(String setUpFee, String liquidity) {
+  String invoice_lightning_warning_without_min_fee_account_connected(String setUpFee, String liquidity) {
     return 'Za príjem viac ako $liquidity, si Breez naúčtuje zriaďovací poplatok vo výške $setUpFee%.';
   }
 
   @override
-  String invoice_ln_address_warning_with_min_fee_account_not_connected(String setUpFee, String minFee) {
+  String invoice_lightning_warning_with_min_fee_account_not_connected(String setUpFee, String minFee) {
     return 'Na prijatú sumu sa bude vzťahovať zriaďovací poplatok vo výške $setUpFee%, minimálne však $minFee.';
   }
 
   @override
-  String invoice_ln_address_warning_without_min_fee_account_not_connected(String setUpFee) {
+  String invoice_lightning_warning_without_min_fee_account_not_connected(String setUpFee) {
     return 'Na prijatú sumu sa bude vzťahovať zriaďovací poplatok vo výške $setUpFee%.';
   }
 
@@ -1752,22 +1752,22 @@ class BreezTranslationsSk extends BreezTranslations {
   String get lsp_fee_warning_action_ok => 'OK';
 
   @override
-  String lsp_fee_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity) {
+  String moonpay_fee_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity) {
     return 'Pri nákupe nad $liquidity sa bude účtovať zriaďovací poplatok vo výške $setUpFee% s minimálnou sumou $minFee.';
   }
 
   @override
-  String lsp_fee_warning_without_min_fee_account_connected(String setUpFee, String liquidity) {
+  String moonpay_fee_warning_without_min_fee_account_connected(String setUpFee, String liquidity) {
     return 'Pri nákupe nad $liquidity sa bude účtovať zriaďovací poplatok vo výške $setUpFee%.';
   }
 
   @override
-  String lsp_fee_warning_with_min_fee_account_not_connected(String setUpFee, String minFee) {
+  String moonpay_fee_warning_with_min_fee_account_not_connected(String setUpFee, String minFee) {
     return 'Breez bude účtovať zriaďovací poplatok vo výške $setUpFee% s minimálnou sumou $minFee.';
   }
 
   @override
-  String lsp_fee_warning_without_min_fee_account_not_connected(String setUpFee) {
+  String moonpay_fee_warning_without_min_fee_account_not_connected(String setUpFee) {
     return 'Breez bude účtovať zriaďovací poplatok vo výške $setUpFee%.';
   }
 
@@ -3662,6 +3662,31 @@ class BreezTranslationsSk extends BreezTranslations {
 
   @override
   String get close_channels_error_title => 'Close Channels Error';
+
+  @override
+  String invoice_ln_address_channel_not_needed(String minSats, String maxSats) {
+    return 'Send more than $minSats and up to $maxSats to this address.  This address can be used only once.';
+  }
+
+  @override
+  String invoice_ln_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String minFee, String liquidity) {
+    return 'Send more than $minSats and up to $maxSats to this address. A setup fee of $setUpFee% with a minimum of $minFee will be applied for sending more than $liquidity. This address can be used only once.';
+  }
+
+  @override
+  String invoice_ln_address_warning_without_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String liquidity) {
+    return 'Send more than $minSats and up to $maxSats to this address. A setup fee of $setUpFee% will be applied for sending more than $liquidity. This address can be used only once.';
+  }
+
+  @override
+  String invoice_ln_address_warning_with_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee, String minFee) {
+    return 'Send more than $minSats and up to $maxSats to this address. A setup fee of $setUpFee% with a minimum of $minFee will be applied on the received amount. This address can be used only once.';
+  }
+
+  @override
+  String invoice_ln_address_warning_without_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee) {
+    return 'Send more than $minSats and up to $maxSats to this address. A setup fee of $setUpFee% will be applied on the received amount. This address can be used only once.';
+  }
 
   @override
   String get locale => 'sk';
