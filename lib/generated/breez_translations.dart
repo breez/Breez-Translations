@@ -6794,31 +6794,31 @@ abstract class BreezTranslations {
   /// No description provided for @invoice_ln_address_channel_not_needed.
   ///
   /// In en, this message translates to:
-  /// **'Send more than {minSats} and up to {maxSats} to this address.  This address can be used only once.'**
+  /// **'Send more than {minSats} and up to {maxSats} to this address.'**
   String invoice_ln_address_channel_not_needed(String minSats, String maxSats);
 
   /// No description provided for @invoice_ln_address_warning_with_min_fee_account_connected.
   ///
   /// In en, this message translates to:
-  /// **'Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% with a minimum of {minFee} will be applied for sending more than {liquidity}. This address can be used only once.'**
+  /// **'Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% with a minimum of {minFee} will be applied for sending more than {liquidity}.'**
   String invoice_ln_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String minFee, String liquidity);
 
   /// No description provided for @invoice_ln_address_warning_without_min_fee_account_connected.
   ///
   /// In en, this message translates to:
-  /// **'Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% will be applied for sending more than {liquidity}. This address can be used only once.'**
+  /// **'Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% will be applied for sending more than {liquidity}.'**
   String invoice_ln_address_warning_without_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String liquidity);
 
   /// No description provided for @invoice_ln_address_warning_with_min_fee_account_not_connected.
   ///
   /// In en, this message translates to:
-  /// **'Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% with a minimum of {minFee} will be applied on the received amount. This address can be used only once.'**
+  /// **'Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% with a minimum of {minFee} will be applied on the received amount.'**
   String invoice_ln_address_warning_with_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee, String minFee);
 
   /// No description provided for @invoice_ln_address_warning_without_min_fee_account_not_connected.
   ///
   /// In en, this message translates to:
-  /// **'Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% will be applied on the received amount. This address can be used only once.'**
+  /// **'Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% will be applied on the received amount.'**
   String invoice_ln_address_warning_without_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee);
 
   /// No description provided for @locale.
