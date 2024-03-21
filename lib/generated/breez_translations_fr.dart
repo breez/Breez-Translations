@@ -107,7 +107,7 @@ class BreezTranslationsFr extends BreezTranslations {
   String get invoice_btc_address_network_error => 'Impossible de récupérer une adresse sur le serveur Breez\nVeuillez vérifier votre connexion Internet.';
 
   @override
-  String get invoice_btc_address_action_retry => 'REESSAYER';
+  String get invoice_btc_address_action_retry => 'RÉESSAYER';
 
   @override
   String get invoice_btc_address_action_close => 'FERMER';
@@ -214,6 +214,9 @@ class BreezTranslationsFr extends BreezTranslations {
 
   @override
   String get invoice_ln_address_address_information => 'Address Information';
+
+  @override
+  String get invoice_ln_address_action_retry => 'RÉESSAYER';
 
   @override
   String invoice_lightning_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity) {
@@ -1713,7 +1716,7 @@ class BreezTranslationsFr extends BreezTranslations {
   String get no_connection_flushbar_title => 'No internet connection';
 
   @override
-  String get no_connection_flushbar_action_retry => 'RETRY';
+  String get no_connection_flushbar_action_retry => 'RÉESSAYER';
 
   @override
   String get no_connection_dialog_title => 'Pas de connexion Internet';
@@ -2048,7 +2051,7 @@ class BreezTranslationsFr extends BreezTranslations {
   String get handler_health_check_service_disruption => 'Breez services are temporarily unavailable. Please try again later.';
 
   @override
-  String get handler_health_check_action_retry => 'RETRY';
+  String get handler_health_check_action_retry => 'RÉESSAYER';
 
   @override
   String get handler_channel_connection_message => 'Breez est hors ligne';
@@ -2872,7 +2875,7 @@ class BreezTranslationsFr extends BreezTranslations {
   String get sweep_all_coins_speed => 'Choisir la vitesse de traitement';
 
   @override
-  String get sweep_all_coins_action_retry => 'RETRY';
+  String get sweep_all_coins_action_retry => 'RÉESSAYER';
 
   @override
   String get sweep_all_coins_action_confirm => 'CONFIRMER';
@@ -3303,7 +3306,7 @@ class BreezTranslationsFr extends BreezTranslations {
   String get moonpay_network_error => 'Failed to connect to MoonPay. Please check your internet connection and try again.';
 
   @override
-  String get moonpay_retry_button => 'RETRY';
+  String get moonpay_retry_button => 'RÉESSAYER';
 
   @override
   String moonpay_swap_in_progress(String address) {
@@ -3404,7 +3407,7 @@ class BreezTranslationsFr extends BreezTranslations {
   String get satscard_balance_button_label => 'SWEEP';
 
   @override
-  String get satscard_balance_button_retry_label => 'RETRY';
+  String get satscard_balance_button_retry_label => 'RÉESSAYER';
 
   @override
   String get satscard_balance_warning_no_funds_title => 'No Balance';
