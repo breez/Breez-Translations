@@ -2498,6 +2498,7 @@
   "close_channels_dialog_failure_message_end": " for further assistance.",
   "close_channels_error_title": "Close Channels Error",
   "invoice_ln_address_channel_not_needed": "Send more than {minSats} and up to {maxSats} to this address.  This address can be used only once.",
+  "invoice_ln_address_channel_not_needed": "Send more than {minSats} and up to {maxSats} to this address.",
   "@invoice_ln_address_channel_not_needed" :{
   "placeholders": {
       "minSats": {
@@ -2510,7 +2511,7 @@
       }
      }
   },
-  "invoice_ln_address_warning_with_min_fee_account_connected": "Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% with a minimum of {minFee} will be applied for sending more than {liquidity}. This address can be used only once.",
+  "invoice_ln_address_warning_with_min_fee_account_connected": "Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% with a minimum of {minFee} will be applied for sending more than {liquidity}.",
   "@invoice_ln_address_warning_with_min_fee_account_connected": {
     "placeholders": {
       "minSats": {
@@ -2535,7 +2536,7 @@
       }
     }
   },
-  "invoice_ln_address_warning_without_min_fee_account_connected": "Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% will be applied for sending more than {liquidity}. This address can be used only once.",
+  "invoice_ln_address_warning_without_min_fee_account_connected": "Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% will be applied for sending more than {liquidity}.",
   "@invoice_ln_address_warning_without_min_fee_account_connected": {
     "placeholders": {
       "minSats": {
@@ -2556,7 +2557,7 @@
       }
     }
   },
-  "invoice_ln_address_warning_with_min_fee_account_not_connected": "Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% with a minimum of {minFee} will be applied on the received amount. This address can be used only once.",
+  "invoice_ln_address_warning_with_min_fee_account_not_connected": "Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% with a minimum of {minFee} will be applied on the received amount.",
   "@invoice_ln_address_warning_with_min_fee_account_not_connected": {
     "placeholders": {
       "minSats": {
@@ -2577,7 +2578,7 @@
       }
     }
   },
-  "invoice_ln_address_warning_without_min_fee_account_not_connected": "Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% will be applied on the received amount. This address can be used only once.",
+  "invoice_ln_address_warning_without_min_fee_account_not_connected": "Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% will be applied on the received amount.",
   "@invoice_ln_address_warning_without_min_fee_account_not_connected": {
     "placeholders": {
       "minSats": {
