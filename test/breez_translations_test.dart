@@ -124,10 +124,10 @@ void main() {
       });
 
       test(
-          "invoice_ln_address_warning_with_min_fee_account_connected for ${locale.locale}",
+          "invoice_lightning_warning_with_min_fee_account_connected for ${locale.locale}",
           () {
         final text =
-            locale.invoice_ln_address_warning_with_min_fee_account_connected(
+            locale.invoice_lightning_warning_with_min_fee_account_connected(
                 setUpFee, minFee, liquidity);
         expect(text.contains(setUpFee), true);
         expect(text.contains(minFee), true);
@@ -135,30 +135,30 @@ void main() {
       });
 
       test(
-          "invoice_ln_address_warning_without_min_fee_account_connected for ${locale.locale}",
+          "invoice_lightning_warning_without_min_fee_account_connected for ${locale.locale}",
           () {
         final text =
-            locale.invoice_ln_address_warning_without_min_fee_account_connected(
+            locale.invoice_lightning_warning_without_min_fee_account_connected(
                 setUpFee, liquidity);
         expect(text.contains(setUpFee), true);
         expect(text.contains(liquidity), true);
       });
 
       test(
-          "invoice_ln_address_warning_with_min_fee_account_not_connected for ${locale.locale}",
+          "invoice_lightning_warning_with_min_fee_account_not_connected for ${locale.locale}",
           () {
         final text = locale
-            .invoice_ln_address_warning_with_min_fee_account_not_connected(
+            .invoice_lightning_warning_with_min_fee_account_not_connected(
                 setUpFee, minFee);
         expect(text.contains(setUpFee), true);
         expect(text.contains(minFee), true);
       });
 
       test(
-          "invoice_ln_address_warning_without_min_fee_account_not_connected for ${locale.locale}",
+          "invoice_lightning_warning_without_min_fee_account_not_connected for ${locale.locale}",
           () {
         final text = locale
-            .invoice_ln_address_warning_without_min_fee_account_not_connected(
+            .invoice_lightning_warning_without_min_fee_account_not_connected(
                 setUpFee);
         expect(text.contains(setUpFee), true);
       });
@@ -474,9 +474,9 @@ void main() {
       });
 
       test(
-          "lsp_fee_warning_with_min_fee_account_connected for ${locale.locale}",
+          "moonpay_fee_warning_with_min_fee_account_connected for ${locale.locale}",
           () {
-        final text = locale.lsp_fee_warning_with_min_fee_account_connected(
+        final text = locale.moonpay_fee_warning_with_min_fee_account_connected(
             setUpFee, minFee, liquidity);
         expect(text.contains(setUpFee), true);
         expect(text.contains(minFee), true);
@@ -484,28 +484,28 @@ void main() {
       });
 
       test(
-          "lsp_fee_warning_without_min_fee_account_connected for ${locale.locale}",
+          "moonpay_fee_warning_without_min_fee_account_connected for ${locale.locale}",
           () {
-        final text = locale.lsp_fee_warning_without_min_fee_account_connected(
+        final text = locale.moonpay_fee_warning_without_min_fee_account_connected(
             setUpFee, liquidity);
         expect(text.contains(setUpFee), true);
         expect(text.contains(liquidity), true);
       });
 
       test(
-          "lsp_fee_warning_with_min_fee_account_not_connected for ${locale.locale}",
+          "moonpay_fee_warning_with_min_fee_account_not_connected for ${locale.locale}",
           () {
-        final text = locale.lsp_fee_warning_with_min_fee_account_not_connected(
+        final text = locale.moonpay_fee_warning_with_min_fee_account_not_connected(
             setUpFee, minFee);
         expect(text.contains(setUpFee), true);
         expect(text.contains(minFee), true);
       });
 
       test(
-          "lsp_fee_warning_without_min_fee_account_not_connected for ${locale.locale}",
+          "moonpay_fee_warning_without_min_fee_account_not_connected for ${locale.locale}",
           () {
         final text = locale
-            .lsp_fee_warning_without_min_fee_account_not_connected(setUpFee);
+            .moonpay_fee_warning_without_min_fee_account_not_connected(setUpFee);
         expect(text.contains(setUpFee), true);
       });
 
