@@ -491,29 +491,29 @@ abstract class BreezTranslations {
   /// **'Address Information'**
   String get invoice_ln_address_address_information;
 
-  /// No description provided for @invoice_ln_address_warning_with_min_fee_account_connected.
+  /// No description provided for @invoice_lightning_warning_with_min_fee_account_connected.
   ///
   /// In en, this message translates to:
   /// **'A setup fee of {setUpFee}% with a minimum of {minFee} will be applied for receiving more than {liquidity}.'**
-  String invoice_ln_address_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity);
+  String invoice_lightning_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity);
 
-  /// No description provided for @invoice_ln_address_warning_without_min_fee_account_connected.
+  /// No description provided for @invoice_lightning_warning_without_min_fee_account_connected.
   ///
   /// In en, this message translates to:
   /// **'A setup fee of {setUpFee}% will be applied for receiving more than {liquidity}.'**
-  String invoice_ln_address_warning_without_min_fee_account_connected(String setUpFee, String liquidity);
+  String invoice_lightning_warning_without_min_fee_account_connected(String setUpFee, String liquidity);
 
-  /// No description provided for @invoice_ln_address_warning_with_min_fee_account_not_connected.
+  /// No description provided for @invoice_lightning_warning_with_min_fee_account_not_connected.
   ///
   /// In en, this message translates to:
   /// **'A setup fee of {setUpFee}% with a minimum of {minFee} will be applied on the received amount.'**
-  String invoice_ln_address_warning_with_min_fee_account_not_connected(String setUpFee, String minFee);
+  String invoice_lightning_warning_with_min_fee_account_not_connected(String setUpFee, String minFee);
 
-  /// No description provided for @invoice_ln_address_warning_without_min_fee_account_not_connected.
+  /// No description provided for @invoice_lightning_warning_without_min_fee_account_not_connected.
   ///
   /// In en, this message translates to:
   /// **'A setup fee of {setUpFee}% will be applied on the received amount.'**
-  String invoice_ln_address_warning_without_min_fee_account_not_connected(String setUpFee);
+  String invoice_lightning_warning_without_min_fee_account_not_connected(String setUpFee);
 
   /// No description provided for @invoice_bottom_sheet_action_invoice.
   ///
@@ -3311,29 +3311,29 @@ abstract class BreezTranslations {
   /// **'OK'**
   String get lsp_fee_warning_action_ok;
 
-  /// No description provided for @lsp_fee_warning_with_min_fee_account_connected.
+  /// No description provided for @moonpay_fee_warning_with_min_fee_account_connected.
   ///
   /// In en, this message translates to:
   /// **'A setup fee of {setUpFee}% with a minimum of {minFee} will be applied for buying more than {liquidity}.'**
-  String lsp_fee_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity);
+  String moonpay_fee_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity);
 
-  /// No description provided for @lsp_fee_warning_without_min_fee_account_connected.
+  /// No description provided for @moonpay_fee_warning_without_min_fee_account_connected.
   ///
   /// In en, this message translates to:
   /// **'A setup fee of {setUpFee}% will be applied for buying more than {liquidity}.'**
-  String lsp_fee_warning_without_min_fee_account_connected(String setUpFee, String liquidity);
+  String moonpay_fee_warning_without_min_fee_account_connected(String setUpFee, String liquidity);
 
-  /// No description provided for @lsp_fee_warning_with_min_fee_account_not_connected.
+  /// No description provided for @moonpay_fee_warning_with_min_fee_account_not_connected.
   ///
   /// In en, this message translates to:
   /// **'A setup fee of {setUpFee}% with a minimum of {minFee} will be applied on the received amount.'**
-  String lsp_fee_warning_with_min_fee_account_not_connected(String setUpFee, String minFee);
+  String moonpay_fee_warning_with_min_fee_account_not_connected(String setUpFee, String minFee);
 
-  /// No description provided for @lsp_fee_warning_without_min_fee_account_not_connected.
+  /// No description provided for @moonpay_fee_warning_without_min_fee_account_not_connected.
   ///
   /// In en, this message translates to:
   /// **'A setup fee of {setUpFee}% will be applied on the received amount.'**
-  String lsp_fee_warning_without_min_fee_account_not_connected(String setUpFee);
+  String moonpay_fee_warning_without_min_fee_account_not_connected(String setUpFee);
 
   /// No description provided for @lsp_error_provider_do_not_exists.
   ///
@@ -6784,6 +6784,36 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'Close Channels Error'**
   String get close_channels_error_title;
+
+  /// No description provided for @invoice_ln_address_channel_not_needed.
+  ///
+  /// In en, this message translates to:
+  /// **'Send more than {minSats} and up to {maxSats} to this address.  This address can be used only once.'**
+  String invoice_ln_address_channel_not_needed(String minSats, String maxSats);
+
+  /// No description provided for @invoice_ln_address_warning_with_min_fee_account_connected.
+  ///
+  /// In en, this message translates to:
+  /// **'Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% with a minimum of {minFee} will be applied for sending more than {liquidity}. This address can be used only once.'**
+  String invoice_ln_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String minFee, String liquidity);
+
+  /// No description provided for @invoice_ln_address_warning_without_min_fee_account_connected.
+  ///
+  /// In en, this message translates to:
+  /// **'Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% will be applied for sending more than {liquidity}. This address can be used only once.'**
+  String invoice_ln_address_warning_without_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String liquidity);
+
+  /// No description provided for @invoice_ln_address_warning_with_min_fee_account_not_connected.
+  ///
+  /// In en, this message translates to:
+  /// **'Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% with a minimum of {minFee} will be applied on the received amount. This address can be used only once.'**
+  String invoice_ln_address_warning_with_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee, String minFee);
+
+  /// No description provided for @invoice_ln_address_warning_without_min_fee_account_not_connected.
+  ///
+  /// In en, this message translates to:
+  /// **'Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% will be applied on the received amount. This address can be used only once.'**
+  String invoice_ln_address_warning_without_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee);
 
   /// No description provided for @locale.
   ///

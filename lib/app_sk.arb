@@ -194,8 +194,8 @@
   },
   "invoice_ln_address_title": "Receive via Lightning Address",
   "invoice_ln_address_address_information": "Address Information",
-  "invoice_ln_address_warning_with_min_fee_account_connected": "Za príjem viac ako {liquidity}, si Breez naúčtuje zriaďovací poplatok vo výške {setUpFee}%, minimálne však {minFee}.",
-  "@invoice_ln_address_warning_with_min_fee_account_connected": {
+  "invoice_lightning_warning_with_min_fee_account_connected": "Za príjem viac ako {liquidity}, si Breez naúčtuje zriaďovací poplatok vo výške {setUpFee}%, minimálne však {minFee}.",
+  "@invoice_lightning_warning_with_min_fee_account_connected": {
     "placeholders": {
       "setUpFee": {
         "type": "String",
@@ -211,8 +211,8 @@
       }
     }
   },
-  "invoice_ln_address_warning_without_min_fee_account_connected": "Za príjem viac ako {liquidity}, si Breez naúčtuje zriaďovací poplatok vo výške {setUpFee}%.",
-  "@invoice_ln_address_warning_without_min_fee_account_connected": {
+  "invoice_lightning_warning_without_min_fee_account_connected": "Za príjem viac ako {liquidity}, si Breez naúčtuje zriaďovací poplatok vo výške {setUpFee}%.",
+  "@invoice_lightning_warning_without_min_fee_account_connected": {
     "placeholders": {
       "setUpFee": {
         "type": "String",
@@ -224,8 +224,8 @@
       }
     }
   },
-  "invoice_ln_address_warning_with_min_fee_account_not_connected": "Na prijatú sumu sa bude vzťahovať zriaďovací poplatok vo výške {setUpFee}%, minimálne však {minFee}.",
-  "@invoice_ln_address_warning_with_min_fee_account_not_connected": {
+  "invoice_lightning_warning_with_min_fee_account_not_connected": "Na prijatú sumu sa bude vzťahovať zriaďovací poplatok vo výške {setUpFee}%, minimálne však {minFee}.",
+  "@invoice_lightning_warning_with_min_fee_account_not_connected": {
     "placeholders": {
       "setUpFee": {
         "type": "String",
@@ -237,8 +237,8 @@
       }
     }
   },
-  "invoice_ln_address_warning_without_min_fee_account_not_connected": "Na prijatú sumu sa bude vzťahovať zriaďovací poplatok vo výške {setUpFee}%.",
-  "@invoice_ln_address_warning_without_min_fee_account_not_connected": {
+  "invoice_lightning_warning_without_min_fee_account_not_connected": "Na prijatú sumu sa bude vzťahovať zriaďovací poplatok vo výške {setUpFee}%.",
+  "@invoice_lightning_warning_without_min_fee_account_not_connected": {
     "placeholders": {
       "setUpFee": {
         "type": "String",
@@ -1248,8 +1248,8 @@
   "lsp_fee_warning_title": "Zriaďovací poplatok",
   "lsp_fee_warning_action_cancel": "ZRUŠIŤ",
   "lsp_fee_warning_action_ok": "OK",
-  "lsp_fee_warning_with_min_fee_account_connected": "Pri nákupe nad {liquidity} sa bude účtovať zriaďovací poplatok vo výške {setUpFee}% s minimálnou sumou {minFee}.",
-  "@lsp_fee_warning_with_min_fee_account_connected": {
+  "moonpay_fee_warning_with_min_fee_account_connected": "Pri nákupe nad {liquidity} sa bude účtovať zriaďovací poplatok vo výške {setUpFee}% s minimálnou sumou {minFee}.",
+  "@moonpay_fee_warning_with_min_fee_account_connected": {
     "placeholders": {
       "setUpFee": {
         "type": "String",
@@ -1265,8 +1265,8 @@
       }
     }
   },
-  "lsp_fee_warning_without_min_fee_account_connected": "Pri nákupe nad {liquidity} sa bude účtovať zriaďovací poplatok vo výške {setUpFee}%.",
-  "@lsp_fee_warning_without_min_fee_account_connected": {
+  "moonpay_fee_warning_without_min_fee_account_connected": "Pri nákupe nad {liquidity} sa bude účtovať zriaďovací poplatok vo výške {setUpFee}%.",
+  "@moonpay_fee_warning_without_min_fee_account_connected": {
     "placeholders": {
       "setUpFee": {
         "type": "String",
@@ -1278,8 +1278,8 @@
       }
     }
   },
-  "lsp_fee_warning_with_min_fee_account_not_connected": "Breez bude účtovať zriaďovací poplatok vo výške {setUpFee}% s minimálnou sumou {minFee}.",
-  "@lsp_fee_warning_with_min_fee_account_not_connected": {
+  "moonpay_fee_warning_with_min_fee_account_not_connected": "Breez bude účtovať zriaďovací poplatok vo výške {setUpFee}% s minimálnou sumou {minFee}.",
+  "@moonpay_fee_warning_with_min_fee_account_not_connected": {
     "placeholders": {
       "setUpFee": {
         "type": "String",
@@ -1291,8 +1291,8 @@
       }
     }
   },
-  "lsp_fee_warning_without_min_fee_account_not_connected": "Breez bude účtovať zriaďovací poplatok vo výške {setUpFee}%.",
-  "@lsp_fee_warning_without_min_fee_account_not_connected": {
+  "moonpay_fee_warning_without_min_fee_account_not_connected": "Breez bude účtovať zriaďovací poplatok vo výške {setUpFee}%.",
+  "@moonpay_fee_warning_without_min_fee_account_not_connected": {
     "placeholders": {
       "setUpFee": {
         "type": "String",
@@ -2496,6 +2496,103 @@
   "close_channels_dialog_failure_message_middle": "Breez support",
   "close_channels_dialog_failure_message_end": " for further assistance.",
   "close_channels_error_title": "Close Channels Error",
+  "invoice_ln_address_channel_not_needed": "Send more than {minSats} and up to {maxSats} to this address.  This address can be used only once.",
+  "@invoice_ln_address_channel_not_needed" :{
+  "placeholders": {
+      "minSats": {
+        "type": "String",
+        "example": "2 000 sats"
+      },
+      "maxSats": {
+        "type": "String",
+        "example": "4 000 000 sats"
+      }
+     }
+  },
+  "invoice_ln_address_warning_with_min_fee_account_connected": "Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% with a minimum of {minFee} will be applied for sending more than {liquidity}. This address can be used only once.",
+  "@invoice_ln_address_warning_with_min_fee_account_connected": {
+    "placeholders": {
+      "minSats": {
+        "type": "String",
+        "example": "2 000 sats"
+      },
+      "maxSats": {
+        "type": "String",
+        "example": "4 000 000 sats"
+      },
+      "setUpFee": {
+        "type": "String",
+        "example": "0.4"
+      },
+      "minFee": {
+        "type": "String",
+        "example": "1 000 sats"
+      },
+      "liquidity": {
+        "type": "String",
+        "example": "99 000 sats"
+      }
+    }
+  },
+  "invoice_ln_address_warning_without_min_fee_account_connected": "Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% will be applied for sending more than {liquidity}. This address can be used only once.",
+  "@invoice_ln_address_warning_without_min_fee_account_connected": {
+    "placeholders": {
+      "minSats": {
+        "type": "String",
+        "example": "2 000 sats"
+      },
+      "maxSats": {
+        "type": "String",
+        "example": "4 000 000 sats"
+      },
+      "setUpFee": {
+        "type": "String",
+        "example": "0.4"
+      },
+      "liquidity": {
+        "type": "String",
+        "example": "99 000 sats"
+      }
+    }
+  },
+  "invoice_ln_address_warning_with_min_fee_account_not_connected": "Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% with a minimum of {minFee} will be applied on the received amount. This address can be used only once.",
+  "@invoice_ln_address_warning_with_min_fee_account_not_connected": {
+    "placeholders": {
+      "minSats": {
+        "type": "String",
+        "example": "2 000 sats"
+      },
+      "maxSats": {
+        "type": "String",
+        "example": "4 000 000 sats"
+      },
+      "setUpFee": {
+        "type": "String",
+        "example": "0.4"
+      },
+      "minFee": {
+        "type": "String",
+        "example": "1 000 sats"
+      }
+    }
+  },
+  "invoice_ln_address_warning_without_min_fee_account_not_connected": "Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% will be applied on the received amount. This address can be used only once.",
+  "@invoice_ln_address_warning_without_min_fee_account_not_connected": {
+    "placeholders": {
+      "minSats": {
+        "type": "String",
+        "example": "2 000 sats"
+      },
+      "maxSats": {
+        "type": "String",
+        "example": "4 000 000 sats"
+      },
+      "setUpFee": {
+        "type": "String",
+        "example": "0.4"
+      }
+    }
+  },
   "locale": "sk",
   "app_name": "Breez"
 }
