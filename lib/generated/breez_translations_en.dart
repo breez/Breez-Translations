@@ -216,6 +216,9 @@ class BreezTranslationsEn extends BreezTranslations {
   String get invoice_ln_address_address_information => 'Address Information';
 
   @override
+  String get invoice_ln_address_action_retry => 'RETRY';
+
+  @override
   String invoice_lightning_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity) {
     return 'A setup fee of $setUpFee% with a minimum of $minFee will be applied for receiving more than $liquidity.';
   }

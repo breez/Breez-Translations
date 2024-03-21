@@ -491,6 +491,12 @@ abstract class BreezTranslations {
   /// **'Address Information'**
   String get invoice_ln_address_address_information;
 
+  /// No description provided for @invoice_ln_address_action_retry.
+  ///
+  /// In en, this message translates to:
+  /// **'RETRY'**
+  String get invoice_ln_address_action_retry;
+
   /// No description provided for @invoice_lightning_warning_with_min_fee_account_connected.
   ///
   /// In en, this message translates to:

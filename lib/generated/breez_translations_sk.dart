@@ -216,6 +216,9 @@ class BreezTranslationsSk extends BreezTranslations {
   String get invoice_ln_address_address_information => 'Address Information';
 
   @override
+  String get invoice_ln_address_action_retry => 'SKÚSIŤ ZNOVA';
+
+  @override
   String invoice_lightning_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity) {
     return 'Za príjem viac ako $liquidity, si Breez naúčtuje zriaďovací poplatok vo výške $setUpFee%, minimálne však $minFee.';
   }
@@ -2048,7 +2051,7 @@ class BreezTranslationsSk extends BreezTranslations {
   String get handler_health_check_service_disruption => 'Breez services are temporarily unavailable. Please try again later.';
 
   @override
-  String get handler_health_check_action_retry => 'RETRY';
+  String get handler_health_check_action_retry => 'SKÚSIŤ ZNOVA';
 
   @override
   String get handler_channel_connection_message => 'Breez je offline';
@@ -3404,7 +3407,7 @@ class BreezTranslationsSk extends BreezTranslations {
   String get satscard_balance_button_label => 'SWEEP';
 
   @override
-  String get satscard_balance_button_retry_label => 'RETRY';
+  String get satscard_balance_button_retry_label => 'SKÚSIŤ ZNOVA';
 
   @override
   String get satscard_balance_warning_no_funds_title => 'No Balance';
