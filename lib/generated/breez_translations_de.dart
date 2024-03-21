@@ -216,6 +216,9 @@ class BreezTranslationsDe extends BreezTranslations {
   String get invoice_ln_address_address_information => 'Address Information';
 
   @override
+  String get invoice_ln_address_action_retry => 'ERNEUT VERSUCHEN';
+
+  @override
   String invoice_lightning_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity) {
     return 'Für den Empfang von mehr als $liquidity wird eine Einrichtungsgebühr von $setUpFee% mit einem Minimum von $minFee erhoben.';
   }
@@ -2048,7 +2051,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get handler_health_check_service_disruption => 'Breez services are temporarily unavailable. Please try again later.';
 
   @override
-  String get handler_health_check_action_retry => 'RETRY';
+  String get handler_health_check_action_retry => 'ERNEUT VERSUCHEN';
 
   @override
   String get handler_channel_connection_message => 'Breez ist offline';
@@ -3303,7 +3306,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get moonpay_network_error => 'Failed to connect to MoonPay. Please check your internet connection and try again.';
 
   @override
-  String get moonpay_retry_button => 'RETRY';
+  String get moonpay_retry_button => 'ERNEUT VERSUCHEN';
 
   @override
   String moonpay_swap_in_progress(String address) {
@@ -3404,7 +3407,7 @@ class BreezTranslationsDe extends BreezTranslations {
   String get satscard_balance_button_label => 'SWEEP';
 
   @override
-  String get satscard_balance_button_retry_label => 'RETRY';
+  String get satscard_balance_button_retry_label => 'ERNEUT VERSUCHEN';
 
   @override
   String get satscard_balance_warning_no_funds_title => 'No Balance';

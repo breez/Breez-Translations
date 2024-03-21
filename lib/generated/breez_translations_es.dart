@@ -216,6 +216,9 @@ class BreezTranslationsEs extends BreezTranslations {
   String get invoice_ln_address_address_information => 'Address Information';
 
   @override
+  String get invoice_ln_address_action_retry => 'REINTENTAR';
+
+  @override
   String invoice_lightning_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity) {
     return 'Una tarifa de instalación de $setUpFee% con un valor mínimo de $minFee se aplicará para recibir montos superiores a $liquidity.';
   }
@@ -3404,7 +3407,7 @@ class BreezTranslationsEs extends BreezTranslations {
   String get satscard_balance_button_label => 'SWEEP';
 
   @override
-  String get satscard_balance_button_retry_label => 'RETRY';
+  String get satscard_balance_button_retry_label => 'REINTENTAR';
 
   @override
   String get satscard_balance_warning_no_funds_title => 'No Balance';

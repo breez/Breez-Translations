@@ -216,6 +216,9 @@ class BreezTranslationsEl extends BreezTranslations {
   String get invoice_ln_address_address_information => 'Address Information';
 
   @override
+  String get invoice_ln_address_action_retry => 'RETRY';
+
+  @override
   String invoice_lightning_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity) {
     return 'A setup fee of $setUpFee% with a minimum of $minFee will be applied for receiving more than $liquidity.';
   }
@@ -1356,7 +1359,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get account_page_activation_error => 'There was an error fetching lightning providers. Please check your internet connection and try again.';
 
   @override
-  String get account_page_activation_action_retry => 'RETRY';
+  String get account_page_activation_action_retry => 'ΠΡΟΣΠΑΘΕΙΑ ΞΑΝΑ';
 
   @override
   String get account_page_activation_action_select => 'ΕΠΙΛΟΓΗ';
@@ -1713,7 +1716,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get no_connection_flushbar_title => 'No internet connection';
 
   @override
-  String get no_connection_flushbar_action_retry => 'RETRY';
+  String get no_connection_flushbar_action_retry => 'ΠΡΟΣΠΑΘΕΙΑ ΞΑΝΑ';
 
   @override
   String get no_connection_dialog_title => 'δεν υπάρχει σύνδεση internet';
@@ -2048,7 +2051,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get handler_health_check_service_disruption => 'Breez services are temporarily unavailable. Please try again later.';
 
   @override
-  String get handler_health_check_action_retry => 'RETRY';
+  String get handler_health_check_action_retry => 'ΠΡΟΣΠΑΘΕΙΑ ΞΑΝΑ';
 
   @override
   String get handler_channel_connection_message => 'Το Breez είναι εκτός σύνδεσης';
@@ -2872,7 +2875,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get sweep_all_coins_speed => 'Choose Processing Speed';
 
   @override
-  String get sweep_all_coins_action_retry => 'RETRY';
+  String get sweep_all_coins_action_retry => 'ΠΡΟΣΠΑΘΕΙΑ ΞΑΝΑ';
 
   @override
   String get sweep_all_coins_action_confirm => 'CONFIRM';
@@ -3404,7 +3407,7 @@ class BreezTranslationsEl extends BreezTranslations {
   String get satscard_balance_button_label => 'SWEEP';
 
   @override
-  String get satscard_balance_button_retry_label => 'RETRY';
+  String get satscard_balance_button_retry_label => 'ΠΡΟΣΠΑΘΕΙΑ ΞΑΝΑ';
 
   @override
   String get satscard_balance_warning_no_funds_title => 'No Balance';

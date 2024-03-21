@@ -216,6 +216,9 @@ class BreezTranslationsIt extends BreezTranslations {
   String get invoice_ln_address_address_information => 'Address Information';
 
   @override
+  String get invoice_ln_address_action_retry => 'RIPROVA';
+
+  @override
   String invoice_lightning_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity) {
     return 'Per ricevere più di $liquidity verrà applicata una commissione di configurazione di $setUpFee% con un minimo di $minFee.';
   }
@@ -1713,7 +1716,7 @@ class BreezTranslationsIt extends BreezTranslations {
   String get no_connection_flushbar_title => 'No internet connection';
 
   @override
-  String get no_connection_flushbar_action_retry => 'RETRY';
+  String get no_connection_flushbar_action_retry => 'RIPROVA';
 
   @override
   String get no_connection_dialog_title => 'Nessuna connessione Internet';
@@ -2048,7 +2051,7 @@ class BreezTranslationsIt extends BreezTranslations {
   String get handler_health_check_service_disruption => 'Breez services are temporarily unavailable. Please try again later.';
 
   @override
-  String get handler_health_check_action_retry => 'RETRY';
+  String get handler_health_check_action_retry => 'RIPROVA';
 
   @override
   String get handler_channel_connection_message => 'Breez è offline';
@@ -2872,7 +2875,7 @@ class BreezTranslationsIt extends BreezTranslations {
   String get sweep_all_coins_speed => 'Scegli la velocità';
 
   @override
-  String get sweep_all_coins_action_retry => 'RETRY';
+  String get sweep_all_coins_action_retry => 'RIPROVA';
 
   @override
   String get sweep_all_coins_action_confirm => 'CONFERMA';
@@ -3303,7 +3306,7 @@ class BreezTranslationsIt extends BreezTranslations {
   String get moonpay_network_error => 'Failed to connect to MoonPay. Please check your internet connection and try again.';
 
   @override
-  String get moonpay_retry_button => 'RETRY';
+  String get moonpay_retry_button => 'RIPROVA';
 
   @override
   String moonpay_swap_in_progress(String address) {
@@ -3404,7 +3407,7 @@ class BreezTranslationsIt extends BreezTranslations {
   String get satscard_balance_button_label => 'SWEEP';
 
   @override
-  String get satscard_balance_button_retry_label => 'RETRY';
+  String get satscard_balance_button_retry_label => 'RIPROVA';
 
   @override
   String get satscard_balance_warning_no_funds_title => 'No Balance';

@@ -194,6 +194,7 @@
   },
   "invoice_ln_address_title": "Receive via Lightning Address",
   "invoice_ln_address_address_information": "Address Information",
+  "invoice_ln_address_action_retry": "TENTAR NOVAMENTE",
   "invoice_lightning_warning_with_min_fee_account_connected": "Uma taxa de configuração de {setUpFee}% com um valor mínimo de {minFee} será aplicada para receber valores maiores do que {liquidity}.",
   "@invoice_lightning_warning_with_min_fee_account_connected": {
     "placeholders": {
@@ -2384,7 +2385,7 @@
   "satscard_chain_code_wrong_hint": "Must be empty or a 32-byte hex string",
   "satscard_balance_title": "Satscard Balance",
   "satscard_balance_button_label": "SWEEP",
-  "satscard_balance_button_retry_label": "RETRY",
+  "satscard_balance_button_retry_label": "TENTAR NOVAMENTE",
   "satscard_balance_warning_no_funds_title": "No Balance",
   "satscard_balance_warning_no_funds_body": "There is no confirmed balance on the Satscard slot so it can't be swept",
   "satscard_balance_warning_unconfirmed_title": "Unconfirmed Balance",
