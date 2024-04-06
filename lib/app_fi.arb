@@ -192,8 +192,8 @@
       }
     }
   },
-  "invoice_ln_address_title": "Receive via Lightning Address",
-  "invoice_ln_address_address_information": "Address Information",
+  "invoice_ln_address_title": "Vastaanota Lightning Address-osoitteeseen",
+  "invoice_ln_address_address_information": "Osoitteen tiedot",
   "invoice_ln_address_warning_with_min_fee_account_connected": "Yli {liquidity} maksusta veloitetaan {setUpFee}% avauskulu ja vähintään {minFee}.",
   "@invoice_ln_address_warning_with_min_fee_account_connected": {
     "placeholders": {
@@ -315,7 +315,7 @@
   "tutorial_gotcha": "Kas niin!",
   "bottom_action_bar_send": "LÄHETÄ",
   "bottom_action_bar_receive": "VASTAANOTA",
-  "bottom_action_bar_ln_address": "Receive via Lightning Address",
+  "bottom_action_bar_ln_address": "Vastaanota Lightning Address-osoitteeseen",
   "bottom_action_bar_paste_invoice": "Lightning-maksu",
   "bottom_action_bar_connect_to_pay": "Linkitä vastaanottaja",
   "bottom_action_bar_send_btc_address": "Bitcoin-maksu",
@@ -377,7 +377,7 @@
   "payment_details_dialog_refresh_information": "Päivitä näkymän tiedot",
   "payment_details_dialog_share_transaction": "Jaa tapahtuman Hash-koodi",
   "payment_details_dialog_share_lightning_address": "Lightning-osoite",
-  "payment_details_dialog_share_lnurl_pay_domain": "Lightning Service",
+  "payment_details_dialog_share_lnurl_pay_domain": "Lightning-palvelu",
   "payment_details_dialog_share_comment": "Kommentti",
   "payment_details_dialog_copy_action": "Kopioi {title}",
   "@payment_details_dialog_copy_action": {
@@ -1693,7 +1693,7 @@
   "payment_options_base_fee_label": "Tapahtuman perusmaksu satosheina",
   "payment_options_exemptfee_label": "Vapautus maksu satosheina", 
   "payment_options_proportional_fee_label": "Tapahtuman määräpohjainen kulu (%)",
-  "payment_options_auto_setup_fee_label": "Automatic Setup Fee in sats",
+  "payment_options_auto_setup_fee_label": "Automaattinen avauskulu satosheina",
   "payment_options_fee_action_reset": "Palauta oletus",
   "payment_options_fee_action_save": "TALLENNA",
   "payment_options_fee_action_cancel": "Peruuta",
