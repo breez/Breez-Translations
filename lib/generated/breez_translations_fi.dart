@@ -210,10 +210,10 @@ class BreezTranslationsFi extends BreezTranslations {
   }
 
   @override
-  String get invoice_ln_address_title => 'Receive via Lightning Address';
+  String get invoice_ln_address_title => 'Vastaanota Lightning Address-osoitteeseen';
 
   @override
-  String get invoice_ln_address_address_information => 'Address Information';
+  String get invoice_ln_address_address_information => 'Osoitteen tiedot';
 
   @override
   String invoice_ln_address_warning_with_min_fee_account_connected(String setUpFee, String minFee, String liquidity) {
@@ -333,7 +333,7 @@ class BreezTranslationsFi extends BreezTranslations {
   String get bottom_action_bar_receive => 'VASTAANOTA';
 
   @override
-  String get bottom_action_bar_ln_address => 'Receive via Lightning Address';
+  String get bottom_action_bar_ln_address => 'Vastaanota Lightning Address-osoitteeseen';
 
   @override
   String get bottom_action_bar_paste_invoice => 'Lightning-maksu';
@@ -441,7 +441,7 @@ class BreezTranslationsFi extends BreezTranslations {
   String get payment_details_dialog_share_lightning_address => 'Lightning-osoite';
 
   @override
-  String get payment_details_dialog_share_lnurl_pay_domain => 'Lightning Service';
+  String get payment_details_dialog_share_lnurl_pay_domain => 'Lightning-palvelu';
 
   @override
   String get payment_details_dialog_share_comment => 'Kommentti';
@@ -2381,7 +2381,7 @@ class BreezTranslationsFi extends BreezTranslations {
   String get payment_options_proportional_fee_label => 'Tapahtuman määräpohjainen kulu (%)';
 
   @override
-  String get payment_options_auto_setup_fee_label => 'Automatic Setup Fee in sats';
+  String get payment_options_auto_setup_fee_label => 'Automaattinen avauskulu satosheina';
 
   @override
   String get payment_options_fee_action_reset => 'Palauta oletus';
