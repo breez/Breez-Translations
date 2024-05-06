@@ -6707,6 +6707,18 @@ abstract class BreezTranslations {
   /// **'CLOSE CHANNELS'**
   String get close_channels_action_submit;
 
+  /// No description provided for @close_channels_confirmation_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to close all your channels with this closing address:'**
+  String get close_channels_confirmation_message;
+
+  /// No description provided for @close_channels_loader_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Closing Channels'**
+  String get close_channels_loader_message;
+
   /// No description provided for @locale.
   ///
   /// In en, this message translates to:

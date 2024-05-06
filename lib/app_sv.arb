@@ -2483,6 +2483,8 @@
   "close_channels_scan_barcode": "Scan Barcode",
   "close_channels_qr_code_not_detected": "QR code wasn't detected.",
   "close_channels_action_submit": "CLOSE CHANNELS",
+  "close_channels_confirmation_message": "Are you sure you want to close all your channels with this closing address:",
+  "close_channels_loader_message": "Closing Channels",
   "locale": "sv",
   "app_name": "Breez"
 }

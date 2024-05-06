@@ -3625,6 +3625,12 @@ class BreezTranslationsEl extends BreezTranslations {
   String get close_channels_action_submit => 'CLOSE CHANNELS';
 
   @override
+  String get close_channels_confirmation_message => 'Are you sure you want to close all your channels with this closing address:';
+
+  @override
+  String get close_channels_loader_message => 'Closing Channels';
+
+  @override
   String get locale => 'el';
 
   @override
