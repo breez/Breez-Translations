@@ -3607,6 +3607,24 @@ class BreezTranslationsEs extends BreezTranslations {
   }
 
   @override
+  String get close_channels_title => 'Close Channels';
+
+  @override
+  String get close_channels_header => 'Destination BTC Address';
+
+  @override
+  String get close_channels_btc_address => 'BTC Address';
+
+  @override
+  String get close_channels_scan_barcode => 'Scan Barcode';
+
+  @override
+  String get close_channels_qr_code_not_detected => 'QR code wasn\'t detected.';
+
+  @override
+  String get close_channels_action_submit => 'CLOSE CHANNELS';
+
+  @override
   String get locale => 'es';
 
   @override

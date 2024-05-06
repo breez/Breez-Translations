@@ -2477,6 +2477,12 @@
   "satscard_operation_dialog_nfc_error_label": "A communication error occurred, please try again.",
   "satscard_operation_dialog_protocol_error_label": "Encountered protocol error {code}, {literal}:\n{message}",
   "satscard_operation_dialog_unknown_error_label": "An error occurred:\n{message}",
+  "close_channels_title": "Close Channels",
+  "close_channels_header": "Destination BTC Address",
+  "close_channels_btc_address": "BTC Address",
+  "close_channels_scan_barcode": "Scan Barcode",
+  "close_channels_qr_code_not_detected": "QR code wasn't detected.",
+  "close_channels_action_submit": "CLOSE CHANNELS",
   "locale": "es",
   "app_name": "Breez"
 }

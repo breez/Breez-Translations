@@ -6671,6 +6671,42 @@ abstract class BreezTranslations {
   /// **'An error occurred:\n{message}'**
   String satscard_operation_dialog_unknown_error_label(Object message);
 
+  /// No description provided for @close_channels_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Close Channels'**
+  String get close_channels_title;
+
+  /// No description provided for @close_channels_header.
+  ///
+  /// In en, this message translates to:
+  /// **'Destination BTC Address'**
+  String get close_channels_header;
+
+  /// No description provided for @close_channels_btc_address.
+  ///
+  /// In en, this message translates to:
+  /// **'BTC Address'**
+  String get close_channels_btc_address;
+
+  /// No description provided for @close_channels_scan_barcode.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan Barcode'**
+  String get close_channels_scan_barcode;
+
+  /// No description provided for @close_channels_qr_code_not_detected.
+  ///
+  /// In en, this message translates to:
+  /// **'QR code wasn\'t detected.'**
+  String get close_channels_qr_code_not_detected;
+
+  /// No description provided for @close_channels_action_submit.
+  ///
+  /// In en, this message translates to:
+  /// **'CLOSE CHANNELS'**
+  String get close_channels_action_submit;
+
   /// No description provided for @locale.
   ///
   /// In en, this message translates to:
