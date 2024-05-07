@@ -6761,11 +6761,23 @@ abstract class BreezTranslations {
   /// **'Your channels were successfully closed!'**
   String get close_channels_dialog_success_message;
 
-  /// No description provided for @close_channels_dialog_failure_message.
+  /// No description provided for @close_channels_dialog_failure_message_start.
   ///
   /// In en, this message translates to:
-  /// **'Failed to close all your channels. Please contact Breez support for further assistance.'**
-  String get close_channels_dialog_failure_message;
+  /// **'Failed to close all your channels. Please contact '**
+  String get close_channels_dialog_failure_message_start;
+
+  /// No description provided for @close_channels_dialog_failure_message_middle.
+  ///
+  /// In en, this message translates to:
+  /// **'Breez support'**
+  String get close_channels_dialog_failure_message_middle;
+
+  /// No description provided for @close_channels_dialog_failure_message_end.
+  ///
+  /// In en, this message translates to:
+  /// **' for further assistance.'**
+  String get close_channels_dialog_failure_message_end;
 
   /// No description provided for @close_channels_error_title.
   ///

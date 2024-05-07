@@ -3652,7 +3652,13 @@ class BreezTranslationsIt extends BreezTranslations {
   String get close_channels_dialog_success_message => 'Your channels were successfully closed!';
 
   @override
-  String get close_channels_dialog_failure_message => 'Failed to close all your channels. Please contact Breez support for further assistance.';
+  String get close_channels_dialog_failure_message_start => 'Failed to close all your channels. Please contact ';
+
+  @override
+  String get close_channels_dialog_failure_message_middle => 'Breez support';
+
+  @override
+  String get close_channels_dialog_failure_message_end => ' for further assistance.';
 
   @override
   String get close_channels_error_title => 'Close Channels Error';
