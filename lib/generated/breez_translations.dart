@@ -6749,6 +6749,24 @@ abstract class BreezTranslations {
   /// **'Please wait while your channels are being closed'**
   String get close_channels_dialog_message;
 
+  /// No description provided for @close_channels_dialog_action_close.
+  ///
+  /// In en, this message translates to:
+  /// **'CLOSE'**
+  String get close_channels_dialog_action_close;
+
+  /// No description provided for @close_channels_dialog_success_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Your channels were successfully closed!'**
+  String get close_channels_dialog_success_message;
+
+  /// No description provided for @close_channels_dialog_failure_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to close all your channels. Please contact Breez support for further assistance.'**
+  String get close_channels_dialog_failure_message;
+
   /// No description provided for @close_channels_error_title.
   ///
   /// In en, this message translates to:

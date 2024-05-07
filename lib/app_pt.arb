@@ -2490,6 +2490,9 @@
   "close_channels_confirmation_dialog_action_no": "NO",
   "close_channels_dialog_title": "Closing Channels",
   "close_channels_dialog_message": "Please wait while your channels are being closed",
+  "close_channels_dialog_action_close": "CLOSE",
+  "close_channels_dialog_success_message": "Your channels were successfully closed!",
+  "close_channels_dialog_failure_message": "Failed to close all your channels. Please contact Breez support for further assistance.",
   "close_channels_error_title": "Close Channels Error",
   "locale": "pt",
   "app_name": "Breez"

@@ -3646,6 +3646,15 @@ class BreezTranslationsBg extends BreezTranslations {
   String get close_channels_dialog_message => 'Please wait while your channels are being closed';
 
   @override
+  String get close_channels_dialog_action_close => 'CLOSE';
+
+  @override
+  String get close_channels_dialog_success_message => 'Your channels were successfully closed!';
+
+  @override
+  String get close_channels_dialog_failure_message => 'Failed to close all your channels. Please contact Breez support for further assistance.';
+
+  @override
   String get close_channels_error_title => 'Close Channels Error';
 
   @override
