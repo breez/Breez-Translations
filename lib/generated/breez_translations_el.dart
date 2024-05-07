@@ -3640,7 +3640,13 @@ class BreezTranslationsEl extends BreezTranslations {
   String get close_channels_confirmation_dialog_action_no => 'NO';
 
   @override
-  String get close_channels_loader_message => 'Closing Channels';
+  String get close_channels_dialog_title => 'Closing Channels';
+
+  @override
+  String get close_channels_dialog_message => 'Please wait while your channels are being closed';
+
+  @override
+  String get close_channels_error_title => 'Close Channels Error';
 
   @override
   String get locale => 'el';

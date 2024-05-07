@@ -6737,11 +6737,23 @@ abstract class BreezTranslations {
   /// **'NO'**
   String get close_channels_confirmation_dialog_action_no;
 
-  /// No description provided for @close_channels_loader_message.
+  /// No description provided for @close_channels_dialog_title.
   ///
   /// In en, this message translates to:
   /// **'Closing Channels'**
-  String get close_channels_loader_message;
+  String get close_channels_dialog_title;
+
+  /// No description provided for @close_channels_dialog_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Please wait while your channels are being closed'**
+  String get close_channels_dialog_message;
+
+  /// No description provided for @close_channels_error_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Close Channels Error'**
+  String get close_channels_error_title;
 
   /// No description provided for @locale.
   ///

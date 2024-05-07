@@ -2488,7 +2488,9 @@
   "close_channels_confirmation_dialog_message_end": "?",
   "close_channels_confirmation_dialog_action_yes": "YES",
   "close_channels_confirmation_dialog_action_no": "NO",
-  "close_channels_loader_message": "Closing Channels",
+  "close_channels_dialog_title": "Closing Channels",
+  "close_channels_dialog_message": "Please wait while your channels are being closed",
+  "close_channels_error_title": "Close Channels Error",
   "locale": "pt",
   "app_name": "Breez"
 }
