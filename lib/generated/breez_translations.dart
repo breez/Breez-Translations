@@ -6677,12 +6677,6 @@ abstract class BreezTranslations {
   /// **'Close Channels'**
   String get close_channels_title;
 
-  /// No description provided for @close_channels_header.
-  ///
-  /// In en, this message translates to:
-  /// **'Destination BTC Address'**
-  String get close_channels_header;
-
   /// No description provided for @close_channels_btc_address.
   ///
   /// In en, this message translates to:
@@ -6701,17 +6695,47 @@ abstract class BreezTranslations {
   /// **'QR code wasn\'t detected.'**
   String get close_channels_qr_code_not_detected;
 
-  /// No description provided for @close_channels_action_submit.
+  /// No description provided for @close_channels_action_next.
   ///
   /// In en, this message translates to:
-  /// **'CLOSE CHANNELS'**
-  String get close_channels_action_submit;
+  /// **'NEXT'**
+  String get close_channels_action_next;
 
-  /// No description provided for @close_channels_confirmation_message.
+  /// No description provided for @close_channels_warning_message.
   ///
   /// In en, this message translates to:
-  /// **'Are you sure you want to close all your channels with this closing address:'**
-  String get close_channels_confirmation_message;
+  /// **'All your channels will be closed and the funds will be sent to the specified address.'**
+  String get close_channels_warning_message;
+
+  /// No description provided for @close_channels_confirmation_dialog_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Close Channels'**
+  String get close_channels_confirmation_dialog_title;
+
+  /// No description provided for @close_channels_confirmation_dialog_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to close all your channels and send your funds to this address'**
+  String get close_channels_confirmation_dialog_message;
+
+  /// No description provided for @close_channels_confirmation_dialog_message_end.
+  ///
+  /// In en, this message translates to:
+  /// **'?'**
+  String get close_channels_confirmation_dialog_message_end;
+
+  /// No description provided for @close_channels_confirmation_dialog_action_yes.
+  ///
+  /// In en, this message translates to:
+  /// **'YES'**
+  String get close_channels_confirmation_dialog_action_yes;
+
+  /// No description provided for @close_channels_confirmation_dialog_action_no.
+  ///
+  /// In en, this message translates to:
+  /// **'NO'**
+  String get close_channels_confirmation_dialog_action_no;
 
   /// No description provided for @close_channels_loader_message.
   ///
