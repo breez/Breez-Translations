@@ -6785,11 +6785,17 @@ abstract class BreezTranslations {
   /// **' for further assistance.'**
   String get close_channels_dialog_failure_message_end;
 
-  /// No description provided for @close_channels_error_title.
+  /// No description provided for @close_channels_error_dialog_title.
   ///
   /// In en, this message translates to:
   /// **'Close Channels Error'**
-  String get close_channels_error_title;
+  String get close_channels_error_dialog_title;
+
+  /// No description provided for @close_channels_error_dialog_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to close channels: {error}'**
+  String close_channels_error_dialog_message(String error);
 
   /// No description provided for @invoice_ln_address_channel_not_needed.
   ///

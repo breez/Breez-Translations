@@ -3664,7 +3664,12 @@ class BreezTranslationsEn extends BreezTranslations {
   String get close_channels_dialog_failure_message_end => ' for further assistance.';
 
   @override
-  String get close_channels_error_title => 'Close Channels Error';
+  String get close_channels_error_dialog_title => 'Close Channels Error';
+
+  @override
+  String close_channels_error_dialog_message(String error) {
+    return 'Failed to close channels: $error';
+  }
 
   @override
   String invoice_ln_address_channel_not_needed(String minSats, String maxSats) {

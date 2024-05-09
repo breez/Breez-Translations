@@ -2496,7 +2496,16 @@
   "close_channels_dialog_failure_message_start": "Failed to close all your channels. Please contact ",
   "close_channels_dialog_failure_message_middle": "Breez support",
   "close_channels_dialog_failure_message_end": " for further assistance.",
-  "close_channels_error_title": "Close Channels Error",
+  "close_channels_error_dialog_title": "Close Channels Error",
+  "close_channels_error_dialog_message": "Failed to close channels: {error}",
+  "@close_channels_error_dialog_message": {
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "An error message"
+      }
+    }
+  },
   "invoice_ln_address_channel_not_needed": "Send more than {minSats} and up to {maxSats} to this address.  This address can be used only once.",
   "invoice_ln_address_channel_not_needed": "Send more than {minSats} and up to {maxSats} to this address.",
   "@invoice_ln_address_channel_not_needed" :{
