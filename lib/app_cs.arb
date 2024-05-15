@@ -356,7 +356,7 @@
     }
   },
   "payment_details_dialog_closed_channel_transfer_no_estimation": "Čekání na převod prostředků z uzavřeného kanálu do vaší místní peněženky",
-  "payment_details_dialog_closed_channel_transfer_estimation": "Čekání na převod prostředků z uzavřeného kanálu do vaší místní peněženky v bloku ${lockHeight} (${hoursToUnlock})",
+  "payment_details_dialog_closed_channel_transfer_estimation": "Čekání na převod prostředků z uzavřeného kanálu do vaší místní peněženky v bloku {lockHeight} ({hoursToUnlock})",
   "@payment_details_dialog_closed_channel_transfer_estimation": {
     "placeholders": {
       "lockHeight": {
@@ -2506,6 +2506,8 @@
       }
     }
   },
+  "close_channels_timeout_dialog_title": "Close Channels timeout exceeded",
+  "close_channels_timeout_dialog_message": "Close Channels timeout exceeded",
   "invoice_ln_address_channel_not_needed": "Send more than {minSats} and up to {maxSats} to this address.  This address can be used only once.",
   "invoice_ln_address_channel_not_needed": "Send more than {minSats} and up to {maxSats} to this address.",
   "@invoice_ln_address_channel_not_needed" :{

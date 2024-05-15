@@ -356,7 +356,7 @@
     }
   },
   "payment_details_dialog_closed_channel_transfer_no_estimation": "Esperando que los fondos del canal cerrado sean transferidos a su billetera local",
-  "payment_details_dialog_closed_channel_transfer_estimation": "Esperando que los fondos del canal cerrado sean transferidos a su billetera local en el bloque ${lockHeight} (${hoursToUnlock})",
+  "payment_details_dialog_closed_channel_transfer_estimation": "Esperando que los fondos del canal cerrado sean transferidos a su billetera local en el bloque {lockHeight} ({hoursToUnlock})",
   "@payment_details_dialog_closed_channel_transfer_estimation": {
     "placeholders": {
       "lockHeight": {

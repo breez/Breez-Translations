@@ -413,7 +413,7 @@ class BreezTranslationsDe extends BreezTranslations {
 
   @override
   String payment_details_dialog_closed_channel_transfer_estimation(int lockHeight, String hoursToUnlock) {
-    return 'Warte auf Bitcoin-Transfer an lokale Wallet nach Channel-Schließung in Block \$$lockHeight (\$$hoursToUnlock)';
+    return 'Warte auf Bitcoin-Transfer an lokale Wallet nach Channel-Schließung in Block $lockHeight ($hoursToUnlock)';
   }
 
   @override

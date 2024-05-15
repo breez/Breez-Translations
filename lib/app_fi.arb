@@ -356,7 +356,7 @@
     }
   },
   "payment_details_dialog_closed_channel_transfer_no_estimation": "Odotetaan varojen siirtymistä suljetusta kanavasta paikalliseen lompakkoon",
-  "payment_details_dialog_closed_channel_transfer_estimation": "Odotetaan varojen siirtymistä suljetusta kanavasta paikalliseen lompakkoon lohkossa ${lockHeight} (${hoursToUnlock})",
+  "payment_details_dialog_closed_channel_transfer_estimation": "Odotetaan varojen siirtymistä suljetusta kanavasta paikalliseen lompakkoon lohkossa {lockHeight} ({hoursToUnlock})",
   "@payment_details_dialog_closed_channel_transfer_estimation": {
     "placeholders": {
       "lockHeight": {

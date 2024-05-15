@@ -356,7 +356,7 @@
     }
   },
   "payment_details_dialog_closed_channel_transfer_no_estimation": "In attesa che i fondi del canale chiuso vengano trasferiti al tuo wallet locale",
-  "payment_details_dialog_closed_channel_transfer_estimation": "In attesa che i fondi del canale chiuso vengano trasferiti al tuo wallet locale nel blocco ${lockHeight} (${hoursToUnlock})",
+  "payment_details_dialog_closed_channel_transfer_estimation": "In attesa che i fondi del canale chiuso vengano trasferiti al tuo wallet locale nel blocco {lockHeight} ({hoursToUnlock})",
   "@payment_details_dialog_closed_channel_transfer_estimation": {
     "placeholders": {
       "lockHeight": {

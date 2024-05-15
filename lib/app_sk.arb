@@ -356,7 +356,7 @@
     }
   },
   "payment_details_dialog_closed_channel_transfer_no_estimation": "Čakám na prevod prostriedkov z uzavretého kanála do tvojej miestnej peňaženky",
-  "payment_details_dialog_closed_channel_transfer_estimation": "Čakám, kým sa prostriedky z uzavretého kanála prevedú do miestnej peňaženky v bloku ${lockHeight} (${hoursToUnlock})",
+  "payment_details_dialog_closed_channel_transfer_estimation": "Čakám, kým sa prostriedky z uzavretého kanála prevedú do miestnej peňaženky v bloku {lockHeight} ({hoursToUnlock})",
   "@payment_details_dialog_closed_channel_transfer_estimation": {
     "placeholders": {
       "lockHeight": {

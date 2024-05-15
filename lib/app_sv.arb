@@ -356,7 +356,7 @@
     }
   },
   "payment_details_dialog_closed_channel_transfer_no_estimation": "Väntar på att stängda kanalmedel ska överföras till din lokala plånbok",
-  "payment_details_dialog_closed_channel_transfer_estimation": "Väntar på att stängda kanalmedel ska överföras till din lokala plånbok i blocket ${lockHeight} (${hoursToUnlock})",
+  "payment_details_dialog_closed_channel_transfer_estimation": "Väntar på att stängda kanalmedel ska överföras till din lokala plånbok i blocket {lockHeight} ({hoursToUnlock})",
   "@payment_details_dialog_closed_channel_transfer_estimation": {
     "placeholders": {
       "lockHeight": {
