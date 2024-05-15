@@ -842,7 +842,7 @@ abstract class BreezTranslations {
   /// No description provided for @payment_details_dialog_closed_channel_transfer_estimation.
   ///
   /// In en, this message translates to:
-  /// **'Waiting for closed channel funds to be transferred to your local wallet in block \${lockHeight} (\${hoursToUnlock})'**
+  /// **'Waiting for closed channel funds to be transferred to your local wallet in block {lockHeight} ({hoursToUnlock})'**
   String payment_details_dialog_closed_channel_transfer_estimation(int lockHeight, String hoursToUnlock);
 
   /// No description provided for @payment_details_dialog_transaction_id_copied.

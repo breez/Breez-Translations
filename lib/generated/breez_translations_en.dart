@@ -413,7 +413,7 @@ class BreezTranslationsEn extends BreezTranslations {
 
   @override
   String payment_details_dialog_closed_channel_transfer_estimation(int lockHeight, String hoursToUnlock) {
-    return 'Waiting for closed channel funds to be transferred to your local wallet in block \$$lockHeight (\$$hoursToUnlock)';
+    return 'Waiting for closed channel funds to be transferred to your local wallet in block $lockHeight ($hoursToUnlock)';
   }
 
   @override

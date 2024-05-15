@@ -356,7 +356,7 @@
     }
   },
   "payment_details_dialog_closed_channel_transfer_no_estimation": "Изчакване средствата от затворен канал да бъдат прехвърлени към вашия локален портфейл",
-  "payment_details_dialog_closed_channel_transfer_estimation": "Изчакване средствата от затворен канал да бъдат прехвърлени към вашия локален портфейл в блок ${lockHeight} (${hoursToUnlock})",
+  "payment_details_dialog_closed_channel_transfer_estimation": "Изчакване средствата от затворен канал да бъдат прехвърлени към вашия локален портфейл в блок {lockHeight} ({hoursToUnlock})",
   "@payment_details_dialog_closed_channel_transfer_estimation": {
     "placeholders": {
       "lockHeight": {

@@ -413,7 +413,7 @@ class BreezTranslationsCs extends BreezTranslations {
 
   @override
   String payment_details_dialog_closed_channel_transfer_estimation(int lockHeight, String hoursToUnlock) {
-    return 'Čekání na převod prostředků z uzavřeného kanálu do vaší místní peněženky v bloku \$$lockHeight (\$$hoursToUnlock)';
+    return 'Čekání na převod prostředků z uzavřeného kanálu do vaší místní peněženky v bloku $lockHeight ($hoursToUnlock)';
   }
 
   @override

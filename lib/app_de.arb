@@ -356,7 +356,7 @@
     }
   },
   "payment_details_dialog_closed_channel_transfer_no_estimation": "Warte auf Bitcoin-Transfer an lokale Wallet nach Channel-Schließung.",
-  "payment_details_dialog_closed_channel_transfer_estimation": "Warte auf Bitcoin-Transfer an lokale Wallet nach Channel-Schließung in Block ${lockHeight} (${hoursToUnlock})",
+  "payment_details_dialog_closed_channel_transfer_estimation": "Warte auf Bitcoin-Transfer an lokale Wallet nach Channel-Schließung in Block {lockHeight} ({hoursToUnlock})",
   "@payment_details_dialog_closed_channel_transfer_estimation": {
     "placeholders": {
       "lockHeight": {

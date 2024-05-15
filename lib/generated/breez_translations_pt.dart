@@ -413,7 +413,7 @@ class BreezTranslationsPt extends BreezTranslations {
 
   @override
   String payment_details_dialog_closed_channel_transfer_estimation(int lockHeight, String hoursToUnlock) {
-    return 'Aguardando os fundos do canal encerrado serem transferidos para a sua carteira local no bloco \$$lockHeight (\$$hoursToUnlock)';
+    return 'Aguardando os fundos do canal encerrado serem transferidos para a sua carteira local no bloco $lockHeight ($hoursToUnlock)';
   }
 
   @override

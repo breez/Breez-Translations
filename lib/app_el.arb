@@ -356,7 +356,7 @@
     }
   },
   "payment_details_dialog_closed_channel_transfer_no_estimation": "Waiting for closed channel funds to be transferred to your local wallet",
-  "payment_details_dialog_closed_channel_transfer_estimation": "Waiting for closed channel funds to be transferred to your local wallet in block ${lockHeight} (${hoursToUnlock})",
+  "payment_details_dialog_closed_channel_transfer_estimation": "Waiting for closed channel funds to be transferred to your local wallet in block {lockHeight} ({hoursToUnlock})",
   "@payment_details_dialog_closed_channel_transfer_estimation": {
     "placeholders": {
       "lockHeight": {

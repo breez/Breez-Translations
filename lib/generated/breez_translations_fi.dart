@@ -413,7 +413,7 @@ class BreezTranslationsFi extends BreezTranslations {
 
   @override
   String payment_details_dialog_closed_channel_transfer_estimation(int lockHeight, String hoursToUnlock) {
-    return 'Odotetaan varojen siirtymistä suljetusta kanavasta paikalliseen lompakkoon lohkossa \$$lockHeight (\$$hoursToUnlock)';
+    return 'Odotetaan varojen siirtymistä suljetusta kanavasta paikalliseen lompakkoon lohkossa $lockHeight ($hoursToUnlock)';
   }
 
   @override
