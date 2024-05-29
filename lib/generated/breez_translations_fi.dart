@@ -3610,80 +3610,80 @@ class BreezTranslationsFi extends BreezTranslations {
   }
 
   @override
-  String get close_channels_title => 'Close Channels';
+  String get close_channels_title => 'Sulje kanavat';
 
   @override
-  String get close_channels_btc_address => 'BTC Address';
+  String get close_channels_btc_address => 'BTC Osoite';
 
   @override
-  String get close_channels_scan_barcode => 'Scan Barcode';
+  String get close_channels_scan_barcode => 'Skannaa Viivakoodi';
 
   @override
-  String get close_channels_qr_code_not_detected => 'QR code wasn\'t detected.';
+  String get close_channels_qr_code_not_detected => 'QR-koodia ei havaittu.';
 
   @override
-  String get close_channels_action_next => 'NEXT';
+  String get close_channels_action_next => 'SEURAAVA';
 
   @override
-  String get close_channels_warning_message => 'All your channels will be closed and the funds will be sent to the specified address.';
+  String get close_channels_warning_message => 'Kaikki kanavasi suljetaan ja varat lähetetään määritettyyn osoitteeseen.';
 
   @override
-  String get close_channels_confirmation_dialog_title => 'Close Channels';
+  String get close_channels_confirmation_dialog_title => 'Sulje kanavat';
 
   @override
-  String get close_channels_confirmation_dialog_message => 'Are you sure you want to close all your channels and send your funds to this address';
+  String get close_channels_confirmation_dialog_message => 'Haluatko varmasti sulkea kaikki kanavasi ja lähettää rahasi tähän osoitteeseen';
 
   @override
   String get close_channels_confirmation_dialog_message_end => '?';
 
   @override
-  String get close_channels_confirmation_dialog_action_yes => 'YES';
+  String get close_channels_confirmation_dialog_action_yes => 'KYLLÄ';
 
   @override
-  String get close_channels_confirmation_dialog_action_no => 'NO';
+  String get close_channels_confirmation_dialog_action_no => 'EI';
 
   @override
-  String get close_channels_dialog_title => 'Closing Channels';
+  String get close_channels_dialog_title => 'Suljetaan kanavia';
 
   @override
-  String get close_channels_dialog_message => 'Please wait while your channels are being closed';
+  String get close_channels_dialog_message => 'Odota, kun kanavasi suljetaan';
 
   @override
-  String get close_channels_dialog_action_close => 'CLOSE';
+  String get close_channels_dialog_action_close => 'SULJE';
 
   @override
-  String get close_channels_dialog_success_message => 'Your channels were successfully closed!';
+  String get close_channels_dialog_success_message => 'Kanaviesi sulkeminen onnistui!';
 
   @override
-  String get close_channels_dialog_failure_message_start => 'Failed to close all your channels. Please contact ';
+  String get close_channels_dialog_failure_message_start => 'Kaikkien kanavien sulkeminen epäonnistui. Ota yhteyttä ';
 
   @override
-  String get close_channels_dialog_failure_message_middle => 'Breez support';
+  String get close_channels_dialog_failure_message_middle => 'Breez tuki';
 
   @override
-  String get close_channels_dialog_failure_message_end => ' for further assistance.';
+  String get close_channels_dialog_failure_message_end => ' avun saamiseksi.';
 
   @override
-  String get close_channels_error_dialog_title => 'Close Channels Error';
+  String get close_channels_error_dialog_title => 'Virhe kanavien sulkemisessa';
 
   @override
   String close_channels_error_dialog_message(String error) {
-    return 'Failed to close channels: $error';
+    return 'Kanavien sulkeminen epäonnistui: $error';
   }
 
   @override
   String invoice_ln_address_channel_not_needed(String minSats, String maxSats) {
-    return 'Send more than $minSats and up to $maxSats to this address.';
+    return 'Lähetä vähintään $minSats ja enintään $maxSats tähän osoitteeseen.';
   }
 
   @override
   String invoice_ln_address_warning_with_min_fee_account_connected(String minSats, String maxSats, String setUpFee, String minFee, String liquidity) {
-    return 'Send more than $minSats and up to $maxSats to this address. A setup fee of $setUpFee% with a minimum of $minFee will be applied for sending more than $liquidity.';
+    return 'Lähetä vähintään $minSats ja enintään $maxSats tähän osoitteeseen. Jos lähetät enemmän kuin $liquidity, veloitetaan $setUpFee %:n asennusmaksu ja vähintään $minFee.';
   }
 
   @override
   String invoice_ln_address_warning_with_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee, String minFee) {
-    return 'Send more than $minSats and up to $maxSats to this address. A setup fee of $setUpFee% with a minimum of $minFee will be applied on the received amount.';
+    return 'Lähetä vähintään $minSats ja enintään $maxSats tähän osoitteeseen. Vastaanotettuun summaan sovelletaan $setUpFee %:n käyttöönottomaksua ja vähintään $minFee.';
   }
 
   @override
