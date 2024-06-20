@@ -66,6 +66,7 @@ BreezTranslations getSystemAppLocalizations() {
       return BreezTranslationsEn();
     case "bg":
       return BreezTranslationsBg();
+    case "cz":
     case "cs":
       return BreezTranslationsCs();
     case "de":
