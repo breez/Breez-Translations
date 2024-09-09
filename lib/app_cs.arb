@@ -155,6 +155,7 @@
   "invoice_btc_address_on_chain_end": " pro zobrazení skriptu přidruženého k této adrese.",
   "invoice_btc_address_on_chain_action_ok": "OK",
   "invoice_liquid_address_deposit_address": "Liquid Address",
+  "invoice_lightning_title": "Receive via Lightning Invoice",
   "invoice_title": "Příjem prostřednictvím faktury",
   "invoice_action_create": "VYTVOŘIT",
   "invoice_action_redeem": "UHRADIT",
@@ -2581,6 +2582,10 @@
       }
     }
   },
+  "receive_payment_method_lightning_invoice": "Lightning Invoice",
+  "receive_payment_method_lightning_address": "Lightning Address",
+  "receive_payment_method_btc_address": "BTC Address",
+  "receive_payment_method_liquid_address": "Liquid Address",
   "locale": "cz",
   "app_name": "Breez"
 }

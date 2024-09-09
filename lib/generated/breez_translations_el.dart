@@ -167,6 +167,9 @@ class BreezTranslationsEl extends BreezTranslations {
   String get invoice_liquid_address_deposit_address => 'Liquid Address';
 
   @override
+  String get invoice_lightning_title => 'Receive via Lightning Invoice';
+
+  @override
   String get invoice_title => 'Receive via Invoice';
 
   @override
@@ -3704,6 +3707,18 @@ class BreezTranslationsEl extends BreezTranslations {
   String invoice_ln_address_warning_with_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee, String minFee) {
     return 'Send more than $minSats and up to $maxSats to this address. A setup fee of $setUpFee% with a minimum of $minFee will be applied on the received amount.';
   }
+
+  @override
+  String get receive_payment_method_lightning_invoice => 'Lightning Invoice';
+
+  @override
+  String get receive_payment_method_lightning_address => 'Lightning Address';
+
+  @override
+  String get receive_payment_method_btc_address => 'BTC Address';
+
+  @override
+  String get receive_payment_method_liquid_address => 'Liquid Address';
 
   @override
   String get locale => 'el';

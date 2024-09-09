@@ -155,6 +155,7 @@
   "invoice_btc_address_on_chain_end": " pour voir le script associé à cette adresse.",
   "invoice_btc_address_on_chain_action_ok": "OK",
   "invoice_liquid_address_deposit_address": "Liquid Address",
+  "invoice_lightning_title": "Receive via Lightning Invoice",
   "invoice_title": "Recevoir par facture",
   "invoice_action_create": "CRÉER",
   "invoice_action_redeem": "RECLAMER",
@@ -2579,6 +2580,10 @@
       }
     }
   },
+  "receive_payment_method_lightning_invoice": "Lightning Invoice",
+  "receive_payment_method_lightning_address": "Lightning Address",
+  "receive_payment_method_btc_address": "BTC Address",
+  "receive_payment_method_liquid_address": "Liquid Address",
   "locale": "fr",
   "app_name": "Breez"
 }

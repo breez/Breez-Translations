@@ -403,6 +403,12 @@ abstract class BreezTranslations {
   /// **'Liquid Address'**
   String get invoice_liquid_address_deposit_address;
 
+  /// No description provided for @invoice_lightning_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Receive via Lightning Invoice'**
+  String get invoice_lightning_title;
+
   /// No description provided for @invoice_title.
   ///
   /// In en, this message translates to:
@@ -6846,6 +6852,30 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'Send more than {minSats} and up to {maxSats} to this address. A setup fee of {setUpFee}% with a minimum of {minFee} will be applied on the received amount.'**
   String invoice_ln_address_warning_with_min_fee_account_not_connected(String minSats, String maxSats, String setUpFee, String minFee);
+
+  /// No description provided for @receive_payment_method_lightning_invoice.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning Invoice'**
+  String get receive_payment_method_lightning_invoice;
+
+  /// No description provided for @receive_payment_method_lightning_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning Address'**
+  String get receive_payment_method_lightning_address;
+
+  /// No description provided for @receive_payment_method_btc_address.
+  ///
+  /// In en, this message translates to:
+  /// **'BTC Address'**
+  String get receive_payment_method_btc_address;
+
+  /// No description provided for @receive_payment_method_liquid_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Liquid Address'**
+  String get receive_payment_method_liquid_address;
 
   /// No description provided for @locale.
   ///
