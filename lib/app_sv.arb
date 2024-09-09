@@ -154,6 +154,7 @@
   "invoice_btc_address_on_chain_here": "här",
   "invoice_btc_address_on_chain_end": " för att visa skriptet som är kopplat till den här adressen.",
   "invoice_btc_address_on_chain_action_ok": "OK",
+  "invoice_liquid_address_deposit_address": "Liquid Address",
   "invoice_title": "Ta emot via Invoice",
   "invoice_action_create": "SKAPA",
   "invoice_action_redeem": "LÖS IN",
@@ -297,7 +298,16 @@
       }
     }
   },
-  "backup_dialog_title": "Backup",
+  "invoice_min_payment_limit": "Enter at least {formatted_amount}.",
+  "@invoice_min_payment_limit": {
+    "placeholders": {
+      "formatted_amount": {
+        "type": "String",
+        "example": "50 sats"
+      }
+    }
+  },
+  "backup_dialog_title":  "Backup",
   "backup_dialog_message_remote_server": "Det gick inte att spara säkerhetskopior på fjärrservern. Granska dina inställningar och försök igen.",
   "backup_dialog_message_default": "Om du vill kunna återställa dina pengar om den här mobila enheten eller den här appen inte längre är tillgänglig (t.ex. förlorad eller stulen enhet eller appavinstallation) måste du säkerhetskopiera din information.",
   "backup_dialog_do_not_prompt_again": "Fråga inte igen",
@@ -400,6 +410,8 @@
   },
   "payment_details_dialog_single_info_pre_image": "Payment Preimage",
   "payment_details_dialog_single_info_node_id": "Node ID",
+  "payment_details_dialog_single_info_swap_id": "Swap ID",
+  "payment_details_dialog_single_info_tx_id": "Transaction ID",
   "payment_details_dialog_single_info_on_chain": "On-chain Transaction",
   "payment_details_dialog_action_for_payment_description": "Beskrivning",
   "payment_details_dialog_action_for_payment_url": "URL",
@@ -1221,6 +1233,7 @@
   "processing_payment_dialog_action_close": "STÄNG",
   "processing_payment_dialog_processing_payment": "Bearbetar betalning",
   "processing_payment_dialog_wait": "Vänta medan din betalning behandlas",
+  "payment_request_zero_amount_not_supported": "Zero-amount lightning payments are not supported.",
   "payment_request_dialog_requested": "Du uppmanas att betala:",
   "payment_request_dialog_requesting": "ber dig betala:",
   "payment_request_dialog_action_cancel": "AVBRYT",

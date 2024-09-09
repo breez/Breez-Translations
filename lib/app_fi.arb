@@ -154,6 +154,7 @@
   "invoice_btc_address_on_chain_here": "tästä",
   "invoice_btc_address_on_chain_end": " nähdäksesi osoitteeseen liittyvän komentojonon (scriptin).",
   "invoice_btc_address_on_chain_action_ok": "OK",
+  "invoice_liquid_address_deposit_address": "Liquid Address",
   "invoice_title": "Luo Lightning-lasku",
   "invoice_action_create": "LUO LASKU",
   "invoice_action_redeem": "LUNASTA",
@@ -297,7 +298,16 @@
       }
     }
   },
-  "backup_dialog_title": "Varmuuskopio",
+  "invoice_min_payment_limit": "Enter at least {formatted_amount}.",
+  "@invoice_min_payment_limit": {
+    "placeholders": {
+      "formatted_amount": {
+        "type": "String",
+        "example": "50 sats"
+      }
+    }
+  },
+  "backup_dialog_title":  "Varmuuskopio",
   "backup_dialog_message_remote_server": "Varmuuskopiointi palvelimelle epäonnistui. Tarkista asetukset ja yritä uudelleen.",
   "backup_dialog_message_default": "Sinun tulee varmuuskopioida Breez-tiedot, jotta varojesi palautus onnistuisi tämän laitteen katoamisen, varkauden tai rikkoontumisen sekä mahdollisen sovelluksen poiston ja uudelleen asennuksen yhteydessä.",
   "backup_dialog_do_not_prompt_again": "Älä näytä tätä huomautusta uudelleen",
@@ -400,6 +410,8 @@
   },
   "payment_details_dialog_single_info_pre_image": "Maksun Preimage-tieto",
   "payment_details_dialog_single_info_node_id": "Solmun tunniste",
+  "payment_details_dialog_single_info_swap_id": "Swap ID",
+  "payment_details_dialog_single_info_tx_id": "Transaction ID",
   "payment_details_dialog_single_info_on_chain": "On-chain -tapahtuma",
   "payment_details_dialog_action_for_payment_description": "Kuvaus",
   "payment_details_dialog_action_for_payment_url": "URL",
@@ -1221,6 +1233,7 @@
   "processing_payment_dialog_action_close": "Sulje",
   "processing_payment_dialog_processing_payment": "Maksun käsittely",
   "processing_payment_dialog_wait": "Odota kunnes maksu on käsitelty.",
+  "payment_request_zero_amount_not_supported": "Zero-amount lightning payments are not supported.",
   "payment_request_dialog_requested": "Sait maksupyynnön (määrä ja kuvaus):",
   "payment_request_dialog_requesting": "pyytää sinua maksamaan:",
   "payment_request_dialog_action_cancel": "Peruuta",

@@ -154,6 +154,7 @@
   "invoice_btc_address_on_chain_here": "ici",
   "invoice_btc_address_on_chain_end": " pour voir le script associé à cette adresse.",
   "invoice_btc_address_on_chain_action_ok": "OK",
+  "invoice_liquid_address_deposit_address": "Liquid Address",
   "invoice_title": "Recevoir par facture",
   "invoice_action_create": "CRÉER",
   "invoice_action_redeem": "RECLAMER",
@@ -297,7 +298,16 @@
       }
     }
   },
-  "backup_dialog_title": "Sauvegarde",
+  "invoice_min_payment_limit": "Enter at least {formatted_amount}.",
+  "@invoice_min_payment_limit": {
+    "placeholders": {
+      "formatted_amount": {
+        "type": "String",
+        "example": "50 sats"
+      }
+    }
+  },
+  "backup_dialog_title":  "Sauvegarde",
   "backup_dialog_message_remote_server": "Échec de l'enregistrement des fichiers de sauvegarde sur le serveur distant. Veuillez revoir vos paramètres et réessayer.",
   "backup_dialog_message_default": "Si vous souhaitez pouvoir restaurer vos fonds au cas où cet appareil mobile ou cette application ne seraient plus disponibles (par exemple en cas de perte ou de vol de l'appareil ou de désinstallation de l'application), vous êtes tenu de sauvegarder vos informations.",
   "backup_dialog_do_not_prompt_again": "Ne plus me demander",
@@ -400,6 +410,8 @@
   },
   "payment_details_dialog_single_info_pre_image": "Préimage du paiement",
   "payment_details_dialog_single_info_node_id": "ID du nœud",
+  "payment_details_dialog_single_info_swap_id": "Swap ID",
+  "payment_details_dialog_single_info_tx_id": "Transaction ID",
   "payment_details_dialog_single_info_on_chain": "Transaction on-chain",
   "payment_details_dialog_action_for_payment_description": "Description",
   "payment_details_dialog_action_for_payment_url": "URL",
@@ -1221,6 +1233,7 @@
   "processing_payment_dialog_action_close": "FERMER",
   "processing_payment_dialog_processing_payment": "Traitement du paiement",
   "processing_payment_dialog_wait": "Veuillez patienter, votre paiement est en cours de traitement",
+  "payment_request_zero_amount_not_supported": "Zero-amount lightning payments are not supported.",
   "payment_request_dialog_requested": "Vous êtes prié de payer :",
   "payment_request_dialog_requesting": "vous demande de payer :",
   "payment_request_dialog_action_cancel": "ANNULER",

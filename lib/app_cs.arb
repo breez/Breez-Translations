@@ -154,6 +154,7 @@
   "invoice_btc_address_on_chain_here": "zde",
   "invoice_btc_address_on_chain_end": " pro zobrazení skriptu přidruženého k této adrese.",
   "invoice_btc_address_on_chain_action_ok": "OK",
+  "invoice_liquid_address_deposit_address": "Liquid Address",
   "invoice_title": "Příjem prostřednictvím faktury",
   "invoice_action_create": "VYTVOŘIT",
   "invoice_action_redeem": "UHRADIT",
@@ -297,7 +298,16 @@
       }
     }
   },
-  "backup_dialog_title": "Záloha",
+  "invoice_min_payment_limit": "Enter at least {formatted_amount}.",
+  "@invoice_min_payment_limit": {
+    "placeholders": {
+      "formatted_amount": {
+        "type": "String",
+        "example": "50 sats"
+      }
+    }
+  },
+  "backup_dialog_title":  "Záloha",
   "backup_dialog_message_remote_server": "Nepodařilo se uložit záložní soubory na vzdálený server. Zkontrolujte prosím svá nastavení a zkuste to znovu.",
   "backup_dialog_message_default": "Pokud chcete mít možnost obnovit své prostředky v případě, že toto mobilní zařízení nebo tato aplikace již nebudou dostupné (např. ztracené nebo odcizené zařízení nebo odinstalace aplikace), musíte si zálohovat své informace.",
   "backup_dialog_do_not_prompt_again": "Nezobrazovat znovu výzvu",
@@ -400,6 +410,8 @@
   },
   "payment_details_dialog_single_info_pre_image": "Předběžný obraz",
   "payment_details_dialog_single_info_node_id": "ID uzlu",
+  "payment_details_dialog_single_info_swap_id": "Swap ID",
+  "payment_details_dialog_single_info_tx_id": "Transaction ID",
   "payment_details_dialog_single_info_on_chain": "Transakce v řetězci",
   "payment_details_dialog_action_for_payment_description": "Popis",
   "payment_details_dialog_action_for_payment_url": "URL",
@@ -1221,6 +1233,7 @@
   "processing_payment_dialog_action_close": "ZAVŘÍT",
   "processing_payment_dialog_processing_payment": "Zpracování platby",
   "processing_payment_dialog_wait": "Počkejte prosím, než se platba zpracuje",
+  "payment_request_zero_amount_not_supported": "Zero-amount lightning payments are not supported.",
   "payment_request_dialog_requested": "Jste požádáni o zaplacení:",
   "payment_request_dialog_requesting": "žádá, abyste zaplatili:",
   "payment_request_dialog_action_cancel": "ZRUŠIT",

@@ -154,6 +154,7 @@
   "invoice_btc_address_on_chain_here": "here",
   "invoice_btc_address_on_chain_end": " to view the script associated with this address.",
   "invoice_btc_address_on_chain_action_ok": "OK",
+  "invoice_liquid_address_deposit_address": "Liquid Address",
   "invoice_title": "Receive via Invoice",
   "invoice_action_create": "CREATE",
   "invoice_action_redeem": "REDEEM",
@@ -297,7 +298,16 @@
       }
     }
   },
-  "backup_dialog_title": "Backup",
+  "invoice_min_payment_limit": "Enter at least {formatted_amount}.",
+  "@invoice_min_payment_limit": {
+    "placeholders": {
+      "formatted_amount": {
+        "type": "String",
+        "example": "50 sats"
+      }
+    }
+  },
+  "backup_dialog_title":  "Backup",
   "backup_dialog_message_remote_server": "Failed to save backup files to Remote Server. Please review your settings and try again.",
   "backup_dialog_message_default": "If you want to be able to restore your funds in case this mobile device or this app are no longer available (e.g. lost or stolen device or app uninstall), you are required to backup your information.",
   "backup_dialog_do_not_prompt_again": "Don't prompt again",
@@ -400,6 +410,8 @@
   },
   "payment_details_dialog_single_info_pre_image": "Payment Preimage",
   "payment_details_dialog_single_info_node_id": "Node ID",
+  "payment_details_dialog_single_info_swap_id": "Swap ID",
+  "payment_details_dialog_single_info_tx_id": "Transaction ID",
   "payment_details_dialog_single_info_on_chain": "On-chain Transaction",
   "payment_details_dialog_action_for_payment_description": "Description",
   "payment_details_dialog_action_for_payment_url": "URL",
@@ -1221,6 +1233,7 @@
   "processing_payment_dialog_action_close": "CLOSE",
   "processing_payment_dialog_processing_payment": "Processing Payment",
   "processing_payment_dialog_wait": "Please wait while your payment is being processed",
+  "payment_request_zero_amount_not_supported": "Zero-amount lightning payments are not supported.",
   "payment_request_dialog_requested": "You are requested to pay:",
   "payment_request_dialog_requesting": "is requesting you to pay:",
   "payment_request_dialog_action_cancel": "CANCEL",
