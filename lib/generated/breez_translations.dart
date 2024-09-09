@@ -18,6 +18,8 @@ import 'breez_translations_pt.dart';
 import 'breez_translations_sk.dart';
 import 'breez_translations_sv.dart';
 
+// ignore_for_file: type=lint
+
 /// Callers can lookup localized strings with an instance of BreezTranslations
 /// returned by `BreezTranslations.of(context)`.
 ///
@@ -395,6 +397,12 @@ abstract class BreezTranslations {
   /// **'OK'**
   String get invoice_btc_address_on_chain_action_ok;
 
+  /// No description provided for @invoice_liquid_address_deposit_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Liquid Address'**
+  String get invoice_liquid_address_deposit_address;
+
   /// No description provided for @invoice_title.
   ///
   /// In en, this message translates to:
@@ -580,6 +588,12 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'Validation error {error}'**
   String invoice_payment_validator_error_unknown(String error);
+
+  /// No description provided for @invoice_min_payment_limit.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter at least {formatted_amount}.'**
+  String invoice_min_payment_limit(String formatted_amount);
 
   /// No description provided for @backup_dialog_title.
   ///
@@ -934,6 +948,18 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'Node ID'**
   String get payment_details_dialog_single_info_node_id;
+
+  /// No description provided for @payment_details_dialog_single_info_swap_id.
+  ///
+  /// In en, this message translates to:
+  /// **'Swap ID'**
+  String get payment_details_dialog_single_info_swap_id;
+
+  /// No description provided for @payment_details_dialog_single_info_tx_id.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction ID'**
+  String get payment_details_dialog_single_info_tx_id;
 
   /// No description provided for @payment_details_dialog_single_info_on_chain.
   ///
@@ -3148,6 +3174,12 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'Please wait while your payment is being processed'**
   String get processing_payment_dialog_wait;
+
+  /// No description provided for @payment_request_zero_amount_not_supported.
+  ///
+  /// In en, this message translates to:
+  /// **'Zero-amount lightning payments are not supported.'**
+  String get payment_request_zero_amount_not_supported;
 
   /// No description provided for @payment_request_dialog_requested.
   ///

@@ -2,6 +2,8 @@ import 'package:intl/intl.dart' as intl;
 
 import 'breez_translations.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Swedish (`sv`).
 class BreezTranslationsSv extends BreezTranslations {
   BreezTranslationsSv([String locale = 'sv']) : super(locale);
@@ -162,6 +164,9 @@ class BreezTranslationsSv extends BreezTranslations {
   String get invoice_btc_address_on_chain_action_ok => 'OK';
 
   @override
+  String get invoice_liquid_address_deposit_address => 'Liquid Address';
+
+  @override
   String get invoice_title => 'Ta emot via Invoice';
 
   @override
@@ -276,6 +281,11 @@ class BreezTranslationsSv extends BreezTranslations {
   @override
   String invoice_payment_validator_error_unknown(String error) {
     return 'Validation error $error';
+  }
+
+  @override
+  String invoice_min_payment_limit(String formatted_amount) {
+    return 'Enter at least $formatted_amount.';
   }
 
   @override
@@ -464,6 +474,12 @@ class BreezTranslationsSv extends BreezTranslations {
 
   @override
   String get payment_details_dialog_single_info_node_id => 'Node ID';
+
+  @override
+  String get payment_details_dialog_single_info_swap_id => 'Swap ID';
+
+  @override
+  String get payment_details_dialog_single_info_tx_id => 'Transaction ID';
 
   @override
   String get payment_details_dialog_single_info_on_chain => 'On-chain Transaction';
@@ -1669,6 +1685,9 @@ class BreezTranslationsSv extends BreezTranslations {
 
   @override
   String get processing_payment_dialog_wait => 'Vänta medan din betalning behandlas';
+
+  @override
+  String get payment_request_zero_amount_not_supported => 'Zero-amount lightning payments are not supported.';
 
   @override
   String get payment_request_dialog_requested => 'Du uppmanas att betala:';
