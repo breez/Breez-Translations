@@ -154,6 +154,7 @@
   "invoice_btc_address_on_chain_here": "aqui",
   "invoice_btc_address_on_chain_end": " para ver o script associado a este endereço.",
   "invoice_btc_address_on_chain_action_ok": "OK",
+  "invoice_liquid_address_deposit_address": "Liquid Address",
   "invoice_title": "Receber via Fatura",
   "invoice_action_create": "COBRAR",
   "invoice_action_redeem": "RESGATAR",
@@ -297,7 +298,16 @@
       }
     }
   },
-  "backup_dialog_title": "Backup",
+  "invoice_min_payment_limit": "Enter at least {formatted_amount}.",
+  "@invoice_min_payment_limit": {
+    "placeholders": {
+      "formatted_amount": {
+        "type": "String",
+        "example": "50 sats"
+      }
+    }
+  },
+  "backup_dialog_title":  "Backup",
   "backup_dialog_message_remote_server": "Falha ao salvar arquivos de backup no servidor remoto. Por favor, revise suas configurações e tente novamente.",
   "backup_dialog_message_default": "Se você deseja restaurar seus fundos caso este dispositivo móvel ou aplicativo não esteja mais disponível (por exemplo, dispositivo perdido ou roubado ou desinstalação de aplicativo), você deve fazer o backup de suas informações.",
   "backup_dialog_do_not_prompt_again": "Não perguntar novamente",
@@ -400,6 +410,8 @@
   },
   "payment_details_dialog_single_info_pre_image": "Comprovante de Pagamento",
   "payment_details_dialog_single_info_node_id": "ID do Servidor",
+  "payment_details_dialog_single_info_swap_id": "Swap ID",
+  "payment_details_dialog_single_info_tx_id": "Transaction ID",
   "payment_details_dialog_single_info_on_chain": "Transação pela rede Bitcoin",
   "payment_details_dialog_action_for_payment_description": "Descrição",
   "payment_details_dialog_action_for_payment_url": "URL",
@@ -1221,6 +1233,7 @@
   "processing_payment_dialog_action_close": "FECHAR",
   "processing_payment_dialog_processing_payment": "Processando o pagamento",
   "processing_payment_dialog_wait": "Por favor, aguarde enquanto o seu pagamento é processado",
+  "payment_request_zero_amount_not_supported": "Zero-amount lightning payments are not supported.",
   "payment_request_dialog_requested": "Solicitação para que você pague:",
   "payment_request_dialog_requesting": "Você esta solicitando um pagamento de:",
   "payment_request_dialog_action_cancel": "CANCELAR",

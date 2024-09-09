@@ -154,6 +154,7 @@
   "invoice_btc_address_on_chain_here": "aquí",
   "invoice_btc_address_on_chain_end": "  para ver el script asociado con esta dirección.",
   "invoice_btc_address_on_chain_action_ok": "OK",
+  "invoice_liquid_address_deposit_address": "Liquid Address",
   "invoice_title": "Recibir vía Factura",
   "invoice_action_create": "CREAR",
   "invoice_action_redeem": "REDIMIR",
@@ -297,7 +298,16 @@
       }
     }
   },
-  "backup_dialog_title": "Respaldar",
+  "invoice_min_payment_limit": "Enter at least {formatted_amount}.",
+  "@invoice_min_payment_limit": {
+    "placeholders": {
+      "formatted_amount": {
+        "type": "String",
+        "example": "50 sats"
+      }
+    }
+  },
+  "backup_dialog_title":  "Respaldar",
   "backup_dialog_message_remote_server": "No se pudieron guardar los archivos de respaldo en el servidor remoto. Por favor, revise su configuración y vuelva a intentarlo.",
   "backup_dialog_message_default": "Si desea poder restaurar sus fondos en caso de que este dispositivo móvil o esta aplicación ya no se encuentre disponible (ej: dispositivo perdido o robado, o desinstalación de la app), requerirá haber respaldado su información.",
   "backup_dialog_do_not_prompt_again": "No volver a preguntar",
@@ -400,6 +410,8 @@
   },
   "payment_details_dialog_single_info_pre_image": "Preimagen de Pago",
   "payment_details_dialog_single_info_node_id": "ID del Nodo",
+  "payment_details_dialog_single_info_swap_id": "Swap ID",
+  "payment_details_dialog_single_info_tx_id": "Transaction ID",
   "payment_details_dialog_single_info_on_chain": "Transacción en Cadena",
   "payment_details_dialog_action_for_payment_description": "Descripción",
   "payment_details_dialog_action_for_payment_url": "URL",
@@ -1221,6 +1233,7 @@
   "processing_payment_dialog_action_close": "CERRAR",
   "processing_payment_dialog_processing_payment": "Procesando el pago",
   "processing_payment_dialog_wait": "Por favor, espere mientras se procesa su pago.",
+  "payment_request_zero_amount_not_supported": "Zero-amount lightning payments are not supported.",
   "payment_request_dialog_requested": "Solicitud para que usted pague:",
   "payment_request_dialog_requesting": "Usted está solicitando un pago de:",
   "payment_request_dialog_action_cancel": "CANCELAR",

@@ -154,6 +154,7 @@
   "invoice_btc_address_on_chain_here": "qui",
   "invoice_btc_address_on_chain_end": " per vedere lo script associato a questo indirizzo.",
   "invoice_btc_address_on_chain_action_ok": "OK",
+  "invoice_liquid_address_deposit_address": "Liquid Address",
   "invoice_title": "Ricevi tramite Invoice",
   "invoice_action_create": "CREA",
   "invoice_action_redeem": "RISCATTA",
@@ -297,7 +298,16 @@
       }
     }
   },
-  "backup_dialog_title": "Backup",
+  "invoice_min_payment_limit": "Enter at least {formatted_amount}.",
+  "@invoice_min_payment_limit": {
+    "placeholders": {
+      "formatted_amount": {
+        "type": "String",
+        "example": "50 sats"
+      }
+    }
+  },
+  "backup_dialog_title":  "Backup",
   "backup_dialog_message_remote_server": "Impossibile salvare i file di backup sul server remoto. Rivedi le tue impostazioni e riprova.",
   "backup_dialog_message_default": "Se vuoi poter ripristinare i tuoi fondi nel caso in cui questo dispositivo o questa app non siano più disponibili (ad es. dispositivo smarrito o rubato o disinstallazione dell'app), devi eseguire il backup delle tue informazioni.",
   "backup_dialog_do_not_prompt_again": "Non mostrare di nuovo",
@@ -400,6 +410,8 @@
   },
   "payment_details_dialog_single_info_pre_image": "Preimage del pagamento",
   "payment_details_dialog_single_info_node_id": "ID nodo",
+  "payment_details_dialog_single_info_swap_id": "Swap ID",
+  "payment_details_dialog_single_info_tx_id": "Transaction ID",
   "payment_details_dialog_single_info_on_chain": "Transazione on-chain",
   "payment_details_dialog_action_for_payment_description": "Descrizione",
   "payment_details_dialog_action_for_payment_url": "URL",
@@ -1221,6 +1233,7 @@
   "processing_payment_dialog_action_close": "CHIUDI",
   "processing_payment_dialog_processing_payment": "Elaborazione del pagamento",
   "processing_payment_dialog_wait": "Attendi mentre il pagamento viene elaborato",
+  "payment_request_zero_amount_not_supported": "Zero-amount lightning payments are not supported.",
   "payment_request_dialog_requested": "Ti viene richiesto di pagare:",
   "payment_request_dialog_requesting": "ti chiede di pagare:",
   "payment_request_dialog_action_cancel": "CANCELLA",
