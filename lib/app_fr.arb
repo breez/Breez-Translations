@@ -1145,7 +1145,7 @@
   "error_dialog_default_action_no": "NON",
   "error_dialog_default_action_close": "FERMER",
   "ln_url_success_action_title": "Informations sur l'achat",
-  "ln_url_success_action_link_copied": "le lien a été copié dans votre presse-papiers.",
+  "ln_url_success_action_link_copied": "Le lien a été copié dans votre presse-papiers.",
   "avatar_picker_action_set_photo": "Définir la Photo",
   "avatar_picker_action_change_photo": "Changer la Photo",
   "avatar_picker_error_select_image": "Impossible de sélectionner l'image",
@@ -2584,6 +2584,107 @@
   "receive_payment_method_lightning_address": "Lightning Address",
   "receive_payment_method_btc_address": "BTC Address",
   "receive_payment_method_liquid_address": "Liquid Address",
+  "bottom_action_bar_enter_payment_info": "Paste Invoice or Lightning Address",
+  "enter_payment_info_page_title": "Payee Information",
+  "enter_payment_info_page_label": "Invoice or Lightning Address",
+  "enter_payment_info_page_label_expanded": "Enter an invoice or a Lightning Address.",
+  "enter_payment_info_page_scan_tooltip": "Scan Invoice or Lightning Address",
+  "enter_payment_info_page_action_next": "NEXT",
+  "ln_payment_send_payment_title": "Send Payment",
+  "ln_payment_amount_label": "Amount:",
+  "ln_payment_fee_label": "Fee:",
+  "ln_payment_fee_amount_positive": "+{amount}",
+  "@ln_payment_fee_amount_positive": {
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "1000 sats"
+      }
+    }
+  },
+  "ln_payment_fee_amount_unknown": "? {currencyDisplayName}",
+  "@ln_payment_fee_amount_unknown": {
+    "placeholders": {
+      "currencyDisplayName": {
+        "type": "String",
+        "example": "sats"
+      }
+    }
+  },
+  "ln_payment_description_label": "Description:",
+  "lnurl_payment_page_comment_label": "Comment (optional):",
+  "invoice_payment_validator_error_payment_outside_network_limits": "Payment amount is outside the allowed limits, which range from {networkLimitMin} to {networkLimitMax}",
+  "@invoice_payment_validator_error_payment_outside_network_limits": {
+      "placeholders": {
+        "networkLimitMin": {
+          "type": "String",
+          "example": "1 000 sats"
+        },
+        "networkLimitMax": {
+          "type": "String",
+          "example": "25 000 000 sats"
+        }
+      }
+    },
+  "ln_payment_action_retry": "RETRY",
+  "ln_payment_action_close": "CLOSE",
+  "lnurl_payment_page_action_next": "NEXT",
+  "ln_payment_action_send": "SEND",
+  "lnurl_withdraw_page_title": "Receive via LNURL Invoice",
+  "lnurl_withdraw_page_description_label": "Description",
+  "lnurl_withdraw_page_unknown_error_title": "Failed to receive funds:",
+  "lnurl_withdraw_scan_toolip": "Scan LNURL Withdraw",
+  "lightning_address_service_error_title": "LN Service error:",
+  "payment_limits_fetch_error_message": "Failed to retrieve payment limits. Please try again later.",
+  "payment_limits_generic_error_title": "Failed to retrieve payment limits:",
+  "payment_limits_generic_error_message": "{errorMessage}. Please try again later.",
+  "@payment_limits_generic_error_message": {
+    "placeholders": {
+      "errorMessage": {
+        "type": "String",
+        "example": "Failed to retrieve fees"
+      }
+    }
+  },
+  "available_balance_label": "Balance:",
+  "bitcoin_address_label": "BTC Address",
+  "bitcoin_address_scan_tooltip": "Scan BTC Address",
+  "qr_code_not_detected_error": "QR code wasn't detected.",
+  "developers_page_cli_hint": "Enter a command or use the links below",
+  "developers_page_cli_run_tooltip": "Run",
+  "developers_page_cli_clear_tooltip": "Clear",
+  "developers_page_cli_result_copy_tooltip": "Copy to Clipboard",
+  "developers_page_cli_result_copied": "Copied to Clipboard.",
+  "developers_page_cli_result_share_tooltip": "Share",
+  "developers_page_cli_unsupported_command": "This command is not supported yet.",
+  "developers_page_menu_export_keys_title": "Export Keys",
+  "developers_page_menu_share_logs_title": "Share Logs",
+  "developers_page_menu_rescan_swaps_title": "Rescan Onchain Swaps",
+  "developers_page_menu_prompt_bug_report_title": "Enable Failure Prompt",
+  "processing_payment_dialog_payment_sent": "Payment Sent",
+  "payment_fees_warning_message": "Keep Breez open until the payment is completed.",
+  "payment_fees_message": "A fee of {fee} is applied to this invoice. Keep Breez open until the payment is completed.",
+  "@payment_fees_message": {
+      "placeholders": {
+        "fee": {
+          "type": "String",
+          "example": "123 sats"
+        }
+      }
+  },
+  "payment_fees_message_with_fiat": "A fee of {fee} ({fiatFee}) is applied to this invoice. Keep Breez open until the payment is completed.",
+  "@payment_fees_message_with_fiat": {
+      "placeholders": {
+        "fee": {
+          "type": "String",
+          "example": "123 sats"
+        },
+        "fiatFee": {
+          "type": "String",
+          "example": "1$"
+        }
+      }
+  },
   "locale": "fr",
   "app_name": "Breez"
 }

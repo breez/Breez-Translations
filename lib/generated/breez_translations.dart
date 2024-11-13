@@ -2914,7 +2914,7 @@ abstract class BreezTranslations {
   /// No description provided for @ln_url_success_action_link_copied.
   ///
   /// In en, this message translates to:
-  /// **'link was copied to your clipboard.'**
+  /// **'Link was copied to your clipboard.'**
   String get ln_url_success_action_link_copied;
 
   /// No description provided for @avatar_picker_action_set_photo.
@@ -6876,6 +6876,276 @@ abstract class BreezTranslations {
   /// In en, this message translates to:
   /// **'Liquid Address'**
   String get receive_payment_method_liquid_address;
+
+  /// No description provided for @bottom_action_bar_enter_payment_info.
+  ///
+  /// In en, this message translates to:
+  /// **'Paste Invoice or Lightning Address'**
+  String get bottom_action_bar_enter_payment_info;
+
+  /// No description provided for @enter_payment_info_page_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Payee Information'**
+  String get enter_payment_info_page_title;
+
+  /// No description provided for @enter_payment_info_page_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Invoice or Lightning Address'**
+  String get enter_payment_info_page_label;
+
+  /// No description provided for @enter_payment_info_page_label_expanded.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter an invoice or a Lightning Address.'**
+  String get enter_payment_info_page_label_expanded;
+
+  /// No description provided for @enter_payment_info_page_scan_tooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan Invoice or Lightning Address'**
+  String get enter_payment_info_page_scan_tooltip;
+
+  /// No description provided for @enter_payment_info_page_action_next.
+  ///
+  /// In en, this message translates to:
+  /// **'NEXT'**
+  String get enter_payment_info_page_action_next;
+
+  /// No description provided for @ln_payment_send_payment_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Send Payment'**
+  String get ln_payment_send_payment_title;
+
+  /// No description provided for @ln_payment_amount_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount:'**
+  String get ln_payment_amount_label;
+
+  /// No description provided for @ln_payment_fee_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Fee:'**
+  String get ln_payment_fee_label;
+
+  /// No description provided for @ln_payment_fee_amount_positive.
+  ///
+  /// In en, this message translates to:
+  /// **'+{amount}'**
+  String ln_payment_fee_amount_positive(String amount);
+
+  /// No description provided for @ln_payment_fee_amount_unknown.
+  ///
+  /// In en, this message translates to:
+  /// **'? {currencyDisplayName}'**
+  String ln_payment_fee_amount_unknown(String currencyDisplayName);
+
+  /// No description provided for @ln_payment_description_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Description:'**
+  String get ln_payment_description_label;
+
+  /// No description provided for @lnurl_payment_page_comment_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Comment (optional):'**
+  String get lnurl_payment_page_comment_label;
+
+  /// No description provided for @invoice_payment_validator_error_payment_outside_network_limits.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment amount is outside the allowed limits, which range from {networkLimitMin} to {networkLimitMax}'**
+  String invoice_payment_validator_error_payment_outside_network_limits(String networkLimitMin, String networkLimitMax);
+
+  /// No description provided for @ln_payment_action_retry.
+  ///
+  /// In en, this message translates to:
+  /// **'RETRY'**
+  String get ln_payment_action_retry;
+
+  /// No description provided for @ln_payment_action_close.
+  ///
+  /// In en, this message translates to:
+  /// **'CLOSE'**
+  String get ln_payment_action_close;
+
+  /// No description provided for @lnurl_payment_page_action_next.
+  ///
+  /// In en, this message translates to:
+  /// **'NEXT'**
+  String get lnurl_payment_page_action_next;
+
+  /// No description provided for @ln_payment_action_send.
+  ///
+  /// In en, this message translates to:
+  /// **'SEND'**
+  String get ln_payment_action_send;
+
+  /// No description provided for @lnurl_withdraw_page_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Receive via LNURL Invoice'**
+  String get lnurl_withdraw_page_title;
+
+  /// No description provided for @lnurl_withdraw_page_description_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Description'**
+  String get lnurl_withdraw_page_description_label;
+
+  /// No description provided for @lnurl_withdraw_page_unknown_error_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to receive funds:'**
+  String get lnurl_withdraw_page_unknown_error_title;
+
+  /// No description provided for @lnurl_withdraw_scan_toolip.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan LNURL Withdraw'**
+  String get lnurl_withdraw_scan_toolip;
+
+  /// No description provided for @lightning_address_service_error_title.
+  ///
+  /// In en, this message translates to:
+  /// **'LN Service error:'**
+  String get lightning_address_service_error_title;
+
+  /// No description provided for @payment_limits_fetch_error_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to retrieve payment limits. Please try again later.'**
+  String get payment_limits_fetch_error_message;
+
+  /// No description provided for @payment_limits_generic_error_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to retrieve payment limits:'**
+  String get payment_limits_generic_error_title;
+
+  /// No description provided for @payment_limits_generic_error_message.
+  ///
+  /// In en, this message translates to:
+  /// **'{errorMessage}. Please try again later.'**
+  String payment_limits_generic_error_message(String errorMessage);
+
+  /// No description provided for @available_balance_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Balance:'**
+  String get available_balance_label;
+
+  /// No description provided for @bitcoin_address_label.
+  ///
+  /// In en, this message translates to:
+  /// **'BTC Address'**
+  String get bitcoin_address_label;
+
+  /// No description provided for @bitcoin_address_scan_tooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan BTC Address'**
+  String get bitcoin_address_scan_tooltip;
+
+  /// No description provided for @qr_code_not_detected_error.
+  ///
+  /// In en, this message translates to:
+  /// **'QR code wasn\'t detected.'**
+  String get qr_code_not_detected_error;
+
+  /// No description provided for @developers_page_cli_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a command or use the links below'**
+  String get developers_page_cli_hint;
+
+  /// No description provided for @developers_page_cli_run_tooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Run'**
+  String get developers_page_cli_run_tooltip;
+
+  /// No description provided for @developers_page_cli_clear_tooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear'**
+  String get developers_page_cli_clear_tooltip;
+
+  /// No description provided for @developers_page_cli_result_copy_tooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy to Clipboard'**
+  String get developers_page_cli_result_copy_tooltip;
+
+  /// No description provided for @developers_page_cli_result_copied.
+  ///
+  /// In en, this message translates to:
+  /// **'Copied to Clipboard.'**
+  String get developers_page_cli_result_copied;
+
+  /// No description provided for @developers_page_cli_result_share_tooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Share'**
+  String get developers_page_cli_result_share_tooltip;
+
+  /// No description provided for @developers_page_cli_unsupported_command.
+  ///
+  /// In en, this message translates to:
+  /// **'This command is not supported yet.'**
+  String get developers_page_cli_unsupported_command;
+
+  /// No description provided for @developers_page_menu_export_keys_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Export Keys'**
+  String get developers_page_menu_export_keys_title;
+
+  /// No description provided for @developers_page_menu_share_logs_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Share Logs'**
+  String get developers_page_menu_share_logs_title;
+
+  /// No description provided for @developers_page_menu_rescan_swaps_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Rescan Onchain Swaps'**
+  String get developers_page_menu_rescan_swaps_title;
+
+  /// No description provided for @developers_page_menu_prompt_bug_report_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Enable Failure Prompt'**
+  String get developers_page_menu_prompt_bug_report_title;
+
+  /// No description provided for @processing_payment_dialog_payment_sent.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment Sent'**
+  String get processing_payment_dialog_payment_sent;
+
+  /// No description provided for @payment_fees_warning_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep Breez open until the payment is completed.'**
+  String get payment_fees_warning_message;
+
+  /// No description provided for @payment_fees_message.
+  ///
+  /// In en, this message translates to:
+  /// **'A fee of {fee} is applied to this invoice. Keep Breez open until the payment is completed.'**
+  String payment_fees_message(String fee);
+
+  /// No description provided for @payment_fees_message_with_fiat.
+  ///
+  /// In en, this message translates to:
+  /// **'A fee of {fee} ({fiatFee}) is applied to this invoice. Keep Breez open until the payment is completed.'**
+  String payment_fees_message_with_fiat(String fee, String fiatFee);
 
   /// No description provided for @locale.
   ///
