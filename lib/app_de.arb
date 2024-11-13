@@ -2685,6 +2685,12 @@
         }
       }
   },
+  "bootstrap_error_page_initialization_error_title": "Failed to initialize Breez SDK - Liquid",
+  "bootstrap_error_page_error_label": "Error:",
+  "bootstrap_error_page_stack_trace_label": "Stack Trace:",
+  "bootstrap_error_page_action_exit": "EXIT",
+  "bootstrap_error_page_close_popup_title": "Exit Misty Breez",
+  "bootstrap_error_page_close_popup_message": "Do you really want to quit Misty Breez?",
   "locale": "de",
   "app_name": "Breez"
 }

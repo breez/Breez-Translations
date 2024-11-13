@@ -3868,6 +3868,24 @@ class BreezTranslationsEn extends BreezTranslations {
   }
 
   @override
+  String get bootstrap_error_page_initialization_error_title => 'Failed to initialize Breez SDK - Liquid';
+
+  @override
+  String get bootstrap_error_page_error_label => 'Error:';
+
+  @override
+  String get bootstrap_error_page_stack_trace_label => 'Stack Trace:';
+
+  @override
+  String get bootstrap_error_page_action_exit => 'EXIT';
+
+  @override
+  String get bootstrap_error_page_close_popup_title => 'Exit Misty Breez';
+
+  @override
+  String get bootstrap_error_page_close_popup_message => 'Do you really want to quit Misty Breez?';
+
+  @override
   String get locale => 'en';
 
   @override

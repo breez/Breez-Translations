@@ -7147,6 +7147,42 @@ abstract class BreezTranslations {
   /// **'A fee of {fee} ({fiatFee}) is applied to this invoice. Keep Breez open until the payment is completed.'**
   String payment_fees_message_with_fiat(String fee, String fiatFee);
 
+  /// No description provided for @bootstrap_error_page_initialization_error_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to initialize Breez SDK - Liquid'**
+  String get bootstrap_error_page_initialization_error_title;
+
+  /// No description provided for @bootstrap_error_page_error_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Error:'**
+  String get bootstrap_error_page_error_label;
+
+  /// No description provided for @bootstrap_error_page_stack_trace_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Stack Trace:'**
+  String get bootstrap_error_page_stack_trace_label;
+
+  /// No description provided for @bootstrap_error_page_action_exit.
+  ///
+  /// In en, this message translates to:
+  /// **'EXIT'**
+  String get bootstrap_error_page_action_exit;
+
+  /// No description provided for @bootstrap_error_page_close_popup_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Exit Misty Breez'**
+  String get bootstrap_error_page_close_popup_title;
+
+  /// No description provided for @bootstrap_error_page_close_popup_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Do you really want to quit Misty Breez?'**
+  String get bootstrap_error_page_close_popup_message;
+
   /// No description provided for @locale.
   ///
   /// In en, this message translates to:
