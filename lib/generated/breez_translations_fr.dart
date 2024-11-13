@@ -1545,7 +1545,7 @@ class BreezTranslationsFr extends BreezTranslations {
   String get ln_url_success_action_title => 'Informations sur l\'achat';
 
   @override
-  String get ln_url_success_action_link_copied => 'le lien a été copié dans votre presse-papiers.';
+  String get ln_url_success_action_link_copied => 'Le lien a été copié dans votre presse-papiers.';
 
   @override
   String get avatar_picker_action_set_photo => 'Définir la Photo';
@@ -3719,6 +3719,153 @@ class BreezTranslationsFr extends BreezTranslations {
 
   @override
   String get receive_payment_method_liquid_address => 'Liquid Address';
+
+  @override
+  String get bottom_action_bar_enter_payment_info => 'Paste Invoice or Lightning Address';
+
+  @override
+  String get enter_payment_info_page_title => 'Payee Information';
+
+  @override
+  String get enter_payment_info_page_label => 'Invoice or Lightning Address';
+
+  @override
+  String get enter_payment_info_page_label_expanded => 'Enter an invoice or a Lightning Address.';
+
+  @override
+  String get enter_payment_info_page_scan_tooltip => 'Scan Invoice or Lightning Address';
+
+  @override
+  String get enter_payment_info_page_action_next => 'NEXT';
+
+  @override
+  String get ln_payment_send_payment_title => 'Send Payment';
+
+  @override
+  String get ln_payment_amount_label => 'Amount:';
+
+  @override
+  String get ln_payment_fee_label => 'Fee:';
+
+  @override
+  String ln_payment_fee_amount_positive(String amount) {
+    return '+$amount';
+  }
+
+  @override
+  String ln_payment_fee_amount_unknown(String currencyDisplayName) {
+    return '? $currencyDisplayName';
+  }
+
+  @override
+  String get ln_payment_description_label => 'Description:';
+
+  @override
+  String get lnurl_payment_page_comment_label => 'Comment (optional):';
+
+  @override
+  String invoice_payment_validator_error_payment_outside_network_limits(String networkLimitMin, String networkLimitMax) {
+    return 'Payment amount is outside the allowed limits, which range from $networkLimitMin to $networkLimitMax';
+  }
+
+  @override
+  String get ln_payment_action_retry => 'RETRY';
+
+  @override
+  String get ln_payment_action_close => 'CLOSE';
+
+  @override
+  String get lnurl_payment_page_action_next => 'NEXT';
+
+  @override
+  String get ln_payment_action_send => 'SEND';
+
+  @override
+  String get lnurl_withdraw_page_title => 'Receive via LNURL Invoice';
+
+  @override
+  String get lnurl_withdraw_page_description_label => 'Description';
+
+  @override
+  String get lnurl_withdraw_page_unknown_error_title => 'Failed to receive funds:';
+
+  @override
+  String get lnurl_withdraw_scan_toolip => 'Scan LNURL Withdraw';
+
+  @override
+  String get lightning_address_service_error_title => 'LN Service error:';
+
+  @override
+  String get payment_limits_fetch_error_message => 'Failed to retrieve payment limits. Please try again later.';
+
+  @override
+  String get payment_limits_generic_error_title => 'Failed to retrieve payment limits:';
+
+  @override
+  String payment_limits_generic_error_message(String errorMessage) {
+    return '$errorMessage. Please try again later.';
+  }
+
+  @override
+  String get available_balance_label => 'Balance:';
+
+  @override
+  String get bitcoin_address_label => 'BTC Address';
+
+  @override
+  String get bitcoin_address_scan_tooltip => 'Scan BTC Address';
+
+  @override
+  String get qr_code_not_detected_error => 'QR code wasn\'t detected.';
+
+  @override
+  String get developers_page_cli_hint => 'Enter a command or use the links below';
+
+  @override
+  String get developers_page_cli_run_tooltip => 'Run';
+
+  @override
+  String get developers_page_cli_clear_tooltip => 'Clear';
+
+  @override
+  String get developers_page_cli_result_copy_tooltip => 'Copy to Clipboard';
+
+  @override
+  String get developers_page_cli_result_copied => 'Copied to Clipboard.';
+
+  @override
+  String get developers_page_cli_result_share_tooltip => 'Share';
+
+  @override
+  String get developers_page_cli_unsupported_command => 'This command is not supported yet.';
+
+  @override
+  String get developers_page_menu_export_keys_title => 'Export Keys';
+
+  @override
+  String get developers_page_menu_share_logs_title => 'Share Logs';
+
+  @override
+  String get developers_page_menu_rescan_swaps_title => 'Rescan Onchain Swaps';
+
+  @override
+  String get developers_page_menu_prompt_bug_report_title => 'Enable Failure Prompt';
+
+  @override
+  String get processing_payment_dialog_payment_sent => 'Payment Sent';
+
+  @override
+  String get payment_fees_warning_message => 'Keep Breez open until the payment is completed.';
+
+  @override
+  String payment_fees_message(String fee) {
+    return 'A fee of $fee is applied to this invoice. Keep Breez open until the payment is completed.';
+  }
+
+  @override
+  String payment_fees_message_with_fiat(String fee, String fiatFee) {
+    return 'A fee of $fee ($fiatFee) is applied to this invoice. Keep Breez open until the payment is completed.';
+  }
 
   @override
   String get locale => 'fr';
