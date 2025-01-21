@@ -154,8 +154,8 @@
   "invoice_btc_address_on_chain_here": "tästä",
   "invoice_btc_address_on_chain_end": " nähdäksesi osoitteeseen liittyvän komentojonon (scriptin).",
   "invoice_btc_address_on_chain_action_ok": "OK",
-  "invoice_liquid_address_deposit_address": "Liquid Address",
-  "invoice_lightning_title": "Receive via Lightning Invoice",
+  "invoice_liquid_address_deposit_address": "Liquid-osoite",
+  "invoice_lightning_title": "Veloita salamaverkkolaskulla",
   "invoice_title": "Luo Lightning-lasku",
   "invoice_action_create": "LUO LASKU",
   "invoice_action_redeem": "LUNASTA",
@@ -299,12 +299,12 @@
       }
     }
   },
-  "invoice_min_payment_limit": "Enter at least {formatted_amount}.",
+  "invoice_min_payment_limit": "Anna vähintään {formatted_amount} summa.",
   "@invoice_min_payment_limit": {
     "placeholders": {
       "formatted_amount": {
         "type": "String",
-        "example": "50 sats"
+        "example": "50 sat"
       }
     }
   },
@@ -411,8 +411,8 @@
   },
   "payment_details_dialog_single_info_pre_image": "Maksun Preimage-tieto",
   "payment_details_dialog_single_info_node_id": "Solmun tunniste",
-  "payment_details_dialog_single_info_swap_id": "Swap ID",
-  "payment_details_dialog_single_info_tx_id": "Transaction ID",
+  "payment_details_dialog_single_info_swap_id": "Swap-tunnus",
+  "payment_details_dialog_single_info_tx_id": "Tapahtumatunnus",
   "payment_details_dialog_single_info_on_chain": "On-chain -tapahtuma",
   "payment_details_dialog_action_for_payment_description": "Kuvaus",
   "payment_details_dialog_action_for_payment_url": "URL",
@@ -1234,7 +1234,7 @@
   "processing_payment_dialog_action_close": "Sulje",
   "processing_payment_dialog_processing_payment": "Maksun käsittely",
   "processing_payment_dialog_wait": "Odota kunnes maksu on käsitelty.",
-  "payment_request_zero_amount_not_supported": "Zero-amount lightning payments are not supported.",
+  "payment_request_zero_amount_not_supported": "Salamaverkkomaksun tulee sisältää laskutettava summa.",
   "payment_request_dialog_requested": "Sait maksupyynnön (määrä ja kuvaus):",
   "payment_request_dialog_requesting": "pyytää sinua maksamaan:",
   "payment_request_dialog_action_cancel": "Peruuta",
@@ -2493,22 +2493,22 @@
   "satscard_operation_dialog_protocol_error_label": "Törmättiin protokolla virheeseen {code}, {literal}:\n{message}",
   "satscard_operation_dialog_unknown_error_label": "Tapahtui virhe:\n{message}",
   "close_channels_title": "Sulje kanavat",
-  "close_channels_btc_address": "BTC Osoite",
-  "close_channels_scan_barcode": "Skannaa Viivakoodi",
-  "close_channels_qr_code_not_detected": "QR-koodia ei havaittu.",
+  "close_channels_btc_address": "Bitcoin-osoite",
+  "close_channels_scan_barcode": "Lue viivakoodi",
+  "close_channels_qr_code_not_detected": "QR-koodia ei tunnistettu.",
   "close_channels_action_next": "SEURAAVA",
   "close_channels_warning_message": "Kaikki kanavasi suljetaan ja varat lähetetään määritettyyn osoitteeseen.",
   "close_channels_confirmation_dialog_title": "Sulje kanavat",
-  "close_channels_confirmation_dialog_message": "Haluatko varmasti sulkea kaikki kanavasi ja lähettää rahasi tähän osoitteeseen",
+  "close_channels_confirmation_dialog_message": "Haluatko varmasti sulkea kaikki kanavat ja lähettää varat tähän osoitteeseen",
   "close_channels_confirmation_dialog_message_end": "?",
   "close_channels_confirmation_dialog_action_yes": "KYLLÄ",
   "close_channels_confirmation_dialog_action_no": "EI",
   "close_channels_dialog_title": "Suljetaan kanavia",
-  "close_channels_dialog_message": "Odota, kun kanavasi suljetaan",
+  "close_channels_dialog_message": "Odota, kun kanavat suljetaan",
   "close_channels_dialog_action_close": "SULJE",
-  "close_channels_dialog_success_message": "Kanaviesi sulkeminen onnistui!",
+  "close_channels_dialog_success_message": "Kanavien sulkeminen onnistui!",
   "close_channels_dialog_failure_message_start": "Kaikkien kanavien sulkeminen epäonnistui. Ota yhteyttä ",
-  "close_channels_dialog_failure_message_middle": "Breez tuki",
+  "close_channels_dialog_failure_message_middle": "sovelluksen-tukeen",
   "close_channels_dialog_failure_message_end": " avun saamiseksi.",
   "close_channels_error_dialog_title": "Virhe kanavien sulkemisessa",
   "close_channels_error_dialog_message": "Kanavien sulkeminen epäonnistui: {error}",
@@ -2580,25 +2580,25 @@
       }
     }
   },
-  "receive_payment_method_lightning_invoice": "Lightning Invoice",
-  "receive_payment_method_lightning_address": "Lightning Address",
-  "receive_payment_method_btc_address": "BTC Address",
-  "receive_payment_method_liquid_address": "Liquid Address",
-  "bottom_action_bar_enter_payment_info": "Paste Invoice or Lightning Address",
-  "enter_payment_info_page_title": "Payee Information",
-  "enter_payment_info_page_label": "Invoice or Lightning Address",
-  "enter_payment_info_page_label_expanded": "Enter an invoice or a Lightning Address.",
-  "enter_payment_info_page_scan_tooltip": "Scan Invoice or Lightning Address",
-  "enter_payment_info_page_action_next": "NEXT",
-  "ln_payment_send_payment_title": "Send Payment",
-  "ln_payment_amount_label": "Amount:",
-  "ln_payment_fee_label": "Fee:",
+  "receive_payment_method_lightning_invoice": "Salamavekkolasku",
+  "receive_payment_method_lightning_address": "Lightning Address -osoite",
+  "receive_payment_method_btc_address": "Bitcoin-osoite",
+  "receive_payment_method_liquid_address": "Liquid-osoite",
+  "bottom_action_bar_enter_payment_info": "Liitä lasku tai Lightning Address -osoite",
+  "enter_payment_info_page_title": "Maksun saajan tiedot",
+  "enter_payment_info_page_label": "Lasku tai Lightning Address -osoite",
+  "enter_payment_info_page_label_expanded": "Syötä lasku tai Lightning Address -osoite.",
+  "enter_payment_info_page_scan_tooltip": "Scannaa lasku tai Lightning Address -osoite",
+  "enter_payment_info_page_action_next": "Seuraava",
+  "ln_payment_send_payment_title": "Lähetä maksu",
+  "ln_payment_amount_label": "Summa:",
+  "ln_payment_fee_label": "Kulut:",
   "ln_payment_fee_amount_positive": "+{amount}",
   "@ln_payment_fee_amount_positive": {
     "placeholders": {
       "amount": {
         "type": "String",
-        "example": "1000 sats"
+        "example": "1000 sat"
       }
     }
   },
@@ -2611,73 +2611,73 @@
       }
     }
   },
-  "ln_payment_description_label": "Description:",
-  "lnurl_payment_page_comment_label": "Comment (optional):",
-  "invoice_payment_validator_error_payment_outside_network_limits": "Payment amount is outside the allowed limits, which range from {networkLimitMin} to {networkLimitMax}",
+  "ln_payment_description_label": "Kuvaus:",
+  "lnurl_payment_page_comment_label": "Kommentti (ei-pakollinen):",
+  "invoice_payment_validator_error_payment_outside_network_limits": "Maksun summa on sallittujen rajojen ulkopuolella, sallittua on vähintään {networkLimitMin} ja enintään {networkLimitMax}",
   "@invoice_payment_validator_error_payment_outside_network_limits": {
       "placeholders": {
         "networkLimitMin": {
           "type": "String",
-          "example": "1 000 sats"
+          "example": "1 000 sat"
         },
         "networkLimitMax": {
           "type": "String",
-          "example": "25 000 000 sats"
+          "example": "25 000 000 sat"
         }
       }
     },
-  "ln_payment_action_retry": "RETRY",
-  "ln_payment_action_close": "CLOSE",
-  "lnurl_payment_page_action_next": "NEXT",
-  "ln_payment_action_send": "SEND",
-  "lnurl_withdraw_page_title": "Receive via LNURL Invoice",
-  "lnurl_withdraw_page_description_label": "Description",
-  "lnurl_withdraw_page_unknown_error_title": "Failed to receive funds:",
-  "lnurl_withdraw_scan_toolip": "Scan LNURL Withdraw",
-  "lightning_address_service_error_title": "LN Service error:",
-  "payment_limits_fetch_error_message": "Failed to retrieve payment limits. Please try again later.",
-  "payment_limits_generic_error_title": "Failed to retrieve payment limits:",
-  "payment_limits_generic_error_message": "{errorMessage}. Please try again later.",
+  "ln_payment_action_retry": "Yritä uudeleen",
+  "ln_payment_action_close": "SULJE",
+  "lnurl_payment_page_action_next": "Seuraava",
+  "ln_payment_action_send": "LÄHETÄ",
+  "lnurl_withdraw_page_title": "Ota vastaan LNURL-laskulla",
+  "lnurl_withdraw_page_description_label": "Kuvaus",
+  "lnurl_withdraw_page_unknown_error_title": "Varojen vastaanotto epäonnistui:",
+  "lnurl_withdraw_scan_toolip": "Scannaa LNURLw-koodi",
+  "lightning_address_service_error_title": "Lightning Network -virhe:",
+  "payment_limits_fetch_error_message": "Maksurajojen haku epäonnistui. Yritä myöhemmin uudelleen.",
+  "payment_limits_generic_error_title": "Maksurajojen haku epäonnistui:",
+  "payment_limits_generic_error_message": "{errorMessage}. Yritä myöhemmin uudelleen.",
   "@payment_limits_generic_error_message": {
     "placeholders": {
       "errorMessage": {
         "type": "String",
-        "example": "Failed to retrieve fees"
+        "example": "Maksukulujen haku epäonnistui"
       }
     }
   },
-  "available_balance_label": "Balance:",
-  "bitcoin_address_label": "BTC Address",
-  "bitcoin_address_scan_tooltip": "Scan BTC Address",
-  "qr_code_not_detected_error": "QR code wasn't detected.",
-  "developers_page_cli_hint": "Enter a command or use the links below",
-  "developers_page_cli_run_tooltip": "Run",
-  "developers_page_cli_clear_tooltip": "Clear",
-  "developers_page_cli_result_copy_tooltip": "Copy to Clipboard",
-  "developers_page_cli_result_copied": "Copied to Clipboard.",
-  "developers_page_cli_result_share_tooltip": "Share",
-  "developers_page_cli_unsupported_command": "This command is not supported yet.",
-  "developers_page_menu_export_keys_title": "Export Keys",
-  "developers_page_menu_share_logs_title": "Share Logs",
-  "developers_page_menu_rescan_swaps_title": "Rescan Onchain Swaps",
-  "developers_page_menu_prompt_bug_report_title": "Enable Failure Prompt",
-  "processing_payment_dialog_payment_sent": "Payment Sent",
-  "payment_fees_warning_message": "Keep Breez open until the payment is completed.",
-  "payment_fees_message": "A fee of {fee} is applied to this invoice. Keep Breez open until the payment is completed.",
+  "available_balance_label": "Saldo:",
+  "bitcoin_address_label": "Bitcoin-osoite",
+  "bitcoin_address_scan_tooltip": "Scannaa Bitcoin-osoite",
+  "qr_code_not_detected_error": "QR-koodia ei tunnistettu.",
+  "developers_page_cli_hint": "Anna komento tai valitse linkki alta",
+  "developers_page_cli_run_tooltip": "Suorita",
+  "developers_page_cli_clear_tooltip": "Tyhjennä",
+  "developers_page_cli_result_copy_tooltip": "Kopioi leikepöydälle",
+  "developers_page_cli_result_copied": "Kopioitu leikepöydälle.",
+  "developers_page_cli_result_share_tooltip": "Jaa",
+  "developers_page_cli_unsupported_command": "Komento ei ole vielä tuettuna.",
+  "developers_page_menu_export_keys_title": "Vie avaimet",
+  "developers_page_menu_share_logs_title": "Jaa lokitiedot",
+  "developers_page_menu_rescan_swaps_title": "Tarkasta lohkoketjupohjaiset vaihdot",
+  "developers_page_menu_prompt_bug_report_title": "Ilmoita epäonnistumisista",
+  "processing_payment_dialog_payment_sent": "Maksu lähetetty",
+  "payment_fees_warning_message": "Pidä sovellus avoinna kunnes maksu on suoritettu.",
+  "payment_fees_message": "Laskuun lisätään {fee} siirtokulut. Pidä sovellus avoinna kunnes maksu on suoritettu.",
   "@payment_fees_message": {
       "placeholders": {
         "fee": {
           "type": "String",
-          "example": "123 sats"
+          "example": "123 sat"
         }
       }
   },
-  "payment_fees_message_with_fiat": "A fee of {fee} ({fiatFee}) is applied to this invoice. Keep Breez open until the payment is completed.",
+  "payment_fees_message_with_fiat": "Laskuun lisätään {fee} eli ({fiatFee}). Pidä sovellus avoinna kunnes maksu on suoritettu.",
   "@payment_fees_message_with_fiat": {
       "placeholders": {
         "fee": {
           "type": "String",
-          "example": "123 sats"
+          "example": "123 sat"
         },
         "fiatFee": {
           "type": "String",
@@ -2685,12 +2685,12 @@
         }
       }
   },
-  "bootstrap_error_page_initialization_error_title": "Failed to initialize Breez SDK - Liquid",
-  "bootstrap_error_page_error_label": "Error:",
-  "bootstrap_error_page_stack_trace_label": "Stack Trace:",
-  "bootstrap_error_page_action_exit": "EXIT",
-  "bootstrap_error_page_close_popup_title": "Exit Misty Breez",
-  "bootstrap_error_page_close_popup_message": "Do you really want to quit Misty Breez?",
+  "bootstrap_error_page_initialization_error_title": "Breez SDK - Liquid -käynnistäminen epäonnistui",
+  "bootstrap_error_page_error_label": "Virhe:",
+  "bootstrap_error_page_stack_trace_label": "Sovelluksen pinon seuranta:",
+  "bootstrap_error_page_action_exit": "POISTU",
+  "bootstrap_error_page_close_popup_title": "Sulje sovellus",
+  "bootstrap_error_page_close_popup_message": "Haluatko varmasti sulkea sovelluksen?",
   "locale": "fi",
   "app_name": "Breez"
 }
