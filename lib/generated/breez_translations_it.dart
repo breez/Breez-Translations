@@ -1,5 +1,5 @@
+// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
-
 import 'breez_translations.dart';
 
 // ignore_for_file: type=lint
@@ -3884,6 +3884,74 @@ class BreezTranslationsIt extends BreezTranslations {
 
   @override
   String get bootstrap_error_page_close_popup_message => 'Do you really want to quit Misty Breez?';
+
+  @override
+  String get payment_details_sheet_refund_tx_amount_label => 'Refund Tx Amount';
+
+  @override
+  String get destination_action_copy_label => 'COPY';
+
+  @override
+  String get destination_action_share_label => 'SHARE';
+
+  @override
+  String get destination_action_share_default_tooltip => 'Share deposit address';
+
+  @override
+  String destination_action_share_payment_method_tooltip(String paymentMethod) {
+    return 'Share $paymentMethod';
+  }
+
+  @override
+  String get update_ln_address_username_title => 'Customize Address';
+
+  @override
+  String get update_ln_address_username_label => 'Username';
+
+  @override
+  String get update_ln_address_username_success => 'Successfully updated Lightning Address username.';
+
+  @override
+  String get update_ln_address_username_failed => 'Failed to update Lightning Address username.';
+
+  @override
+  String get validator_ln_address_username_empty => 'Please enter a username.';
+
+  @override
+  String get validator_ln_address_username_exceed_length => 'Username cannot exceed 64 characters.';
+
+  @override
+  String get validator_ln_address_username_taken => 'Username is already taken.';
+
+  @override
+  String get validator_ln_address_username_invalid => 'Invalid username.';
+
+  @override
+  String get update_ln_address_username_confirmation_title => 'Confirm Username Change';
+
+  @override
+  String update_ln_address_username_confirmation_message(String username, String domain) {
+    return 'Changing your Lightning Address username will permanently release \'$username@$domain\', making it available for other users.\n\nDo you want to proceed?';
+  }
+
+  @override
+  String payment_limits_message_min_below_limit(String minLimit) {
+    return 'Minimum sendable amount can\'t be less than $minLimit.';
+  }
+
+  @override
+  String get payment_limits_message_min_greater_limit => 'Minimum sendable amount can\'t be greater than maximum sendable amount.';
+
+  @override
+  String payment_limits_message(String minSendable, String maxSendable) {
+    return 'Send at least $minSendable and at most $maxSendable to this address.';
+  }
+
+  @override
+  String get currency_converter_sheet_label => 'Select Fiat Currency:';
+
+  @override
+  String get payment_received_content_title => 'Payment Received';
 
   @override
   String get locale => 'it';

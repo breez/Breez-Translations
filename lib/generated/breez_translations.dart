@@ -7183,6 +7183,126 @@ abstract class BreezTranslations {
   /// **'Do you really want to quit Misty Breez?'**
   String get bootstrap_error_page_close_popup_message;
 
+  /// No description provided for @payment_details_sheet_refund_tx_amount_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Refund Tx Amount'**
+  String get payment_details_sheet_refund_tx_amount_label;
+
+  /// No description provided for @destination_action_copy_label.
+  ///
+  /// In en, this message translates to:
+  /// **'COPY'**
+  String get destination_action_copy_label;
+
+  /// No description provided for @destination_action_share_label.
+  ///
+  /// In en, this message translates to:
+  /// **'SHARE'**
+  String get destination_action_share_label;
+
+  /// No description provided for @destination_action_share_default_tooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Share deposit address'**
+  String get destination_action_share_default_tooltip;
+
+  /// No description provided for @destination_action_share_payment_method_tooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Share {paymentMethod}'**
+  String destination_action_share_payment_method_tooltip(String paymentMethod);
+
+  /// No description provided for @update_ln_address_username_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Customize Address'**
+  String get update_ln_address_username_title;
+
+  /// No description provided for @update_ln_address_username_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Username'**
+  String get update_ln_address_username_label;
+
+  /// No description provided for @update_ln_address_username_success.
+  ///
+  /// In en, this message translates to:
+  /// **'Successfully updated Lightning Address username.'**
+  String get update_ln_address_username_success;
+
+  /// No description provided for @update_ln_address_username_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to update Lightning Address username.'**
+  String get update_ln_address_username_failed;
+
+  /// No description provided for @validator_ln_address_username_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a username.'**
+  String get validator_ln_address_username_empty;
+
+  /// No description provided for @validator_ln_address_username_exceed_length.
+  ///
+  /// In en, this message translates to:
+  /// **'Username cannot exceed 64 characters.'**
+  String get validator_ln_address_username_exceed_length;
+
+  /// No description provided for @validator_ln_address_username_taken.
+  ///
+  /// In en, this message translates to:
+  /// **'Username is already taken.'**
+  String get validator_ln_address_username_taken;
+
+  /// No description provided for @validator_ln_address_username_invalid.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid username.'**
+  String get validator_ln_address_username_invalid;
+
+  /// No description provided for @update_ln_address_username_confirmation_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm Username Change'**
+  String get update_ln_address_username_confirmation_title;
+
+  /// No description provided for @update_ln_address_username_confirmation_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Changing your Lightning Address username will permanently release \'{username}@{domain}\', making it available for other users.\n\nDo you want to proceed?'**
+  String update_ln_address_username_confirmation_message(String username, String domain);
+
+  /// No description provided for @payment_limits_message_min_below_limit.
+  ///
+  /// In en, this message translates to:
+  /// **'Minimum sendable amount can\'t be less than {minLimit}.'**
+  String payment_limits_message_min_below_limit(String minLimit);
+
+  /// No description provided for @payment_limits_message_min_greater_limit.
+  ///
+  /// In en, this message translates to:
+  /// **'Minimum sendable amount can\'t be greater than maximum sendable amount.'**
+  String get payment_limits_message_min_greater_limit;
+
+  /// No description provided for @payment_limits_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Send at least {minSendable} and at most {maxSendable} to this address.'**
+  String payment_limits_message(String minSendable, String maxSendable);
+
+  /// No description provided for @currency_converter_sheet_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Fiat Currency:'**
+  String get currency_converter_sheet_label;
+
+  /// No description provided for @payment_received_content_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment Received'**
+  String get payment_received_content_title;
+
   /// No description provided for @locale.
   ///
   /// In en, this message translates to:

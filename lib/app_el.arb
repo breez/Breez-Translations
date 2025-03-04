@@ -2691,6 +2691,66 @@
   "bootstrap_error_page_action_exit": "EXIT",
   "bootstrap_error_page_close_popup_title": "Exit Misty Breez",
   "bootstrap_error_page_close_popup_message": "Do you really want to quit Misty Breez?",
+  "payment_details_sheet_refund_tx_amount_label": "Refund Tx Amount",
+  "destination_action_copy_label": "COPY",
+  "destination_action_share_label": "SHARE",
+  "destination_action_share_default_tooltip": "Share deposit address",
+  "destination_action_share_payment_method_tooltip": "Share {paymentMethod}",
+  "@destination_action_share_payment_method_tooltip": {
+    "placeholders": {
+      "paymentMethod": {
+        "type": "String",
+        "example": "Payment Method"
+      }
+    }
+  },
+  "update_ln_address_username_title": "Customize Address",
+  "update_ln_address_username_label": "Username",
+  "update_ln_address_username_success": "Successfully updated Lightning Address username.",
+  "update_ln_address_username_failed": "Failed to update Lightning Address username.",
+  "validator_ln_address_username_empty": "Please enter a username.",
+  "validator_ln_address_username_exceed_length": "Username cannot exceed 64 characters.",
+  "validator_ln_address_username_taken": "Username is already taken.",
+  "validator_ln_address_username_invalid": "Invalid username.",
+  "update_ln_address_username_confirmation_title": "Confirm Username Change",
+  "update_ln_address_username_confirmation_message": "Changing your Lightning Address username will permanently release '{username}@{domain}', making it available for other users.\n\nDo you want to proceed?",
+  "@update_ln_address_username_confirmation_message": {
+    "placeholders": {
+      "username": {
+        "type": "String",
+        "example": "username"
+      },
+      "domain": {
+        "type": "String",
+        "example": "breez.fun"
+      }
+    }
+  },
+  "payment_limits_message_min_below_limit": "Minimum sendable amount can't be less than {minLimit}.",
+  "@payment_limits_message_min_below_limit": {
+    "placeholders": {
+      "minLimit": {
+        "type": "String",
+        "example": "1 sats"
+      }
+    }
+  },
+  "payment_limits_message_min_greater_limit": "Minimum sendable amount can't be greater than maximum sendable amount.",
+  "payment_limits_message": "Send at least {minSendable} and at most {maxSendable} to this address.",
+  "@payment_limits_message": {
+    "placeholders": {
+      "minSendable": {
+        "type": "String",
+        "example": "1 sats"
+      },
+      "maxSendable": {
+        "type": "String",
+        "example": "25 000 000 sats"
+      }
+    }
+  },
+  "currency_converter_sheet_label": "Select Fiat Currency:",
+  "payment_received_content_title": "Payment Received",
   "locale": "el",
   "app_name": "Breez"
 }
