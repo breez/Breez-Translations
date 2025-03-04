@@ -3954,6 +3954,54 @@ class BreezTranslationsPt extends BreezTranslations {
   String get payment_received_content_title => 'Payment Received';
 
   @override
+  String get payment_details_sheet_amount_label => 'Amount:';
+
+  @override
+  String get payment_details_sheet_fee_label => 'Fee:';
+
+  @override
+  String get payment_details_sheet_date_time_label => 'Date & Time:';
+
+  @override
+  String get payment_details_sheet_expiration_label => 'Expiration:';
+
+  @override
+  String get payment_details_sheet_preimage_label => 'Payment Preimage:';
+
+  @override
+  String get payment_details_sheet_bip353_address_label => 'Pay Code:';
+
+  @override
+  String get payment_details_sheet_ln_address_label => 'Lightning Address:';
+
+  @override
+  String get payment_details_sheet_comment_label => 'Comment:';
+
+  @override
+  String get payment_details_sheet_lnurlpay_success_description_label => 'LNURL Pay Success Description:';
+
+  @override
+  String get payment_details_sheet_lnurlpay_success_message_label => 'LNURL Pay Success Message:';
+
+  @override
+  String get payment_details_sheet_lnurlpay_success_url_label => 'LNURL Pay Success URL:';
+
+  @override
+  String get payment_details_sheet_lnurlpay_success_domain_label => 'LNURL Pay Success Domain:';
+
+  @override
+  String get payment_details_sheet_invoice_label => 'Invoice:';
+
+  @override
+  String get payment_details_sheet_destination_pubkey_label => 'Destination Public Key:';
+
+  @override
+  String get payment_details_sheet_tx_id_label => 'Transaction ID:';
+
+  @override
+  String get payment_details_sheet_swap_id_label => 'Swap ID:';
+
+  @override
   String get locale => 'pt';
 
   @override

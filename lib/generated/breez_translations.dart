@@ -7303,6 +7303,102 @@ abstract class BreezTranslations {
   /// **'Payment Received'**
   String get payment_received_content_title;
 
+  /// No description provided for @payment_details_sheet_amount_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount:'**
+  String get payment_details_sheet_amount_label;
+
+  /// No description provided for @payment_details_sheet_fee_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Fee:'**
+  String get payment_details_sheet_fee_label;
+
+  /// No description provided for @payment_details_sheet_date_time_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Date & Time:'**
+  String get payment_details_sheet_date_time_label;
+
+  /// No description provided for @payment_details_sheet_expiration_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Expiration:'**
+  String get payment_details_sheet_expiration_label;
+
+  /// No description provided for @payment_details_sheet_preimage_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment Preimage:'**
+  String get payment_details_sheet_preimage_label;
+
+  /// No description provided for @payment_details_sheet_bip353_address_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Pay Code:'**
+  String get payment_details_sheet_bip353_address_label;
+
+  /// No description provided for @payment_details_sheet_ln_address_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning Address:'**
+  String get payment_details_sheet_ln_address_label;
+
+  /// No description provided for @payment_details_sheet_comment_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Comment:'**
+  String get payment_details_sheet_comment_label;
+
+  /// No description provided for @payment_details_sheet_lnurlpay_success_description_label.
+  ///
+  /// In en, this message translates to:
+  /// **'LNURL Pay Success Description:'**
+  String get payment_details_sheet_lnurlpay_success_description_label;
+
+  /// No description provided for @payment_details_sheet_lnurlpay_success_message_label.
+  ///
+  /// In en, this message translates to:
+  /// **'LNURL Pay Success Message:'**
+  String get payment_details_sheet_lnurlpay_success_message_label;
+
+  /// No description provided for @payment_details_sheet_lnurlpay_success_url_label.
+  ///
+  /// In en, this message translates to:
+  /// **'LNURL Pay Success URL:'**
+  String get payment_details_sheet_lnurlpay_success_url_label;
+
+  /// No description provided for @payment_details_sheet_lnurlpay_success_domain_label.
+  ///
+  /// In en, this message translates to:
+  /// **'LNURL Pay Success Domain:'**
+  String get payment_details_sheet_lnurlpay_success_domain_label;
+
+  /// No description provided for @payment_details_sheet_invoice_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Invoice:'**
+  String get payment_details_sheet_invoice_label;
+
+  /// No description provided for @payment_details_sheet_destination_pubkey_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Destination Public Key:'**
+  String get payment_details_sheet_destination_pubkey_label;
+
+  /// No description provided for @payment_details_sheet_tx_id_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction ID:'**
+  String get payment_details_sheet_tx_id_label;
+
+  /// No description provided for @payment_details_sheet_swap_id_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Swap ID:'**
+  String get payment_details_sheet_swap_id_label;
+
   /// No description provided for @locale.
   ///
   /// In en, this message translates to:
